@@ -1,18 +1,12 @@
-﻿/*
- * SMS_STS.h
- * application layer for waveshare ST servos.
- * date: 2023.6.11 
- */
-
-#ifndef _SMS_STS_H
+﻿#ifndef _SMS_STS_H
 #define _SMS_STS_H
 
-//memory table definition
-//-------EPROM(read only)--------
+// 내장 메모리 표 정의
+// -------EPROM(읽기 전용)--------
 #define SMS_STS_MODEL_L 3
 #define SMS_STS_MODEL_H 4
 
-//-------EPROM(read & write)--------
+// -------EPROM(읽기/쓰기)--------
 #define SMS_STS_ID 5
 #define SMS_STS_BAUD_RATE 6
 #define SMS_STS_MIN_ANGLE_LIMIT_L 9
@@ -25,7 +19,7 @@
 #define SMS_STS_OFS_H 32
 #define SMS_STS_MODE 33
 
-//-------SRAM(read & write)--------
+// -------SRAM(읽기/쓰기)--------
 #define SMS_STS_TORQUE_ENABLE 40
 #define SMS_STS_ACC 41
 #define SMS_STS_GOAL_POSITION_L 42
@@ -38,7 +32,7 @@
 #define SMS_STS_TORQUE_LIMIT_H 49
 #define SMS_STS_LOCK 55
 
-//-------SRAM(read only)--------
+// -------SRAM(읽기 전용)--------
 #define SMS_STS_PRESENT_POSITION_L 56
 #define SMS_STS_PRESENT_POSITION_H 57
 #define SMS_STS_PRESENT_SPEED_L 58
@@ -56,29 +50,35 @@
 class SMS_STS : public SCSerial
 {
 public:
-	SMS_STS();
-	SMS_STS(u8 End);
-	SMS_STS(u8 End, u8 Level);
-	virtual int WritePosEx(u8 ID, s16 Position, u16 Speed, u8 ACC = 0);//general write for single servo
-	virtual int RegWritePosEx(u8 ID, s16 Position, u16 Speed, u8 ACC = 0);//position write asynchronously for single servo(call RegWriteAction to action)
-	virtual void SyncWritePosEx(u8 ID[], u8 IDN, s16 Position[], u16 Speed[], u8 ACC[]);//write synchronously for multi servos
-	virtual int WheelMode(u8 ID);//speed loop mode
-	virtual int WriteSpe(u8 ID, s16 Speed, u8 ACC = 0);//speed loop mode ctrl command
-	virtual int EnableTorque(u8 ID, u8 Enable);//torque ctrl command
-	virtual int unLockEprom(u8 ID);//eprom unlock
-	virtual int LockEprom(u8 ID);//eprom locked
-	virtual int CalibrationOfs(u8 ID);//set middle position
-	virtual int FeedBack(int ID);//servo information feedback
-	virtual int ReadPos(int ID);//read position
-	virtual int ReadSpeed(int ID);//read speed
-	virtual int ReadLoad(int ID);//read motor load(0~1000, 1000 = 100% max load)
-	virtual int ReadVoltage(int ID);//read voltage
-	virtual int ReadTemper(int ID);//read temperature
-	virtual int ReadMove(int ID);//read move mode
-	virtual int ReadCurrent(int ID);//read current
-	virtual int ReadMode(int ID);//read working mode
+    SMS_STS();
+    SMS_STS(u8 End);
+    SMS_STS(u8 End, u8 Level);
+    
+    virtual int WritePosEx(u8 ID, s16 Position, u16 Speed, u8 ACC = 0); // 일반적인 서보 모터 위치 쓰기 명령
+    virtual int RegWritePosEx(u8 ID, s16 Position, u16 Speed, u8 ACC = 0); // 비동기적으로 서보 모터 위치 쓰기 명령
+    virtual void SyncWritePosEx(u8 ID[], u8 IDN, s16 Position[], u16 Speed[], u8 ACC[]); // 여러 서보 모터 위치 동기 쓰기 명령
+    virtual int WheelMode(u8 ID); // 일정 속도 모드
+    virtual int WriteSpe(u8 ID, s16 Speed, u8 ACC = 0); // 일정 속도 모드 제어 명령
+    virtual int EnableTorque(u8 ID, u8 Enable); // 토크 제어 명령
+    virtual int unLockEprom(u8 ID); // EEPROM 잠금 해제
+    virtual int LockEprom(u8 ID); // EEPROM 잠금
+    virtual int CalibrationOfs(u8 ID); // 캘리브레이션
+    virtual int FeedBack(int ID); // 서보 모터 정보 피드백
+    virtual int ReadPos(int ID); // 위치 읽기
+    virtual int ReadSpeed(int ID); // 속도 읽기
+    virtual int ReadLoad(int ID); // 모터에 출력되는 전압 비율 읽기(0~1000)
+    virtual int ReadVoltage(int ID); // 전압 읽기
+    virtual int ReadTemper(int ID); // 온도 읽기
+    virtual int ReadMove(int ID); // 이동 상태 읽기
+    virtual int ReadCurrent(int ID); // 전류 읽기
+    virtual int ReadMode(int ID);
+
+    int CalibrationOfs(u8 ID); // 캘리브레이션 오프셋 설정 함수
+    int ReadPos(int ID); // 위치 읽기 함수
+
 private:
-	u8 Mem[SMS_STS_PRESENT_CURRENT_H-SMS_STS_PRESENT_POSITION_L+1];
+    u8 Mem[SMS_STS_PRESENT_CURRENT_H - SMS_STS_PRESENT_POSITION_L + 1];
+    int calibrationOffset; // 캘리브레이션 오프셋 변수 추가
 };
 
 #endif
