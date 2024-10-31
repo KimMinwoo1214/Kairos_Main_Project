@@ -8,6 +8,7 @@ ser = serial.Serial(port, baudrate)
 
 time.sleep(2)  # 아두이노와 연결될 때까지 잠시 대기
 
+
 while True:
     try:
         # 사용자로부터 각도 입력받기
