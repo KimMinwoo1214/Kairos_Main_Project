@@ -9,7 +9,6 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
-import time
 
 
 class CameraThread(QThread):
@@ -19,12 +18,10 @@ class CameraThread(QThread):
         super().__init__()
         self.cap = None  # 카메라 객체를 인스턴스 변수로 초기화
 
-
     def run(self):
-        
         self.cap = cv2.VideoCapture(0, cv2.CAP_V4L)
 
-        if not self.cap.isOpened(): 
+        if not self.cap.isOpened():
             print("Error: Could not open camera.")
             return
 
@@ -37,10 +34,10 @@ class CameraThread(QThread):
             time.sleep(0.1)  # 프레임 캡처 속도 조절
 
     def stop(self):
-        
         if self.cap:
             self.cap.release()
-        cv2.destroyAllWindows() 
+        cv2.destroyAllWindows()
+
 
 class QRCodePublisher(Node):
     def __init__(self):
@@ -52,7 +49,7 @@ class QRCodePublisher(Node):
         # OpenCV 프레임을 ROS 이미지 메시지로 변환
         img_msg = self.bridge.cv2_to_imgmsg(frame, encoding='bgr8')
         self.publisher_.publish(img_msg)
-        #self.get_logger().info("Published QR code image.")
+
 
 class ROS2Thread(QThread):
     def __init__(self, node):
@@ -81,7 +78,6 @@ class MyCobotController(QWidget):
         self.ros2_thread.start()
         self.camera_thread = CameraThread()  # 카메라 스레드를 인스턴스 변수로 초기화
         self.camera_thread.frame_captured.connect(self.qr_code_publisher.publish_image)  # 프레임 캡처 시 퍼블리시
-        self.camera_thread.start()  # 카메라 스레드 시작
         self.initUI()
 
     def initUI(self):
@@ -102,7 +98,7 @@ class MyCobotController(QWidget):
         self.camera_thread.stop()  # 카메라 스레드 종료
         self.ros2_thread.stop()  # ROS2 스레드 종료
         rclpy.shutdown()  # ROS2 시스템 종료
-        event.accept()    
+        event.accept()
 
     def move_to_position(self, angles, duration):
         for i, angle in enumerate(angles):
@@ -127,8 +123,14 @@ class MyCobotController(QWidget):
         print("Starting scenario...")
         self.move_to_position([0, 0, 0, 0, 0, 0], 5)
         print("Moved to initial position.")
+
+        # 첫 번째 위치에 도달 후 카메라를 켬
+        self.camera_thread.start()  # 카메라 스레드 시작
+        print("Camera started for QR code detection.")
+
         self.move_to_position([0, -59, -54, 31.7, 90.7, 0], 5)
         print("Searching for QR code...")
+
         # QR 코드 탐지 루프에 타임아웃 설정
         start_time = time.time()  # 현재 시간을 저장
         timeout = 10  # 타임아웃 시간을 10초로 설정
@@ -138,7 +140,6 @@ class MyCobotController(QWidget):
             if time.time() - start_time > timeout:
                 print("QR code detection timed out.")
                 break
-
 
             ret, frame = self.camera_thread.cap.read()
 
@@ -154,8 +155,7 @@ class MyCobotController(QWidget):
         self.camera_thread.stop()
         print("Camera stopped and released.") 
 
-        
-    # 카메라 종료 후 지연을 줘서 실행이 계속되도록 보장
+        # 카메라 종료 후 지연을 줘서 실행이 계속되도록 보장
         time.sleep(1)
         print("Moving to next position...")   
 
@@ -172,6 +172,7 @@ class MyCobotController(QWidget):
         self.move_to_position([0, 0, 0, 0, 0, 0], 5)
         print("Scenario execution completed.")
 
+
 def detect_qr_code(frame):
     decoded_objects = pyzbar.decode(frame)
     for obj in decoded_objects:
@@ -179,12 +180,12 @@ def detect_qr_code(frame):
         return True
     return False
 
+
 def main(args=None):
     rclpy.init(args=args)
     app = QApplication(sys.argv)
     window = MyCobotController()
     window.show()
-
 
     try:
         sys.exit(app.exec_())
