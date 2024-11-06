@@ -13,7 +13,7 @@ i = 0  # 이미지 인덱스 변수
 
 def start_camera():
     global cap
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
         print("Error: Could not open camera.")
@@ -44,7 +44,7 @@ class MyCobotController(QWidget):
             (-1000, 1000),
             (-1800, 1800),
         ]
-        self.mc.set_gripper_mode(0)
+        self.mc.set_gripper_state(0,20)
         self.joint_angles = [0, 0, 0, 0, 0, 0]
         self.gripper_state = None
         self.saved_states = []
