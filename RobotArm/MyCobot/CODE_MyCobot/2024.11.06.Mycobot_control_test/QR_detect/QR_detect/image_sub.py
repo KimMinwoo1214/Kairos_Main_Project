@@ -46,30 +46,25 @@ class QRCodeSubscriber(Node):
             if len(points) == 4:
                 pts = np.array([[p.x, p.y] for p in points], np.int32)
                 pts = pts.reshape((-1, 1, 2))
-                cv2.polylines(frame, [pts], True, (0, 255, 0), 2)
+                cv2.polylines(frame, [pts], True, (0, 0, 255), 3)
+                # QR 코드 데이터 표시
+                font = cv2.FONT_HERSHEY_SIMPLEX
+                cv2.putText(frame, qr_data, (points[0].x, points[0].y - 10), font, 0.9, (0, 0, 255), 2)
             
-            # QR 코드 데이터 화면에 표시
-            text = QR_CODES.get(qr_data, "Unknown QR Code")
-            cv2.putText(frame, text, (obj.rect.left, obj.rect.top - 10), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
-
-
-            print(f"QR Code detected: {qr_data}")
+            # QR 코드 데이터 출력
             if qr_data in QR_CODES:
-                print(f"Matched Data: {QR_CODES[qr_data]}")
-            else:
-                print("No matching data found.")
-        
-        # 카메라 영상 화면에 표시
-        cv2.imshow("Camera Feed", frame)
+                self.get_logger().info(f"QR Code data: {QR_CODES[qr_data]}")
+
+        # 프레임을 화면에 표시
+        cv2.imshow("QR Code Scanner", frame)
         cv2.waitKey(1)
 
 def main(args=None):
     rclpy.init(args=args)
     qr_code_subscriber = QRCodeSubscriber()
     rclpy.spin(qr_code_subscriber)
+    qr_code_subscriber.destroy_node()
     rclpy.shutdown()
-    cv2.destroyAllWindows()  # 프로그램 종료 시 모든 창 닫기
 
 if __name__ == '__main__':
     main()
