@@ -8,10 +8,11 @@ from pymycobot.mycobot import MyCobot
 
 # 전역 변수로 카메라 객체 설정
 cap = None
+qr_code_detected = False
 
 def start_camera():
     global cap
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
         print("Error: Could not open camera.")
@@ -23,6 +24,8 @@ def start_camera():
             print("Failed to grab frame")
             break
 
+        # QR 코드 인식
+        detect_qr_code(frame)
         cv2.imshow('MyCobot Camera', frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
@@ -31,12 +34,12 @@ def start_camera():
     cv2.destroyAllWindows()
 
 def detect_qr_code(frame):
+    global qr_code_detected
     # QR 코드 인식
     decoded_objects = pyzbar.decode(frame)
     for obj in decoded_objects:
         print("QR Code detected:", obj.data.decode("utf-8"))
-        return True
-    return False
+        qr_code_detected = True
 
 class MyCobotController(QWidget):
     def __init__(self):
@@ -44,6 +47,7 @@ class MyCobotController(QWidget):
         self.mc = MyCobot('COM7', 115200)
         self.joint_ranges = [(-165, 165), (-165, 165), (-165, 165), (-165, 165), (-165, 165), (-175, 175)]
         self.gripper_state = None
+        self.scenario_count = 0  # 시나리오 카운터 초기화
         self.initUI()
 
     def initUI(self):
@@ -80,7 +84,9 @@ class MyCobotController(QWidget):
         print("Closing gripper")
 
     def execute_scenario(self):
-        print("Starting scenario...")
+        global qr_code_detected
+        self.scenario_count += 1  # 시나리오 카운터 증가
+        print(f"Starting scenario {self.scenario_count}...")
 
         # 초기 위치로 이동
         self.move_to_position([0, 0, 0, 0, 0, 0], 5)
@@ -88,18 +94,14 @@ class MyCobotController(QWidget):
         # 첫 번째 위치로 이동
         self.move_to_position([0, -59, -54, 31.7, 90.7, 0], 5)
 
-        # 첫 번째 위치에서 QR 코드 인식
-        print("Searching for QR code...")
+        # QR 코드 감지 루프
         qr_code_detected = False
+        print("Searching for QR code...")
         while not qr_code_detected:
-            ret, frame = cap.read()
-            if not ret:
-                print("Failed to grab frame")
-                break
-            qr_code_detected = detect_qr_code(frame)
-            if qr_code_detected:
-                print("QR Code detected at the first position.")
-            time.sleep(1)  # QR 코드 감지 반복 간격
+            time.sleep(1)  # CPU 사용량을 줄이기 위한 대기
+
+        if qr_code_detected:
+            print("QR Code detected at the first position.")
 
         # 두 번째 위치로 이동
         self.move_to_position([0, -75.2, -39.6, 33.3, 89, 0], 5)
