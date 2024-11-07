@@ -19,7 +19,7 @@ class CameraThread(QThread):
         self.cap = None  # 카메라 객체를 인스턴스 변수로 초기화
 
     def run(self):
-        self.cap = cv2.VideoCapture(1, cv2.CAP_V4L)
+        self.cap = cv2.VideoCapture(0, cv2.CAP_V4L)
 
         if not self.cap.isOpened():
             print("Error: Could not open camera.")
@@ -70,7 +70,7 @@ class ROS2Thread(QThread):
 class MyCobotController(QWidget):
     def __init__(self):
         super().__init__()
-        self.mc = MyCobot('/dev/ttyACM1', 115200)
+        self.mc = MyCobot('/dev/ttyACM0', 115200)
         self.joint_ranges = [(-165, 165), (-165, 165), (-165, 165), (-165, 165), (-165, 165), (-175, 175)]
         self.gripper_state = None
         self.qr_code_publisher = QRCodePublisher()  # QR 코드 퍼블리셔 초기화
@@ -124,18 +124,18 @@ class MyCobotController(QWidget):
         self.move_to_position([0, 0, 0, 0, 0, 0], 5)
         print("Moved to initial position.")
 
-        
+         # 첫 번째 위치에 도달 후 카메라를 켬
+        self.camera_thread.start()  # 카메라 스레드 시작
+        print("Camera started for QR code detection.")
 
         self.move_to_position([0, -59, -54, 31.7, 90.7, 0], 5)
         print("Searching for QR code...")
 
-        # 첫 번째 위치에 도달 후 카메라를 켬
-        self.camera_thread.start()  # 카메라 스레드 시작
-        print("Camera started for QR code detection.")
+       
 
         # QR 코드 탐지 루프에 타임아웃 설정
         start_time = time.time()  # 현재 시간을 저장
-        timeout = 3  # 타임아웃 시간을 10초로 설정
+        timeout = 10  # 타임아웃 시간을 10초로 설정
 
         while True:
             # 타임아웃 확인

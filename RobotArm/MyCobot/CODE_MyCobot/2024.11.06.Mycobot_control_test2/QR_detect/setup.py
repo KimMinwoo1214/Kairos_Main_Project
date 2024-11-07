@@ -22,6 +22,7 @@ setup(
     entry_points={
         'console_scripts': [
 	'image_pub = QR_detect.image_pub:main',
+    'image_pub_hs = QR_detect.image_pub_hs:main',
 	'image_sub = QR_detect.image_sub:main',
         ],
     },
