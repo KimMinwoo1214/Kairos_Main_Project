@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 
 # 아두이노와의 시리얼 포트 설정
-port = 'COM6'  # 자신의 포트에 맞게 수정
+port = 'COM9'  # 자신의 포트에 맞게 수정
 baudrate = 1000000
 ser = serial.Serial(port, baudrate)
 
