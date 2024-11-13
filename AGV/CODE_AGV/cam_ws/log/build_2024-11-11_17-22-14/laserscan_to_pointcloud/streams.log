@@ -1,0 +1,186 @@
+[0.025s] Invoking command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/cam_ws/src/laserscan_to_pointcloud -DCMAKE_INSTALL_PREFIX=/home/kmw/cam_ws/install/laserscan_to_pointcloud
+[0.351s] -- The C compiler identification is GNU 11.4.0
+[0.353s] -- The CXX compiler identification is GNU 11.4.0
+[0.354s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.356s] -- Detecting CXX compiler ABI info
+[0.441s] -- Detecting CXX compiler ABI info - done
+[0.451s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.452s] -- Detecting CXX compile features
+[0.453s] -- Detecting CXX compile features - done
+[0.460s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.974s] -- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter 
+[1.123s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.178s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.185s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.199s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.279s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.320s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.373s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.378s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.514s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.547s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.603s] -- Looking for pthread.h
+[1.678s] -- Looking for pthread.h - found
+[1.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.746s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.747s] -- Found Threads: TRUE  
+[1.800s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.826s] -- Checking for module 'eigen3'
+[1.840s] --   Found eigen3, version 3.4.0
+[1.870s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.870s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.896s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.912s] -- Checking for module 'flann'
+[1.924s] --   Found flann, version 1.9.1
+[1.961s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.961s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.002s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.008s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.153s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.154s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.157s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.167s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.184s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.204s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.298s] -- Found X11: /usr/include   
+[2.299s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.379s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.379s] -- Looking for gethostbyname
+[2.445s] -- Looking for gethostbyname - found
+[2.445s] -- Looking for connect
+[2.510s] -- Looking for connect - found
+[2.511s] -- Looking for remove
+[2.574s] -- Looking for remove - found
+[2.574s] -- Looking for shmat
+[2.636s] -- Looking for shmat - found
+[2.636s] -- Looking for IceConnectionNumber in ICE
+[2.700s] -- Looking for IceConnectionNumber in ICE - found
+[2.775s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.777s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.780s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.782s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.818s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.824s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.829s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.835s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.909s] -- Checking for module 'libusb-1.0'
+[2.923s] --   Found libusb-1.0, version 1.0.25
+[2.953s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.954s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.954s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.999s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.999s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.999s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.150s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.157s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.163s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.318s] -- Found Qhull version 8.0.2
+[3.477s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.622s] -- looking for PCL_COMMON
+[3.623s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.623s] -- looking for PCL_KDTREE
+[3.623s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.624s] -- looking for PCL_OCTREE
+[3.624s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.624s] -- looking for PCL_SEARCH
+[3.625s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.625s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.626s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.626s] -- looking for PCL_FILTERS
+[3.627s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.627s] -- looking for PCL_2D
+[3.627s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.628s] -- looking for PCL_GEOMETRY
+[3.628s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.628s] -- looking for PCL_IO
+[3.629s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.629s] -- looking for PCL_FEATURES
+[3.630s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.630s] -- looking for PCL_ML
+[3.631s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.631s] -- looking for PCL_SEGMENTATION
+[3.632s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.632s] -- looking for PCL_VISUALIZATION
+[3.633s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.633s] -- looking for PCL_SURFACE
+[3.634s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.634s] -- looking for PCL_REGISTRATION
+[3.635s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.635s] -- looking for PCL_KEYPOINTS
+[3.636s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.636s] -- looking for PCL_TRACKING
+[3.637s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.637s] -- looking for PCL_RECOGNITION
+[3.638s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.638s] -- looking for PCL_STEREO
+[3.639s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.639s] -- looking for PCL_APPS
+[3.640s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.641s] -- looking for PCL_IN_HAND_SCANNER
+[3.641s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.641s] -- looking for PCL_MODELER
+[3.641s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.641s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.649s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.649s] -- looking for PCL_OUTOFCORE
+[3.650s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.651s] -- looking for PCL_PEOPLE
+[3.651s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.652s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.655s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.690s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.707s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.709s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.709s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.830s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[3.841s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.955s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.957s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.957s] -- Configured cppcheck include dirs: /home/kmw/cam_ws/src/laserscan_to_pointcloud/include
+[3.958s] -- Configured cppcheck exclude dirs and/or files: 
+[3.960s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.960s] -- Configured cpplint exclude dirs and/or files: 
+[3.961s] -- Added test 'lint_cmake' to check CMake code style
+[3.964s] -- Added test 'uncrustify' to check C / C++ code style
+[3.964s] -- Configured uncrustify additional arguments: 
+[3.965s] -- Added test 'xmllint' to check XML markup files
+[3.967s] -- Configuring done
+[4.012s] -- Generating done
+[4.015s] -- Build files have been written to: /home/kmw/cam_ws/build/laserscan_to_pointcloud
+[4.032s] Invoked command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/cam_ws/src/laserscan_to_pointcloud -DCMAKE_INSTALL_PREFIX=/home/kmw/cam_ws/install/laserscan_to_pointcloud
+[4.036s] Invoking command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/cam_ws/build/laserscan_to_pointcloud -- -j8 -l8
+[4.085s] [ 50%] [32mBuilding CXX object CMakeFiles/convert.dir/src/node.cpp.o[0m
+[5.837s] In file included from [01m[K/home/kmw/cam_ws/src/laserscan_to_pointcloud/src/node.cpp:12[m[K:
+[5.837s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[5.837s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[5.837s]       |  [01;35m[K^~~~~~~[m[K
+[9.665s] [01m[K/home/kmw/cam_ws/src/laserscan_to_pointcloud/src/node.cpp:[m[K In member function ‘[01m[Kvoid LaserscanToPointcloud::laser_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.665s] [01m[K/home/kmw/cam_ws/src/laserscan_to_pointcloud/src/node.cpp:52:44:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[KPointXYZRGB(int, int, int)[m[K’ is ambiguous
+[9.666s]    52 |         pt = pcl::PointXYZRGB(255, 255, 255[01;31m[K)[m[K;
+[9.666s]       |                                            [01;31m[K^[m[K
+[9.666s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[9.666s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+[9.666s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+[9.666s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+[9.666s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+[9.666s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+[9.666s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+[9.666s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[9.666s]                  from [01m[K/home/kmw/cam_ws/src/laserscan_to_pointcloud/src/node.cpp:11[m[K:
+[9.666s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:687:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kpcl::PointXYZRGB::PointXYZRGB(float, float, float)[m[K’
+[9.666s]   687 |     inline [01;36m[KPointXYZRGB[m[K (float _x, float _y, float _z):
+[9.666s]       |            [01;36m[K^~~~~~~~~~~[m[K
+[9.666s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:684:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kpcl::PointXYZRGB::PointXYZRGB(uint8_t, uint8_t, uint8_t)[m[K’
+[9.666s]   684 |     inline [01;36m[KPointXYZRGB[m[K (std::uint8_t _r, std::uint8_t _g, std::uint8_t _b):
+[9.666s]       |            [01;36m[K^~~~~~~~~~~[m[K
+[12.773s] gmake[2]: *** [CMakeFiles/convert.dir/build.make:76: CMakeFiles/convert.dir/src/node.cpp.o] Error 1
+[12.773s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/convert.dir/all] Error 2
+[12.773s] gmake: *** [Makefile:146: all] Error 2
+[12.776s] Invoked command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/cam_ws/build/laserscan_to_pointcloud -- -j8 -l8

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: projection
+Version: 0.0.1
+Summary: A ROS 2 package for projecting LiDAR data onto video frames
+Maintainer: kmw
+Maintainer-email: werkm1214@hanyang.ac.kr
+License: Apache License 2.0
+Requires-Dist: setuptools
+Requires-Dist: rclpy
+Requires-Dist: opencv-python
+Requires-Dist: cv_bridge
+Requires-Dist: numpy

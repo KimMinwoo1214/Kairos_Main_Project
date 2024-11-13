@@ -1,0 +1,373 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (laserscan_to_pointcloud) JobQueued: {'identifier': 'laserscan_to_pointcloud', 'dependencies': OrderedDict()}
+[0.000288] (projection) JobQueued: {'identifier': 'projection', 'dependencies': OrderedDict()}
+[0.000311] (ros2_cv_cam) JobQueued: {'identifier': 'ros2_cv_cam', 'dependencies': OrderedDict()}
+[0.000329] (laserscan_to_pointcloud) JobStarted: {'identifier': 'laserscan_to_pointcloud'}
+[0.007976] (projection) JobStarted: {'identifier': 'projection'}
+[0.013841] (ros2_cv_cam) JobStarted: {'identifier': 'ros2_cv_cam'}
+[0.021724] (laserscan_to_pointcloud) JobProgress: {'identifier': 'laserscan_to_pointcloud', 'progress': 'cmake'}
+[0.021978] (laserscan_to_pointcloud) Command: {'cmd': ['/usr/bin/cmake', '/home/kmw/cam_ws/src/laserscan_to_pointcloud', '-DCMAKE_INSTALL_PREFIX=/home/kmw/cam_ws/install/laserscan_to_pointcloud'], 'cwd': '/home/kmw/cam_ws/build/laserscan_to_pointcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2_py310)'), ('LANGUAGE', 'en_US:en'), ('USER', 'kmw'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kmw/exam_ws/install/exam_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmw'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/kmw/cam_ws/src/projection'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '979'), ('SYSTEMD_EXEC_PID', '1346'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4355'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kmw/cam_ws/install:/home/kmw/exam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmw'), ('JOURNAL_STREAM', '8:12500'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/er:@/tmp/.ICE-unix/1113,unix/er:/tmp/.ICE-unix/1113'), ('INVOCATION_ID', '5de62715104543ce9d6d86fb4904287d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/kmw/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z7P0W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '15'), ('AMENT_PREFIX_PATH', '/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/home/kmw/exam_ws/install/exam_msg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kmw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1a27da8-efe4-4390-82cd-281dbb4e5646'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/kmw/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2_py310'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kmw/cam_ws/build/laserscan_to_pointcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kmw/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no2/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no1/lib/python3.10/site-packages:/home/kmw/exam_ws/install/fo_hum/lib/python3.10/site-packages:/home/kmw/exam_ws/install/exam_msg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/kmw/miniconda3/envs/ros2_py310'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kmw/exam_ws/install/exam_msg:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble')]), 'shell': False}
+[0.099246] (-) TimerEvent: {}
+[0.199499] (-) TimerEvent: {}
+[0.299782] (-) TimerEvent: {}
+[0.350578] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.351433] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.353236] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.354090] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.356521] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.356627] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.356692] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.356750] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399941] (-) TimerEvent: {}
+[0.441136] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.450305] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.451697] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.452955] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.460496] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500035] (-) TimerEvent: {}
+[0.600347] (-) TimerEvent: {}
+[0.700627] (-) TimerEvent: {}
+[0.801088] (-) TimerEvent: {}
+[0.901509] (-) TimerEvent: {}
+[0.974072] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter \n'}
+[1.001635] (-) TimerEvent: {}
+[1.102039] (-) TimerEvent: {}
+[1.122956] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.124689] (projection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/projection', 'build', '--build-base', '/home/kmw/cam_ws/build/projection/build', 'install', '--record', '/home/kmw/cam_ws/build/projection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/cam_ws/src/projection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'LANGUAGE': 'en_US:en', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/exam_ws/install/exam_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/cam_ws/src/projection', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '979', 'SYSTEMD_EXEC_PID': '1346', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4355', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/cam_ws/install:/home/kmw/exam_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:12500', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/er:@/tmp/.ICE-unix/1113,unix/er:/tmp/.ICE-unix/1113', 'INVOCATION_ID': '5de62715104543ce9d6d86fb4904287d', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z7P0W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/home/kmw/exam_ws/install/exam_msg:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d1a27da8-efe4-4390-82cd-281dbb4e5646', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/cam_ws/build/projection', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/cam_ws/build/projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no2/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no1/lib/python3.10/site-packages:/home/kmw/exam_ws/install/fo_hum/lib/python3.10/site-packages:/home/kmw/exam_ws/install/exam_msg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/exam_ws/install/exam_msg'}, 'shell': False}
+[1.132753] (ros2_cv_cam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_cv_cam', 'build', '--build-base', '/home/kmw/cam_ws/build/ros2_cv_cam/build', 'install', '--record', '/home/kmw/cam_ws/build/ros2_cv_cam/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/cam_ws/src/ros2_cv_cam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'LANGUAGE': 'en_US:en', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/exam_ws/install/exam_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/cam_ws/src/projection', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '979', 'SYSTEMD_EXEC_PID': '1346', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4355', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/cam_ws/install:/home/kmw/exam_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:12500', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/er:@/tmp/.ICE-unix/1113,unix/er:/tmp/.ICE-unix/1113', 'INVOCATION_ID': '5de62715104543ce9d6d86fb4904287d', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z7P0W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/home/kmw/exam_ws/install/exam_msg:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d1a27da8-efe4-4390-82cd-281dbb4e5646', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/cam_ws/build/ros2_cv_cam', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/cam_ws/build/ros2_cv_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no2/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no1/lib/python3.10/site-packages:/home/kmw/exam_ws/install/fo_hum/lib/python3.10/site-packages:/home/kmw/exam_ws/install/exam_msg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/exam_ws/install/exam_msg'}, 'shell': False}
+[1.178375] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.185050] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.199452] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.202109] (-) TimerEvent: {}
+[1.217473] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.243842] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.279337] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.302189] (-) TimerEvent: {}
+[1.319799] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.373722] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.378145] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402301] (-) TimerEvent: {}
+[1.405111] (ros2_cv_cam) StdoutLine: {'line': b'running egg_info\n'}
+[1.405944] (ros2_cv_cam) StdoutLine: {'line': b'writing ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/PKG-INFO\n'}
+[1.406141] (ros2_cv_cam) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/dependency_links.txt\n'}
+[1.406335] (ros2_cv_cam) StdoutLine: {'line': b'writing entry points to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/entry_points.txt\n'}
+[1.406486] (ros2_cv_cam) StdoutLine: {'line': b'writing requirements to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/requires.txt\n'}
+[1.406635] (ros2_cv_cam) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/top_level.txt\n'}
+[1.408107] (projection) StdoutLine: {'line': b'running egg_info\n'}
+[1.408520] (ros2_cv_cam) StdoutLine: {'line': b"reading manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'\n"}
+[1.409252] (projection) StdoutLine: {'line': b'writing ../../build/projection/projection.egg-info/PKG-INFO\n'}
+[1.409684] (projection) StdoutLine: {'line': b'writing dependency_links to ../../build/projection/projection.egg-info/dependency_links.txt\n'}
+[1.409935] (ros2_cv_cam) StdoutLine: {'line': b"writing manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'\n"}
+[1.410130] (projection) StdoutLine: {'line': b'writing entry points to ../../build/projection/projection.egg-info/entry_points.txt\n'}
+[1.410272] (ros2_cv_cam) StdoutLine: {'line': b'running build\n'}
+[1.410400] (ros2_cv_cam) StdoutLine: {'line': b'running build_py\n'}
+[1.410496] (projection) StdoutLine: {'line': b'writing requirements to ../../build/projection/projection.egg-info/requires.txt\n'}
+[1.410594] (projection) StdoutLine: {'line': b'writing top-level names to ../../build/projection/projection.egg-info/top_level.txt\n'}
+[1.410694] (ros2_cv_cam) StdoutLine: {'line': b'running install\n'}
+[1.410847] (ros2_cv_cam) StdoutLine: {'line': b'running install_lib\n'}
+[1.412216] (ros2_cv_cam) StdoutLine: {'line': b'running install_data\n'}
+[1.412398] (ros2_cv_cam) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.412562] (projection) StdoutLine: {'line': b"reading manifest file '../../build/projection/projection.egg-info/SOURCES.txt'\n"}
+[1.413464] (projection) StdoutLine: {'line': b"writing manifest file '../../build/projection/projection.egg-info/SOURCES.txt'\n"}
+[1.413673] (projection) StdoutLine: {'line': b'running build\n'}
+[1.413819] (projection) StdoutLine: {'line': b'running build_py\n'}
+[1.413932] (projection) StdoutLine: {'line': b'copying projection/lidar.py -> /home/kmw/cam_ws/build/projection/build/lib/projection\n'}
+[1.414187] (projection) StdoutLine: {'line': b'running install\n'}
+[1.414517] (ros2_cv_cam) StdoutLine: {'line': b"removing '/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.414685] (projection) StdoutLine: {'line': b'running install_lib\n'}
+[1.414826] (ros2_cv_cam) StdoutLine: {'line': b'Copying ../../build/ros2_cv_cam/ros2_cv_cam.egg-info to /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam-0.0.0-py3.10.egg-info\n'}
+[1.415470] (projection) StdoutLine: {'line': b'copying /home/kmw/cam_ws/build/projection/build/lib/projection/lidar.py -> /home/kmw/cam_ws/install/projection/lib/python3.10/site-packages/projection\n'}
+[1.415691] (ros2_cv_cam) StdoutLine: {'line': b'running install_scripts\n'}
+[1.416179] (projection) StdoutLine: {'line': b'byte-compiling /home/kmw/cam_ws/install/projection/lib/python3.10/site-packages/projection/lidar.py to lidar.cpython-310.pyc\n'}
+[1.418603] (projection) StdoutLine: {'line': b'running install_data\n'}
+[1.418867] (projection) StdoutLine: {'line': b'copying package.xml -> /home/kmw/cam_ws/install/projection/share/projection\n'}
+[1.419016] (projection) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.420872] (projection) StdoutLine: {'line': b'Copying ../../build/projection/projection.egg-info to /home/kmw/cam_ws/install/projection/lib/python3.10/site-packages/projection-0.0.1-py3.10.egg-info\n'}
+[1.421684] (projection) StdoutLine: {'line': b'running install_scripts\n'}
+[1.442596] (ros2_cv_cam) StdoutLine: {'line': b'Installing cam_sub script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam\n'}
+[1.442963] (ros2_cv_cam) StdoutLine: {'line': b'Installing img_sub script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam\n'}
+[1.443123] (ros2_cv_cam) StdoutLine: {'line': b'Installing qr_detect script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam\n'}
+[1.443316] (ros2_cv_cam) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/cam_ws/build/ros2_cv_cam/install.log'\n"}
+[1.453441] (projection) StdoutLine: {'line': b'Installing lidar script to /home/kmw/cam_ws/install/projection/lib/projection\n'}
+[1.454367] (projection) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/cam_ws/build/projection/install.log'\n"}
+[1.502730] (ros2_cv_cam) CommandEnded: {'returncode': 0}
+[1.503830] (-) TimerEvent: {}
+[1.514562] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.520552] (ros2_cv_cam) JobEnded: {'identifier': 'ros2_cv_cam', 'rc': 0}
+[1.522363] (projection) CommandEnded: {'returncode': 0}
+[1.528592] (projection) JobEnded: {'identifier': 'projection', 'rc': 0}
+[1.547326] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.591027] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.602908] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.603914] (-) TimerEvent: {}
+[1.677757] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.678005] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.704091] (-) TimerEvent: {}
+[1.745907] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.747160] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.800646] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.804164] (-) TimerEvent: {}
+[1.826345] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.840269] (laserscan_to_pointcloud) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.869851] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.870032] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.896176] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[1.904262] (-) TimerEvent: {}
+[1.912512] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.924387] (laserscan_to_pointcloud) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.961341] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.961606] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.001971] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[2.004358] (-) TimerEvent: {}
+[2.008365] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[2.104494] (-) TimerEvent: {}
+[2.153688] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[2.153927] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[2.156953] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[2.166893] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[2.184626] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[2.203926] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[2.204594] (-) TimerEvent: {}
+[2.298680] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[2.299083] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[2.305170] (-) TimerEvent: {}
+[2.379119] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.379433] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.405138] (-) TimerEvent: {}
+[2.445263] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.445535] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.505229] (-) TimerEvent: {}
+[2.510569] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.510812] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.573713] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.573946] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.605384] (-) TimerEvent: {}
+[2.635961] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.636176] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.700405] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.705467] (-) TimerEvent: {}
+[2.775377] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[2.777515] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[2.779920] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[2.781895] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[2.805597] (-) TimerEvent: {}
+[2.818492] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[2.824427] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[2.828887] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[2.835006] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[2.905726] (-) TimerEvent: {}
+[2.909630] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.923586] (laserscan_to_pointcloud) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.952988] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.954183] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[2.954282] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.999375] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[2.999519] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.999643] (laserscan_to_pointcloud) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[3.005843] (-) TimerEvent: {}
+[3.106116] (-) TimerEvent: {}
+[3.150530] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.157160] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.162850] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.206208] (-) TimerEvent: {}
+[3.306549] (-) TimerEvent: {}
+[3.317870] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.406679] (-) TimerEvent: {}
+[3.477203] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.506806] (-) TimerEvent: {}
+[3.607075] (-) TimerEvent: {}
+[3.621911] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[3.622754] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.622924] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[3.623665] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.623851] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[3.624538] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.624721] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[3.625387] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.625596] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[3.626351] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.626546] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[3.627197] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.627445] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[3.627671] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.627789] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[3.628017] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.628168] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[3.628923] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.629180] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[3.630303] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.630556] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[3.631361] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.631538] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[3.632209] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.632468] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[3.633244] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.633511] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[3.634258] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.634494] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[3.635388] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.635770] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[3.636410] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.636657] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[3.637334] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.637536] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[3.638374] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.638669] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[3.639412] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.639547] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[3.640252] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.640988] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[3.641260] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.641380] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[3.641646] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.641756] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[3.649396] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.649622] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[3.650584] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.650819] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[3.651603] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.652491] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[3.655276] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.689828] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[3.707092] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.707246] (-) TimerEvent: {}
+[3.708906] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.709036] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.807351] (-) TimerEvent: {}
+[3.829931] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system \n'}
+[3.841476] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.907481] (-) TimerEvent: {}
+[3.954905] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.957316] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.957695] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/kmw/cam_ws/src/laserscan_to_pointcloud/include\n'}
+[3.957784] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.959930] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.960033] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.961391] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.964003] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.964115] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.964853] (laserscan_to_pointcloud) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.966990] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.007579] (-) TimerEvent: {}
+[4.012335] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Generating done\n'}
+[4.014860] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Build files have been written to: /home/kmw/cam_ws/build/laserscan_to_pointcloud\n'}
+[4.032581] (laserscan_to_pointcloud) CommandEnded: {'returncode': 0}
+[4.033614] (laserscan_to_pointcloud) JobProgress: {'identifier': 'laserscan_to_pointcloud', 'progress': 'build'}
+[4.035769] (laserscan_to_pointcloud) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kmw/cam_ws/build/laserscan_to_pointcloud', '--', '-j8', '-l8'], 'cwd': '/home/kmw/cam_ws/build/laserscan_to_pointcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2_py310)'), ('LANGUAGE', 'en_US:en'), ('USER', 'kmw'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kmw/exam_ws/install/exam_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmw'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/kmw/cam_ws/src/projection'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '979'), ('SYSTEMD_EXEC_PID', '1346'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4355'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kmw/cam_ws/install:/home/kmw/exam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmw'), ('JOURNAL_STREAM', '8:12500'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/er:@/tmp/.ICE-unix/1113,unix/er:/tmp/.ICE-unix/1113'), ('INVOCATION_ID', '5de62715104543ce9d6d86fb4904287d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/kmw/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z7P0W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '15'), ('AMENT_PREFIX_PATH', '/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/home/kmw/exam_ws/install/exam_msg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kmw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1a27da8-efe4-4390-82cd-281dbb4e5646'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/kmw/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2_py310'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kmw/cam_ws/build/laserscan_to_pointcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kmw/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no2/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no1/lib/python3.10/site-packages:/home/kmw/exam_ws/install/fo_hum/lib/python3.10/site-packages:/home/kmw/exam_ws/install/exam_msg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/kmw/miniconda3/envs/ros2_py310'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kmw/exam_ws/install/exam_msg:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble')]), 'shell': False}
+[4.084732] (laserscan_to_pointcloud) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/node.cpp.o\x1b[0m\n'}
+[4.107676] (-) TimerEvent: {}
+[4.207938] (-) TimerEvent: {}
+[4.308173] (-) TimerEvent: {}
+[4.408396] (-) TimerEvent: {}
+[4.508629] (-) TimerEvent: {}
+[4.609161] (-) TimerEvent: {}
+[4.709661] (-) TimerEvent: {}
+[4.809970] (-) TimerEvent: {}
+[4.910218] (-) TimerEvent: {}
+[5.010487] (-) TimerEvent: {}
+[5.110791] (-) TimerEvent: {}
+[5.211075] (-) TimerEvent: {}
+[5.311336] (-) TimerEvent: {}
+[5.411639] (-) TimerEvent: {}
+[5.511909] (-) TimerEvent: {}
+[5.612165] (-) TimerEvent: {}
+[5.712450] (-) TimerEvent: {}
+[5.812722] (-) TimerEvent: {}
+[5.837422] (laserscan_to_pointcloud) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kmw/cam_ws/src/laserscan_to_pointcloud/src/node.cpp:12\x1b[m\x1b[K:\n'}
+[5.837573] (laserscan_to_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.837640] (laserscan_to_pointcloud) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[5.837699] (laserscan_to_pointcloud) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.912886] (-) TimerEvent: {}
+[6.013121] (-) TimerEvent: {}
+[6.113384] (-) TimerEvent: {}
+[6.213700] (-) TimerEvent: {}
+[6.313982] (-) TimerEvent: {}
+[6.414277] (-) TimerEvent: {}
+[6.514557] (-) TimerEvent: {}
+[6.614837] (-) TimerEvent: {}
+[6.715165] (-) TimerEvent: {}
+[6.815444] (-) TimerEvent: {}
+[6.915756] (-) TimerEvent: {}
+[7.016115] (-) TimerEvent: {}
+[7.116389] (-) TimerEvent: {}
+[7.216674] (-) TimerEvent: {}
+[7.316957] (-) TimerEvent: {}
+[7.417218] (-) TimerEvent: {}
+[7.517498] (-) TimerEvent: {}
+[7.617780] (-) TimerEvent: {}
+[7.718122] (-) TimerEvent: {}
+[7.818465] (-) TimerEvent: {}
+[7.918766] (-) TimerEvent: {}
+[8.019086] (-) TimerEvent: {}
+[8.119365] (-) TimerEvent: {}
+[8.219673] (-) TimerEvent: {}
+[8.319932] (-) TimerEvent: {}
+[8.420228] (-) TimerEvent: {}
+[8.520512] (-) TimerEvent: {}
+[8.620794] (-) TimerEvent: {}
+[8.721077] (-) TimerEvent: {}
+[8.821392] (-) TimerEvent: {}
+[8.921744] (-) TimerEvent: {}
+[9.022034] (-) TimerEvent: {}
+[9.122495] (-) TimerEvent: {}
+[9.222856] (-) TimerEvent: {}
+[9.323112] (-) TimerEvent: {}
+[9.423375] (-) TimerEvent: {}
+[9.523661] (-) TimerEvent: {}
+[9.623968] (-) TimerEvent: {}
+[9.665400] (laserscan_to_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kmw/cam_ws/src/laserscan_to_pointcloud/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LaserscanToPointcloud::laser_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.665743] (laserscan_to_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kmw/cam_ws/src/laserscan_to_pointcloud/src/node.cpp:52:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcall of overloaded \xe2\x80\x98\x1b[01m\x1b[KPointXYZRGB(int, int, int)\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[9.665815] (laserscan_to_pointcloud) StderrLine: {'line': b'   52 |         pt = pcl::PointXYZRGB(255, 255, 255\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.665873] (laserscan_to_pointcloud) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.665929] (laserscan_to_pointcloud) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[9.665983] (laserscan_to_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40\x1b[m\x1b[K,\n'}
+[9.666046] (laserscan_to_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58\x1b[m\x1b[K,\n'}
+[9.666104] (laserscan_to_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45\x1b[m\x1b[K,\n'}
+[9.666156] (laserscan_to_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/common/io.h:538\x1b[m\x1b[K,\n'}
+[9.666207] (laserscan_to_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48\x1b[m\x1b[K,\n'}
+[9.666258] (laserscan_to_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789\x1b[m\x1b[K,\n'}
+[9.666321] (laserscan_to_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73\x1b[m\x1b[K,\n'}
+[9.666379] (laserscan_to_pointcloud) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kmw/cam_ws/src/laserscan_to_pointcloud/src/node.cpp:11\x1b[m\x1b[K:\n'}
+[9.666433] (laserscan_to_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:687:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointXYZRGB::PointXYZRGB(float, float, float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.666496] (laserscan_to_pointcloud) StderrLine: {'line': b'  687 |     inline \x1b[01;36m\x1b[KPointXYZRGB\x1b[m\x1b[K (float _x, float _y, float _z):\n'}
+[9.666547] (laserscan_to_pointcloud) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.666599] (laserscan_to_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:684:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointXYZRGB::PointXYZRGB(uint8_t, uint8_t, uint8_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.666652] (laserscan_to_pointcloud) StderrLine: {'line': b'  684 |     inline \x1b[01;36m\x1b[KPointXYZRGB\x1b[m\x1b[K (std::uint8_t _r, std::uint8_t _g, std::uint8_t _b):\n'}
+[9.666703] (laserscan_to_pointcloud) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.724096] (-) TimerEvent: {}
+[9.824357] (-) TimerEvent: {}
+[9.924691] (-) TimerEvent: {}
+[10.025012] (-) TimerEvent: {}
+[10.125270] (-) TimerEvent: {}
+[10.225567] (-) TimerEvent: {}
+[10.325860] (-) TimerEvent: {}
+[10.426120] (-) TimerEvent: {}
+[10.526393] (-) TimerEvent: {}
+[10.626669] (-) TimerEvent: {}
+[10.727090] (-) TimerEvent: {}
+[10.827343] (-) TimerEvent: {}
+[10.927653] (-) TimerEvent: {}
+[11.027933] (-) TimerEvent: {}
+[11.128219] (-) TimerEvent: {}
+[11.228499] (-) TimerEvent: {}
+[11.328779] (-) TimerEvent: {}
+[11.429137] (-) TimerEvent: {}
+[11.529454] (-) TimerEvent: {}
+[11.629767] (-) TimerEvent: {}
+[11.730062] (-) TimerEvent: {}
+[11.830347] (-) TimerEvent: {}
+[11.930693] (-) TimerEvent: {}
+[12.031053] (-) TimerEvent: {}
+[12.131432] (-) TimerEvent: {}
+[12.231715] (-) TimerEvent: {}
+[12.332008] (-) TimerEvent: {}
+[12.432344] (-) TimerEvent: {}
+[12.532620] (-) TimerEvent: {}
+[12.632935] (-) TimerEvent: {}
+[12.733197] (-) TimerEvent: {}
+[12.773114] (laserscan_to_pointcloud) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/convert.dir/build.make:76: CMakeFiles/convert.dir/src/node.cpp.o] Error 1\n'}
+[12.773377] (laserscan_to_pointcloud) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/convert.dir/all] Error 2\n'}
+[12.773499] (laserscan_to_pointcloud) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.776317] (laserscan_to_pointcloud) CommandEnded: {'returncode': 2}
+[12.802116] (laserscan_to_pointcloud) JobEnded: {'identifier': 'laserscan_to_pointcloud', 'rc': 2}
+[12.802944] (-) EventReactorShutdown: {}

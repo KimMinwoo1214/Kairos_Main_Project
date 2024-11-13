@@ -1,0 +1,37 @@
+[1.467s] Invoking command in '/home/kmw/cam_ws/src/ros2_cv_cam': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/kmw/cam_ws/build/ros2_cv_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_cam build --build-base /home/kmw/cam_ws/build/ros2_cv_cam/build install --record /home/kmw/cam_ws/build/ros2_cv_cam/install.log --single-version-externally-managed install_data
+[1.974s] running egg_info
+[1.976s] creating ../../build/ros2_cv_cam/ros2_cv_cam.egg-info
+[1.976s] writing ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/PKG-INFO
+[1.977s] writing dependency_links to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/dependency_links.txt
+[1.977s] writing entry points to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/entry_points.txt
+[1.978s] writing requirements to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/requires.txt
+[1.978s] writing top-level names to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/top_level.txt
+[1.978s] writing manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'
+[1.982s] reading manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'
+[1.983s] writing manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'
+[1.984s] running build
+[1.984s] running build_py
+[1.984s] creating /home/kmw/cam_ws/build/ros2_cv_cam/build
+[1.985s] creating /home/kmw/cam_ws/build/ros2_cv_cam/build/lib
+[1.985s] creating /home/kmw/cam_ws/build/ros2_cv_cam/build/lib/ros2_cv_cam
+[1.985s] copying ros2_cv_cam/cam_sub.py -> /home/kmw/cam_ws/build/ros2_cv_cam/build/lib/ros2_cv_cam
+[1.986s] copying ros2_cv_cam/__init__.py -> /home/kmw/cam_ws/build/ros2_cv_cam/build/lib/ros2_cv_cam
+[1.986s] running install
+[1.986s] running install_lib
+[1.988s] creating /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam
+[1.988s] copying /home/kmw/cam_ws/build/ros2_cv_cam/build/lib/ros2_cv_cam/cam_sub.py -> /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam
+[1.989s] copying /home/kmw/cam_ws/build/ros2_cv_cam/build/lib/ros2_cv_cam/__init__.py -> /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam
+[1.989s] byte-compiling /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam/cam_sub.py to cam_sub.cpython-310.pyc
+[1.991s] byte-compiling /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam/__init__.py to __init__.cpython-310.pyc
+[1.991s] running install_data
+[1.991s] creating /home/kmw/cam_ws/install/ros2_cv_cam/share/ament_index
+[1.992s] creating /home/kmw/cam_ws/install/ros2_cv_cam/share/ament_index/resource_index
+[1.992s] creating /home/kmw/cam_ws/install/ros2_cv_cam/share/ament_index/resource_index/packages
+[1.992s] copying resource/ros2_cv_cam -> /home/kmw/cam_ws/install/ros2_cv_cam/share/ament_index/resource_index/packages
+[1.992s] copying package.xml -> /home/kmw/cam_ws/install/ros2_cv_cam/share/ros2_cv_cam
+[1.993s] running install_egg_info
+[1.996s] Copying ../../build/ros2_cv_cam/ros2_cv_cam.egg-info to /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam-0.0.0-py3.10.egg-info
+[1.997s] running install_scripts
+[2.035s] Installing img_sub script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam
+[2.036s] writing list of installed files to '/home/kmw/cam_ws/build/ros2_cv_cam/install.log'
+[2.116s] Invoked command in '/home/kmw/cam_ws/src/ros2_cv_cam' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/kmw/cam_ws/build/ros2_cv_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_cam build --build-base /home/kmw/cam_ws/build/ros2_cv_cam/build install --record /home/kmw/cam_ws/build/ros2_cv_cam/install.log --single-version-externally-managed install_data

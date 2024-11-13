@@ -1,0 +1,25 @@
+[0.925s] Invoking command in '/home/kmw/cam_ws/src/projection': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/cam_ws/build/projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/projection build --build-base /home/kmw/cam_ws/build/projection/build install --record /home/kmw/cam_ws/build/projection/install.log --single-version-externally-managed install_data
+[1.165s] running egg_info
+[1.166s] writing ../../build/projection/projection.egg-info/PKG-INFO
+[1.166s] writing dependency_links to ../../build/projection/projection.egg-info/dependency_links.txt
+[1.167s] writing entry points to ../../build/projection/projection.egg-info/entry_points.txt
+[1.167s] writing requirements to ../../build/projection/projection.egg-info/requires.txt
+[1.167s] writing top-level names to ../../build/projection/projection.egg-info/top_level.txt
+[1.169s] reading manifest file '../../build/projection/projection.egg-info/SOURCES.txt'
+[1.169s] writing manifest file '../../build/projection/projection.egg-info/SOURCES.txt'
+[1.170s] running build
+[1.170s] running build_py
+[1.170s] copying projection/image_pub.py -> /home/kmw/cam_ws/build/projection/build/lib/projection
+[1.170s] running install
+[1.170s] running install_lib
+[1.171s] copying /home/kmw/cam_ws/build/projection/build/lib/projection/image_pub.py -> /home/kmw/cam_ws/install/projection/lib/python3.10/site-packages/projection
+[1.172s] byte-compiling /home/kmw/cam_ws/install/projection/lib/python3.10/site-packages/projection/image_pub.py to image_pub.cpython-310.pyc
+[1.173s] running install_data
+[1.173s] running install_egg_info
+[1.175s] removing '/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages/projection-0.0.1-py3.10.egg-info' (and everything under it)
+[1.175s] Copying ../../build/projection/projection.egg-info to /home/kmw/cam_ws/install/projection/lib/python3.10/site-packages/projection-0.0.1-py3.10.egg-info
+[1.176s] running install_scripts
+[1.198s] Installing img_pub script to /home/kmw/cam_ws/install/projection/lib/projection
+[1.199s] Installing lidar script to /home/kmw/cam_ws/install/projection/lib/projection
+[1.199s] writing list of installed files to '/home/kmw/cam_ws/build/projection/install.log'
+[1.235s] Invoked command in '/home/kmw/cam_ws/src/projection' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/cam_ws/build/projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/projection build --build-base /home/kmw/cam_ws/build/projection/build install --record /home/kmw/cam_ws/build/projection/install.log --single-version-externally-managed install_data
