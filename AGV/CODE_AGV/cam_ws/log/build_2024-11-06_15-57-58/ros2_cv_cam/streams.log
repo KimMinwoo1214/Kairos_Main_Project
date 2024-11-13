@@ -1,0 +1,31 @@
+[2.679s] Invoking command in '/home/kmw/cam_ws/src/ros2_cv_cam': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/cam_ws/build/ros2_cv_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_cam build --build-base /home/kmw/cam_ws/build/ros2_cv_cam/build install --record /home/kmw/cam_ws/build/ros2_cv_cam/install.log --single-version-externally-managed install_data
+[3.113s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[3.113s]   warnings.warn(msg)
+[3.376s] running egg_info
+[3.421s] writing ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/PKG-INFO
+[3.423s] writing dependency_links to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/dependency_links.txt
+[3.424s] writing entry points to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/entry_points.txt
+[3.424s] writing requirements to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/requires.txt
+[3.424s] writing top-level names to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/top_level.txt
+[3.514s] reading manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'
+[3.517s] writing manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'
+[3.517s] running build
+[3.517s] running build_py
+[3.518s] copying ros2_cv_cam/cam_sub.py -> /home/kmw/cam_ws/build/ros2_cv_cam/build/lib/ros2_cv_cam
+[3.519s] copying ros2_cv_cam/img_sub.py -> /home/kmw/cam_ws/build/ros2_cv_cam/build/lib/ros2_cv_cam
+[3.519s] copying ros2_cv_cam/__init__.py -> /home/kmw/cam_ws/build/ros2_cv_cam/build/lib/ros2_cv_cam
+[3.520s] running install
+[3.530s] running install_lib
+[3.572s] copying /home/kmw/cam_ws/build/ros2_cv_cam/build/lib/ros2_cv_cam/cam_sub.py -> /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam
+[3.574s] byte-compiling /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam/cam_sub.py to cam_sub.cpython-310.pyc
+[3.575s] running install_data
+[3.576s] copying resource/ros2_cv_cam -> /home/kmw/cam_ws/install/ros2_cv_cam/share/ament_index/resource_index/packages
+[3.576s] copying package.xml -> /home/kmw/cam_ws/install/ros2_cv_cam/share/ros2_cv_cam
+[3.577s] running install_egg_info
+[3.621s] removing '/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam-0.0.0-py3.10.egg-info' (and everything under it)
+[3.622s] Copying ../../build/ros2_cv_cam/ros2_cv_cam.egg-info to /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam-0.0.0-py3.10.egg-info
+[3.623s] running install_scripts
+[4.036s] Installing cam_sub script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam
+[4.037s] Installing img_sub script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam
+[4.037s] writing list of installed files to '/home/kmw/cam_ws/build/ros2_cv_cam/install.log'
+[4.112s] Invoked command in '/home/kmw/cam_ws/src/ros2_cv_cam' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/cam_ws/build/ros2_cv_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_cam build --build-base /home/kmw/cam_ws/build/ros2_cv_cam/build install --record /home/kmw/cam_ws/build/ros2_cv_cam/install.log --single-version-externally-managed install_data

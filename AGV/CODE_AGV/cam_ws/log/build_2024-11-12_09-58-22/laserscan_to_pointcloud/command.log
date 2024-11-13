@@ -1,0 +1,4 @@
+Invoking command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/cam_ws/build/laserscan_to_pointcloud -- -j8 -l8
+Invoked command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/cam_ws/build/laserscan_to_pointcloud -- -j8 -l8
+Invoking command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/cam_ws/build/laserscan_to_pointcloud
+Invoked command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/cam_ws/build/laserscan_to_pointcloud

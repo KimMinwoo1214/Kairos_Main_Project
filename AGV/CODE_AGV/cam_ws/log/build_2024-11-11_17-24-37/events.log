@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (laserscan_to_pointcloud) JobQueued: {'identifier': 'laserscan_to_pointcloud', 'dependencies': OrderedDict()}
+[0.000138] (projection) JobQueued: {'identifier': 'projection', 'dependencies': OrderedDict()}
+[0.000158] (ros2_cv_cam) JobQueued: {'identifier': 'ros2_cv_cam', 'dependencies': OrderedDict()}
+[0.000754] (laserscan_to_pointcloud) JobStarted: {'identifier': 'laserscan_to_pointcloud'}
+[0.007535] (projection) JobStarted: {'identifier': 'projection'}
+[0.012427] (ros2_cv_cam) JobStarted: {'identifier': 'ros2_cv_cam'}
+[0.019445] (laserscan_to_pointcloud) JobProgress: {'identifier': 'laserscan_to_pointcloud', 'progress': 'cmake'}
+[0.021340] (laserscan_to_pointcloud) JobProgress: {'identifier': 'laserscan_to_pointcloud', 'progress': 'build'}
+[0.021468] (laserscan_to_pointcloud) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kmw/cam_ws/build/laserscan_to_pointcloud', '--', '-j8', '-l8'], 'cwd': '/home/kmw/cam_ws/build/laserscan_to_pointcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2_py310)'), ('LANGUAGE', 'en_US:en'), ('USER', 'kmw'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kmw/exam_ws/install/exam_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmw'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/kmw/cam_ws/src/laserscan_to_pointcloud/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '979'), ('SYSTEMD_EXEC_PID', '1346'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4355'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kmw/cam_ws/install:/home/kmw/exam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmw'), ('JOURNAL_STREAM', '8:12500'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/er:@/tmp/.ICE-unix/1113,unix/er:/tmp/.ICE-unix/1113'), ('INVOCATION_ID', '5de62715104543ce9d6d86fb4904287d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/kmw/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z7P0W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '15'), ('AMENT_PREFIX_PATH', '/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/home/kmw/exam_ws/install/exam_msg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kmw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1a27da8-efe4-4390-82cd-281dbb4e5646'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/kmw/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2_py310'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kmw/cam_ws/build/laserscan_to_pointcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kmw/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no2/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no1/lib/python3.10/site-packages:/home/kmw/exam_ws/install/fo_hum/lib/python3.10/site-packages:/home/kmw/exam_ws/install/exam_msg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/kmw/miniconda3/envs/ros2_py310'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kmw/exam_ws/install/exam_msg:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble')]), 'shell': False}
+[0.099767] (-) TimerEvent: {}
+[0.200079] (-) TimerEvent: {}
+[0.300342] (-) TimerEvent: {}
+[0.341770] (laserscan_to_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target convert\x1b[0m\n'}
+[0.342533] (laserscan_to_pointcloud) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/node.cpp.o\x1b[0m\n'}
+[0.400464] (-) TimerEvent: {}
+[0.500739] (-) TimerEvent: {}
+[0.601009] (-) TimerEvent: {}
+[0.701281] (-) TimerEvent: {}
+[0.801607] (-) TimerEvent: {}
+[0.901897] (-) TimerEvent: {}
+[1.002243] (-) TimerEvent: {}
+[1.073309] (projection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/projection', 'build', '--build-base', '/home/kmw/cam_ws/build/projection/build', 'install', '--record', '/home/kmw/cam_ws/build/projection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/cam_ws/src/projection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'LANGUAGE': 'en_US:en', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/exam_ws/install/exam_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/cam_ws/src/laserscan_to_pointcloud/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '979', 'SYSTEMD_EXEC_PID': '1346', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4355', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/cam_ws/install:/home/kmw/exam_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:12500', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/er:@/tmp/.ICE-unix/1113,unix/er:/tmp/.ICE-unix/1113', 'INVOCATION_ID': '5de62715104543ce9d6d86fb4904287d', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z7P0W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/home/kmw/exam_ws/install/exam_msg:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d1a27da8-efe4-4390-82cd-281dbb4e5646', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/cam_ws/build/projection', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/cam_ws/build/projection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no2/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no1/lib/python3.10/site-packages:/home/kmw/exam_ws/install/fo_hum/lib/python3.10/site-packages:/home/kmw/exam_ws/install/exam_msg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/exam_ws/install/exam_msg'}, 'shell': False}
+[1.079551] (ros2_cv_cam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_cv_cam', 'build', '--build-base', '/home/kmw/cam_ws/build/ros2_cv_cam/build', 'install', '--record', '/home/kmw/cam_ws/build/ros2_cv_cam/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/cam_ws/src/ros2_cv_cam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'LANGUAGE': 'en_US:en', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/exam_ws/install/exam_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/cam_ws/src/laserscan_to_pointcloud/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '979', 'SYSTEMD_EXEC_PID': '1346', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4355', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kmw/cam_ws/install:/home/kmw/exam_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:12500', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/er:@/tmp/.ICE-unix/1113,unix/er:/tmp/.ICE-unix/1113', 'INVOCATION_ID': '5de62715104543ce9d6d86fb4904287d', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z7P0W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/home/kmw/exam_ws/install/exam_msg:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d1a27da8-efe4-4390-82cd-281dbb4e5646', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/cam_ws/build/ros2_cv_cam', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/cam_ws/build/ros2_cv_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no2/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no1/lib/python3.10/site-packages:/home/kmw/exam_ws/install/fo_hum/lib/python3.10/site-packages:/home/kmw/exam_ws/install/exam_msg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/exam_ws/install/exam_msg'}, 'shell': False}
+[1.102327] (-) TimerEvent: {}
+[1.202693] (-) TimerEvent: {}
+[1.303073] (-) TimerEvent: {}
+[1.384202] (ros2_cv_cam) StdoutLine: {'line': b'running egg_info\n'}
+[1.385074] (ros2_cv_cam) StdoutLine: {'line': b'writing ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/PKG-INFO\n'}
+[1.385319] (ros2_cv_cam) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/dependency_links.txt\n'}
+[1.385523] (ros2_cv_cam) StdoutLine: {'line': b'writing entry points to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/entry_points.txt\n'}
+[1.385685] (ros2_cv_cam) StdoutLine: {'line': b'writing requirements to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/requires.txt\n'}
+[1.385840] (ros2_cv_cam) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/top_level.txt\n'}
+[1.387766] (ros2_cv_cam) StdoutLine: {'line': b"reading manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'\n"}
+[1.388673] (ros2_cv_cam) StdoutLine: {'line': b"writing manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'\n"}
+[1.388885] (ros2_cv_cam) StdoutLine: {'line': b'running build\n'}
+[1.389019] (ros2_cv_cam) StdoutLine: {'line': b'running build_py\n'}
+[1.389371] (ros2_cv_cam) StdoutLine: {'line': b'running install\n'}
+[1.389752] (ros2_cv_cam) StdoutLine: {'line': b'running install_lib\n'}
+[1.391297] (ros2_cv_cam) StdoutLine: {'line': b'running install_data\n'}
+[1.391509] (ros2_cv_cam) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.393476] (ros2_cv_cam) StdoutLine: {'line': b"removing '/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.393770] (ros2_cv_cam) StdoutLine: {'line': b'Copying ../../build/ros2_cv_cam/ros2_cv_cam.egg-info to /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam-0.0.0-py3.10.egg-info\n'}
+[1.394497] (ros2_cv_cam) StdoutLine: {'line': b'running install_scripts\n'}
+[1.403247] (-) TimerEvent: {}
+[1.418289] (ros2_cv_cam) StdoutLine: {'line': b'Installing cam_sub script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam\n'}
+[1.418535] (ros2_cv_cam) StdoutLine: {'line': b'Installing img_sub script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam\n'}
+[1.418690] (ros2_cv_cam) StdoutLine: {'line': b'Installing qr_detect script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam\n'}
+[1.418851] (ros2_cv_cam) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/cam_ws/build/ros2_cv_cam/install.log'\n"}
+[1.422659] (projection) StdoutLine: {'line': b'running egg_info\n'}
+[1.423619] (projection) StdoutLine: {'line': b'writing ../../build/projection/projection.egg-info/PKG-INFO\n'}
+[1.423917] (projection) StdoutLine: {'line': b'writing dependency_links to ../../build/projection/projection.egg-info/dependency_links.txt\n'}
+[1.424117] (projection) StdoutLine: {'line': b'writing entry points to ../../build/projection/projection.egg-info/entry_points.txt\n'}
+[1.424248] (projection) StdoutLine: {'line': b'writing requirements to ../../build/projection/projection.egg-info/requires.txt\n'}
+[1.424373] (projection) StdoutLine: {'line': b'writing top-level names to ../../build/projection/projection.egg-info/top_level.txt\n'}
+[1.426479] (projection) StdoutLine: {'line': b"reading manifest file '../../build/projection/projection.egg-info/SOURCES.txt'\n"}
+[1.427570] (projection) StdoutLine: {'line': b"writing manifest file '../../build/projection/projection.egg-info/SOURCES.txt'\n"}
+[1.427851] (projection) StdoutLine: {'line': b'running build\n'}
+[1.427987] (projection) StdoutLine: {'line': b'running build_py\n'}
+[1.428142] (projection) StdoutLine: {'line': b'running install\n'}
+[1.428444] (projection) StdoutLine: {'line': b'running install_lib\n'}
+[1.429983] (projection) StdoutLine: {'line': b'running install_data\n'}
+[1.430281] (projection) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.435819] (projection) StdoutLine: {'line': b"removing '/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages/projection-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[1.436863] (projection) StdoutLine: {'line': b'Copying ../../build/projection/projection.egg-info to /home/kmw/cam_ws/install/projection/lib/python3.10/site-packages/projection-0.0.1-py3.10.egg-info\n'}
+[1.438478] (projection) StdoutLine: {'line': b'running install_scripts\n'}
+[1.468130] (ros2_cv_cam) CommandEnded: {'returncode': 0}
+[1.469044] (projection) StdoutLine: {'line': b'Installing lidar script to /home/kmw/cam_ws/install/projection/lib/projection\n'}
+[1.469243] (projection) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/cam_ws/build/projection/install.log'\n"}
+[1.486249] (ros2_cv_cam) JobEnded: {'identifier': 'ros2_cv_cam', 'rc': 0}
+[1.501205] (projection) CommandEnded: {'returncode': 0}
+[1.504448] (-) TimerEvent: {}
+[1.509977] (projection) JobEnded: {'identifier': 'projection', 'rc': 0}
+[1.604581] (-) TimerEvent: {}
+[1.704881] (-) TimerEvent: {}
+[1.805162] (-) TimerEvent: {}
+[1.851115] (laserscan_to_pointcloud) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kmw/cam_ws/src/laserscan_to_pointcloud/src/node.cpp:12\x1b[m\x1b[K:\n'}
+[1.851452] (laserscan_to_pointcloud) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.851557] (laserscan_to_pointcloud) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[1.851627] (laserscan_to_pointcloud) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.905304] (-) TimerEvent: {}
+[2.005605] (-) TimerEvent: {}
+[2.105889] (-) TimerEvent: {}
+[2.206316] (-) TimerEvent: {}
+[2.306701] (-) TimerEvent: {}
+[2.407033] (-) TimerEvent: {}
+[2.507340] (-) TimerEvent: {}
+[2.607647] (-) TimerEvent: {}
+[2.708004] (-) TimerEvent: {}
+[2.808284] (-) TimerEvent: {}
+[2.908581] (-) TimerEvent: {}
+[3.008928] (-) TimerEvent: {}
+[3.109249] (-) TimerEvent: {}
+[3.209607] (-) TimerEvent: {}
+[3.309903] (-) TimerEvent: {}
+[3.410193] (-) TimerEvent: {}
+[3.510481] (-) TimerEvent: {}
+[3.610876] (-) TimerEvent: {}
+[3.711383] (-) TimerEvent: {}
+[3.811736] (-) TimerEvent: {}
+[3.912043] (-) TimerEvent: {}
+[4.012420] (-) TimerEvent: {}
+[4.112709] (-) TimerEvent: {}
+[4.213004] (-) TimerEvent: {}
+[4.313303] (-) TimerEvent: {}
+[4.413577] (-) TimerEvent: {}
+[4.513862] (-) TimerEvent: {}
+[4.614197] (-) TimerEvent: {}
+[4.714494] (-) TimerEvent: {}
+[4.814800] (-) TimerEvent: {}
+[4.915033] (-) TimerEvent: {}
+[5.015311] (-) TimerEvent: {}
+[5.115677] (-) TimerEvent: {}
+[5.216037] (-) TimerEvent: {}
+[5.316345] (-) TimerEvent: {}
+[5.416626] (-) TimerEvent: {}
+[5.516958] (-) TimerEvent: {}
+[5.617244] (-) TimerEvent: {}
+[5.717536] (-) TimerEvent: {}
+[5.817875] (-) TimerEvent: {}
+[5.918167] (-) TimerEvent: {}
+[6.018450] (-) TimerEvent: {}
+[6.118728] (-) TimerEvent: {}
+[6.218995] (-) TimerEvent: {}
+[6.319332] (-) TimerEvent: {}
+[6.419652] (-) TimerEvent: {}
+[6.519913] (-) TimerEvent: {}
+[6.620284] (-) TimerEvent: {}
+[6.720641] (-) TimerEvent: {}
+[6.820893] (-) TimerEvent: {}
+[6.921192] (-) TimerEvent: {}
+[7.021476] (-) TimerEvent: {}
+[7.121768] (-) TimerEvent: {}
+[7.222036] (-) TimerEvent: {}
+[7.322340] (-) TimerEvent: {}
+[7.422692] (-) TimerEvent: {}
+[7.522978] (-) TimerEvent: {}
+[7.623266] (-) TimerEvent: {}
+[7.723527] (-) TimerEvent: {}
+[7.823810] (-) TimerEvent: {}
+[7.924097] (-) TimerEvent: {}
+[8.024392] (-) TimerEvent: {}
+[8.124694] (-) TimerEvent: {}
+[8.225113] (-) TimerEvent: {}
+[8.325454] (-) TimerEvent: {}
+[8.425812] (-) TimerEvent: {}
+[8.526093] (-) TimerEvent: {}
+[8.626432] (-) TimerEvent: {}
+[8.726704] (-) TimerEvent: {}
+[8.827021] (-) TimerEvent: {}
+[8.927599] (-) TimerEvent: {}
+[9.027932] (-) TimerEvent: {}
+[9.128200] (-) TimerEvent: {}
+[9.228509] (-) TimerEvent: {}
+[9.328874] (-) TimerEvent: {}
+[9.429227] (-) TimerEvent: {}
+[9.529523] (-) TimerEvent: {}
+[9.629798] (-) TimerEvent: {}
+[9.730035] (-) TimerEvent: {}
+[9.830320] (-) TimerEvent: {}
+[9.930603] (-) TimerEvent: {}
+[10.030875] (-) TimerEvent: {}
+[10.131121] (-) TimerEvent: {}
+[10.231387] (-) TimerEvent: {}
+[10.331662] (-) TimerEvent: {}
+[10.431932] (-) TimerEvent: {}
+[10.532187] (-) TimerEvent: {}
+[10.632476] (-) TimerEvent: {}
+[10.732743] (-) TimerEvent: {}
+[10.833007] (-) TimerEvent: {}
+[10.933239] (-) TimerEvent: {}
+[11.033539] (-) TimerEvent: {}
+[11.133818] (-) TimerEvent: {}
+[11.234070] (-) TimerEvent: {}
+[11.334335] (-) TimerEvent: {}
+[11.434605] (-) TimerEvent: {}
+[11.534858] (-) TimerEvent: {}
+[11.635118] (-) TimerEvent: {}
+[11.735379] (-) TimerEvent: {}
+[11.835663] (-) TimerEvent: {}
+[11.936005] (-) TimerEvent: {}
+[12.036241] (-) TimerEvent: {}
+[12.136540] (-) TimerEvent: {}
+[12.236801] (-) TimerEvent: {}
+[12.337068] (-) TimerEvent: {}
+[12.437330] (-) TimerEvent: {}
+[12.537621] (-) TimerEvent: {}
+[12.638017] (-) TimerEvent: {}
+[12.738291] (-) TimerEvent: {}
+[12.838678] (-) TimerEvent: {}
+[12.939070] (-) TimerEvent: {}
+[13.039405] (-) TimerEvent: {}
+[13.069042] (laserscan_to_pointcloud) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable convert\x1b[0m\n'}
+[13.139544] (-) TimerEvent: {}
+[13.239841] (-) TimerEvent: {}
+[13.340218] (-) TimerEvent: {}
+[13.440619] (-) TimerEvent: {}
+[13.540961] (-) TimerEvent: {}
+[13.641328] (-) TimerEvent: {}
+[13.741765] (-) TimerEvent: {}
+[13.842167] (-) TimerEvent: {}
+[13.942418] (-) TimerEvent: {}
+[14.042726] (-) TimerEvent: {}
+[14.051713] (laserscan_to_pointcloud) StdoutLine: {'line': b'[100%] Built target convert\n'}
+[14.062011] (laserscan_to_pointcloud) CommandEnded: {'returncode': 0}
+[14.087216] (laserscan_to_pointcloud) JobProgress: {'identifier': 'laserscan_to_pointcloud', 'progress': 'install'}
+[14.097379] (laserscan_to_pointcloud) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kmw/cam_ws/build/laserscan_to_pointcloud'], 'cwd': '/home/kmw/cam_ws/build/laserscan_to_pointcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2_py310)'), ('LANGUAGE', 'en_US:en'), ('USER', 'kmw'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kmw/exam_ws/install/exam_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmw'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/kmw/cam_ws/src/laserscan_to_pointcloud/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '979'), ('SYSTEMD_EXEC_PID', '1346'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4355'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kmw/cam_ws/install:/home/kmw/exam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmw'), ('JOURNAL_STREAM', '8:12500'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/er:@/tmp/.ICE-unix/1113,unix/er:/tmp/.ICE-unix/1113'), ('INVOCATION_ID', '5de62715104543ce9d6d86fb4904287d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('CONDA_PREFIX_1', '/home/kmw/miniconda3'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z7P0W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '15'), ('AMENT_PREFIX_PATH', '/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/home/kmw/exam_ws/install/exam_msg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kmw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1a27da8-efe4-4390-82cd-281dbb4e5646'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/kmw/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2_py310'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kmw/cam_ws/build/laserscan_to_pointcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kmw/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:/home/kmw/cam_ws/install/projection/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no2/lib/python3.10/site-packages:/home/kmw/exam_ws/install/no1/lib/python3.10/site-packages:/home/kmw/exam_ws/install/fo_hum/lib/python3.10/site-packages:/home/kmw/exam_ws/install/exam_msg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/kmw/miniconda3/envs/ros2_py310'), ('GSETTINGS_SCHEMA_DIR_CONDA_BACKUP', ''), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kmw/exam_ws/install/exam_msg:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble')]), 'shell': False}
+[14.104091] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.104383] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/lib/laserscan_to_pointcloud/convert\n'}
+[14.107398] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Set runtime path of "/home/kmw/cam_ws/install/laserscan_to_pointcloud/lib/laserscan_to_pointcloud/convert" to ""\n'}
+[14.107776] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/src\n'}
+[14.107890] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/src/node.cpp\n'}
+[14.108211] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/ament_index/resource_index/package_run_dependencies/laserscan_to_pointcloud\n'}
+[14.108367] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/ament_index/resource_index/parent_prefix_path/laserscan_to_pointcloud\n'}
+[14.108439] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/environment/ament_prefix_path.sh\n'}
+[14.108548] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/environment/ament_prefix_path.dsv\n'}
+[14.108663] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/environment/path.sh\n'}
+[14.108757] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/environment/path.dsv\n'}
+[14.108822] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/local_setup.bash\n'}
+[14.108916] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/local_setup.sh\n'}
+[14.108994] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/local_setup.zsh\n'}
+[14.109075] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/local_setup.dsv\n'}
+[14.109156] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/package.dsv\n'}
+[14.109290] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/ament_index/resource_index/packages/laserscan_to_pointcloud\n'}
+[14.109419] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.109519] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/cmake/laserscan_to_pointcloudConfig.cmake\n'}
+[14.109597] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/cmake/laserscan_to_pointcloudConfig-version.cmake\n'}
+[14.109692] (laserscan_to_pointcloud) StdoutLine: {'line': b'-- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/package.xml\n'}
+[14.111413] (laserscan_to_pointcloud) CommandEnded: {'returncode': 0}
+[14.142881] (-) TimerEvent: {}
+[14.144976] (laserscan_to_pointcloud) JobEnded: {'identifier': 'laserscan_to_pointcloud', 'rc': 0}
+[14.145674] (-) EventReactorShutdown: {}

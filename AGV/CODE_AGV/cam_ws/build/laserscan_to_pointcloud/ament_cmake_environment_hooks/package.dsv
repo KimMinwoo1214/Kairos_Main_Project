@@ -1,0 +1,4 @@
+source;share/laserscan_to_pointcloud/local_setup.bash
+source;share/laserscan_to_pointcloud/local_setup.dsv
+source;share/laserscan_to_pointcloud/local_setup.sh
+source;share/laserscan_to_pointcloud/local_setup.zsh

@@ -1,0 +1,23 @@
+[0.999s] Invoking command in '/home/kmw/cam_ws/src/ros2_cv_cam': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/cam_ws/build/ros2_cv_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_cam build --build-base /home/kmw/cam_ws/build/ros2_cv_cam/build install --record /home/kmw/cam_ws/build/ros2_cv_cam/install.log --single-version-externally-managed install_data
+[1.248s] running egg_info
+[1.249s] writing ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/PKG-INFO
+[1.249s] writing dependency_links to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/dependency_links.txt
+[1.249s] writing entry points to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/entry_points.txt
+[1.249s] writing requirements to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/requires.txt
+[1.249s] writing top-level names to ../../build/ros2_cv_cam/ros2_cv_cam.egg-info/top_level.txt
+[1.251s] reading manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'
+[1.252s] writing manifest file '../../build/ros2_cv_cam/ros2_cv_cam.egg-info/SOURCES.txt'
+[1.252s] running build
+[1.252s] running build_py
+[1.252s] running install
+[1.253s] running install_lib
+[1.254s] running install_data
+[1.254s] running install_egg_info
+[1.257s] removing '/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam-0.0.0-py3.10.egg-info' (and everything under it)
+[1.257s] Copying ../../build/ros2_cv_cam/ros2_cv_cam.egg-info to /home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages/ros2_cv_cam-0.0.0-py3.10.egg-info
+[1.259s] running install_scripts
+[1.282s] Installing cam_sub script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam
+[1.282s] Installing img_sub script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam
+[1.282s] Installing qr_detect script to /home/kmw/cam_ws/install/ros2_cv_cam/lib/ros2_cv_cam
+[1.283s] writing list of installed files to '/home/kmw/cam_ws/build/ros2_cv_cam/install.log'
+[1.332s] Invoked command in '/home/kmw/cam_ws/src/ros2_cv_cam' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/cam_ws/build/ros2_cv_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/cam_ws/install/ros2_cv_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_cam build --build-base /home/kmw/cam_ws/build/ros2_cv_cam/build install --record /home/kmw/cam_ws/build/ros2_cv_cam/install.log --single-version-externally-managed install_data

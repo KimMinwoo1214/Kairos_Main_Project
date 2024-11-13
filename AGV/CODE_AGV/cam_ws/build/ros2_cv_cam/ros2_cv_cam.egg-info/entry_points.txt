@@ -1,0 +1,4 @@
+[console_scripts]
+cam_sub = ros2_cv_cam.cam_sub:main
+img_sub = ros2_cv_cam.img_sub:main
+qr_detect = ros2_cv_cam.qr_detect:main

@@ -1,0 +1,4 @@
+[console_scripts]
+img_pub = projection.image_pub:main
+lidar = projection.lidar:main
+projector = projection.projector:main

@@ -1,0 +1,25 @@
+[0.022s] Invoking command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/cam_ws/build/laserscan_to_pointcloud -- -j8 -l8
+[0.324s] [100%] Built target convert
+[0.325s] Invoked command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/cam_ws/build/laserscan_to_pointcloud -- -j8 -l8
+[0.620s] Invoking command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/cam_ws/build/laserscan_to_pointcloud
+[0.628s] -- Install configuration: ""
+[0.628s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/lib/laserscan_to_pointcloud/convert
+[0.629s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/src
+[0.629s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/src/node.cpp
+[0.629s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/ament_index/resource_index/package_run_dependencies/laserscan_to_pointcloud
+[0.629s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/ament_index/resource_index/parent_prefix_path/laserscan_to_pointcloud
+[0.629s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/environment/ament_prefix_path.sh
+[0.629s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/environment/ament_prefix_path.dsv
+[0.630s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/environment/path.sh
+[0.630s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/environment/path.dsv
+[0.630s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/local_setup.bash
+[0.630s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/local_setup.sh
+[0.630s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/local_setup.zsh
+[0.630s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/local_setup.dsv
+[0.630s] -- Installing: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/package.dsv
+[0.630s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/ament_index/resource_index/packages/laserscan_to_pointcloud
+[0.630s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.630s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/cmake/laserscan_to_pointcloudConfig.cmake
+[0.631s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/cmake/laserscan_to_pointcloudConfig-version.cmake
+[0.631s] -- Up-to-date: /home/kmw/cam_ws/install/laserscan_to_pointcloud/share/laserscan_to_pointcloud/package.xml
+[0.636s] Invoked command in '/home/kmw/cam_ws/build/laserscan_to_pointcloud' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/cam_ws/install/ros2_cv_cam:/home/kmw/cam_ws/install/projection:/home/kmw/exam_ws/install/no2:/home/kmw/exam_ws/install/no1:/home/kmw/exam_ws/install/fo_hum:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/cam_ws/build/laserscan_to_pointcloud
