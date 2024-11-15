@@ -21,7 +21,7 @@ class VideoProcessingThread(Thread):
     def __init__(self, width):
         Thread.__init__(self)
         self.width = width
-        self.vid = cv2.VideoCapture(0)
+        self.vid = cv2.VideoCapture(1)
     
         # 비디오 저장 객체 생성
         fourcc = cv2.VideoWriter_fourcc(*'XVID')
