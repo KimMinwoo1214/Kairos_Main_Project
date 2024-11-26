@@ -1,3 +1,0 @@
-bool trigger
----
-vision_msgs/Detection2DArray result

@@ -1,9 +1,0 @@
-/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_moveit/CMakeFiles/uninstall.dir
-/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_moveit/CMakeFiles/mycobot_moveit_uninstall.dir
-/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_moveit/CMakeFiles/test.dir
-/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_moveit/CMakeFiles/edit_cache.dir
-/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_moveit/CMakeFiles/rebuild_cache.dir
-/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_moveit/CMakeFiles/list_install_components.dir
-/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_moveit/CMakeFiles/install.dir
-/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_moveit/CMakeFiles/install/local.dir
-/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_moveit/CMakeFiles/install/strip.dir

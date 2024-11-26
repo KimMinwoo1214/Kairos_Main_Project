@@ -1,4 +1,0 @@
-srv/DetectionRQ.idl
-srv/DetectionRQ.srv
-srv/DetectionRQ_Request.msg
-srv/DetectionRQ_Response.msg
