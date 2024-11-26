@@ -1,0 +1,11 @@
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/uninstall.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/mycobot_ros2_cpp_cnt_uninstall.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/marker_creater.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/grip_test.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/test.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/edit_cache.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/rebuild_cache.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/list_install_components.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/install.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/install/local.dir
+/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_cpp_cnt/CMakeFiles/install/strip.dir

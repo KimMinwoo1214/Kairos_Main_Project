@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="robot">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.026767 -0.01554 0.075"
+        rpy="0 0 0" />
+      <mass
+        value="0.1883" />
+      <inertia
+        ixx="0.00029329"
+        ixy="-3.3956E-05"
+        ixz="-2.6337E-09"
+        iyy="0.0005445"
+        iyz="7.9205E-10"
+        izz="0.0003719" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="axis1_link">
+    <inertial>
+      <origin
+        xyz="0.046824 0.056719 -0.00011125"
+        rpy="0 0 0" />
+      <mass
+        value="0.28445" />
+      <inertia
+        ixx="0.00025925"
+        ixy="-6.7497E-05"
+        ixz="-3.128E-05"
+        iyy="0.0003931"
+        iyz="-1.6686E-05"
+        izz="0.00041221" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axis1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axis1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="axis1_joint"
+    type="continuous">
+    <origin
+      xyz="0.021569 -0.075 0.0059633"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="axis1_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="axis2_link">
+    <inertial>
+      <origin
+        xyz="-1.4283E-05 0.093446 0.014601"
+        rpy="0 0 0" />
+      <mass
+        value="0.07357" />
+      <inertia
+        ixx="9.88E-05"
+        ixy="1.4573E-09"
+        ixz="1.7419E-09"
+        iyy="1.3489E-05"
+        iyz="-9.0492E-06"
+        izz="9.6872E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axis2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axis2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="axis2_joint"
+    type="continuous">
+    <origin
+      xyz="0.088500000000001 0.0975 0"
+      rpy="0 0 0" />
+    <parent
+      link="axis1_link" />
+    <child
+      link="axis2_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="axis3_link">
+    <inertial>
+      <origin
+        xyz="-1.2296E-05 0.090234 0.029647"
+        rpy="0 0 0" />
+      <mass
+        value="0.068878" />
+      <inertia
+        ixx="7.709E-05"
+        ixy="-2.271E-09"
+        ixz="4.5802E-09"
+        iyy="1.3674E-05"
+        iyz="-1.1011E-05"
+        izz="7.4216E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axis3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axis3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="axis3_joint"
+    type="continuous">
+    <origin
+      xyz="0 0.130000000000002 0.000797161845945485"
+      rpy="3.14159265358979 0 3.14159265358979" />
+    <parent
+      link="axis2_link" />
+    <child
+      link="axis3_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="axis4_link">
+    <inertial>
+      <origin
+        xyz="0.0020068 0.034332 -0.00065458"
+        rpy="0 0 0" />
+      <mass
+        value="0.028747" />
+      <inertia
+        ixx="4.9966E-06"
+        ixy="-1.0618E-07"
+        ixz="7.3424E-10"
+        iyy="3.7208E-06"
+        iyz="-1.7553E-07"
+        izz="6.4556E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axis4_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axis4_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="axis4_joint"
+    type="continuous">
+    <origin
+      xyz="0 0.119999999999998 0"
+      rpy="3.14159265358979 0 3.14159265358979" />
+    <parent
+      link="axis3_link" />
+    <child
+      link="axis4_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="axisG_link">
+    <inertial>
+      <origin
+        xyz="-0.032598 0.0021154 0.068255"
+        rpy="0 0 0" />
+      <mass
+        value="0.10071" />
+      <inertia
+        ixx="4.2658E-05"
+        ixy="-1.1309E-06"
+        ixz="7.6585E-07"
+        iyy="2.6015E-05"
+        iyz="-5.1078E-07"
+        izz="2.8736E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axisG_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mycobot_moveit/config/meshes/axisG_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="axisG_joint"
+    type="continuous">
+    <origin
+      xyz="0 0.0327660460841696 -0.000797161845945443"
+      rpy="-1.57079632679488 3.14159265358979 0" />
+    <parent
+      link="axis4_link" />
+    <child
+      link="axisG_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+</robot>

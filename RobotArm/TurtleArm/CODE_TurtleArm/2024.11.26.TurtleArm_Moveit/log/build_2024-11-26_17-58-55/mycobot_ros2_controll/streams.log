@@ -1,0 +1,56 @@
+[0.346s] Invoking command in '/home/psy/2024.11.26.TurtleArm_Moveit/src/mycobot320_moveit2/mycobot_ros2_controll': AMENT_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_with_gripper:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_with_gripper:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces LD_LIBRARY_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mycobot_ros2_controll build --build-base /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build install --record /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/install.log --single-version-externally-managed install_data
+[0.486s] running egg_info
+[0.486s] creating ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info
+[0.486s] writing ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/PKG-INFO
+[0.486s] writing dependency_links to ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/dependency_links.txt
+[0.486s] writing entry points to ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/entry_points.txt
+[0.486s] writing requirements to ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/requires.txt
+[0.486s] writing top-level names to ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/top_level.txt
+[0.486s] writing manifest file '../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/SOURCES.txt'
+[0.487s] reading manifest file '../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/SOURCES.txt'
+[0.488s] writing manifest file '../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/SOURCES.txt'
+[0.488s] running build
+[0.488s] running build_py
+[0.488s] creating /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build
+[0.488s] creating /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib
+[0.488s] creating /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll
+[0.488s] copying mycobot_ros2_controll/__init__.py -> /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll
+[0.488s] copying mycobot_ros2_controll/camera_pub.py -> /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll
+[0.488s] copying mycobot_ros2_controll/detect_cube_client.py -> /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll
+[0.488s] copying mycobot_ros2_controll/detect_cube_hsv.py -> /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll
+[0.488s] copying mycobot_ros2_controll/rviz_controll.py -> /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll
+[0.488s] copying mycobot_ros2_controll/detect_cube_server.py -> /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll
+[0.488s] running install
+[0.489s] running install_lib
+[0.489s] creating /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll
+[0.489s] copying /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll/__init__.py -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll
+[0.489s] copying /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll/camera_pub.py -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll
+[0.489s] copying /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll/detect_cube_client.py -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll
+[0.489s] copying /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll/detect_cube_hsv.py -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll
+[0.489s] copying /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll/rviz_controll.py -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll
+[0.489s] copying /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build/lib/mycobot_ros2_controll/detect_cube_server.py -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll
+[0.489s] byte-compiling /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll/__init__.py to __init__.cpython-310.pyc
+[0.489s] byte-compiling /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll/camera_pub.py to camera_pub.cpython-310.pyc
+[0.490s] byte-compiling /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll/detect_cube_client.py to detect_cube_client.cpython-310.pyc
+[0.490s] byte-compiling /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll/detect_cube_hsv.py to detect_cube_hsv.cpython-310.pyc
+[0.491s] byte-compiling /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll/rviz_controll.py to rviz_controll.cpython-310.pyc
+[0.491s] byte-compiling /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll/detect_cube_server.py to detect_cube_server.cpython-310.pyc
+[0.492s] running install_data
+[0.492s] creating /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/share/ament_index
+[0.492s] creating /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/share/ament_index/resource_index
+[0.492s] creating /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/share/ament_index/resource_index/packages
+[0.493s] copying resource/mycobot_ros2_controll -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/share/ament_index/resource_index/packages
+[0.493s] copying package.xml -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/share/mycobot_ros2_controll
+[0.493s] creating /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/share/mycobot_ros2_controll/launch
+[0.493s] copying launch/rviz_controll.launch.py -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/share/mycobot_ros2_controll/launch
+[0.493s] creating /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/share/mycobot_ros2_controll/config
+[0.493s] copying config/example.yaml -> /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/share/mycobot_ros2_controll/config
+[0.493s] running install_egg_info
+[0.494s] Copying ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll-0.0.0-py3.10.egg-info
+[0.494s] running install_scripts
+[0.507s] Installing cam_pub script to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/mycobot_ros2_controll
+[0.507s] Installing detect_cube_hsv script to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/mycobot_ros2_controll
+[0.507s] Installing detect_cube_server script to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/mycobot_ros2_controll
+[0.507s] Installing rviz_controll script to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/mycobot_ros2_controll
+[0.507s] writing list of installed files to '/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/install.log'
+[0.521s] Invoked command in '/home/psy/2024.11.26.TurtleArm_Moveit/src/mycobot320_moveit2/mycobot_ros2_controll' returned '0': AMENT_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_with_gripper:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_with_gripper:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces LD_LIBRARY_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mycobot_ros2_controll build --build-base /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build install --record /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/install.log --single-version-externally-managed install_data
