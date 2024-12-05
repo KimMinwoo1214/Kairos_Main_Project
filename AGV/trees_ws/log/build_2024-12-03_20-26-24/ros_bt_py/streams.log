@@ -1,0 +1,70 @@
+[2.781s] Invoking command in '/home/kmw/trees_ws/src/ros2_ros_bt_py/ros_bt_py': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/ros_bt_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/build/test_tree:/home/kmw/trees_ws/build/spot_bt_ros:/home/kmw/trees_ws/build/py_trees_ros_viewer:/home/kmw/trees_ws/build/py_trees_ros_tutorials:/home/kmw/trees_ws/build/py_trees_ros:/home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_bt_py build --build-base /home/kmw/trees_ws/build/ros_bt_py/build install --record /home/kmw/trees_ws/build/ros_bt_py/install.log --single-version-externally-managed install_data
+[3.108s] Running /opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_python_module.py /home/kmw/trees_ws/build/ros_bt_py/ros_bt_py/parameters.py config/tree_node_parameters.yaml 
+[3.451s] Running /opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_python_module.py /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/parameters.py config/tree_node_parameters.yaml 
+[3.900s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[3.900s]   warnings.warn(msg)
+[4.293s] running egg_info
+[4.343s] writing ../../../build/ros_bt_py/ros_bt_py.egg-info/PKG-INFO
+[4.343s] writing dependency_links to ../../../build/ros_bt_py/ros_bt_py.egg-info/dependency_links.txt
+[4.344s] writing entry points to ../../../build/ros_bt_py/ros_bt_py.egg-info/entry_points.txt
+[4.344s] writing requirements to ../../../build/ros_bt_py/ros_bt_py.egg-info/requires.txt
+[4.344s] writing top-level names to ../../../build/ros_bt_py/ros_bt_py.egg-info/top_level.txt
+[4.432s] reading manifest file '../../../build/ros_bt_py/ros_bt_py.egg-info/SOURCES.txt'
+[4.433s] adding license file 'LICENSE'
+[4.436s] writing manifest file '../../../build/ros_bt_py/ros_bt_py.egg-info/SOURCES.txt'
+[4.436s] running build
+[4.437s] running build_py
+[4.437s] copying ros_bt_py/package_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.437s] copying ros_bt_py/node_data.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.438s] copying ros_bt_py/node_config.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.438s] copying ros_bt_py/node.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.438s] copying ros_bt_py/__init__.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.439s] copying ros_bt_py/exceptions.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.439s] copying ros_bt_py/helpers.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.439s] copying ros_bt_py/tree_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.440s] copying ros_bt_py/debug_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.440s] copying ros_bt_py/ros_helpers.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.440s] copying ros_bt_py/subtree_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.441s] copying ros_bt_py/tree_node.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[4.441s] copying ros_bt_py/nodes/format.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.442s] copying ros_bt_py/nodes/decorators.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.442s] copying ros_bt_py/nodes/setters.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.442s] copying ros_bt_py/nodes/sequence.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.443s] copying ros_bt_py/nodes/getters.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.443s] copying ros_bt_py/nodes/__init__.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.443s] copying ros_bt_py/nodes/compare.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.444s] copying ros_bt_py/nodes/maths.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.444s] copying ros_bt_py/nodes/parallel.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.444s] copying ros_bt_py/nodes/io.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.445s] copying ros_bt_py/nodes/passthrough_node.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.445s] copying ros_bt_py/nodes/random_number.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.445s] copying ros_bt_py/nodes/wait.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.445s] copying ros_bt_py/nodes/list.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.446s] copying ros_bt_py/nodes/constant.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.446s] copying ros_bt_py/nodes/fallback.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[4.447s] copying ros_bt_py/ros_nodes/param.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.447s] copying ros_bt_py/ros_nodes/action.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.448s] copying ros_bt_py/ros_nodes/file.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.448s] copying ros_bt_py/ros_nodes/__init__.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.448s] copying ros_bt_py/ros_nodes/enum.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.449s] copying ros_bt_py/ros_nodes/topic.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.449s] copying ros_bt_py/ros_nodes/subtree.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.450s] copying ros_bt_py/ros_nodes/throttle.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.450s] copying ros_bt_py/ros_nodes/message_converters.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.451s] copying ros_bt_py/ros_nodes/time.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.451s] copying ros_bt_py/ros_nodes/messages_from_dict.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.451s] copying ros_bt_py/ros_nodes/service.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[4.454s] running install
+[4.464s] running install_lib
+[4.530s] running install_data
+[4.531s] copying resource/ros_bt_py -> /home/kmw/trees_ws/install/ros_bt_py/share/ament_index/resource_index/packages
+[4.531s] copying package.xml -> /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py
+[4.532s] copying config/tree_node_parameters.yaml -> /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py/config
+[4.532s] copying launch/ros_bt_py.launch.py -> /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py/launch
+[4.533s] running install_egg_info
+[4.588s] removing '/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py-0.1.1-py3.10.egg-info' (and everything under it)
+[4.589s] Copying ../../../build/ros_bt_py/ros_bt_py.egg-info to /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py-0.1.1-py3.10.egg-info
+[4.590s] running install_scripts
+[4.922s] Installing tree_node script to /home/kmw/trees_ws/install/ros_bt_py/lib/ros_bt_py
+[4.925s] writing list of installed files to '/home/kmw/trees_ws/build/ros_bt_py/install.log'
+[5.050s] Invoked command in '/home/kmw/trees_ws/src/ros2_ros_bt_py/ros_bt_py' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/ros_bt_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/build/test_tree:/home/kmw/trees_ws/build/spot_bt_ros:/home/kmw/trees_ws/build/py_trees_ros_viewer:/home/kmw/trees_ws/build/py_trees_ros_tutorials:/home/kmw/trees_ws/build/py_trees_ros:/home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_bt_py build --build-base /home/kmw/trees_ws/build/ros_bt_py/build install --record /home/kmw/trees_ws/build/ros_bt_py/install.log --single-version-externally-managed install_data

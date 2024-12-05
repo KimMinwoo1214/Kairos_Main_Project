@@ -35,7 +35,7 @@ def start_camera():
 class MyCobotController(QWidget):
     def __init__(self):
         super().__init__()
-        self.mc = MyCobot('COM7', 115200)
+        self.mc = MyCobot('/dev/ttyACM0', 115200)
         self.joint_ranges = [
             (-1600, 1600),  # 조인트 범위를 0.1 단위로 확장
             (-850, 900),

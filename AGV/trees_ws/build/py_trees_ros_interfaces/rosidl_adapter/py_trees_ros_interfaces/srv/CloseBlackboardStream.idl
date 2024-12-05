@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from py_trees_ros_interfaces/srv/CloseBlackboardStream.srv
+// generated code does not contain a copyright notice
+
+
+module py_trees_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Close an existing blackboard stream." "\n"
+      "" "\n"
+      "Request" "\n"
+      "  topic_name: blackboard stream to close" "\n"
+      "" "\n"
+      "Response" "\n"
+      "  result: success/failure of the operation (failure: stream did not exist)")
+    struct CloseBlackboardStream_Request {
+      string topic_name;
+    };
+    struct CloseBlackboardStream_Response {
+      boolean result;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from py_trees_ros_interfaces/msg/KeyValue.msg
+// generated code does not contain a copyright notice
+
+
+module py_trees_ros_interfaces {
+  module msg {
+    struct KeyValue {
+      string key;
+
+      string value;
+    };
+  };
+};

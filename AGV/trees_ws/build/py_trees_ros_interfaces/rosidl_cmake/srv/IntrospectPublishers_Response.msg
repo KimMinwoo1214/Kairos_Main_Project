@@ -1,0 +1,2 @@
+
+PublisherDetails[] publisher_details

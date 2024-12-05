@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from py_trees_ros_interfaces/srv/GetBlackboardVariables.srv
+// generated code does not contain a copyright notice
+
+
+module py_trees_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Retrieve a list of variables currently available in the blackboard." "\n"
+      "This is primarily used as a utility for the blackboard watcher (find what" "\n"
+      "variables are available without the entire spam of the blackboard contents" "\n"
+      "before proceeding to watch a subset of these.")
+    struct GetBlackboardVariables_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetBlackboardVariables_Response {
+      sequence<string> variables;
+    };
+  };
+};

@@ -1,0 +1,23 @@
+[1.168s] Invoking command in '/home/kmw/trees_ws/build/py_trees_ros_viewer': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kmw/trees_ws/build/py_trees_ros_viewer/build --no-deps symlink_data --force
+[1.190s] /home/kmw/trees_ws/build/py_trees_ros_viewer/setup.py:5: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[1.190s]   from distutils import log
+[1.194s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/_distutils_hack/__init__.py:15: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[1.194s]   warnings.warn(
+[1.194s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[1.194s]   warnings.warn(
+[1.519s] running develop
+[1.759s] running egg_info
+[1.776s] writing py_trees_ros_viewer.egg-info/PKG-INFO
+[1.776s] writing dependency_links to py_trees_ros_viewer.egg-info/dependency_links.txt
+[1.777s] writing entry points to py_trees_ros_viewer.egg-info/entry_points.txt
+[1.777s] writing top-level names to py_trees_ros_viewer.egg-info/top_level.txt
+[1.813s] reading manifest file 'py_trees_ros_viewer.egg-info/SOURCES.txt'
+[1.814s] writing manifest file 'py_trees_ros_viewer.egg-info/SOURCES.txt'
+[1.836s] running build_ext
+[1.836s] Creating /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py-trees-ros-viewer.egg-link (link to .)
+[1.837s] Installing py-trees-tree-viewer script to /home/kmw/trees_ws/install/py_trees_ros_viewer/bin
+[1.837s] 
+[1.837s] Installed /home/kmw/trees_ws/build/py_trees_ros_viewer
+[1.837s] running symlink_data
+[1.837s] symbolically linking /home/kmw/trees_ws/build/py_trees_ros_viewer/package.xml -> /home/kmw/trees_ws/install/py_trees_ros_viewer/share/py_trees_ros_viewer
+[1.922s] Invoked command in '/home/kmw/trees_ws/build/py_trees_ros_viewer' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kmw/trees_ws/build/py_trees_ros_viewer/build --no-deps symlink_data --force

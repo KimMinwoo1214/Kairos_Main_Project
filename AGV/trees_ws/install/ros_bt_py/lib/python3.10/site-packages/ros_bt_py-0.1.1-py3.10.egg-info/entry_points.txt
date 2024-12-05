@@ -1,0 +1,2 @@
+[console_scripts]
+tree_node = ros_bt_py.tree_node:main

@@ -1,0 +1,4 @@
+[console_scripts]
+spot_arm_demo = scripts.demo_arm:main
+spot_fiducial_demo = scripts.demo_fiducial:main
+spot_pose_demo = scripts.demo_pose:main

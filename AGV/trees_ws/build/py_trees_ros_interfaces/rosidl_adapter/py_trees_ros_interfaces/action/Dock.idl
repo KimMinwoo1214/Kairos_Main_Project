@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from py_trees_ros_interfaces/action/Dock.action
+// generated code does not contain a copyright notice
+
+
+module py_trees_ros_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Dock" "\n"
+      "" "\n"
+      "Interface to a mock docking controller")
+    struct Dock_Goal {
+      @verbatim (language="comment", text=
+        "Goal" "\n"
+        "" "\n"
+        "To dock (True) or undock (False)")
+      boolean dock;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Dock_Result {
+      string message;
+    };
+    struct Dock_Feedback {
+      @verbatim (language="comment", text=
+        "Feedback")
+      float percentage_completed;
+    };
+  };
+};

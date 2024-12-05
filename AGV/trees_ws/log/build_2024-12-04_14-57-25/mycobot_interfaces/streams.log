@@ -1,0 +1,141 @@
+[0.167s] Invoking command in '/home/kmw/trees_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/mycobot320_moveit2-main/mycobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/mycobot_interfaces
+[1.054s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.054s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.054s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.054s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.054s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.054s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[2.427s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.024s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.069s] -- Found PythonInterp: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found suitable version "3.10.14", minimum required is "3.6") 
+[5.077s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.134s] -- Found PythonLibs: /home/kmw/miniconda3/envs/ros2_py310/lib/libpython3.10.so (found suitable version "3.10.14", minimum required is "3.5") 
+[5.137s] -- Using PYTHON_EXECUTABLE: /home/kmw/miniconda3/envs/ros2_py310/bin/python3
+[5.139s] -- Using PYTHON_INCLUDE_DIRS: /home/kmw/miniconda3/envs/ros2_py310/include/python3.10
+[5.139s] -- Using PYTHON_LIBRARIES: /home/kmw/miniconda3/envs/ros2_py310/lib/libpython3.10.so
+[5.215s] -- Found PythonExtra: .so  
+[6.021s] -- Using numpy include directory: /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/include
+[6.069s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.145s] -- Added test 'lint_cmake' to check CMake code style
+[6.150s] -- Added test 'xmllint' to check XML markup files
+[6.157s] -- Configuring done
+[6.265s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[6.265s]   Cannot generate a safe runtime search path for target
+[6.265s]   mycobot_interfaces__rosidl_generator_py because files in some directories
+[6.265s]   may conflict with libraries in implicit directories:
+[6.265s] 
+[6.265s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.265s]       /home/kmw/miniconda3/envs/ros2_py310/lib
+[6.266s] 
+[6.266s]   Some of these libraries may not be found correctly.
+[6.266s] Call Stack (most recent call first):
+[6.266s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.266s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.266s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[6.266s] 
+[6.266s] [0m
+[6.285s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[6.291s]   Cannot generate a safe runtime search path for target
+[6.291s]   mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext because files in
+[6.291s]   some directories may conflict with libraries in implicit directories:
+[6.292s] 
+[6.292s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.292s]       /home/kmw/miniconda3/envs/ros2_py310/lib
+[6.292s] 
+[6.292s]   Some of these libraries may not be found correctly.
+[6.292s] Call Stack (most recent call first):
+[6.292s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.292s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.292s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[6.292s] 
+[6.293s] [0m
+[6.293s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[6.293s]   Cannot generate a safe runtime search path for target
+[6.293s]   mycobot_interfaces__rosidl_typesupport_introspection_c__pyext because files
+[6.293s]   in some directories may conflict with libraries in implicit directories:
+[6.293s] 
+[6.293s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.293s]       /home/kmw/miniconda3/envs/ros2_py310/lib
+[6.293s] 
+[6.294s]   Some of these libraries may not be found correctly.
+[6.294s] Call Stack (most recent call first):
+[6.294s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.294s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.297s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[6.297s] 
+[6.297s] [0m
+[6.297s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[6.297s]   Cannot generate a safe runtime search path for target
+[6.297s]   mycobot_interfaces__rosidl_typesupport_c__pyext because files in some
+[6.298s]   directories may conflict with libraries in implicit directories:
+[6.298s] 
+[6.298s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[6.298s]       /home/kmw/miniconda3/envs/ros2_py310/lib
+[6.298s] 
+[6.298s]   Some of these libraries may not be found correctly.
+[6.298s] Call Stack (most recent call first):
+[6.298s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.298s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.298s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[6.299s] 
+[6.304s] [0m
+[6.332s] -- Generating done
+[6.379s] -- Build files have been written to: /home/kmw/trees_ws/build/mycobot_interfaces
+[7.147s] Invoked command in '/home/kmw/trees_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/mycobot320_moveit2-main/mycobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/mycobot_interfaces
+[7.148s] Invoking command in '/home/kmw/trees_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/mycobot_interfaces -- -j8 -l8
+[7.290s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.342s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.351s] [  6%] Built target ament_cmake_python_copy_mycobot_interfaces
+[8.306s] [  6%] Built target mycobot_interfaces__cpp
+[8.311s] running egg_info
+[8.343s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.350s] creating mycobot_interfaces.egg-info
+[8.351s] writing mycobot_interfaces.egg-info/PKG-INFO
+[8.352s] writing dependency_links to mycobot_interfaces.egg-info/dependency_links.txt
+[8.353s] writing top-level names to mycobot_interfaces.egg-info/top_level.txt
+[8.357s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[8.358s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.358s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.530s] reading manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[8.535s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[8.751s] [ 19%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/detection_rq__functions.c.o[0m
+[8.792s] [ 19%] Built target ament_cmake_python_build_mycobot_interfaces_egg
+[8.984s] [ 22%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/detection_rq__type_support.cpp.o[0m
+[9.097s] [ 25%] [32m[1mLinking C shared library libmycobot_interfaces__rosidl_generator_c.so[0m
+[9.328s] [ 25%] Built target mycobot_interfaces__rosidl_generator_c
+[9.399s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.419s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.438s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.645s] [ 38%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/detection_rq__type_support.cpp.o[0m
+[9.768s] [ 41%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/detection_rq__type_support.cpp.o[0m
+[9.844s] [ 45%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_cpp.so[0m
+[10.032s] [ 45%] Built target mycobot_interfaces__rosidl_typesupport_cpp
+[10.536s] [ 48%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/detection_rq__type_support.cpp.o[0m
+[10.686s] [ 51%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_c.so[0m
+[10.709s] [ 54%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.736s] [ 58%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/detection_rq__type_support_c.cpp.o[0m
+[10.924s] [ 58%] Built target mycobot_interfaces__rosidl_typesupport_c
+[11.037s] [ 61%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/detection_rq__type_support.c.o[0m
+[11.046s] [ 61%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[11.195s] [ 64%] [32m[1mLinking C shared library libmycobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[11.333s] [ 64%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c
+[12.019s] [ 67%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.269s] [ 67%] Built target mycobot_interfaces__rosidl_typesupport_introspection_cpp
+[12.280s] [ 70%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.641s] [ 70%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c
+[12.709s] [ 70%] Built target mycobot_interfaces
+[12.791s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.466s] [ 74%] Built target mycobot_interfaces__py
+[14.546s] [ 77%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_detection_rq_s.c.o[0m
+[15.040s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/libmycobot_interfaces__rosidl_generator_py.so[0m
+[15.255s] [ 80%] Built target mycobot_interfaces__rosidl_generator_py
+[15.338s] [ 83%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.341s] [ 90%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.347s] [ 90%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.681s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.817s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.892s] [ 96%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[15.912s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.939s] [100%] Built target mycobot_interfaces__rosidl_typesupport_c__pyext
+[16.064s] [100%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c__pyext

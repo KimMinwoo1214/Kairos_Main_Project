@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: spot_bt_ros
+Version: 0.1.0
+Summary: Behavior Tree ROS 2 package for Boston Dynamics' Spot robot.
+Maintainer: zmkakis
+Maintainer-email: zmkakis@sandia.gov
+License: MIT
+Requires-Dist: setuptools
+Requires-Dist: py_trees
+Requires-Dist: py_trees_ros

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from py_trees_ros_interfaces/srv/CloseSnapshotStream.srv
+// generated code does not contain a copyright notice
+
+
+module py_trees_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Close an existing snapshot stream." "\n"
+      "" "\n"
+      "Request" "\n"
+      "  topic_name: snapshot stream to close" "\n"
+      "" "\n"
+      "Response" "\n"
+      "  result: success/failure of the operation (failure: stream did not exist)")
+    struct CloseSnapshotStream_Request {
+      string topic_name;
+    };
+    struct CloseSnapshotStream_Response {
+      boolean result;
+    };
+  };
+};

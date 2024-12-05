@@ -1,0 +1,18 @@
+[0.338s] Invoking command in '/home/kmw/trees_ws/build/mycobot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/mycobot320_moveit2-main/mycobot_moveit -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/mycobot_moveit
+[0.416s] -- The C compiler identification is GNU 11.4.0
+[0.493s] -- The CXX compiler identification is GNU 11.4.0
+[0.501s] -- Detecting C compiler ABI info
+[0.618s] -- Detecting C compiler ABI info - done
+[0.639s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.640s] -- Detecting C compile features
+[0.641s] -- Detecting C compile features - done
+[0.645s] -- Detecting CXX compiler ABI info
+[0.745s] -- Detecting CXX compiler ABI info - done
+[0.753s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.753s] -- Detecting CXX compile features
+[0.754s] -- Detecting CXX compile features - done
+[0.756s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.265s] -- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter 
+[1.526s] -- Configuring done
+[1.529s] -- Generating done
+[1.531s] -- Build files have been written to: /home/kmw/trees_ws/build/mycobot_moveit

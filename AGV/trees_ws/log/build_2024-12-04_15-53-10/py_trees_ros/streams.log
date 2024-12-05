@@ -1,0 +1,53 @@
+[1.321s] Invoking command in '/home/kmw/trees_ws/src/py_trees_ros': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/kmw/trees_ws/build/py_trees_ros/build install --record /home/kmw/trees_ws/build/py_trees_ros/install.log --single-version-externally-managed install_data
+[1.507s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'test_suite'
+[1.507s]   warnings.warn(msg)
+[1.507s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.507s]   warnings.warn(msg)
+[1.626s] running egg_info
+[1.647s] writing ../../build/py_trees_ros/py_trees_ros.egg-info/PKG-INFO
+[1.648s] writing dependency_links to ../../build/py_trees_ros/py_trees_ros.egg-info/dependency_links.txt
+[1.648s] writing entry points to ../../build/py_trees_ros/py_trees_ros.egg-info/entry_points.txt
+[1.648s] writing top-level names to ../../build/py_trees_ros/py_trees_ros.egg-info/top_level.txt
+[1.689s] reading manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+[1.690s] adding license file 'LICENSE'
+[1.691s] writing manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+[1.691s] running build
+[1.691s] running build_py
+[1.691s] copying py_trees_ros/subscribers.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.692s] copying py_trees_ros/action_clients.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.692s] copying py_trees_ros/blackboard.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.692s] copying py_trees_ros/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.692s] copying py_trees_ros/battery.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.692s] copying py_trees_ros/actions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.692s] copying py_trees_ros/conversions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.692s] copying py_trees_ros/exceptions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.693s] copying py_trees_ros/publishers.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.693s] copying py_trees_ros/trees.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.693s] copying py_trees_ros/transforms.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.693s] copying py_trees_ros/visitors.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.693s] copying py_trees_ros/version.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.693s] copying py_trees_ros/utilities.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.693s] copying py_trees_ros/service_clients.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+[1.694s] copying py_trees_ros/programs/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[1.694s] copying py_trees_ros/programs/echo.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[1.694s] copying py_trees_ros/programs/blackboard_watcher.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[1.694s] copying py_trees_ros/programs/tree_watcher.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[1.694s] copying py_trees_ros/programs/multi_talker.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+[1.695s] copying py_trees_ros/mock/set_bool.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+[1.695s] copying py_trees_ros/mock/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+[1.695s] copying py_trees_ros/mock/actions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+[1.695s] copying py_trees_ros/mock/services.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+[1.695s] copying py_trees_ros/mock/dock.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+[1.696s] running install
+[1.701s] running install_lib
+[1.723s] running install_data
+[1.723s] copying package.xml -> /home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros
+[1.723s] copying resources/py_trees_ros -> /home/kmw/trees_ws/install/py_trees_ros/share/ament_index/resource_index/packages
+[1.723s] running install_egg_info
+[1.746s] removing '/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros-2.2.2-py3.10.egg-info' (and everything under it)
+[1.746s] Copying ../../build/py_trees_ros/py_trees_ros.egg-info to /home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros-2.2.2-py3.10.egg-info
+[1.746s] running install_scripts
+[1.906s] Installing py-trees-blackboard-watcher script to /home/kmw/trees_ws/install/py_trees_ros/bin
+[1.906s] Installing py-trees-tree-watcher script to /home/kmw/trees_ws/install/py_trees_ros/bin
+[1.907s] writing list of installed files to '/home/kmw/trees_ws/build/py_trees_ros/install.log'
+[1.958s] Invoked command in '/home/kmw/trees_ws/src/py_trees_ros' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/kmw/trees_ws/build/py_trees_ros/build install --record /home/kmw/trees_ws/build/py_trees_ros/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from py_trees_ros_interfaces/msg/Statistics.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module py_trees_ros_interfaces {
+  module msg {
+    struct Statistics {
+      int64 count;
+
+      builtin_interfaces::msg::Time stamp;
+
+      float tick_duration;
+
+      float tick_duration_average;
+
+      float tick_duration_variance;
+
+      float tick_interval;
+
+      float tick_interval_average;
+
+      float tick_interval_variance;
+    };
+  };
+};

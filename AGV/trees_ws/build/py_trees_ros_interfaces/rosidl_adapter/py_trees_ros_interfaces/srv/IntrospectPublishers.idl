@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from py_trees_ros_interfaces/srv/IntrospectPublishers.srv
+// generated code does not contain a copyright notice
+
+#include "py_trees_ros_interfaces/msg/PublisherDetails.idl"
+
+module py_trees_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Introspect the requested node for information about it's operation.")
+    struct IntrospectPublishers_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct IntrospectPublishers_Response {
+      sequence<py_trees_ros_interfaces::msg::PublisherDetails> publisher_details;
+    };
+  };
+};

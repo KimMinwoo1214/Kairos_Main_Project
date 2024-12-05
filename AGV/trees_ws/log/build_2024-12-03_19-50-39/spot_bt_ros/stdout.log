@@ -1,0 +1,56 @@
+running egg_info
+creating ../../build/spot_bt_ros/spot_bt_ros.egg-info
+writing ../../build/spot_bt_ros/spot_bt_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/spot_bt_ros/spot_bt_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/spot_bt_ros/spot_bt_ros.egg-info/entry_points.txt
+writing requirements to ../../build/spot_bt_ros/spot_bt_ros.egg-info/requires.txt
+writing top-level names to ../../build/spot_bt_ros/spot_bt_ros.egg-info/top_level.txt
+writing manifest file '../../build/spot_bt_ros/spot_bt_ros.egg-info/SOURCES.txt'
+reading manifest file '../../build/spot_bt_ros/spot_bt_ros.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+adding license file 'NOTICE'
+writing manifest file '../../build/spot_bt_ros/spot_bt_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+copying spot_bt_ros/node.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+copying spot_bt_ros/__init__.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+copying spot_bt_ros/utils.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+copying spot_bt_ros/cameras.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+copying spot_bt_ros/data.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+copying spot_bt_ros/tick.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+copying spot_bt_ros/transform.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+running install
+running install_lib
+creating /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/node.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/__init__.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/utils.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/cameras.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/data.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/tick.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/transform.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/node.py to node.cpython-310.pyc
+byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/utils.py to utils.cpython-310.pyc
+byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/cameras.py to cameras.cpython-310.pyc
+byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/data.py to data.cpython-310.pyc
+byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/tick.py to tick.cpython-310.pyc
+byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/transform.py to transform.cpython-310.pyc
+running install_data
+creating /home/kmw/trees_ws/install/spot_bt_ros/share/ament_index/resource_index/packages
+copying resource/spot_bt_ros -> /home/kmw/trees_ws/install/spot_bt_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros
+creating /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/launch
+copying launch/demo.launch.py -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/launch
+creating /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/scripts
+copying scripts/demo_arm.py -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/scripts
+copying scripts/demo_fiducial.py -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/scripts
+copying scripts/demo_pose.py -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/scripts
+running install_egg_info
+Copying ../../build/spot_bt_ros/spot_bt_ros.egg-info to /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros-0.1.0-py3.10.egg-info
+running install_scripts
+Installing spot_arm_demo script to /home/kmw/trees_ws/install/spot_bt_ros/lib/spot_bt_ros
+Installing spot_fiducial_demo script to /home/kmw/trees_ws/install/spot_bt_ros/lib/spot_bt_ros
+Installing spot_pose_demo script to /home/kmw/trees_ws/install/spot_bt_ros/lib/spot_bt_ros
+writing list of installed files to '/home/kmw/trees_ws/build/spot_bt_ros/install.log'

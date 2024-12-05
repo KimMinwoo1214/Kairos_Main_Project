@@ -1,0 +1,4 @@
+Invoking command in '/home/kmw/trees_ws/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/srdfdom -- -j8 -l8
+Invoked command in '/home/kmw/trees_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/srdfdom -- -j8 -l8
+Invoking command in '/home/kmw/trees_ws/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/srdfdom
+Invoked command in '/home/kmw/trees_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/srdfdom

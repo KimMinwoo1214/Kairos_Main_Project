@@ -1,0 +1,52 @@
+[1.673s] Invoking command in '/home/kmw/trees_ws/src/moveit2/moveit_configs_utils': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/srdfdom CONDA_PROMPT_MODIFIER=(ros2_py310) LD_LIBRARY_PATH=/home/kmw/trees_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kmw/trees_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kmw/trees_ws/install/srdfdom/lib/python3.10/site-packages:/home/kmw/trees_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/kmw/trees_ws/build/moveit_configs_utils/build install --record /home/kmw/trees_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data
+[1.934s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.934s]   warnings.warn(msg)
+[2.092s] running egg_info
+[2.122s] creating ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[2.122s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[2.125s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[2.125s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[2.125s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[2.126s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[2.175s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[2.177s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[2.177s] running build
+[2.177s] running build_py
+[2.177s] creating /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.178s] copying moveit_configs_utils/launches.py -> /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.178s] copying moveit_configs_utils/__init__.py -> /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.178s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.179s] copying moveit_configs_utils/launch_utils.py -> /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.180s] creating /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[2.180s] copying moveit_configs_utils/substitutions/__init__.py -> /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[2.180s] copying moveit_configs_utils/substitutions/xacro.py -> /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[2.181s] running install
+[2.189s] running install_lib
+[2.213s] creating /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.214s] copying /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.215s] copying /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.215s] copying /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.216s] creating /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[2.216s] copying /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[2.216s] copying /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[2.216s] copying /home/kmw/trees_ws/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.218s] byte-compiling /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launches.py to launches.cpython-310.pyc
+[2.223s] byte-compiling /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-310.pyc
+[2.223s] byte-compiling /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[2.226s] byte-compiling /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-310.pyc
+[2.227s] byte-compiling /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-310.pyc
+[2.228s] byte-compiling /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-310.pyc
+[2.230s] running install_data
+[2.230s] creating /home/kmw/trees_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[2.231s] copying resource/moveit_configs_utils -> /home/kmw/trees_ws/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[2.234s] copying package.xml -> /home/kmw/trees_ws/install/moveit_configs_utils/share/moveit_configs_utils
+[2.234s] creating /home/kmw/trees_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.234s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/kmw/trees_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.234s] copying default_configs/ompl_planning.yaml -> /home/kmw/trees_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.235s] copying default_configs/ompl_defaults.yaml -> /home/kmw/trees_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.235s] copying default_configs/chomp_planning.yaml -> /home/kmw/trees_ws/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.235s] running install_egg_info
+[2.274s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.5.6-py3.10.egg-info
+[2.275s] running install_scripts
+[2.490s] writing list of installed files to '/home/kmw/trees_ws/build/moveit_configs_utils/install.log'
+[2.570s] Invoked command in '/home/kmw/trees_ws/src/moveit2/moveit_configs_utils' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/srdfdom CONDA_PROMPT_MODIFIER=(ros2_py310) LD_LIBRARY_PATH=/home/kmw/trees_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kmw/trees_ws/build/moveit_configs_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kmw/trees_ws/install/srdfdom/lib/python3.10/site-packages:/home/kmw/trees_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/kmw/trees_ws/build/moveit_configs_utils/build install --record /home/kmw/trees_ws/build/moveit_configs_utils/install.log --single-version-externally-managed install_data

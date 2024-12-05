@@ -1,0 +1,4 @@
+[console_scripts]
+number = test_tree.num_input:main
+sample = test_tree.sample_code:main
+tree = test_tree.behavior_tree:main

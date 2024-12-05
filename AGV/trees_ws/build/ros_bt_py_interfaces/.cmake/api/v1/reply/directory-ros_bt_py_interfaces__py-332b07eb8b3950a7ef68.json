@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros_bt_py_interfaces__py",
+		"source" : "/home/kmw/trees_ws/build/ros_bt_py_interfaces/ros_bt_py_interfaces__py"
+	}
+}

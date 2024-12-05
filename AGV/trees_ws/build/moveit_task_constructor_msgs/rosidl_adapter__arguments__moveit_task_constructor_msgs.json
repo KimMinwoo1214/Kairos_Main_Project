@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/home/kmw/trees_ws/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

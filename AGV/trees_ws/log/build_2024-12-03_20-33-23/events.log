@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (py_trees_ros) JobQueued: {'identifier': 'py_trees_ros', 'dependencies': OrderedDict()}
+[0.000328] (test_tree) JobQueued: {'identifier': 'test_tree', 'dependencies': OrderedDict([('py_trees_ros', '/home/kmw/trees_ws/install/py_trees_ros')])}
+[0.000384] (py_trees_ros) JobStarted: {'identifier': 'py_trees_ros'}
+[0.098208] (-) TimerEvent: {}
+[0.198548] (-) TimerEvent: {}
+[0.298845] (-) TimerEvent: {}
+[0.399207] (-) TimerEvent: {}
+[0.499540] (-) TimerEvent: {}
+[0.599872] (-) TimerEvent: {}
+[0.700182] (-) TimerEvent: {}
+[0.800528] (-) TimerEvent: {}
+[0.900836] (-) TimerEvent: {}
+[1.001191] (-) TimerEvent: {}
+[1.101560] (-) TimerEvent: {}
+[1.201922] (-) TimerEvent: {}
+[1.302274] (-) TimerEvent: {}
+[1.402637] (-) TimerEvent: {}
+[1.503013] (-) TimerEvent: {}
+[1.603365] (-) TimerEvent: {}
+[1.703725] (-) TimerEvent: {}
+[1.804246] (-) TimerEvent: {}
+[1.871866] (py_trees_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_trees_ros', 'build', '--build-base', '/home/kmw/trees_ws/build/py_trees_ros/build', 'install', '--record', '/home/kmw/trees_ws/build/py_trees_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/trees_ws/src/py_trees_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'LANGUAGE': 'en_US:en', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib:/usr/lib/x86_64-linux-gnu/qt5:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/trees_ws/src/test_tree', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '934', 'SYSTEMD_EXEC_PID': '1851', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3087', 'COLCON_PREFIX_PATH': '/home/kmw/trees_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:10147', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/kmw/trees_ws/install/py_trees_ros_viewer/bin:/home/kmw/trees_ws/install/py_trees_ros/bin:/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.cargo/bin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/er:@/tmp/.ICE-unix/1282,unix/er:/tmp/.ICE-unix/1282', 'INVOCATION_ID': '569d4e4a41f743cf8f52c701f4c8d07b', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/kmw/trees_ws/install/ros_bt_py:/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces:/home/kmw/trees_ws/install/spot_bt_ros:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros_viewer:/home/kmw/trees_ws/install/py_trees_ros_tutorials:/home/kmw/trees_ws/install/py_trees_ros:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:80c24ee6-3c7d-436c-9876-c29faf1f1d25', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/trees_ws/build/py_trees_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/trees_ws/build/py_trees_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib/python3.10/site-packages:/home/kmw/trees_ws/build/test_tree:/home/kmw/trees_ws/build/spot_bt_ros:/home/kmw/trees_ws/build/py_trees_ros_viewer:/home/kmw/trees_ws/build/py_trees_ros_tutorials:/home/kmw/trees_ws/build/py_trees_ros:/home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces'}, 'shell': False}
+[1.904363] (-) TimerEvent: {}
+[2.004803] (-) TimerEvent: {}
+[2.105159] (-) TimerEvent: {}
+[2.205513] (-) TimerEvent: {}
+[2.231024] (py_trees_ros) StderrLine: {'line': b"/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'test_suite'\n"}
+[2.231284] (py_trees_ros) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.231411] (py_trees_ros) StderrLine: {'line': b"/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.231523] (py_trees_ros) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.305649] (-) TimerEvent: {}
+[2.406016] (-) TimerEvent: {}
+[2.471496] (py_trees_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.506143] (-) TimerEvent: {}
+[2.511483] (py_trees_ros) StdoutLine: {'line': b'writing ../../build/py_trees_ros/py_trees_ros.egg-info/PKG-INFO\n'}
+[2.512163] (py_trees_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/py_trees_ros/py_trees_ros.egg-info/dependency_links.txt\n'}
+[2.512537] (py_trees_ros) StdoutLine: {'line': b'writing entry points to ../../build/py_trees_ros/py_trees_ros.egg-info/entry_points.txt\n'}
+[2.512991] (py_trees_ros) StdoutLine: {'line': b'writing top-level names to ../../build/py_trees_ros/py_trees_ros.egg-info/top_level.txt\n'}
+[2.595495] (py_trees_ros) StdoutLine: {'line': b"reading manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'\n"}
+[2.596584] (py_trees_ros) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.598949] (py_trees_ros) StdoutLine: {'line': b"writing manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'\n"}
+[2.599277] (py_trees_ros) StdoutLine: {'line': b'running build\n'}
+[2.599447] (py_trees_ros) StdoutLine: {'line': b'running build_py\n'}
+[2.599861] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/subscribers.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.600293] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/action_clients.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.600598] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/blackboard.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.600903] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.601195] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/battery.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.601476] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/actions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.601765] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/conversions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.602065] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/exceptions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.602368] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/publishers.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.602657] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/trees.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.603074] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/transforms.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.603376] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/visitors.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.603660] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/version.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.603938] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/utilities.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.604212] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/service_clients.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros\n'}
+[2.604727] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[2.605046] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/echo.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[2.605365] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/blackboard_watcher.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[2.605707] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/tree_watcher.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[2.605986] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/programs/multi_talker.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs\n'}
+[2.606215] (-) TimerEvent: {}
+[2.606526] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/mock/set_bool.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock\n'}
+[2.606856] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/mock/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock\n'}
+[2.607225] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/mock/actions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock\n'}
+[2.607516] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/mock/services.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock\n'}
+[2.607818] (py_trees_ros) StdoutLine: {'line': b'copying py_trees_ros/mock/dock.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock\n'}
+[2.609212] (py_trees_ros) StdoutLine: {'line': b'running install\n'}
+[2.619364] (py_trees_ros) StdoutLine: {'line': b'running install_lib\n'}
+[2.662103] (py_trees_ros) StdoutLine: {'line': b'running install_data\n'}
+[2.662549] (py_trees_ros) StdoutLine: {'line': b'copying package.xml -> /home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros\n'}
+[2.662966] (py_trees_ros) StdoutLine: {'line': b'copying resources/py_trees_ros -> /home/kmw/trees_ws/install/py_trees_ros/share/ament_index/resource_index/packages\n'}
+[2.663273] (py_trees_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.704405] (py_trees_ros) StdoutLine: {'line': b"removing '/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros-2.2.2-py3.10.egg-info' (and everything under it)\n"}
+[2.704804] (py_trees_ros) StdoutLine: {'line': b'Copying ../../build/py_trees_ros/py_trees_ros.egg-info to /home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros-2.2.2-py3.10.egg-info\n'}
+[2.706112] (py_trees_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[2.706291] (-) TimerEvent: {}
+[2.806582] (-) TimerEvent: {}
+[2.906901] (-) TimerEvent: {}
+[3.007244] (-) TimerEvent: {}
+[3.023576] (py_trees_ros) StdoutLine: {'line': b'Installing py-trees-blackboard-watcher script to /home/kmw/trees_ws/install/py_trees_ros/bin\n'}
+[3.023928] (py_trees_ros) StdoutLine: {'line': b'Installing py-trees-tree-watcher script to /home/kmw/trees_ws/install/py_trees_ros/bin\n'}
+[3.025307] (py_trees_ros) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/trees_ws/build/py_trees_ros/install.log'\n"}
+[3.098579] (py_trees_ros) CommandEnded: {'returncode': 0}
+[3.109435] (-) TimerEvent: {}
+[3.138789] (py_trees_ros) JobEnded: {'identifier': 'py_trees_ros', 'rc': 0}
+[3.141710] (test_tree) JobStarted: {'identifier': 'test_tree'}
+[3.209586] (-) TimerEvent: {}
+[3.309914] (-) TimerEvent: {}
+[3.410275] (-) TimerEvent: {}
+[3.510620] (-) TimerEvent: {}
+[3.611006] (-) TimerEvent: {}
+[3.711424] (-) TimerEvent: {}
+[3.811807] (-) TimerEvent: {}
+[3.912160] (-) TimerEvent: {}
+[4.012485] (-) TimerEvent: {}
+[4.112837] (-) TimerEvent: {}
+[4.213189] (-) TimerEvent: {}
+[4.313490] (-) TimerEvent: {}
+[4.413831] (-) TimerEvent: {}
+[4.514199] (-) TimerEvent: {}
+[4.614578] (-) TimerEvent: {}
+[4.715090] (-) TimerEvent: {}
+[4.815428] (-) TimerEvent: {}
+[4.915802] (-) TimerEvent: {}
+[5.016305] (-) TimerEvent: {}
+[5.117235] (-) TimerEvent: {}
+[5.141942] (test_tree) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_tree', 'build', '--build-base', '/home/kmw/trees_ws/build/test_tree/build', 'install', '--record', '/home/kmw/trees_ws/build/test_tree/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kmw/trees_ws/src/test_tree', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(ros2_py310)', 'LANGUAGE': 'en_US:en', 'USER': 'kmw', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib:/usr/lib/x86_64-linux-gnu/qt5:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kmw', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/kmw/trees_ws/src/test_tree', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '934', 'SYSTEMD_EXEC_PID': '1851', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3087', 'COLCON_PREFIX_PATH': '/home/kmw/trees_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'kmw', 'JOURNAL_STREAM': '8:10147', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kmw', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/kmw/trees_ws/install/py_trees_ros/bin:/home/kmw/trees_ws/install/py_trees_ros_viewer/bin:/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.cargo/bin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/er:@/tmp/.ICE-unix/1282,unix/er:/tmp/.ICE-unix/1282', 'INVOCATION_ID': '569d4e4a41f743cf8f52c701f4c8d07b', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'CONDA_PREFIX_1': '/home/kmw/miniconda3', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/kmw/miniconda3/envs/ros2_py310/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/kmw/trees_ws/install/py_trees_ros:/home/kmw/trees_ws/install/ros_bt_py:/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces:/home/kmw/trees_ws/install/spot_bt_ros:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros_viewer:/home/kmw/trees_ws/install/py_trees_ros_tutorials:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kmw/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:80c24ee6-3c7d-436c-9876-c29faf1f1d25', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/kmw/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'ros2_py310', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kmw/trees_ws/build/test_tree', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kmw/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kmw/trees_ws/build/test_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib/python3.10/site-packages:/home/kmw/trees_ws/build/test_tree:/home/kmw/trees_ws/build/spot_bt_ros:/home/kmw/trees_ws/build/py_trees_ros_viewer:/home/kmw/trees_ws/build/py_trees_ros_tutorials:/home/kmw/trees_ws/build/py_trees_ros:/home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/', 'LC_NUMERIC': 'ko_KR.UTF-8', 'CONDA_PREFIX': '/home/kmw/miniconda3/envs/ros2_py310', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces'}, 'shell': False}
+[5.217384] (-) TimerEvent: {}
+[5.317789] (-) TimerEvent: {}
+[5.418173] (-) TimerEvent: {}
+[5.496384] (test_tree) StderrLine: {'line': b"/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[5.496778] (test_tree) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[5.518269] (-) TimerEvent: {}
+[5.618612] (-) TimerEvent: {}
+[5.718997] (-) TimerEvent: {}
+[5.737789] (test_tree) StdoutLine: {'line': b'running egg_info\n'}
+[5.776901] (test_tree) StdoutLine: {'line': b'writing ../../build/test_tree/test_tree.egg-info/PKG-INFO\n'}
+[5.777719] (test_tree) StdoutLine: {'line': b'writing dependency_links to ../../build/test_tree/test_tree.egg-info/dependency_links.txt\n'}
+[5.778220] (test_tree) StdoutLine: {'line': b'writing entry points to ../../build/test_tree/test_tree.egg-info/entry_points.txt\n'}
+[5.778669] (test_tree) StdoutLine: {'line': b'writing requirements to ../../build/test_tree/test_tree.egg-info/requires.txt\n'}
+[5.778976] (test_tree) StdoutLine: {'line': b'writing top-level names to ../../build/test_tree/test_tree.egg-info/top_level.txt\n'}
+[5.819114] (-) TimerEvent: {}
+[5.863412] (test_tree) StdoutLine: {'line': b"reading manifest file '../../build/test_tree/test_tree.egg-info/SOURCES.txt'\n"}
+[5.866139] (test_tree) StdoutLine: {'line': b"writing manifest file '../../build/test_tree/test_tree.egg-info/SOURCES.txt'\n"}
+[5.866476] (test_tree) StdoutLine: {'line': b'running build\n'}
+[5.866755] (test_tree) StdoutLine: {'line': b'running build_py\n'}
+[5.867154] (test_tree) StdoutLine: {'line': b'copying test_tree/__init__.py -> /home/kmw/trees_ws/build/test_tree/build/lib/test_tree\n'}
+[5.867547] (test_tree) StdoutLine: {'line': b'copying test_tree/behavior_tree.py -> /home/kmw/trees_ws/build/test_tree/build/lib/test_tree\n'}
+[5.868022] (test_tree) StdoutLine: {'line': b'copying test_tree/sample_code.py -> /home/kmw/trees_ws/build/test_tree/build/lib/test_tree\n'}
+[5.868725] (test_tree) StdoutLine: {'line': b'running install\n'}
+[5.878802] (test_tree) StdoutLine: {'line': b'running install_lib\n'}
+[5.918110] (test_tree) StdoutLine: {'line': b'copying /home/kmw/trees_ws/build/test_tree/build/lib/test_tree/sample_code.py -> /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree\n'}
+[5.919204] (-) TimerEvent: {}
+[5.919507] (test_tree) StdoutLine: {'line': b'byte-compiling /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree/sample_code.py to sample_code.cpython-310.pyc\n'}
+[5.921101] (test_tree) StdoutLine: {'line': b'running install_data\n'}
+[5.921675] (test_tree) StdoutLine: {'line': b'copying resource/test_tree -> /home/kmw/trees_ws/install/test_tree/share/ament_index/resource_index/packages\n'}
+[5.922134] (test_tree) StdoutLine: {'line': b'copying package.xml -> /home/kmw/trees_ws/install/test_tree/share/test_tree\n'}
+[5.922646] (test_tree) StdoutLine: {'line': b'creating /home/kmw/trees_ws/install/test_tree/share/test_tree/launch\n'}
+[5.923033] (test_tree) StdoutLine: {'line': b'copying launch/demo.launch.py -> /home/kmw/trees_ws/install/test_tree/share/test_tree/launch\n'}
+[5.923306] (test_tree) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.965330] (test_tree) StdoutLine: {'line': b"removing '/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.965939] (test_tree) StdoutLine: {'line': b'Copying ../../build/test_tree/test_tree.egg-info to /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree-0.0.0-py3.10.egg-info\n'}
+[5.967468] (test_tree) StdoutLine: {'line': b'running install_scripts\n'}
+[6.019325] (-) TimerEvent: {}
+[6.119702] (-) TimerEvent: {}
+[6.220096] (-) TimerEvent: {}
+[6.285476] (test_tree) StdoutLine: {'line': b'Installing sample script to /home/kmw/trees_ws/install/test_tree/lib/test_tree\n'}
+[6.285876] (test_tree) StdoutLine: {'line': b'Installing tree script to /home/kmw/trees_ws/install/test_tree/lib/test_tree\n'}
+[6.286591] (test_tree) StdoutLine: {'line': b"writing list of installed files to '/home/kmw/trees_ws/build/test_tree/install.log'\n"}
+[6.320309] (-) TimerEvent: {}
+[6.363854] (test_tree) CommandEnded: {'returncode': 0}
+[6.386119] (test_tree) JobEnded: {'identifier': 'test_tree', 'rc': 0}
+[6.387808] (-) EventReactorShutdown: {}

@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter 
+-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kmw/trees_ws/build/ros_bt_py_web_gui
+-- Install configuration: ""
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/launch
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/launch/ros_bt_py_web_gui.launch.py
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/robots.txt
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/index.html
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-vietnamese-400-normal-de1f7870.woff2
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/index-fb3bb3b9.js
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/d3-9cd3fbd4.js
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-latin-400-normal-69491b82.woff
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-cyrillic-ext-400-normal-4ba425fa.woff2
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-latin-400-normal-7b348b30.woff2
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-greek-ext-400-normal-c267e677.woff
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-greek-ext-400-normal-f2a19d8c.woff2
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-cyrillic-ext-400-normal-86893cf4.woff
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/vue-extras-932ecbcf.js
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/roslib-2533a6fc.js
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/fusejs-a1032ea1.js
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-vietnamese-400-normal-bb1c0391.woff
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/index-2a0ae87f.css
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-cyrillic-400-normal-d6072cf4.woff
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-greek-400-normal-586ab659.woff
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-cyrillic-400-normal-c73c9d26.woff2
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-latin-ext-400-normal-2ffb1c70.woff
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/jsoneditor-e59672c6.js
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-greek-400-normal-9755c83c.woff2
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/jsoneditor-icons-45c98bf0.svg
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/source-sans-pro-latin-ext-400-normal-39cf9abc.woff2
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/jsyaml-38530ef5.js
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/fontawesome-a8893a9e.js
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/assets/ros_bt_py-07e41243.svg
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/html/favicon.ico
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/lib/ros_bt_py_web_gui/show_editor_url.py
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ament_index/resource_index/package_run_dependencies/ros_bt_py_web_gui
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ament_index/resource_index/parent_prefix_path/ros_bt_py_web_gui
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/environment/ament_prefix_path.sh
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/environment/ament_prefix_path.dsv
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/environment/path.sh
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/environment/path.dsv
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/local_setup.bash
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/local_setup.sh
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/local_setup.zsh
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/local_setup.dsv
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/package.dsv
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ament_index/resource_index/packages/ros_bt_py_web_gui
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/cmake/ros_bt_py_web_guiConfig.cmake
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/cmake/ros_bt_py_web_guiConfig-version.cmake
+-- Installing: /home/kmw/trees_ws/install/ros_bt_py_web_gui/share/ros_bt_py_web_gui/package.xml

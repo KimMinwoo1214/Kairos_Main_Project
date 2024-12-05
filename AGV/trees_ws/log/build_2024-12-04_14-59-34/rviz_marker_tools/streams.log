@@ -1,0 +1,33 @@
+[0.132s] Invoking command in '/home/kmw/trees_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/rviz_marker_tools -- -j8 -l8
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target rviz_marker_tools[0m
+[0.239s] [100%] Built target rviz_marker_tools
+[0.566s] Invoked command in '/home/kmw/trees_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/rviz_marker_tools -- -j8 -l8
+[0.568s] Invoking command in '/home/kmw/trees_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/rviz_marker_tools
+[0.599s] -- Install configuration: "Release"
+[0.599s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/include
+[0.600s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/include/rviz_marker_tools
+[0.600s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[0.600s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[0.600s] -- Set runtime path of "/home/kmw/trees_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[0.600s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[0.600s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[0.600s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[0.600s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[0.601s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[0.601s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[0.601s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[0.601s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[0.601s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[0.601s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[0.601s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[0.601s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[0.601s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[0.602s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[0.602s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[0.602s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[0.602s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[0.602s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.602s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[0.602s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[0.604s] -- Installing: /home/kmw/trees_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[0.689s] Invoked command in '/home/kmw/trees_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/rviz_marker_tools

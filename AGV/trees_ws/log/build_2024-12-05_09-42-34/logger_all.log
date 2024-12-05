@@ -1,0 +1,244 @@
+[0.167s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.167s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ebf8d186620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ebf8d25fbe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ebf8d25fbe0>>, mixin_verb=('build',))
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.220s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kmw/trees_ws'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_trees_ros) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_trees_ros' with type 'ros.ament_python' and name 'py_trees_ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tree) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tree) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tree) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tree) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tree) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tree) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tree) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tree) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_tree) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_tree' with type 'ros.ament_python' and name 'test_tree'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/tree_apply) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/tree_apply) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/tree_apply) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/tree_apply) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/tree_apply) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/tree_apply) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/tree_apply) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/tree_apply) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/tree_apply) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tree_apply' with type 'ros.ament_python' and name 'tree_apply'
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 26 installed packages in /home/kmw/trees_ws/install
+[0.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.346s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'py_trees_ros' is in: /home/kmw/trees_ws/install/py_trees_ros, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding py_trees_ros
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'py_trees_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'py_trees_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kmw/trees_ws/build/py_trees_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kmw/trees_ws/install/py_trees_ros', 'merge_install': False, 'path': '/home/kmw/trees_ws/src/py_trees_ros', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'tree_apply' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'tree_apply' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'tree_apply' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'tree_apply' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'tree_apply' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'tree_apply' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'tree_apply' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'tree_apply' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'tree_apply' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'tree_apply' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kmw/trees_ws/build/tree_apply', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kmw/trees_ws/install/tree_apply', 'merge_install': False, 'path': '/home/kmw/trees_ws/src/tree_apply', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'test_tree' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'test_tree' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'test_tree' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'test_tree' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'test_tree' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'test_tree' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'test_tree' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'test_tree' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'test_tree' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'test_tree' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kmw/trees_ws/build/test_tree', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kmw/trees_ws/install/test_tree', 'merge_install': False, 'path': '/home/kmw/trees_ws/src/test_tree', 'symlink_install': False, 'test_result_base': None}
+[0.348s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.349s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.349s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kmw/trees_ws/src/py_trees_ros' with build type 'ament_python'
+[0.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_ros', 'ament_prefix_path')
+[0.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/ament_prefix_path.ps1'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/ament_prefix_path.dsv'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/ament_prefix_path.sh'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.361s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kmw/trees_ws/src/tree_apply' with build type 'ament_python'
+[0.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('tree_apply', 'ament_prefix_path')
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/hook/ament_prefix_path.ps1'
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/hook/ament_prefix_path.dsv'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/hook/ament_prefix_path.sh'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.623s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kmw/trees_ws/src/py_trees_ros'
+[0.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.867s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kmw/trees_ws/src/tree_apply'
+[0.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kmw/trees_ws/src/tree_apply': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/tree_apply/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tree_apply build --build-base /home/kmw/trees_ws/build/tree_apply/build install --record /home/kmw/trees_ws/build/tree_apply/install.log --single-version-externally-managed install_data
+[1.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kmw/trees_ws/src/py_trees_ros': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/kmw/trees_ws/build/py_trees_ros/build install --record /home/kmw/trees_ws/build/py_trees_ros/install.log --single-version-externally-managed install_data
+[2.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kmw/trees_ws/src/tree_apply' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/tree_apply/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tree_apply build --build-base /home/kmw/trees_ws/build/tree_apply/build install --record /home/kmw/trees_ws/build/tree_apply/install.log --single-version-externally-managed install_data
+[2.338s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/tree_apply' for CMake module files
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/tree_apply' for CMake config files
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/tree_apply/lib'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/tree_apply/bin'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/tree_apply/lib/pkgconfig/tree_apply.pc'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages'
+[2.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('tree_apply', 'pythonpath')
+[2.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/hook/pythonpath.ps1'
+[2.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/hook/pythonpath.dsv'
+[2.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/hook/pythonpath.sh'
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/tree_apply/bin'
+[2.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tree_apply)
+[2.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/package.ps1'
+[2.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/package.dsv'
+[2.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/package.sh'
+[2.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/package.bash'
+[2.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/tree_apply/share/tree_apply/package.zsh'
+[2.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kmw/trees_ws/install/tree_apply/share/colcon-core/packages/tree_apply)
+[2.349s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/py_trees_ros' for CMake module files
+[2.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kmw/trees_ws/src/py_trees_ros' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros build --build-base /home/kmw/trees_ws/build/py_trees_ros/build install --record /home/kmw/trees_ws/build/py_trees_ros/install.log --single-version-externally-managed install_data
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/py_trees_ros' for CMake config files
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/py_trees_ros/lib'
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/py_trees_ros/bin'
+[2.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_ros', 'path')
+[2.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/path.ps1'
+[2.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/path.dsv'
+[2.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/path.sh'
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/py_trees_ros/lib/pkgconfig/py_trees_ros.pc'
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages'
+[2.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_ros', 'pythonpath')
+[2.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonpath.ps1'
+[2.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonpath.dsv'
+[2.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonpath.sh'
+[2.354s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/py_trees_ros/bin'
+[2.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_trees_ros', 'pythonscriptspath')
+[2.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonscriptspath.ps1'
+[2.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonscriptspath.dsv'
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/hook/pythonscriptspath.sh'
+[2.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_trees_ros)
+[2.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/package.ps1'
+[2.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/package.dsv'
+[2.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/package.sh'
+[2.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/package.bash'
+[2.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros/package.zsh'
+[2.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kmw/trees_ws/install/py_trees_ros/share/colcon-core/packages/py_trees_ros)
+[2.358s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kmw/trees_ws/src/test_tree' with build type 'ament_python'
+[2.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_tree', 'ament_prefix_path')
+[2.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/test_tree/share/test_tree/hook/ament_prefix_path.ps1'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kmw/trees_ws/install/test_tree/share/test_tree/hook/ament_prefix_path.dsv'
+[2.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/test_tree/share/test_tree/hook/ament_prefix_path.sh'
+[2.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.624s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kmw/trees_ws/src/test_tree'
+[2.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kmw/trees_ws/src/test_tree': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/py_trees_ros:/home/kmw/trees_ws/install/tree_apply:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/moveit_configs_utils:/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/spot_bt_ros:/home/kmw/trees_ws/install/rviz_marker_tools:/home/kmw/trees_ws/install/rosparam_shortcuts:/home/kmw/trees_ws/install/ros_bt_py:/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces:/home/kmw/trees_ws/install/py_trees_ros_viewer:/home/kmw/trees_ws/install/py_trees_ros_tutorials:/home/kmw/trees_ws/install/mycobot_interfaces:/home/kmw/trees_ws/install/moveit_task_constructor_msgs:/home/kmw/trees_ws/install/moveit_resources_prbt_support:/home/kmw/trees_ws/install/moveit_resources:/home/kmw/trees_ws/install/moveit_resources_pr2_description:/home/kmw/trees_ws/install/moveit_resources_panda_moveit_config:/home/kmw/trees_ws/install/moveit_resources_panda_description:/home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config:/home/kmw/trees_ws/install/moveit_resources_fanuc_description:/home/kmw/trees_ws/install/moveit_common:/home/kmw/trees_ws/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) PATH=/home/kmw/trees_ws/install/py_trees_ros/bin:/home/kmw/trees_ws/install/py_trees_ros_viewer/bin:/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.cargo/bin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PYTHONPATH=/home/kmw/trees_ws/build/test_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kmw/trees_ws/install/srdfdom/lib/python3.10/site-packages:/home/kmw/trees_ws/build/spot_bt_ros:/home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/home/kmw/trees_ws/install/mycobot_interfaces/lib/python3.10/site-packages:/home/kmw/trees_ws/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/kmw/trees_ws/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_tree build --build-base /home/kmw/trees_ws/build/test_tree/build install --record /home/kmw/trees_ws/build/test_tree/install.log --single-version-externally-managed install_data
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/test_tree' for CMake module files
+[3.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kmw/trees_ws/src/test_tree' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/py_trees_ros:/home/kmw/trees_ws/install/tree_apply:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/moveit_configs_utils:/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/spot_bt_ros:/home/kmw/trees_ws/install/rviz_marker_tools:/home/kmw/trees_ws/install/rosparam_shortcuts:/home/kmw/trees_ws/install/ros_bt_py:/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces:/home/kmw/trees_ws/install/py_trees_ros_viewer:/home/kmw/trees_ws/install/py_trees_ros_tutorials:/home/kmw/trees_ws/install/mycobot_interfaces:/home/kmw/trees_ws/install/moveit_task_constructor_msgs:/home/kmw/trees_ws/install/moveit_resources_prbt_support:/home/kmw/trees_ws/install/moveit_resources:/home/kmw/trees_ws/install/moveit_resources_pr2_description:/home/kmw/trees_ws/install/moveit_resources_panda_moveit_config:/home/kmw/trees_ws/install/moveit_resources_panda_description:/home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config:/home/kmw/trees_ws/install/moveit_resources_fanuc_description:/home/kmw/trees_ws/install/moveit_common:/home/kmw/trees_ws/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) PATH=/home/kmw/trees_ws/install/py_trees_ros/bin:/home/kmw/trees_ws/install/py_trees_ros_viewer/bin:/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.cargo/bin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PYTHONPATH=/home/kmw/trees_ws/build/test_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/kmw/trees_ws/install/srdfdom/lib/python3.10/site-packages:/home/kmw/trees_ws/build/spot_bt_ros:/home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/home/kmw/trees_ws/install/mycobot_interfaces/lib/python3.10/site-packages:/home/kmw/trees_ws/install/moveit_task_constructor_msgs/lib/python3.10/site-packages:/home/kmw/trees_ws/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_tree build --build-base /home/kmw/trees_ws/build/test_tree/build install --record /home/kmw/trees_ws/build/test_tree/install.log --single-version-externally-managed install_data
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/test_tree' for CMake config files
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/test_tree/lib'
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/test_tree/bin'
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/test_tree/lib/pkgconfig/test_tree.pc'
+[3.912s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages'
+[3.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_tree', 'pythonpath')
+[3.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/test_tree/share/test_tree/hook/pythonpath.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kmw/trees_ws/install/test_tree/share/test_tree/hook/pythonpath.dsv'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kmw/trees_ws/install/test_tree/share/test_tree/hook/pythonpath.sh'
+[3.914s] Level 1:colcon.colcon_core.environment:checking '/home/kmw/trees_ws/install/test_tree/bin'
+[3.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_tree)
+[3.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/test_tree/share/test_tree/package.ps1'
+[3.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kmw/trees_ws/install/test_tree/share/test_tree/package.dsv'
+[3.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/test_tree/share/test_tree/package.sh'
+[3.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/test_tree/share/test_tree/package.bash'
+[3.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/kmw/trees_ws/install/test_tree/share/test_tree/package.zsh'
+[3.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kmw/trees_ws/install/test_tree/share/colcon-core/packages/test_tree)
+[3.916s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.917s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.923s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.923s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.923s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.939s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kmw/trees_ws/install/local_setup.ps1'
+[3.941s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kmw/trees_ws/install/_local_setup_util_ps1.py'
+[3.943s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kmw/trees_ws/install/setup.ps1'
+[3.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kmw/trees_ws/install/local_setup.sh'
+[3.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kmw/trees_ws/install/_local_setup_util_sh.py'
+[3.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kmw/trees_ws/install/setup.sh'
+[3.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kmw/trees_ws/install/local_setup.bash'
+[3.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kmw/trees_ws/install/setup.bash'
+[3.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kmw/trees_ws/install/local_setup.zsh'
+[3.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kmw/trees_ws/install/setup.zsh'

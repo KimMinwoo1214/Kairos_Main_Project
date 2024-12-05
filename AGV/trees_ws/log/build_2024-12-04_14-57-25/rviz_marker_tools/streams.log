@@ -1,0 +1,4 @@
+[0.249s] Invoking command in '/home/kmw/trees_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/rviz_marker_tools -- -j8 -l8
+[1.152s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[19.364s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[19.550s] [100%] Built target rviz_marker_tools

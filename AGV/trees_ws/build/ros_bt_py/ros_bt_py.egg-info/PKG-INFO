@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ros_bt_py
+Version: 0.1.1
+Summary: A type-safe Behavior Tree library (until the wheels fall off)
+Maintainer: David Oberacker
+Maintainer-email: oberacker@fzi.de
+License: BSD-3-Clause
+License-File: LICENSE
+Requires-Dist: setuptools

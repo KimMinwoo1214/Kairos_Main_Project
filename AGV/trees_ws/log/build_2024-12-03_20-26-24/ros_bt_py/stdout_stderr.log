@@ -1,0 +1,68 @@
+Running /opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_python_module.py /home/kmw/trees_ws/build/ros_bt_py/ros_bt_py/parameters.py config/tree_node_parameters.yaml 
+Running /opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_python_module.py /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/parameters.py config/tree_node_parameters.yaml 
+/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../../build/ros_bt_py/ros_bt_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros_bt_py/ros_bt_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/ros_bt_py/ros_bt_py.egg-info/entry_points.txt
+writing requirements to ../../../build/ros_bt_py/ros_bt_py.egg-info/requires.txt
+writing top-level names to ../../../build/ros_bt_py/ros_bt_py.egg-info/top_level.txt
+reading manifest file '../../../build/ros_bt_py/ros_bt_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/ros_bt_py/ros_bt_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros_bt_py/package_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/node_data.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/node_config.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/node.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/__init__.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/exceptions.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/helpers.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/tree_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/debug_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/ros_helpers.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/subtree_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/tree_node.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+copying ros_bt_py/nodes/format.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/decorators.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/setters.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/sequence.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/getters.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/__init__.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/compare.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/maths.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/parallel.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/io.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/passthrough_node.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/random_number.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/wait.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/list.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/constant.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/nodes/fallback.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+copying ros_bt_py/ros_nodes/param.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/action.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/file.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/__init__.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/enum.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/topic.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/subtree.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/throttle.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/message_converters.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/time.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/messages_from_dict.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+copying ros_bt_py/ros_nodes/service.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+running install
+running install_lib
+running install_data
+copying resource/ros_bt_py -> /home/kmw/trees_ws/install/ros_bt_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py
+copying config/tree_node_parameters.yaml -> /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py/config
+copying launch/ros_bt_py.launch.py -> /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py/launch
+running install_egg_info
+removing '/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py-0.1.1-py3.10.egg-info' (and everything under it)
+Copying ../../../build/ros_bt_py/ros_bt_py.egg-info to /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py-0.1.1-py3.10.egg-info
+running install_scripts
+Installing tree_node script to /home/kmw/trees_ws/install/ros_bt_py/lib/ros_bt_py
+writing list of installed files to '/home/kmw/trees_ws/build/ros_bt_py/install.log'

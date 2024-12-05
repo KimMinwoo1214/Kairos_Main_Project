@@ -1,0 +1,3 @@
+[console_scripts]
+bt = tree_apply.bt_executor:main
+cobot_node = tree_apply.cobot_node:main
