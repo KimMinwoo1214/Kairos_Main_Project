@@ -1,0 +1,26 @@
+[ 20%] Built target marker_test
+[ 40%] Built target get_end_pose
+[ 60%] Built target control_with_keyboard
+[ 80%] Built target hello_moveit
+[100%] Built target control_teleop
+-- Install configuration: ""
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/hello_moveit
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/get_end_pose
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/control_with_keyboard
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/marker_test
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/control_teleop
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/environment/path.sh
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/environment/path.dsv
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/local_setup.bash
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/local_setup.sh
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/local_setup.zsh
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/local_setup.dsv
+-- Installing: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/package.dsv
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/package.xml
