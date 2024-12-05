@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000323] (py_trees_ros_interfaces) JobQueued: {'identifier': 'py_trees_ros_interfaces', 'dependencies': OrderedDict()}
+[0.000374] (py_trees_ros) JobQueued: {'identifier': 'py_trees_ros', 'dependencies': OrderedDict([('py_trees_ros_interfaces', '/home/kmw/trees_ws/install/py_trees_ros_interfaces')])}
+[0.000402] (test_tree) JobQueued: {'identifier': 'test_tree', 'dependencies': OrderedDict([('py_trees_ros_interfaces', '/home/kmw/trees_ws/install/py_trees_ros_interfaces'), ('py_trees_ros', '/home/kmw/trees_ws/install/py_trees_ros')])}
+[0.001274] (py_trees_ros_interfaces) JobStarted: {'identifier': 'py_trees_ros_interfaces'}
+[0.012633] (py_trees_ros_interfaces) JobProgress: {'identifier': 'py_trees_ros_interfaces', 'progress': 'cmake'}
+[0.013194] (py_trees_ros_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/kmw/trees_ws/src/py_trees_ros_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/py_trees_ros_interfaces'], 'cwd': '/home/kmw/trees_ws/build/py_trees_ros_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_US:en'), ('USER', 'kmw'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kmw/trees_ws/install/py_trees_ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kmw'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/kmw/trees_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1181'), ('SYSTEMD_EXEC_PID', '1542'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24839'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kmw/trees_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kmw'), ('JOURNAL_STREAM', '8:8077'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kmw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kmw/trees_ws/install/py_trees_ros/bin:/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/bin:/home/kmw/miniconda3/condabin:/home/kmw/.cargo/bin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/er:@/tmp/.ICE-unix/1312,unix/er:/tmp/.ICE-unix/1312'), ('INVOCATION_ID', '2320a60570754cb894160ca22aab750d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2UC1X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '15'), ('AMENT_PREFIX_PATH', '/home/kmw/trees_ws/install/py_trees_ros_interfaces:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/kmw/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bdf4bc8e-6972-49b9-9250-c0501fb983b3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/kmw/gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kmw/trees_ws/build/py_trees_ros_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/kmw/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kmw/trees_ws/install/py_trees_ros_interfaces/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CONDA_PREFIX', '/home/kmw/miniconda3'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kmw/trees_ws/install/py_trees_ros_interfaces:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros:/opt/ros/humble')]), 'shell': False}
+[0.073626] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099433] (-) TimerEvent: {}
+[0.149633] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.158287] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199536] (-) TimerEvent: {}
+[0.235444] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.247127] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.247681] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.248042] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.252840] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299897] (-) TimerEvent: {}
+[0.391191] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.399951] (-) TimerEvent: {}
+[0.402374] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.402794] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.403355] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.405943] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500078] (-) TimerEvent: {}
+[0.562073] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found Python3: /home/kmw/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter \n'}
+[0.600217] (-) TimerEvent: {}
+[0.650466] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.673095] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.700357] (-) TimerEvent: {}
+[0.702274] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.706728] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.714097] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.724496] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.739520] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.758074] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.766628] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.790321] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[0.800458] (-) TimerEvent: {}
+[0.816055] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.900618] (-) TimerEvent: {}
+[1.000977] (-) TimerEvent: {}
+[1.101238] (-) TimerEvent: {}
+[1.201521] (-) TimerEvent: {}
+[1.270326] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.301622] (-) TimerEvent: {}
+[1.401837] (-) TimerEvent: {}
+[1.502113] (-) TimerEvent: {}
+[1.602467] (-) TimerEvent: {}
+[1.701158] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.702556] (-) TimerEvent: {}
+[1.802790] (-) TimerEvent: {}
+[1.872624] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.893745] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/kmw/miniconda3/bin/python3 (found suitable version "3.12.4", minimum required is "3.6") \n'}
+[1.894948] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.902912] (-) TimerEvent: {}
+[1.916603] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /home/kmw/miniconda3/lib/libpython3.12.so (found suitable version "3.12.4", minimum required is "3.5") \n'}
+[1.916855] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/kmw/miniconda3/bin/python3\n'}
+[1.916920] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/kmw/miniconda3/include/python3.12\n'}
+[1.916976] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/kmw/miniconda3/lib/libpython3.12.so\n'}
+[1.941091] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.003056] (-) TimerEvent: {}
+[2.014847] (py_trees_ros_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.015116] (py_trees_ros_interfaces) StderrLine: {'line': b'  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/__init__.py", line 24, in <module>\n'}
+[2.015204] (py_trees_ros_interfaces) StderrLine: {'line': b'    from . import multiarray\n'}
+[2.015269] (py_trees_ros_interfaces) StderrLine: {'line': b'  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/multiarray.py", line 10, in <module>\n'}
+[2.015331] (py_trees_ros_interfaces) StderrLine: {'line': b'    from . import overrides\n'}
+[2.015383] (py_trees_ros_interfaces) StderrLine: {'line': b'  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/overrides.py", line 8, in <module>\n'}
+[2.015434] (py_trees_ros_interfaces) StderrLine: {'line': b'    from numpy.core._multiarray_umath import (\n'}
+[2.015484] (py_trees_ros_interfaces) StderrLine: {'line': b"ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'\n"}
+[2.015547] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.015596] (py_trees_ros_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[2.015647] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.015697] (py_trees_ros_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.015747] (py_trees_ros_interfaces) StderrLine: {'line': b'  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/__init__.py", line 130, in <module>\n'}
+[2.015803] (py_trees_ros_interfaces) StderrLine: {'line': b'    from numpy.__config__ import show as show_config\n'}
+[2.015855] (py_trees_ros_interfaces) StderrLine: {'line': b'  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/__config__.py", line 4, in <module>\n'}
+[2.015905] (py_trees_ros_interfaces) StderrLine: {'line': b'    from numpy.core._multiarray_umath import (\n'}
+[2.015954] (py_trees_ros_interfaces) StderrLine: {'line': b'  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/__init__.py", line 50, in <module>\n'}
+[2.016005] (py_trees_ros_interfaces) StderrLine: {'line': b'    raise ImportError(msg)\n'}
+[2.016054] (py_trees_ros_interfaces) StderrLine: {'line': b'ImportError: \n'}
+[2.016103] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.016152] (py_trees_ros_interfaces) StderrLine: {'line': b'IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!\n'}
+[2.016201] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.016250] (py_trees_ros_interfaces) StderrLine: {'line': b'Importing the numpy C-extensions failed. This error can happen for\n'}
+[2.016316] (py_trees_ros_interfaces) StderrLine: {'line': b'many reasons, often due to issues with your setup or how NumPy was\n'}
+[2.016368] (py_trees_ros_interfaces) StderrLine: {'line': b'installed.\n'}
+[2.016418] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.016467] (py_trees_ros_interfaces) StderrLine: {'line': b'We have compiled some common reasons and troubleshooting tips at:\n'}
+[2.016529] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.016576] (py_trees_ros_interfaces) StderrLine: {'line': b'    https://numpy.org/devdocs/user/troubleshooting-importerror.html\n'}
+[2.016625] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.016672] (py_trees_ros_interfaces) StderrLine: {'line': b'Please note and check the following:\n'}
+[2.016719] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.016767] (py_trees_ros_interfaces) StderrLine: {'line': b'  * The Python version is: Python3.12 from "/home/kmw/miniconda3/bin/python3"\n'}
+[2.016822] (py_trees_ros_interfaces) StderrLine: {'line': b'  * The NumPy version is: "1.26.4"\n'}
+[2.016871] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.016919] (py_trees_ros_interfaces) StderrLine: {'line': b'and make sure that they are the versions you expect.\n'}
+[2.016966] (py_trees_ros_interfaces) StderrLine: {'line': b'Please carefully study the documentation linked above for further help.\n'}
+[2.017014] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.017061] (py_trees_ros_interfaces) StderrLine: {'line': b"Original error was: No module named 'numpy.core._multiarray_umath'\n"}
+[2.017113] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.017161] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.017209] (py_trees_ros_interfaces) StderrLine: {'line': b'The above exception was the direct cause of the following exception:\n'}
+[2.017263] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.017319] (py_trees_ros_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.017368] (py_trees_ros_interfaces) StderrLine: {'line': b'  File "<string>", line 1, in <module>\n'}
+[2.017415] (py_trees_ros_interfaces) StderrLine: {'line': b'  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/__init__.py", line 135, in <module>\n'}
+[2.017462] (py_trees_ros_interfaces) StderrLine: {'line': b'    raise ImportError(msg) from e\n'}
+[2.017509] (py_trees_ros_interfaces) StderrLine: {'line': b'ImportError: Error importing numpy: you should not try to import numpy from\n'}
+[2.017556] (py_trees_ros_interfaces) StderrLine: {'line': b'        its source directory; please exit the numpy source tree, and relaunch\n'}
+[2.017603] (py_trees_ros_interfaces) StderrLine: {'line': b'        your python interpreter from there.\n'}
+[2.018567] (py_trees_ros_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:204 (message):\n'}
+[2.018661] (py_trees_ros_interfaces) StderrLine: {'line': b"  execute_process(/home/kmw/miniconda3/bin/python3 -c 'import\n"}
+[2.018720] (py_trees_ros_interfaces) StderrLine: {'line': b"  numpy;print(numpy.get_include())') returned error code 1\n"}
+[2.018775] (py_trees_ros_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.018825] (py_trees_ros_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.018877] (py_trees_ros_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[2.018928] (py_trees_ros_interfaces) StderrLine: {'line': b'  CMakeLists.txt:63 (rosidl_generate_interfaces)\n'}
+[2.018978] (py_trees_ros_interfaces) StderrLine: {'line': b'\n'}
+[2.019036] (py_trees_ros_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.019148] (py_trees_ros_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.019214] (py_trees_ros_interfaces) StdoutLine: {'line': b'See also "/home/kmw/trees_ws/build/py_trees_ros_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.027178] (py_trees_ros_interfaces) CommandEnded: {'returncode': 1}
+[2.059713] (py_trees_ros_interfaces) JobEnded: {'identifier': 'py_trees_ros_interfaces', 'rc': 1}
+[2.070480] (py_trees_ros) JobSkipped: {'identifier': 'py_trees_ros'}
+[2.070574] (test_tree) JobSkipped: {'identifier': 'test_tree'}
+[2.070602] (-) EventReactorShutdown: {}

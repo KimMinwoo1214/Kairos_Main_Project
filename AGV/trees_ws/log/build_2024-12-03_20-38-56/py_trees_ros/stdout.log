@@ -1,0 +1,47 @@
+running egg_info
+writing ../../build/py_trees_ros/py_trees_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_trees_ros/py_trees_ros.egg-info/dependency_links.txt
+writing entry points to ../../build/py_trees_ros/py_trees_ros.egg-info/entry_points.txt
+writing top-level names to ../../build/py_trees_ros/py_trees_ros.egg-info/top_level.txt
+reading manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_trees_ros/py_trees_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_trees_ros/subscribers.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/action_clients.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/blackboard.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/battery.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/actions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/conversions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/exceptions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/publishers.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/trees.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/transforms.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/visitors.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/version.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/utilities.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/service_clients.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros
+copying py_trees_ros/programs/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+copying py_trees_ros/programs/echo.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+copying py_trees_ros/programs/blackboard_watcher.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+copying py_trees_ros/programs/tree_watcher.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+copying py_trees_ros/programs/multi_talker.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/programs
+copying py_trees_ros/mock/set_bool.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+copying py_trees_ros/mock/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+copying py_trees_ros/mock/actions.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+copying py_trees_ros/mock/services.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+copying py_trees_ros/mock/dock.py -> /home/kmw/trees_ws/build/py_trees_ros/build/lib/py_trees_ros/mock
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros
+copying resources/py_trees_ros -> /home/kmw/trees_ws/install/py_trees_ros/share/ament_index/resource_index/packages
+running install_egg_info
+removing '/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros-2.2.2-py3.10.egg-info' (and everything under it)
+Copying ../../build/py_trees_ros/py_trees_ros.egg-info to /home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages/py_trees_ros-2.2.2-py3.10.egg-info
+running install_scripts
+Installing py-trees-blackboard-watcher script to /home/kmw/trees_ws/install/py_trees_ros/bin
+Installing py-trees-tree-watcher script to /home/kmw/trees_ws/install/py_trees_ros/bin
+writing list of installed files to '/home/kmw/trees_ws/build/py_trees_ros/install.log'

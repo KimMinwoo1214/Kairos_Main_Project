@@ -1,0 +1,49 @@
+[0.235s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_resources_panda_moveit_config -- -j8 -l8
+[1.190s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_resources_panda_moveit_config -- -j8 -l8
+[1.191s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_resources_panda_moveit_config
+[1.211s] -- Install configuration: ""
+[1.214s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_moveit_config
+[1.214s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_moveit_config
+[1.215s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.sh
+[1.215s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.dsv
+[1.216s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.sh
+[1.216s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.dsv
+[1.218s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.bash
+[1.219s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.sh
+[1.219s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.zsh
+[1.220s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.dsv
+[1.225s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv
+[1.226s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/packages/moveit_resources_panda_moveit_config
+[1.227s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig.cmake
+[1.228s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig-version.cmake
+[1.228s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.xml
+[1.228s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch
+[1.228s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_empty.rviz
+[1.228s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_rviz.launch.py
+[1.228s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/demo.launch.py
+[1.228s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit.rviz
+[1.228s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config
+[1.229s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ros2_controllers.yaml
+[1.229s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/gripper_moveit_controllers.yaml
+[1.229s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.urdf.xacro
+[1.229s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[1.229s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.ros2_control.xacro
+[1.229s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/initial_positions.yaml
+[1.229s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/moveit_controllers.yaml
+[1.229s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ompl_planning.yaml
+[1.230s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_pointcloud.yaml
+[1.230s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.srdf.xacro
+[1.230s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_hand.ros2_control.xacro
+[1.230s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/trajopt_planning.yaml
+[1.235s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/hand.xacro
+[1.237s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/kinematics.yaml
+[1.237s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_cartesian_limits.yaml
+[1.238s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.srdf
+[1.238s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/chomp_planning.yaml
+[1.238s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/lerp_planning.yaml
+[1.238s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_depthmap.yaml
+[1.238s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/joint_limits.yaml
+[1.238s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.xacro
+[1.238s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm_hand.srdf.xacro
+[1.238s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/.setup_assistant
+[1.239s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_resources_panda_moveit_config

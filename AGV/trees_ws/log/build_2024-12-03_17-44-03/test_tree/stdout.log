@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/test_tree/test_tree.egg-info
+writing ../../build/test_tree/test_tree.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_tree/test_tree.egg-info/dependency_links.txt
+writing entry points to ../../build/test_tree/test_tree.egg-info/entry_points.txt
+writing requirements to ../../build/test_tree/test_tree.egg-info/requires.txt
+writing top-level names to ../../build/test_tree/test_tree.egg-info/top_level.txt
+writing manifest file '../../build/test_tree/test_tree.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_tree/test_tree.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_tree/test_tree.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kmw/trees_ws/build/test_tree/build/lib/test_tree
+copying test_tree/__init__.py -> /home/kmw/trees_ws/build/test_tree/build/lib/test_tree
+copying test_tree/behavior_tree.py -> /home/kmw/trees_ws/build/test_tree/build/lib/test_tree
+copying test_tree/sample_code.py -> /home/kmw/trees_ws/build/test_tree/build/lib/test_tree
+running install
+running install_lib
+creating /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree
+copying /home/kmw/trees_ws/build/test_tree/build/lib/test_tree/__init__.py -> /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree
+copying /home/kmw/trees_ws/build/test_tree/build/lib/test_tree/behavior_tree.py -> /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree
+copying /home/kmw/trees_ws/build/test_tree/build/lib/test_tree/sample_code.py -> /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree
+byte-compiling /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree/behavior_tree.py to behavior_tree.cpython-310.pyc
+byte-compiling /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree/sample_code.py to sample_code.cpython-310.pyc
+running install_data
+creating /home/kmw/trees_ws/install/test_tree/share/ament_index/resource_index/packages
+copying resource/test_tree -> /home/kmw/trees_ws/install/test_tree/share/ament_index/resource_index/packages
+copying package.xml -> /home/kmw/trees_ws/install/test_tree/share/test_tree
+running install_egg_info
+Copying ../../build/test_tree/test_tree.egg-info to /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sample script to /home/kmw/trees_ws/install/test_tree/lib/test_tree
+Installing tree script to /home/kmw/trees_ws/install/test_tree/lib/test_tree
+writing list of installed files to '/home/kmw/trees_ws/build/test_tree/install.log'

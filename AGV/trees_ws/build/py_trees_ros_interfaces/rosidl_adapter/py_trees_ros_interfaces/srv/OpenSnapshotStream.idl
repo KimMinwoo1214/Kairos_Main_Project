@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from py_trees_ros_interfaces/srv/OpenSnapshotStream.srv
+// generated code does not contain a copyright notice
+
+#include "py_trees_ros_interfaces/msg/SnapshotStreamParameters.idl"
+
+module py_trees_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Open a snapshot stream." "\n"
+      "" "\n"
+      "Request" "\n"
+      "  topic_name: (optional) snapshot stream location " "\n"
+      "  parameters: used to configure the contents/rate of the stream" "\n"
+      "" "\n"
+      "Response" "\n"
+      "" "\n"
+      "  topic_name: the topic created for the snapshot stream" "\n"
+      "" "\n"
+      "Note: if the topic_name is not provided the service is expected to" "\n"
+      "create and return a dynamically created snapshot stream on a hidden" "\n"
+      "topic (the topic name will be returned in the response).")
+    struct OpenSnapshotStream_Request {
+      string topic_name;
+
+      py_trees_ros_interfaces::msg::SnapshotStreamParameters parameters;
+    };
+    struct OpenSnapshotStream_Response {
+      string topic_name;
+    };
+  };
+};

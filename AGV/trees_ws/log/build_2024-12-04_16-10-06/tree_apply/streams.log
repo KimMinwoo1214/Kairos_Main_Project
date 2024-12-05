@@ -1,0 +1,31 @@
+[1.578s] Invoking command in '/home/kmw/trees_ws/src/tree_apply': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/tree_apply/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tree_apply build --build-base /home/kmw/trees_ws/build/tree_apply/build install --record /home/kmw/trees_ws/build/tree_apply/install.log --single-version-externally-managed install_data
+[1.803s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.803s]   warnings.warn(msg)
+[1.953s] running egg_info
+[1.977s] writing ../../build/tree_apply/tree_apply.egg-info/PKG-INFO
+[1.977s] writing dependency_links to ../../build/tree_apply/tree_apply.egg-info/dependency_links.txt
+[1.977s] writing entry points to ../../build/tree_apply/tree_apply.egg-info/entry_points.txt
+[1.978s] writing requirements to ../../build/tree_apply/tree_apply.egg-info/requires.txt
+[1.978s] writing top-level names to ../../build/tree_apply/tree_apply.egg-info/top_level.txt
+[2.026s] reading manifest file '../../build/tree_apply/tree_apply.egg-info/SOURCES.txt'
+[2.027s] writing manifest file '../../build/tree_apply/tree_apply.egg-info/SOURCES.txt'
+[2.028s] running build
+[2.028s] running build_py
+[2.028s] copying tree_apply/__init__.py -> /home/kmw/trees_ws/build/tree_apply/build/lib/tree_apply
+[2.028s] copying tree_apply/cobot_node.py -> /home/kmw/trees_ws/build/tree_apply/build/lib/tree_apply
+[2.028s] copying tree_apply/bt_executor.py -> /home/kmw/trees_ws/build/tree_apply/build/lib/tree_apply
+[2.028s] running install
+[2.034s] running install_lib
+[2.059s] copying /home/kmw/trees_ws/build/tree_apply/build/lib/tree_apply/bt_executor.py -> /home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages/tree_apply
+[2.060s] byte-compiling /home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages/tree_apply/bt_executor.py to bt_executor.cpython-310.pyc
+[2.061s] running install_data
+[2.061s] copying resource/tree_apply -> /home/kmw/trees_ws/install/tree_apply/share/ament_index/resource_index/packages
+[2.062s] copying package.xml -> /home/kmw/trees_ws/install/tree_apply/share/tree_apply
+[2.062s] running install_egg_info
+[2.086s] removing '/home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages/tree_apply-0.0.0-py3.10.egg-info' (and everything under it)
+[2.087s] Copying ../../build/tree_apply/tree_apply.egg-info to /home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages/tree_apply-0.0.0-py3.10.egg-info
+[2.088s] running install_scripts
+[2.313s] Installing bt script to /home/kmw/trees_ws/install/tree_apply/lib/tree_apply
+[2.314s] Installing cobot_node script to /home/kmw/trees_ws/install/tree_apply/lib/tree_apply
+[2.314s] writing list of installed files to '/home/kmw/trees_ws/build/tree_apply/install.log'
+[2.387s] Invoked command in '/home/kmw/trees_ws/src/tree_apply' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/tree_apply/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/tree_apply/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tree_apply build --build-base /home/kmw/trees_ws/build/tree_apply/build install --record /home/kmw/trees_ws/build/tree_apply/install.log --single-version-externally-managed install_data

@@ -1,0 +1,98 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from py_trees_ros_interfaces/msg/Behaviour.msg
+// generated code does not contain a copyright notice
+
+#include "py_trees_ros_interfaces/msg/KeyValue.idl"
+#include "unique_identifier_msgs/msg/UUID.idl"
+
+module py_trees_ros_interfaces {
+  module msg {
+    module Behaviour_Constants {
+      const uint8 INVALID = 1;
+      const uint8 RUNNING = 2;
+      const uint8 SUCCESS = 3;
+      const uint8 FAILURE = 4;
+      @verbatim (language="comment", text=
+        "Possible types of behaviour")
+      const uint8 UNKNOWN_TYPE = 0;
+      const uint8 BEHAVIOUR = 1;
+      const uint8 SEQUENCE = 2;
+      const uint8 SELECTOR = 3;
+      const uint8 PARALLEL = 4;
+      const uint8 CHOOSER = 5;
+      const uint8 DECORATOR = 6;
+      @verbatim (language="comment", text=
+        "Blackbox Level - these must match py_trees.common.BlackBoxLevel")
+      const uint8 BLACKBOX_LEVEL_DETAIL = 1;
+      const uint8 BLACKBOX_LEVEL_COMPONENT = 2;
+      const uint8 BLACKBOX_LEVEL_BIG_PICTURE = 3;
+      const uint8 BLACKBOX_LEVEL_NOT_A_BLACKBOX = 4;
+      @verbatim (language="comment", text=
+        "Key Access Levels - these must match py_trees.common.Access")
+      const string BLACKBOARD_ACCESS_READ = "r";
+      const string BLACKBOARD_ACCESS_WRITE = "w";
+      const string BLACKBOARD_ACCESS_EXCLUSIVE_WRITE = "x";
+    };
+    @verbatim (language="comment", text=
+      "Possible behaviour states - these must match py_trees.common.Status")
+    struct Behaviour {
+      @verbatim (language="comment", text=
+        "Name given to the behaviour on construction")
+      string name;
+
+      @verbatim (language="comment", text=
+        "Name of the class of this behaviour")
+      string class_name;
+
+      @verbatim (language="comment", text=
+        "The ID of this behaviour")
+      unique_identifier_msgs::msg::UUID own_id;
+
+      @verbatim (language="comment", text=
+        "The ID of the parent behaviour")
+      unique_identifier_msgs::msg::UUID parent_id;
+
+      @verbatim (language="comment", text=
+        "ID of the tip of this behaviour. If the tip is the behaviour itself or None," "\n"
+        "this is the zero-filled UUID")
+      unique_identifier_msgs::msg::UUID tip_id;
+
+      @verbatim (language="comment", text=
+        "The IDs of children of this behaviour, if any")
+      sequence<unique_identifier_msgs::msg::UUID> child_ids;
+
+      @verbatim (language="comment", text=
+        "The ID of the current child (in case of a composite)." "\n"
+        "If None, this is the zero-filled UUID.")
+      unique_identifier_msgs::msg::UUID current_child_id;
+
+      @verbatim (language="comment", text=
+        "A composite, sequence, selector, plain behaviour, etc.")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "Additional detail about this behaviour, useful for debugging. Example: Parallel policy")
+      string additional_detail;
+
+      @verbatim (language="comment", text=
+        "Blackbox level (for visualisation purposes)")
+      uint8 blackbox_level;
+
+      @verbatim (language="comment", text=
+        "The current state of execution. Can be invalid, running, success or failure")
+      uint8 status;
+
+      @verbatim (language="comment", text=
+        "The message attached to the current execution state")
+      string message;
+
+      @verbatim (language="comment", text=
+        "Whether this node was part of the last tick")
+      boolean is_active;
+
+      @verbatim (language="comment", text=
+        "Blackboard keys and access level registered by blackboard clients of this behaviour")
+      sequence<py_trees_ros_interfaces::msg::KeyValue> blackboard_access;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+[2.385s] Invoking command in '/home/kmw/trees_ws/src/test_tree': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/py_trees_ros:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros_viewer:/home/kmw/trees_ws/install/py_trees_ros_tutorials:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) PATH=/home/kmw/trees_ws/install/py_trees_ros/bin:/home/kmw/trees_ws/install/py_trees_ros_viewer/bin:/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.cargo/bin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PYTHONPATH=/home/kmw/trees_ws/build/test_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_tree build --build-base /home/kmw/trees_ws/build/test_tree/build install --record /home/kmw/trees_ws/build/test_tree/install.log --single-version-externally-managed install_data
+[2.745s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.745s]   warnings.warn(msg)
+[2.984s] running egg_info
+[3.022s] writing ../../build/test_tree/test_tree.egg-info/PKG-INFO
+[3.023s] writing dependency_links to ../../build/test_tree/test_tree.egg-info/dependency_links.txt
+[3.023s] writing entry points to ../../build/test_tree/test_tree.egg-info/entry_points.txt
+[3.024s] writing requirements to ../../build/test_tree/test_tree.egg-info/requires.txt
+[3.024s] writing top-level names to ../../build/test_tree/test_tree.egg-info/top_level.txt
+[3.105s] reading manifest file '../../build/test_tree/test_tree.egg-info/SOURCES.txt'
+[3.107s] writing manifest file '../../build/test_tree/test_tree.egg-info/SOURCES.txt'
+[3.107s] running build
+[3.108s] running build_py
+[3.108s] copying test_tree/__init__.py -> /home/kmw/trees_ws/build/test_tree/build/lib/test_tree
+[3.108s] copying test_tree/behavior_tree.py -> /home/kmw/trees_ws/build/test_tree/build/lib/test_tree
+[3.109s] copying test_tree/sample_code.py -> /home/kmw/trees_ws/build/test_tree/build/lib/test_tree
+[3.109s] running install
+[3.120s] running install_lib
+[3.161s] running install_data
+[3.161s] copying resource/test_tree -> /home/kmw/trees_ws/install/test_tree/share/ament_index/resource_index/packages
+[3.162s] copying package.xml -> /home/kmw/trees_ws/install/test_tree/share/test_tree
+[3.162s] running install_egg_info
+[3.202s] removing '/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree-0.0.0-py3.10.egg-info' (and everything under it)
+[3.203s] Copying ../../build/test_tree/test_tree.egg-info to /home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages/test_tree-0.0.0-py3.10.egg-info
+[3.204s] running install_scripts
+[3.515s] Installing sample script to /home/kmw/trees_ws/install/test_tree/lib/test_tree
+[3.516s] Installing tree script to /home/kmw/trees_ws/install/test_tree/lib/test_tree
+[3.516s] writing list of installed files to '/home/kmw/trees_ws/build/test_tree/install.log'
+[3.639s] Invoked command in '/home/kmw/trees_ws/src/test_tree' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/py_trees_ros:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros_viewer:/home/kmw/trees_ws/install/py_trees_ros_tutorials:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) PATH=/home/kmw/trees_ws/install/py_trees_ros/bin:/home/kmw/trees_ws/install/py_trees_ros_viewer/bin:/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.cargo/bin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PYTHONPATH=/home/kmw/trees_ws/build/test_tree/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_tree build --build-base /home/kmw/trees_ws/build/test_tree/build install --record /home/kmw/trees_ws/build/test_tree/install.log --single-version-externally-managed install_data

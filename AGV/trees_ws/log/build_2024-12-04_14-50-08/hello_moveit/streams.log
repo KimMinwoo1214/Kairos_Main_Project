@@ -1,0 +1,37 @@
+[0.332s] Invoking command in '/home/kmw/trees_ws/build/hello_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/mycobot320_moveit2-main/hello_moveit -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/hello_moveit
+[0.407s] -- The C compiler identification is GNU 11.4.0
+[0.495s] -- The CXX compiler identification is GNU 11.4.0
+[0.503s] -- Detecting C compiler ABI info
+[0.624s] -- Detecting C compiler ABI info - done
+[0.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.636s] -- Detecting C compile features
+[0.636s] -- Detecting C compile features - done
+[0.640s] -- Detecting CXX compiler ABI info
+[0.738s] -- Detecting CXX compiler ABI info - done
+[0.754s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.755s] -- Detecting CXX compile features
+[0.755s] -- Detecting CXX compile features - done
+[0.759s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.268s] -- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter 
+[1.393s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.393s]   By not providing "Findmoveit_ros_planning_interface.cmake" in
+[1.393s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.394s]   configuration file provided by "moveit_ros_planning_interface", but CMake
+[1.394s]   did not find one.
+[1.394s] 
+[1.394s]   Could not find a package configuration file provided by
+[1.394s]   "moveit_ros_planning_interface" with any of the following names:
+[1.394s] 
+[1.394s]     moveit_ros_planning_interfaceConfig.cmake
+[1.394s]     moveit_ros_planning_interface-config.cmake
+[1.394s] 
+[1.395s]   Add the installation prefix of "moveit_ros_planning_interface" to
+[1.395s]   CMAKE_PREFIX_PATH or set "moveit_ros_planning_interface_DIR" to a directory
+[1.395s]   containing one of the above files.  If "moveit_ros_planning_interface"
+[1.395s]   provides a separate development package or SDK, be sure it has been
+[1.395s]   installed.
+[1.395s] 
+[1.395s] [0m
+[1.395s] -- Configuring incomplete, errors occurred!
+[1.395s] See also "/home/kmw/trees_ws/build/hello_moveit/CMakeFiles/CMakeOutput.log".
+[1.398s] Invoked command in '/home/kmw/trees_ws/build/hello_moveit' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/mycobot320_moveit2-main/hello_moveit -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/hello_moveit

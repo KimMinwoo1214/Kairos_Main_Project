@@ -1,0 +1,45 @@
+[3.105s] Invoking command in '/home/kmw/trees_ws/src/py_trees_ros_viewer': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros_viewer build --build-base /home/kmw/trees_ws/build/py_trees_ros_viewer/build install --record /home/kmw/trees_ws/build/py_trees_ros_viewer/install.log --single-version-externally-managed install_data
+[3.303s] /home/kmw/trees_ws/src/py_trees_ros_viewer/setup.py:5: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[3.303s]   from distutils import log
+[3.324s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/_distutils_hack/__init__.py:15: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[3.324s]   warnings.warn(
+[3.325s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[3.326s]   warnings.warn(
+[4.288s] running egg_info
+[4.330s] writing ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/PKG-INFO
+[4.331s] writing dependency_links to ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/dependency_links.txt
+[4.332s] writing entry points to ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/entry_points.txt
+[4.332s] writing top-level names to ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/top_level.txt
+[4.414s] reading manifest file '../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/SOURCES.txt'
+[4.415s] adding license file 'LICENSE'
+[4.418s] writing manifest file '../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/SOURCES.txt'
+[4.419s] running build
+[4.419s] running build_py
+[4.421s] copying py_trees_ros_viewer/backend.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.422s] copying py_trees_ros_viewer/viewer.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.423s] copying py_trees_ros_viewer/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.423s] copying py_trees_ros_viewer/web_app_rc.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.424s] copying py_trees_ros_viewer/conversions.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.424s] copying py_trees_ros_viewer/exceptions.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.425s] copying py_trees_ros_viewer/console.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.426s] copying py_trees_ros_viewer/main_window.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.426s] copying py_trees_ros_viewer/images_rc.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.426s] copying py_trees_ros_viewer/web_view.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.427s] copying py_trees_ros_viewer/web_view_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.427s] copying py_trees_ros_viewer/utilities.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.427s] copying py_trees_ros_viewer/main_window_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.429s] copying py_trees_ros_viewer/web_view.ui -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.429s] copying py_trees_ros_viewer/main_window.ui -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[4.430s] copying py_trees_ros_viewer/html/index.html -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/html
+[4.430s] copying py_trees_ros_viewer/images/tuxrobot.png -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/images
+[4.431s] running install
+[4.447s] running install_lib
+[4.514s] running install_data
+[4.514s] copying package.xml -> /home/kmw/trees_ws/install/py_trees_ros_viewer/share/py_trees_ros_viewer
+[4.515s] running install_egg_info
+[4.570s] removing '/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer-0.2.3-py3.10.egg-info' (and everything under it)
+[4.570s] Copying ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info to /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer-0.2.3-py3.10.egg-info
+[4.573s] running install_scripts
+[4.764s] Installing py-trees-tree-viewer script to /home/kmw/trees_ws/install/py_trees_ros_viewer/bin
+[4.766s] writing list of installed files to '/home/kmw/trees_ws/build/py_trees_ros_viewer/install.log'
+[4.979s] Invoked command in '/home/kmw/trees_ws/src/py_trees_ros_viewer' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros_viewer build --build-base /home/kmw/trees_ws/build/py_trees_ros_viewer/build install --record /home/kmw/trees_ws/build/py_trees_ros_viewer/install.log --single-version-externally-managed install_data

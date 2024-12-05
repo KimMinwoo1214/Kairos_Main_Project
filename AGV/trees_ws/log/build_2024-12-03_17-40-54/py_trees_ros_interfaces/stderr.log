@@ -1,0 +1,59 @@
+Traceback (most recent call last):
+  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/__init__.py", line 24, in <module>
+    from . import multiarray
+  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/overrides.py", line 8, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/__init__.py", line 50, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/home/kmw/miniconda3/bin/python3"
+  * The NumPy version is: "1.26.4"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: No module named 'numpy.core._multiarray_umath'
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+[31mCMake Error at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:204 (message):
+  execute_process(/home/kmw/miniconda3/bin/python3 -c 'import
+  numpy;print(numpy.get_include())') returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:63 (rosidl_generate_interfaces)
+
+[0m

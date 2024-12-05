@@ -1,0 +1,34 @@
+[0.045s] Invoking command in '/home/kmw/trees_ws/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_common
+[0.578s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.903s] -- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter 
+[1.148s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.464s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.470s] -- Added test 'lint_cmake' to check CMake code style
+[1.472s] -- Added test 'xmllint' to check XML markup files
+[1.476s] -- Configuring done
+[1.481s] -- Generating done
+[1.485s] -- Build files have been written to: /home/kmw/trees_ws/build/moveit_common
+[1.501s] Invoked command in '/home/kmw/trees_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_common
+[1.502s] Invoking command in '/home/kmw/trees_ws/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_common -- -j8 -l8
+[1.928s] Invoked command in '/home/kmw/trees_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_common -- -j8 -l8
+[1.949s] Invoking command in '/home/kmw/trees_ws/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_common
+[1.992s] -- Install configuration: ""
+[1.992s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[1.992s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[1.993s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[1.993s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[1.993s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/environment/path.sh
+[1.993s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+[1.993s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/local_setup.bash
+[1.993s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/local_setup.sh
+[1.993s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+[1.994s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+[1.994s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/package.dsv
+[1.994s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[1.994s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[1.994s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[1.994s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[1.994s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/package.xml
+[1.994s] -- Up-to-date: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/cmake
+[1.995s] -- Installing: /home/kmw/trees_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[2.000s] Invoked command in '/home/kmw/trees_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_common

@@ -44,7 +44,7 @@ def detect_qr_code(frame):
 class MyCobotController(QWidget):
     def __init__(self):
         super().__init__()
-        self.mc = MyCobot('COM7', 115200)
+        self.mc = MyCobot('/dev/ttyACM0', 115200)
         self.joint_ranges = [(-165, 165), (-165, 165), (-165, 165), (-165, 165), (-165, 165), (-175, 175)]
         self.gripper_state = None
         self.scenario_count = 0  # 시나리오 카운터 초기화

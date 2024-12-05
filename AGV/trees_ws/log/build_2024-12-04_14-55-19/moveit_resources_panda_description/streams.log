@@ -1,0 +1,64 @@
+[0.045s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_resources_panda_description
+[0.578s] -- The C compiler identification is GNU 11.4.0
+[0.578s] -- The CXX compiler identification is GNU 11.4.0
+[0.578s] -- Detecting C compiler ABI info
+[0.579s] -- Detecting C compiler ABI info - done
+[0.579s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.579s] -- Detecting C compile features
+[0.579s] -- Detecting C compile features - done
+[0.579s] -- Detecting CXX compiler ABI info
+[0.579s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.583s] -- Detecting CXX compile features - done
+[0.588s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.568s] -- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter 
+[1.981s] -- Configuring done
+[1.986s] -- Generating done
+[1.989s] -- Build files have been written to: /home/kmw/trees_ws/build/moveit_resources_panda_description
+[2.106s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_resources_panda_description
+[2.111s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_resources_panda_description -- -j8 -l8
+[2.256s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_resources_panda_description -- -j8 -l8
+[2.258s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_resources_panda_description
+[2.289s] -- Install configuration: ""
+[2.290s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[2.295s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[2.295s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[2.295s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[2.296s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[2.296s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[2.296s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[2.296s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[2.296s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[2.297s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[2.297s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[2.297s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[2.297s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[2.297s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[2.298s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[2.301s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[2.302s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[2.303s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[2.307s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[2.307s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[2.308s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[2.308s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[2.308s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[2.310s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[2.313s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[2.313s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[2.317s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[2.322s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[2.323s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[2.325s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[2.325s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[2.325s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[2.325s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[2.325s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[2.326s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[2.326s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[2.326s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[2.327s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[2.331s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[2.331s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[2.332s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_resources_panda_description

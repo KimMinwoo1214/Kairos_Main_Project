@@ -1,0 +1,98 @@
+[0.015s] Invoking command in '/home/kmw/trees_ws/build/py_trees_ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/kmw/trees_ws/src/py_trees_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/py_trees_ros_interfaces
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.193s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.309s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.309s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.317s] -- Detecting CXX compiler ABI info
+[0.456s] -- Detecting CXX compiler ABI info - done
+[0.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.472s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.723s] -- Found Python3: /home/kmw/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[0.888s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.936s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.979s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.988s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.999s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.017s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.040s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.060s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.073s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.107s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[1.141s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.019s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.023s] -- Found PythonInterp: /home/kmw/miniconda3/bin/python3 (found suitable version "3.12.4", minimum required is "3.6") 
+[3.024s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.070s] -- Found PythonLibs: /home/kmw/miniconda3/lib/libpython3.12.so (found suitable version "3.12.4", minimum required is "3.5") 
+[3.070s] -- Using PYTHON_EXECUTABLE: /home/kmw/miniconda3/bin/python3
+[3.070s] -- Using PYTHON_INCLUDE_DIRS: /home/kmw/miniconda3/include/python3.12
+[3.070s] -- Using PYTHON_LIBRARIES: /home/kmw/miniconda3/lib/libpython3.12.so
+[3.113s] -- Found PythonExtra: .so  
+[3.262s] Traceback (most recent call last):
+[3.262s]   File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/__init__.py", line 24, in <module>
+[3.262s]     from . import multiarray
+[3.262s]   File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/multiarray.py", line 10, in <module>
+[3.262s]     from . import overrides
+[3.262s]   File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/overrides.py", line 8, in <module>
+[3.262s]     from numpy.core._multiarray_umath import (
+[3.262s] ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+[3.262s] 
+[3.262s] During handling of the above exception, another exception occurred:
+[3.262s] 
+[3.262s] Traceback (most recent call last):
+[3.262s]   File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/__init__.py", line 130, in <module>
+[3.263s]     from numpy.__config__ import show as show_config
+[3.263s]   File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/__config__.py", line 4, in <module>
+[3.263s]     from numpy.core._multiarray_umath import (
+[3.263s]   File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/core/__init__.py", line 50, in <module>
+[3.263s]     raise ImportError(msg)
+[3.263s] ImportError: 
+[3.263s] 
+[3.263s] IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+[3.263s] 
+[3.263s] Importing the numpy C-extensions failed. This error can happen for
+[3.263s] many reasons, often due to issues with your setup or how NumPy was
+[3.263s] installed.
+[3.263s] 
+[3.263s] We have compiled some common reasons and troubleshooting tips at:
+[3.263s] 
+[3.263s]     https://numpy.org/devdocs/user/troubleshooting-importerror.html
+[3.264s] 
+[3.264s] Please note and check the following:
+[3.264s] 
+[3.264s]   * The Python version is: Python3.12 from "/home/kmw/miniconda3/bin/python3"
+[3.264s]   * The NumPy version is: "1.26.4"
+[3.264s] 
+[3.264s] and make sure that they are the versions you expect.
+[3.264s] Please carefully study the documentation linked above for further help.
+[3.264s] 
+[3.264s] Original error was: No module named 'numpy.core._multiarray_umath'
+[3.264s] 
+[3.265s] 
+[3.265s] The above exception was the direct cause of the following exception:
+[3.266s] 
+[3.266s] Traceback (most recent call last):
+[3.266s]   File "<string>", line 1, in <module>
+[3.266s]   File "/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/numpy/__init__.py", line 135, in <module>
+[3.266s]     raise ImportError(msg) from e
+[3.266s] ImportError: Error importing numpy: you should not try to import numpy from
+[3.266s]         its source directory; please exit the numpy source tree, and relaunch
+[3.266s]         your python interpreter from there.
+[3.271s] [31mCMake Error at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:204 (message):
+[3.272s]   execute_process(/home/kmw/miniconda3/bin/python3 -c 'import
+[3.272s]   numpy;print(numpy.get_include())') returned error code 1
+[3.272s] Call Stack (most recent call first):
+[3.272s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.272s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.272s]   CMakeLists.txt:63 (rosidl_generate_interfaces)
+[3.272s] 
+[3.272s] [0m
+[3.272s] -- Configuring incomplete, errors occurred!
+[3.272s] See also "/home/kmw/trees_ws/build/py_trees_ros_interfaces/CMakeFiles/CMakeOutput.log".
+[3.295s] Invoked command in '/home/kmw/trees_ws/build/py_trees_ros_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/kmw/trees_ws/src/py_trees_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/py_trees_ros_interfaces

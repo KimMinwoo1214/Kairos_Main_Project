@@ -3,10 +3,8 @@ import os
 
 # QR 코드 데이터를 정의
 qr_data_list = [
-    "1",
-    "2",
-    "3",
-    "4",
+    "5",
+    "6",
 ]
 
 def generate_qr_codes(output_dir):

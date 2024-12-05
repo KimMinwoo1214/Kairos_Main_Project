@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from py_trees_ros_interfaces/msg/SnapshotStreamParameters.msg
+// generated code does not contain a copyright notice
+
+
+module py_trees_ros_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Configuration for a snapshot stream." "\n"
+      "" "\n"
+      "   blackboard_data: publish blackboard variables on the visited path" "\n"
+      "   blackboard_activity: enable and publish blackboard activity in the last tick" "\n"
+      "   snapshot_period: period between snapshots (use /inf to only publish on tree status changes)")
+    struct SnapshotStreamParameters {
+      double snapshot_period;
+
+      boolean blackboard_data;
+
+      boolean blackboard_activity;
+    };
+  };
+};

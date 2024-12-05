@@ -1,0 +1,2 @@
+
+SubscriberDetails[] subscriber_details

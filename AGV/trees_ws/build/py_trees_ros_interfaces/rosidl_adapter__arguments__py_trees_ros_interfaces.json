@@ -1,0 +1,27 @@
+{
+  "package_name": "py_trees_ros_interfaces",
+  "non_idl_tuples": [
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/CloseBlackboardStream.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/CloseSnapshotStream.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/GetBlackboardVariables.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/IntrospectPublishers.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/IntrospectServices.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/IntrospectSubscribers.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/OpenBlackboardStream.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/OpenSnapshotStream.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/ReconfigureSnapshotStream.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:srv/StatusReport.srv",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:msg/ActivityItem.msg",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:msg/Behaviour.msg",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:msg/BehaviourTree.msg",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:msg/KeyValue.msg",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:msg/PublisherDetails.msg",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:msg/Statistics.msg",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:msg/ServiceDetails.msg",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:msg/SnapshotStreamParameters.msg",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:msg/SubscriberDetails.msg",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:action/Dock.action",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:action/Rotate.action",
+    "/home/kmw/trees_ws/src/py_trees_ros_interfaces:action/MoveBase.action"
+  ]
+}

@@ -1,0 +1,22 @@
+[0.545s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit_resources/fanuc_description -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_resources_fanuc_description
+[0.680s] -- The C compiler identification is GNU 11.4.0
+[0.823s] -- The CXX compiler identification is GNU 11.4.0
+[0.852s] -- Detecting C compiler ABI info
+[1.019s] -- Detecting C compiler ABI info - done
+[1.042s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.043s] -- Detecting C compile features
+[1.045s] -- Detecting C compile features - done
+[1.053s] -- Detecting CXX compiler ABI info
+[1.250s] -- Detecting CXX compiler ABI info - done
+[1.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.268s] -- Detecting CXX compile features
+[1.269s] -- Detecting CXX compile features - done
+[1.274s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.211s] -- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter 
+[2.761s] -- Configuring done
+[2.763s] -- Generating done
+[2.768s] -- Build files have been written to: /home/kmw/trees_ws/build/moveit_resources_fanuc_description
+[2.774s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit_resources/fanuc_description -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_resources_fanuc_description
+[2.781s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_resources_fanuc_description -- -j8 -l8
+[2.894s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_resources_fanuc_description -- -j8 -l8
+[2.896s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_resources_fanuc_description

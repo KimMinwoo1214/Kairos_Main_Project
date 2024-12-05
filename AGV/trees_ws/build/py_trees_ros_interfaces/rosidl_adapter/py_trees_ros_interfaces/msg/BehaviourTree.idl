@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from py_trees_ros_interfaces/msg/BehaviourTree.msg
+// generated code does not contain a copyright notice
+
+#include "diagnostic_msgs/msg/KeyValue.idl"
+#include "py_trees_ros_interfaces/msg/ActivityItem.idl"
+#include "py_trees_ros_interfaces/msg/Behaviour.idl"
+#include "py_trees_ros_interfaces/msg/Statistics.idl"
+
+module py_trees_ros_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Tree")
+    struct BehaviourTree {
+      @verbatim (language="comment", text=
+        "Leaves of the tree")
+      sequence<py_trees_ros_interfaces::msg::Behaviour> behaviours;
+
+      @verbatim (language="comment", text=
+        "Whether the status of any single behaviour or the tree graph itself changed")
+      boolean changed;
+
+      @verbatim (language="comment", text=
+        "Blackboard")
+      sequence<diagnostic_msgs::msg::KeyValue> blackboard_on_visited_path;
+
+      sequence<py_trees_ros_interfaces::msg::ActivityItem> blackboard_activity;
+
+      @verbatim (language="comment", text=
+        "Other")
+      py_trees_ros_interfaces::msg::Statistics statistics;
+    };
+  };
+};

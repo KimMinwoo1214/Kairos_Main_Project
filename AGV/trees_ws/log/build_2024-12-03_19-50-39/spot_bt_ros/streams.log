@@ -1,0 +1,58 @@
+[3.326s] Invoking command in '/home/kmw/trees_ws/src/spot_bt_ros': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/py_trees_ros:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros_viewer:/home/kmw/trees_ws/install/py_trees_ros_tutorials:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) PATH=/home/kmw/trees_ws/install/py_trees_ros/bin:/home/kmw/trees_ws/install/py_trees_ros_viewer/bin:/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.cargo/bin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PYTHONPATH=/home/kmw/trees_ws/build/spot_bt_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spot_bt_ros build --build-base /home/kmw/trees_ws/build/spot_bt_ros/build install --record /home/kmw/trees_ws/build/spot_bt_ros/install.log --single-version-externally-managed install_data
+[3.920s] running egg_info
+[3.957s] creating ../../build/spot_bt_ros/spot_bt_ros.egg-info
+[3.957s] writing ../../build/spot_bt_ros/spot_bt_ros.egg-info/PKG-INFO
+[3.958s] writing dependency_links to ../../build/spot_bt_ros/spot_bt_ros.egg-info/dependency_links.txt
+[3.958s] writing entry points to ../../build/spot_bt_ros/spot_bt_ros.egg-info/entry_points.txt
+[3.959s] writing requirements to ../../build/spot_bt_ros/spot_bt_ros.egg-info/requires.txt
+[3.959s] writing top-level names to ../../build/spot_bt_ros/spot_bt_ros.egg-info/top_level.txt
+[3.959s] writing manifest file '../../build/spot_bt_ros/spot_bt_ros.egg-info/SOURCES.txt'
+[4.040s] reading manifest file '../../build/spot_bt_ros/spot_bt_ros.egg-info/SOURCES.txt'
+[4.040s] adding license file 'LICENSE'
+[4.040s] adding license file 'NOTICE'
+[4.042s] writing manifest file '../../build/spot_bt_ros/spot_bt_ros.egg-info/SOURCES.txt'
+[4.042s] running build
+[4.043s] running build_py
+[4.043s] creating /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+[4.043s] copying spot_bt_ros/node.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+[4.044s] copying spot_bt_ros/__init__.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+[4.044s] copying spot_bt_ros/utils.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+[4.044s] copying spot_bt_ros/cameras.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+[4.045s] copying spot_bt_ros/data.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+[4.045s] copying spot_bt_ros/tick.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+[4.045s] copying spot_bt_ros/transform.py -> /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros
+[4.046s] running install
+[4.056s] running install_lib
+[4.096s] creating /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+[4.096s] copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/node.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+[4.097s] copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/__init__.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+[4.097s] copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/utils.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+[4.097s] copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/cameras.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+[4.098s] copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/data.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+[4.098s] copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/tick.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+[4.098s] copying /home/kmw/trees_ws/build/spot_bt_ros/build/lib/spot_bt_ros/transform.py -> /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros
+[4.099s] byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/node.py to node.cpython-310.pyc
+[4.104s] byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/__init__.py to __init__.cpython-310.pyc
+[4.104s] byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/utils.py to utils.cpython-310.pyc
+[4.105s] byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/cameras.py to cameras.cpython-310.pyc
+[4.107s] byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/data.py to data.cpython-310.pyc
+[4.111s] byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/tick.py to tick.cpython-310.pyc
+[4.112s] byte-compiling /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros/transform.py to transform.cpython-310.pyc
+[4.113s] running install_data
+[4.114s] creating /home/kmw/trees_ws/install/spot_bt_ros/share/ament_index/resource_index/packages
+[4.114s] copying resource/spot_bt_ros -> /home/kmw/trees_ws/install/spot_bt_ros/share/ament_index/resource_index/packages
+[4.114s] copying package.xml -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros
+[4.115s] creating /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/launch
+[4.115s] copying launch/demo.launch.py -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/launch
+[4.115s] creating /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/scripts
+[4.116s] copying scripts/demo_arm.py -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/scripts
+[4.116s] copying scripts/demo_fiducial.py -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/scripts
+[4.116s] copying scripts/demo_pose.py -> /home/kmw/trees_ws/install/spot_bt_ros/share/spot_bt_ros/scripts
+[4.117s] running install_egg_info
+[4.157s] Copying ../../build/spot_bt_ros/spot_bt_ros.egg-info to /home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages/spot_bt_ros-0.1.0-py3.10.egg-info
+[4.158s] running install_scripts
+[4.471s] Installing spot_arm_demo script to /home/kmw/trees_ws/install/spot_bt_ros/lib/spot_bt_ros
+[4.472s] Installing spot_fiducial_demo script to /home/kmw/trees_ws/install/spot_bt_ros/lib/spot_bt_ros
+[4.472s] Installing spot_pose_demo script to /home/kmw/trees_ws/install/spot_bt_ros/lib/spot_bt_ros
+[4.473s] writing list of installed files to '/home/kmw/trees_ws/build/spot_bt_ros/install.log'
+[4.662s] Invoked command in '/home/kmw/trees_ws/src/spot_bt_ros' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/py_trees_ros:/home/kmw/trees_ws/install/test_tree:/home/kmw/trees_ws/install/py_trees_ros_viewer:/home/kmw/trees_ws/install/py_trees_ros_tutorials:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) PATH=/home/kmw/trees_ws/install/py_trees_ros/bin:/home/kmw/trees_ws/install/py_trees_ros_viewer/bin:/opt/ros/humble/bin:/home/kmw/gems/bin:/home/kmw/gems/bin:/home/kmw/miniconda3/envs/ros2_py310/bin:/home/kmw/miniconda3/condabin:/home/kmw/.cargo/bin:/home/kmw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin PYTHONPATH=/home/kmw/trees_ws/build/spot_bt_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/spot_bt_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:/home/kmw/trees_ws/install/test_tree/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/ /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spot_bt_ros build --build-base /home/kmw/trees_ws/build/spot_bt_ros/build install --record /home/kmw/trees_ws/build/spot_bt_ros/install.log --single-version-externally-managed install_data

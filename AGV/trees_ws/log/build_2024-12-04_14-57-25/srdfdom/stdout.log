@@ -1,0 +1,26 @@
+[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[ 36%] Built target ament_cmake_python_copy_srdfdom
+running egg_info
+creating srdfdom.egg-info
+writing srdfdom.egg-info/PKG-INFO
+writing dependency_links to srdfdom.egg-info/dependency_links.txt
+writing top-level names to srdfdom.egg-info/top_level.txt
+writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 45%] Built target gtest_main
+[ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[ 54%] Built target srdfdom
+[ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 63%] Built target gtest
+[ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[ 90%] Built target test_cpp_nl_NL.UTF-8
+[100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[100%] Built target test_cpp_C

@@ -1,0 +1,159 @@
+[2.186s] Invoking command in '/home/kmw/trees_ws/src/ros2_ros_bt_py/ros_bt_py': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces CONDA_PROMPT_MODIFIER=(ros2_py310) LD_LIBRARY_PATH=/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kmw/trees_ws/build/ros_bt_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_bt_py build --build-base /home/kmw/trees_ws/build/ros_bt_py/build install --record /home/kmw/trees_ws/build/ros_bt_py/install.log --single-version-externally-managed install_data
+[2.521s] Running /opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_python_module.py /home/kmw/trees_ws/build/ros_bt_py/ros_bt_py/parameters.py config/tree_node_parameters.yaml 
+[2.873s] Running /opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_python_module.py /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/parameters.py config/tree_node_parameters.yaml 
+[3.302s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[3.302s]   warnings.warn(msg)
+[3.552s] running egg_info
+[3.593s] creating ../../../build/ros_bt_py/ros_bt_py.egg-info
+[3.593s] writing ../../../build/ros_bt_py/ros_bt_py.egg-info/PKG-INFO
+[3.594s] writing dependency_links to ../../../build/ros_bt_py/ros_bt_py.egg-info/dependency_links.txt
+[3.594s] writing entry points to ../../../build/ros_bt_py/ros_bt_py.egg-info/entry_points.txt
+[3.594s] writing requirements to ../../../build/ros_bt_py/ros_bt_py.egg-info/requires.txt
+[3.594s] writing top-level names to ../../../build/ros_bt_py/ros_bt_py.egg-info/top_level.txt
+[3.595s] writing manifest file '../../../build/ros_bt_py/ros_bt_py.egg-info/SOURCES.txt'
+[3.678s] reading manifest file '../../../build/ros_bt_py/ros_bt_py.egg-info/SOURCES.txt'
+[3.679s] adding license file 'LICENSE'
+[3.681s] writing manifest file '../../../build/ros_bt_py/ros_bt_py.egg-info/SOURCES.txt'
+[3.681s] running build
+[3.682s] running build_py
+[3.682s] creating /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.682s] copying ros_bt_py/package_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.683s] copying ros_bt_py/node_data.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.683s] copying ros_bt_py/node_config.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.683s] copying ros_bt_py/node.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.684s] copying ros_bt_py/__init__.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.684s] copying ros_bt_py/exceptions.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.684s] copying ros_bt_py/helpers.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.684s] copying ros_bt_py/tree_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.685s] copying ros_bt_py/debug_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.685s] copying ros_bt_py/ros_helpers.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.685s] copying ros_bt_py/subtree_manager.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.685s] copying ros_bt_py/tree_node.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py
+[3.686s] creating /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.686s] copying ros_bt_py/nodes/format.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.687s] copying ros_bt_py/nodes/decorators.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.687s] copying ros_bt_py/nodes/setters.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.687s] copying ros_bt_py/nodes/sequence.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.687s] copying ros_bt_py/nodes/getters.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.688s] copying ros_bt_py/nodes/__init__.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.688s] copying ros_bt_py/nodes/compare.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.688s] copying ros_bt_py/nodes/maths.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.688s] copying ros_bt_py/nodes/parallel.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.689s] copying ros_bt_py/nodes/io.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.689s] copying ros_bt_py/nodes/passthrough_node.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.689s] copying ros_bt_py/nodes/random_number.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.689s] copying ros_bt_py/nodes/wait.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.690s] copying ros_bt_py/nodes/list.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.690s] copying ros_bt_py/nodes/constant.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.690s] copying ros_bt_py/nodes/fallback.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes
+[3.691s] creating /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.691s] copying ros_bt_py/ros_nodes/param.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.691s] copying ros_bt_py/ros_nodes/action.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.692s] copying ros_bt_py/ros_nodes/file.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.692s] copying ros_bt_py/ros_nodes/__init__.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.692s] copying ros_bt_py/ros_nodes/enum.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.692s] copying ros_bt_py/ros_nodes/topic.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.693s] copying ros_bt_py/ros_nodes/subtree.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.693s] copying ros_bt_py/ros_nodes/throttle.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.693s] copying ros_bt_py/ros_nodes/message_converters.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.693s] copying ros_bt_py/ros_nodes/time.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.694s] copying ros_bt_py/ros_nodes/messages_from_dict.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.694s] copying ros_bt_py/ros_nodes/service.py -> /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes
+[3.696s] running install
+[3.706s] running install_lib
+[3.770s] creating /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.771s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/param.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.771s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/action.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.772s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/file.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.772s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/__init__.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.772s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/enum.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.772s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/topic.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.773s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/subtree.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.773s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/throttle.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.773s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/message_converters.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.773s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/time.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.774s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/messages_from_dict.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.774s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_nodes/service.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes
+[3.774s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/package_manager.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.775s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/node_data.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.775s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/node_config.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.775s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/node.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.776s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/__init__.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.776s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/exceptions.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.776s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/helpers.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.777s] creating /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.777s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/format.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.777s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/decorators.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.777s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/setters.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.778s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/sequence.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.778s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/getters.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.778s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/__init__.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.778s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/compare.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.779s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/maths.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.779s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/parallel.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.779s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/io.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.779s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/passthrough_node.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.780s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/random_number.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.780s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/wait.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.780s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/list.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.781s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/constant.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.781s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/nodes/fallback.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes
+[3.781s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/tree_manager.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.781s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/debug_manager.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.782s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/ros_helpers.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.782s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/subtree_manager.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.782s] copying /home/kmw/trees_ws/build/ros_bt_py/build/lib/ros_bt_py/tree_node.py -> /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py
+[3.783s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/param.py to param.cpython-310.pyc
+[3.786s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/action.py to action.cpython-310.pyc
+[3.793s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/file.py to file.cpython-310.pyc
+[3.795s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/__init__.py to __init__.cpython-310.pyc
+[3.796s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/enum.py to enum.cpython-310.pyc
+[3.797s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/topic.py to topic.cpython-310.pyc
+[3.800s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/subtree.py to subtree.cpython-310.pyc
+[3.802s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/throttle.py to throttle.cpython-310.pyc
+[3.804s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/message_converters.py to message_converters.cpython-310.pyc
+[3.806s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/time.py to time.cpython-310.pyc
+[3.806s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/messages_from_dict.py to messages_from_dict.cpython-310.pyc
+[3.807s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_nodes/service.py to service.cpython-310.pyc
+[3.814s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/package_manager.py to package_manager.cpython-310.pyc
+[3.817s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/node_data.py to node_data.cpython-310.pyc
+[3.820s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/node_config.py to node_config.cpython-310.pyc
+[3.821s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/node.py to node.cpython-310.pyc
+[3.833s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/__init__.py to __init__.cpython-310.pyc
+[3.833s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/exceptions.py to exceptions.cpython-310.pyc
+[3.834s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/helpers.py to helpers.cpython-310.pyc
+[3.835s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/format.py to format.cpython-310.pyc
+[3.838s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/decorators.py to decorators.cpython-310.pyc
+[3.842s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/setters.py to setters.cpython-310.pyc
+[3.843s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/sequence.py to sequence.cpython-310.pyc
+[3.845s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/getters.py to getters.cpython-310.pyc
+[3.848s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/__init__.py to __init__.cpython-310.pyc
+[3.849s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/compare.py to compare.cpython-310.pyc
+[3.851s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/maths.py to maths.cpython-310.pyc
+[3.854s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/parallel.py to parallel.cpython-310.pyc
+[3.857s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/io.py to io.cpython-310.pyc
+[3.859s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/passthrough_node.py to passthrough_node.cpython-310.pyc
+[3.859s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/random_number.py to random_number.cpython-310.pyc
+[3.860s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/wait.py to wait.cpython-310.pyc
+[3.861s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/list.py to list.cpython-310.pyc
+[3.863s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/constant.py to constant.cpython-310.pyc
+[3.864s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/nodes/fallback.py to fallback.cpython-310.pyc
+[3.867s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/tree_manager.py to tree_manager.cpython-310.pyc
+[3.885s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/debug_manager.py to debug_manager.cpython-310.pyc
+[3.887s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/ros_helpers.py to ros_helpers.cpython-310.pyc
+[3.887s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/subtree_manager.py to subtree_manager.cpython-310.pyc
+[3.888s] byte-compiling /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py/tree_node.py to tree_node.cpython-310.pyc
+[3.891s] running install_data
+[3.891s] creating /home/kmw/trees_ws/install/ros_bt_py/share/ament_index/resource_index/packages
+[3.892s] copying resource/ros_bt_py -> /home/kmw/trees_ws/install/ros_bt_py/share/ament_index/resource_index/packages
+[3.892s] copying package.xml -> /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py
+[3.892s] creating /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py/config
+[3.893s] copying config/tree_node_parameters.yaml -> /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py/config
+[3.893s] creating /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py/launch
+[3.893s] copying launch/ros_bt_py.launch.py -> /home/kmw/trees_ws/install/ros_bt_py/share/ros_bt_py/launch
+[3.893s] running install_egg_info
+[3.935s] Copying ../../../build/ros_bt_py/ros_bt_py.egg-info to /home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages/ros_bt_py-0.1.1-py3.10.egg-info
+[3.936s] running install_scripts
+[4.251s] Installing tree_node script to /home/kmw/trees_ws/install/ros_bt_py/lib/ros_bt_py
+[4.253s] writing list of installed files to '/home/kmw/trees_ws/build/ros_bt_py/install.log'
+[4.361s] Invoked command in '/home/kmw/trees_ws/src/ros2_ros_bt_py/ros_bt_py' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/ros_bt_py_web_gui:/home/kmw/trees_ws/install/ros_bt_py_interfaces CONDA_PROMPT_MODIFIER=(ros2_py310) LD_LIBRARY_PATH=/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kmw/trees_ws/build/ros_bt_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/ros_bt_py/lib/python3.10/site-packages:/home/kmw/trees_ws/install/ros_bt_py_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_bt_py build --build-base /home/kmw/trees_ws/build/ros_bt_py/build install --record /home/kmw/trees_ws/build/ros_bt_py/install.log --single-version-externally-managed install_data

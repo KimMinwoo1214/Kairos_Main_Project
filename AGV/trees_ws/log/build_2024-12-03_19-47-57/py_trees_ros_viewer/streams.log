@@ -1,0 +1,75 @@
+[2.373s] Invoking command in '/home/kmw/trees_ws/src/py_trees_ros_viewer': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros_viewer build --build-base /home/kmw/trees_ws/build/py_trees_ros_viewer/build install --record /home/kmw/trees_ws/build/py_trees_ros_viewer/install.log --single-version-externally-managed install_data
+[2.470s] /home/kmw/trees_ws/src/py_trees_ros_viewer/setup.py:5: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[2.470s]   from distutils import log
+[2.478s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/_distutils_hack/__init__.py:15: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[2.478s]   warnings.warn(
+[2.478s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[2.478s]   warnings.warn(
+[3.212s] running egg_info
+[3.250s] writing ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/PKG-INFO
+[3.251s] writing dependency_links to ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/dependency_links.txt
+[3.251s] writing entry points to ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/entry_points.txt
+[3.252s] writing top-level names to ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/top_level.txt
+[3.332s] reading manifest file '../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/SOURCES.txt'
+[3.332s] adding license file 'LICENSE'
+[3.335s] writing manifest file '../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info/SOURCES.txt'
+[3.335s] running build
+[3.335s] running build_py
+[3.335s] copying py_trees_ros_viewer/backend.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.336s] copying py_trees_ros_viewer/viewer.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.336s] copying py_trees_ros_viewer/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.337s] copying py_trees_ros_viewer/web_app_rc.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.337s] copying py_trees_ros_viewer/conversions.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.337s] copying py_trees_ros_viewer/exceptions.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.337s] copying py_trees_ros_viewer/console.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.338s] copying py_trees_ros_viewer/main_window.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.338s] copying py_trees_ros_viewer/images_rc.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.338s] copying py_trees_ros_viewer/web_view.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.339s] copying py_trees_ros_viewer/web_view_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.339s] copying py_trees_ros_viewer/utilities.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.339s] copying py_trees_ros_viewer/main_window_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.340s] copying py_trees_ros_viewer/web_view.ui -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.341s] copying py_trees_ros_viewer/main_window.ui -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer
+[3.341s] copying py_trees_ros_viewer/html/index.html -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/html
+[3.341s] copying py_trees_ros_viewer/images/tuxrobot.png -> /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/images
+[3.342s] running install
+[3.352s] running install_lib
+[3.389s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/backend.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.389s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/viewer.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.389s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/__init__.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.390s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/web_app_rc.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.390s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/html/index.html -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/html
+[3.390s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/web_view.ui -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.391s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/conversions.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.391s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/exceptions.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.391s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/console.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.391s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/main_window.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.392s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/images_rc.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.392s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/web_view.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.392s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/web_view_ui.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.392s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/main_window.ui -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.393s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/images/tuxrobot.png -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/images
+[3.393s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/utilities.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.393s] copying /home/kmw/trees_ws/build/py_trees_ros_viewer/build/lib/py_trees_ros_viewer/main_window_ui.py -> /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer
+[3.394s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/backend.py to backend.cpython-310.pyc
+[3.399s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/viewer.py to viewer.cpython-310.pyc
+[3.401s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/__init__.py to __init__.cpython-310.pyc
+[3.401s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/web_app_rc.py to web_app_rc.cpython-310.pyc
+[3.402s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/conversions.py to conversions.cpython-310.pyc
+[3.403s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/exceptions.py to exceptions.cpython-310.pyc
+[3.403s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/console.py to console.cpython-310.pyc
+[3.407s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/main_window.py to main_window.cpython-310.pyc
+[3.409s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/images_rc.py to images_rc.cpython-310.pyc
+[3.410s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/web_view.py to web_view.cpython-310.pyc
+[3.411s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/web_view_ui.py to web_view_ui.cpython-310.pyc
+[3.411s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/utilities.py to utilities.cpython-310.pyc
+[3.412s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer/main_window_ui.py to main_window_ui.cpython-310.pyc
+[3.414s] running install_data
+[3.414s] copying package.xml -> /home/kmw/trees_ws/install/py_trees_ros_viewer/share/py_trees_ros_viewer
+[3.415s] running install_egg_info
+[3.453s] removing '/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer-0.2.3-py3.10.egg-info' (and everything under it)
+[3.453s] Copying ../../build/py_trees_ros_viewer/py_trees_ros_viewer.egg-info to /home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages/py_trees_ros_viewer-0.2.3-py3.10.egg-info
+[3.454s] running install_scripts
+[3.530s] Installing py-trees-tree-viewer script to /home/kmw/trees_ws/install/py_trees_ros_viewer/bin
+[3.531s] writing list of installed files to '/home/kmw/trees_ws/build/py_trees_ros_viewer/install.log'
+[3.605s] Invoked command in '/home/kmw/trees_ws/src/py_trees_ros_viewer' returned '0': CONDA_PROMPT_MODIFIER=(ros2_py310) PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros_viewer build --build-base /home/kmw/trees_ws/build/py_trees_ros_viewer/build install --record /home/kmw/trees_ws/build/py_trees_ros_viewer/install.log --single-version-externally-managed install_data

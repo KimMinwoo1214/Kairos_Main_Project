@@ -1,0 +1,4 @@
+Invoking command in '/home/kmw/trees_ws/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_task_constructor_msgs -- -j8 -l8
+Invoked command in '/home/kmw/trees_ws/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_task_constructor_msgs -- -j8 -l8
+Invoking command in '/home/kmw/trees_ws/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_task_constructor_msgs
+Invoked command in '/home/kmw/trees_ws/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_task_constructor_msgs

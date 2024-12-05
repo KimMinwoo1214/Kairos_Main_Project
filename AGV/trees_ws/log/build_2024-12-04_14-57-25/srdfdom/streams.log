@@ -1,0 +1,27 @@
+[0.042s] Invoking command in '/home/kmw/trees_ws/build/srdfdom': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/srdfdom -- -j8 -l8
+[0.529s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.530s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.530s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[0.536s] [ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[0.536s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[0.536s] running egg_info
+[0.536s] creating srdfdom.egg-info
+[0.536s] writing srdfdom.egg-info/PKG-INFO
+[0.536s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[0.536s] writing top-level names to srdfdom.egg-info/top_level.txt
+[0.536s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.537s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.537s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[0.660s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[3.479s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.669s] [ 45%] Built target gtest_main
+[6.226s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[6.875s] [ 54%] Built target srdfdom
+[12.971s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.184s] [ 63%] Built target gtest
+[13.257s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[13.268s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[19.485s] [ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[19.909s] [ 90%] Built target test_cpp_nl_NL.UTF-8
+[19.987s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[20.334s] [100%] Built target test_cpp_C

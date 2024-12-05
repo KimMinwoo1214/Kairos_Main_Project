@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from py_trees_ros_interfaces/action/MoveBase.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module py_trees_ros_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Dock" "\n"
+      "" "\n"
+      "Interface to a mock ROS1 style move base action server.")
+    struct MoveBase_Goal {
+      @verbatim (language="comment", text=
+        "Goal")
+      geometry_msgs::msg::PoseStamped target_pose;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MoveBase_Result {
+      string message;
+    };
+    struct MoveBase_Feedback {
+      @verbatim (language="comment", text=
+        "Feedback")
+      geometry_msgs::msg::PoseStamped base_position;
+    };
+  };
+};

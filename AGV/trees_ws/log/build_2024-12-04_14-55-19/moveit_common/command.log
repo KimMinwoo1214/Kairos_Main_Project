@@ -1,0 +1,6 @@
+Invoking command in '/home/kmw/trees_ws/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_common
+Invoked command in '/home/kmw/trees_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_common
+Invoking command in '/home/kmw/trees_ws/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_common -- -j8 -l8
+Invoked command in '/home/kmw/trees_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_common -- -j8 -l8
+Invoking command in '/home/kmw/trees_ws/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_common
+Invoked command in '/home/kmw/trees_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_common

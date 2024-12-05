@@ -1,0 +1,56 @@
+[0.966s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit_resources/fanuc_moveit_config -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config
+[1.174s] -- The C compiler identification is GNU 11.4.0
+[1.394s] -- The CXX compiler identification is GNU 11.4.0
+[1.422s] -- Detecting C compiler ABI info
+[1.661s] -- Detecting C compiler ABI info - done
+[1.696s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.697s] -- Detecting C compile features
+[1.697s] -- Detecting C compile features - done
+[1.705s] -- Detecting CXX compiler ABI info
+[1.981s] -- Detecting CXX compiler ABI info - done
+[2.002s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.004s] -- Detecting CXX compile features
+[2.005s] -- Detecting CXX compile features - done
+[2.010s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.085s] -- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter 
+[3.857s] -- Configuring done
+[3.874s] -- Generating done
+[3.888s] -- Build files have been written to: /home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config
+[3.919s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/moveit_resources/fanuc_moveit_config -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config
+[3.928s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config -- -j8 -l8
+[5.671s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config -- -j8 -l8
+[5.672s] Invoking command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config
+[6.141s] -- Install configuration: ""
+[6.141s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_fanuc_moveit_config
+[6.141s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_fanuc_moveit_config
+[6.141s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/ament_prefix_path.sh
+[6.142s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/ament_prefix_path.dsv
+[6.142s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/path.sh
+[6.142s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/path.dsv
+[6.142s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.bash
+[6.142s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.sh
+[6.142s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.zsh
+[6.142s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.dsv
+[6.142s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.dsv
+[6.143s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/packages/moveit_resources_fanuc_moveit_config
+[6.143s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake/moveit_resources_fanuc_moveit_configConfig.cmake
+[6.143s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake/moveit_resources_fanuc_moveit_configConfig-version.cmake
+[6.143s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.xml
+[6.143s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch
+[6.143s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch/demo.launch.py
+[6.143s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch/moveit.rviz
+[6.143s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config
+[6.143s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/ros2_controllers.yaml
+[6.144s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.ros2_control.xacro
+[6.144s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.urdf.xacro
+[6.144s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/initial_positions.yaml
+[6.144s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/moveit_controllers.yaml
+[6.144s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/ompl_planning.yaml
+[6.144s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/kinematics.yaml
+[6.144s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/pilz_cartesian_limits.yaml
+[6.144s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/chomp_planning.yaml
+[6.144s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.srdf
+[6.145s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/sensors_3d.yaml
+[6.145s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/joint_limits.yaml
+[6.156s] -- Installing: /home/kmw/trees_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/.setup_assistant
+[6.156s] Invoked command in '/home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_fanuc_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --install /home/kmw/trees_ws/build/moveit_resources_fanuc_moveit_config

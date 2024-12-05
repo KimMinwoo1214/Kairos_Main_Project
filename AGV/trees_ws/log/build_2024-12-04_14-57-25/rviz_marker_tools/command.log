@@ -1,0 +1,1 @@
+Invoking command in '/home/kmw/trees_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake --build /home/kmw/trees_ws/build/rviz_marker_tools -- -j8 -l8

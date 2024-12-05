@@ -1,0 +1,163 @@
+[1.130s] Invoking command in '/home/kmw/trees_ws/src/py_trees_ros_tutorials': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/py_trees_ros:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_py310) PATH=/home/kmw/trees_ws/install/py_trees_ros/bin:${PATH} PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros_tutorials build --build-base /home/kmw/trees_ws/build/py_trees_ros_tutorials/build install --record /home/kmw/trees_ws/build/py_trees_ros_tutorials/install.log --single-version-externally-managed install_data
+[1.162s] /home/kmw/trees_ws/src/py_trees_ros_tutorials/setup.py:5: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[1.162s]   from distutils import log
+[1.165s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/_distutils_hack/__init__.py:15: UserWarning: Distutils was imported before Setuptools, but importing Setuptools also replaces the `distutils` module in `sys.modules`. This may lead to undesirable behaviors or errors. To avoid these issues, avoid using distutils directly, ensure that setuptools is installed in the traditional way (e.g. not an editable install), and/or make sure that setuptools is always imported before distutils.
+[1.165s]   warnings.warn(
+[1.165s] /home/kmw/miniconda3/envs/ros2_py310/lib/python3.10/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+[1.165s]   warnings.warn(
+[1.497s] running egg_info
+[1.514s] creating ../../build/py_trees_ros_tutorials/py_trees_ros_tutorials.egg-info
+[1.514s] writing ../../build/py_trees_ros_tutorials/py_trees_ros_tutorials.egg-info/PKG-INFO
+[1.515s] writing dependency_links to ../../build/py_trees_ros_tutorials/py_trees_ros_tutorials.egg-info/dependency_links.txt
+[1.515s] writing entry points to ../../build/py_trees_ros_tutorials/py_trees_ros_tutorials.egg-info/entry_points.txt
+[1.515s] writing top-level names to ../../build/py_trees_ros_tutorials/py_trees_ros_tutorials.egg-info/top_level.txt
+[1.515s] writing manifest file '../../build/py_trees_ros_tutorials/py_trees_ros_tutorials.egg-info/SOURCES.txt'
+[1.553s] reading manifest file '../../build/py_trees_ros_tutorials/py_trees_ros_tutorials.egg-info/SOURCES.txt'
+[1.553s] adding license file 'LICENSE'
+[1.555s] writing manifest file '../../build/py_trees_ros_tutorials/py_trees_ros_tutorials.egg-info/SOURCES.txt'
+[1.555s] running build
+[1.555s] running build_py
+[1.555s] creating /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.555s] copying py_trees_ros_tutorials/behaviours.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.555s] copying py_trees_ros_tutorials/seven_docking_cancelling_failing.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.555s] copying py_trees_ros_tutorials/five_action_clients.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.555s] copying py_trees_ros_tutorials/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.556s] copying py_trees_ros_tutorials/six_context_switching.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.556s] copying py_trees_ros_tutorials/eight_dynamic_application_loading.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.556s] copying py_trees_ros_tutorials/one_data_gathering.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.556s] copying py_trees_ros_tutorials/two_battery_check.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.556s] copying py_trees_ros_tutorials/version.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials
+[1.556s] creating /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.557s] copying py_trees_ros_tutorials/mock/move_base.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.557s] copying py_trees_ros_tutorials/mock/led_strip.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.557s] copying py_trees_ros_tutorials/mock/rotate.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.557s] copying py_trees_ros_tutorials/mock/safety_sensors.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.557s] copying py_trees_ros_tutorials/mock/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.557s] copying py_trees_ros_tutorials/mock/battery.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.557s] copying py_trees_ros_tutorials/mock/dashboard.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.557s] copying py_trees_ros_tutorials/mock/launch.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.558s] copying py_trees_ros_tutorials/mock/actions.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.558s] copying py_trees_ros_tutorials/mock/dock.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock
+[1.558s] creating /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.558s] copying py_trees_ros_tutorials/mock/gui/configuration_group_box.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.558s] copying py_trees_ros_tutorials/mock/gui/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.558s] copying py_trees_ros_tutorials/mock/gui/main_window_rc.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.558s] copying py_trees_ros_tutorials/mock/gui/main_window.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.559s] copying py_trees_ros_tutorials/mock/gui/configuration_group_box_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.559s] copying py_trees_ros_tutorials/mock/gui/dashboard_group_box.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.559s] copying py_trees_ros_tutorials/mock/gui/dashboard_group_box_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.559s] copying py_trees_ros_tutorials/mock/gui/main_window_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.560s] copying py_trees_ros_tutorials/mock/gui/dashboard_group_box.ui -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.560s] copying py_trees_ros_tutorials/mock/gui/configuration_group_box.ui -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.560s] copying py_trees_ros_tutorials/mock/gui/configuration_group_box.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.560s] copying py_trees_ros_tutorials/mock/gui/__init__.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.560s] copying py_trees_ros_tutorials/mock/gui/main_window_rc.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.560s] copying py_trees_ros_tutorials/mock/gui/main_window.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.561s] copying py_trees_ros_tutorials/mock/gui/gen.bash -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.561s] copying py_trees_ros_tutorials/mock/gui/configuration_group_box_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.561s] copying py_trees_ros_tutorials/mock/gui/tuxrobot.png -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.561s] copying py_trees_ros_tutorials/mock/gui/main_window.ui -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.561s] copying py_trees_ros_tutorials/mock/gui/main_window.qrc -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.561s] copying py_trees_ros_tutorials/mock/gui/dashboard_group_box.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.561s] copying py_trees_ros_tutorials/mock/gui/dashboard_group_box_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.562s] copying py_trees_ros_tutorials/mock/gui/main_window_ui.py -> /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui
+[1.562s] running install
+[1.567s] running install_lib
+[1.584s] creating /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.584s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/behaviours.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.584s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/seven_docking_cancelling_failing.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.585s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/five_action_clients.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.585s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/__init__.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.585s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/six_context_switching.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.585s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/eight_dynamic_application_loading.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.585s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/one_data_gathering.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.585s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/two_battery_check.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.585s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/version.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials
+[1.585s] creating /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.585s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/move_base.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.585s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/led_strip.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.586s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/rotate.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.586s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/safety_sensors.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.586s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/__init__.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.586s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/battery.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.586s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/dashboard.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.586s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.586s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/actions.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.586s] creating /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.586s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/dashboard_group_box.ui -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.587s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/configuration_group_box.ui -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.587s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/configuration_group_box.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.587s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/__init__.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.587s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/main_window_rc.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.587s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/main_window.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.587s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/gen.bash -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.587s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/configuration_group_box_ui.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.588s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/tuxrobot.png -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.588s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/main_window.ui -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.588s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/main_window.qrc -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.588s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/dashboard_group_box.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.588s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/dashboard_group_box_ui.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.588s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/gui/main_window_ui.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui
+[1.588s] copying /home/kmw/trees_ws/build/py_trees_ros_tutorials/build/lib/py_trees_ros_tutorials/mock/dock.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock
+[1.589s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/behaviours.py to behaviours.cpython-310.pyc
+[1.590s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/seven_docking_cancelling_failing.py to seven_docking_cancelling_failing.cpython-310.pyc
+[1.591s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/five_action_clients.py to five_action_clients.cpython-310.pyc
+[1.592s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/__init__.py to __init__.cpython-310.pyc
+[1.592s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/six_context_switching.py to six_context_switching.cpython-310.pyc
+[1.593s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/eight_dynamic_application_loading.py to eight_dynamic_application_loading.cpython-310.pyc
+[1.595s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/one_data_gathering.py to one_data_gathering.cpython-310.pyc
+[1.595s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/two_battery_check.py to two_battery_check.cpython-310.pyc
+[1.596s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/version.py to version.cpython-310.pyc
+[1.596s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/move_base.py to move_base.cpython-310.pyc
+[1.596s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/led_strip.py to led_strip.cpython-310.pyc
+[1.597s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/rotate.py to rotate.cpython-310.pyc
+[1.598s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/safety_sensors.py to safety_sensors.cpython-310.pyc
+[1.598s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/__init__.py to __init__.cpython-310.pyc
+[1.598s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/battery.py to battery.cpython-310.pyc
+[1.599s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/dashboard.py to dashboard.cpython-310.pyc
+[1.600s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/launch.py to launch.cpython-310.pyc
+[1.600s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/actions.py to actions.cpython-310.pyc
+[1.602s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui/configuration_group_box.py to configuration_group_box.cpython-310.pyc
+[1.602s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui/__init__.py to __init__.cpython-310.pyc
+[1.602s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui/main_window_rc.py to main_window_rc.cpython-310.pyc
+[1.603s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui/main_window.py to main_window.cpython-310.pyc
+[1.603s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui/configuration_group_box_ui.py to configuration_group_box_ui.cpython-310.pyc
+[1.604s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui/dashboard_group_box.py to dashboard_group_box.cpython-310.pyc
+[1.604s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui/dashboard_group_box_ui.py to dashboard_group_box_ui.cpython-310.pyc
+[1.604s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/gui/main_window_ui.py to main_window_ui.cpython-310.pyc
+[1.605s] byte-compiling /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials/mock/dock.py to dock.cpython-310.pyc
+[1.605s] running install_data
+[1.605s] copying package.xml -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials
+[1.606s] creating /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/ament_index/resource_index/packages
+[1.606s] copying resources/py_trees_ros_tutorials -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/ament_index/resource_index/packages
+[1.606s] creating /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.606s] copying launch/tutorial_one_data_gathering_launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.606s] copying launch/tutorial_six_context_switching_launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.606s] copying launch/tutorial_three_introspect_the_blackboard_launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.606s] copying launch/mock_robot_launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.606s] copying launch/tutorial_eight_dynamic_application_loading_launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.607s] copying launch/tutorial_four_introspect_the_tree_launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.607s] copying launch/tutorial_two_battery_check_launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.607s] copying launch/tutorial_seven_docking_cancelling_failing_launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.607s] copying launch/tutorial_five_action_clients_launch.py -> /home/kmw/trees_ws/install/py_trees_ros_tutorials/share/py_trees_ros_tutorials/launch
+[1.607s] running install_egg_info
+[1.624s] Copying ../../build/py_trees_ros_tutorials/py_trees_ros_tutorials.egg-info to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages/py_trees_ros_tutorials-2.1.0-py3.10.egg-info
+[1.625s] running install_scripts
+[1.661s] Installing mock-battery script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.661s] Installing mock-dashboard script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.661s] Installing mock-dock-client script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.661s] Installing mock-docking-controller script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.661s] Installing mock-led-strip script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.661s] Installing mock-move-base script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing mock-move-base-client script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing mock-rotate-client script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing mock-rotation-controller script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing mock-safety-sensors script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing tree-action-clients script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing tree-battery-check script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing tree-context-switching script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing tree-data-gathering script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing tree-docking-cancelling-failing script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.662s] Installing tree-dynamic-application-loading script to /home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/py_trees_ros_tutorials
+[1.663s] writing list of installed files to '/home/kmw/trees_ws/build/py_trees_ros_tutorials/install.log'
+[1.698s] Invoked command in '/home/kmw/trees_ws/src/py_trees_ros_tutorials' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/py_trees_ros:${AMENT_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_py310) PATH=/home/kmw/trees_ws/install/py_trees_ros/bin:${PATH} PYTHONPATH=/home/kmw/trees_ws/build/py_trees_ros_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmw/trees_ws/install/py_trees_ros_tutorials/lib/python3.10/site-packages:/home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_trees_ros_tutorials build --build-base /home/kmw/trees_ws/build/py_trees_ros_tutorials/build install --record /home/kmw/trees_ws/build/py_trees_ros_tutorials/install.log --single-version-externally-managed install_data

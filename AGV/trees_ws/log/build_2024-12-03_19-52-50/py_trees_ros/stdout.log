@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing py_trees_ros.egg-info/PKG-INFO
+writing dependency_links to py_trees_ros.egg-info/dependency_links.txt
+writing entry points to py_trees_ros.egg-info/entry_points.txt
+writing top-level names to py_trees_ros.egg-info/top_level.txt
+reading manifest file 'py_trees_ros.egg-info/SOURCES.txt'
+writing manifest file 'py_trees_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kmw/trees_ws/install/py_trees_ros/lib/python3.10/site-packages/py-trees-ros.egg-link (link to .)
+Installing py-trees-blackboard-watcher script to /home/kmw/trees_ws/install/py_trees_ros/bin
+Installing py-trees-tree-watcher script to /home/kmw/trees_ws/install/py_trees_ros/bin
+
+Installed /home/kmw/trees_ws/build/py_trees_ros
+running symlink_data
+symbolically linking /home/kmw/trees_ws/build/py_trees_ros/package.xml -> /home/kmw/trees_ws/install/py_trees_ros/share/py_trees_ros
+symbolically linking /home/kmw/trees_ws/build/py_trees_ros/resources/py_trees_ros -> /home/kmw/trees_ws/install/py_trees_ros/share/ament_index/resource_index/packages

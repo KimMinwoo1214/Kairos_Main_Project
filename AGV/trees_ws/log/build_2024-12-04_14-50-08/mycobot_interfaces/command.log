@@ -1,0 +1,1 @@
+Invoking command in '/home/kmw/trees_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) /usr/bin/cmake /home/kmw/trees_ws/src/mycobot320_moveit2-main/mycobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/mycobot_interfaces

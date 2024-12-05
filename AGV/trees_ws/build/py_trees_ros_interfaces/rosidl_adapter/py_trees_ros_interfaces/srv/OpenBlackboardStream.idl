@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from py_trees_ros_interfaces/srv/OpenBlackboardStream.srv
+// generated code does not contain a copyright notice
+
+
+module py_trees_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Specify a list of variables to watch on the blackboard. These" "\n"
+      "can be nested variables (e.g. get only the position in an odom" "\n"
+      "message). Typically this service is not used directly, but by the" "\n"
+      "blackboard watcher utility")
+    struct OpenBlackboardStream_Request {
+      @verbatim (language="comment", text=
+        "list of variables to watch")
+      sequence<string> variables;
+
+      @verbatim (language="comment", text=
+        "restrict the list of variable names to select from those" "\n"
+        "associated with behaviours on the tree tick's visited path")
+      boolean filter_on_visited_path;
+
+      @verbatim (language="comment", text=
+        "include the activity stream associated with the most recent" "\n"
+        "changes to the blackboard")
+      boolean with_activity_stream;
+    };
+    @verbatim (language="comment", text=
+      "topic name that is dynamically created for watching")
+    struct OpenBlackboardStream_Response {
+      string topic;
+    };
+  };
+};

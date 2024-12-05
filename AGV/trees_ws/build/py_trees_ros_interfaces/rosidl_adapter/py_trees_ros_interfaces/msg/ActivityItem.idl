@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from py_trees_ros_interfaces/msg/ActivityItem.msg
+// generated code does not contain a copyright notice
+
+
+module py_trees_ros_interfaces {
+  module msg {
+    module ActivityItem_Constants {
+      @verbatim (language="comment", text=
+        "Activity types")
+      const string READ = "READ";
+      const string INITIALISED = "INITIALISED";
+      const string WRITE = "WRITE";
+      const string ACCESSED = "ACCESSED";
+      const string ACCESS_DENIED = "ACCESS_DENIED";
+      const string NO_KEY = "NO_KEY";
+      const string NO_OVERWRITE = "NO_OVERWRITE";
+      const string UNSET = "UNSET";
+    };
+    @verbatim (language="comment", text=
+      "A single blackboard activity item" "\n"
+      "" "\n"
+      "   key: the active blackboard key" "\n"
+      "   client_name : name of the blackboard client accessing the key" "\n"
+      "   activity_type: type of operation attempted on the ky" "\n"
+      "   previous_value: if the key was modified, stores the previous value of the key" "\n"
+      "   current_value: if the key was modified, stores the current value of the key")
+    struct ActivityItem {
+      string key;
+
+      string client_name;
+
+      string activity_type;
+
+      string previous_value;
+
+      string current_value;
+    };
+  };
+};

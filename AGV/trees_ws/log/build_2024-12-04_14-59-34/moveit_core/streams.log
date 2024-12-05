@@ -1,0 +1,264 @@
+[0.147s] Invoking command in '/home/kmw/trees_ws/build/moveit_core': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_moveit_config:/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/moveit_resources_pr2_description:/home/kmw/trees_ws/install/moveit_resources_panda_description:/home/kmw/trees_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_moveit_config:/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/moveit_resources_pr2_description:/home/kmw/trees_ws/install/moveit_resources_panda_description:/home/kmw/trees_ws/install/moveit_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) LD_LIBRARY_PATH=/home/kmw/trees_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kmw/trees_ws/install/srdfdom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kmw/trees_ws/src/moveit2/moveit_core -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_core
+[0.306s] -- The CXX compiler identification is GNU 11.4.0
+[0.313s] -- Detecting CXX compiler ABI info
+[0.451s] -- Detecting CXX compiler ABI info - done
+[0.461s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.464s] -- Found moveit_common: 2.5.6 (/home/kmw/trees_ws/install/moveit_common/share/moveit_common/cmake)
+[0.467s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.870s] -- Found Python3: /home/kmw/miniconda3/envs/ros2_py310/bin/python3 (found version "3.10.14") found components: Interpreter 
+[1.110s] [0mmoveit_core: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.113s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.172s] -- Found Bullet: /usr/lib/x86_64-linux-gnu/libBulletDynamics.so (Required is at least version "2.87") 
+[1.174s] -- Found common_interfaces: 4.2.4 (/opt/ros/humble/share/common_interfaces/cmake)
+[1.178s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)
+[1.193s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.200s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.209s] -- Found generate_parameter_library: 0.3.9 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.219s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.295s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.307s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.323s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.471s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.478s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.643s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.695s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.797s] -- Looking for C++ include pthread.h
+[1.971s] -- Looking for C++ include pthread.h - found
+[1.971s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.150s] -- Found Threads: TRUE  
+[2.320s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.373s] -- Found geometric_shapes: 2.1.3 (/opt/ros/humble/share/geometric_shapes/cmake)
+[2.401s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.663s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.886s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[2.909s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.915s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[3.187s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.226s] -- Found srdfdom: 2.0.7 (/home/kmw/trees_ws/install/srdfdom/share/srdfdom/cmake)
+[3.252s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[3.414s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.422s] -- Found tf2_kdl: 0.25.8 (/opt/ros/humble/share/tf2_kdl/cmake)
+[3.495s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.498s] --  *** Building MoveIt 2.5.6-Alpha ***
+[3.506s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[3.649s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[3.650s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.803s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[3.804s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.911s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[3.919s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.924s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.978s] -- The C compiler identification is GNU 11.4.0
+[3.986s] -- Detecting C compiler ABI info
+[4.066s] -- Detecting C compiler ABI info - done
+[4.081s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.081s] -- Detecting C compile features
+[4.082s] -- Detecting C compile features - done
+[4.102s] -- Found ament_cmake_gmock: 1.3.10 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[4.110s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.116s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.117s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.136s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.137s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.184s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.186s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.222s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.223s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.225s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.261s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.262s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.284s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.286s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.304s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.306s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.330s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.352s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.376s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.378s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.422s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.447s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.470s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.483s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.540s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.543s] -- Configured cppcheck include dirs: /home/kmw/trees_ws/src/moveit2/moveit_core/exceptions/include;/home/kmw/trees_ws/src/moveit2/moveit_core/collision_detection/include;/home/kmw/trees_ws/src/moveit2/moveit_core/collision_detection_fcl/include;/home/kmw/trees_ws/src/moveit2/moveit_core/collision_detection_bullet/include;/home/kmw/trees_ws/src/moveit2/moveit_core/constraint_samplers/include;/home/kmw/trees_ws/src/moveit2/moveit_core/controller_manager/include;/home/kmw/trees_ws/src/moveit2/moveit_core/distance_field/include;/home/kmw/trees_ws/src/moveit2/moveit_core/collision_distance_field/include;/home/kmw/trees_ws/src/moveit2/moveit_core/dynamics_solver/include;/home/kmw/trees_ws/src/moveit2/moveit_core/kinematics_base/include;/home/kmw/trees_ws/src/moveit2/moveit_core/kinematics_metrics/include;/home/kmw/trees_ws/src/moveit2/moveit_core/robot_model/include;/home/kmw/trees_ws/src/moveit2/moveit_core/transforms/include;/home/kmw/trees_ws/src/moveit2/moveit_core/robot_state/include;/home/kmw/trees_ws/src/moveit2/moveit_core/robot_trajectory/include;/home/kmw/trees_ws/src/moveit2/moveit_core/kinematic_constraints/include;/home/kmw/trees_ws/src/moveit2/moveit_core/macros/include;/home/kmw/trees_ws/src/moveit2/moveit_core/online_signal_smoothing/include;/home/kmw/trees_ws/src/moveit2/moveit_core/planning_interface/include;/home/kmw/trees_ws/src/moveit2/moveit_core/planning_request_adapter/include;/home/kmw/trees_ws/src/moveit2/moveit_core/planning_scene/include;/home/kmw/trees_ws/src/moveit2/moveit_core/sensor_manager/include;/home/kmw/trees_ws/src/moveit2/moveit_core/trajectory_processing/include;/home/kmw/trees_ws/src/moveit2/moveit_core/utils/include
+[4.543s] -- Configured cppcheck exclude dirs and/or files: 
+[4.548s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.552s] -- Added test 'xmllint' to check XML markup files
+[4.557s] -- Configuring done
+[5.595s] -- Generating done
+[5.854s] -- Build files have been written to: /home/kmw/trees_ws/build/moveit_core
+[5.919s] Invoked command in '/home/kmw/trees_ws/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_moveit_config:/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/moveit_resources_pr2_description:/home/kmw/trees_ws/install/moveit_resources_panda_description:/home/kmw/trees_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_moveit_config:/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/moveit_resources_pr2_description:/home/kmw/trees_ws/install/moveit_resources_panda_description:/home/kmw/trees_ws/install/moveit_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) LD_LIBRARY_PATH=/home/kmw/trees_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kmw/trees_ws/install/srdfdom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kmw/trees_ws/src/moveit2/moveit_core -DCMAKE_INSTALL_PREFIX=/home/kmw/trees_ws/install/moveit_core
+[5.921s] Invoking command in '/home/kmw/trees_ws/build/moveit_core': AMENT_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_moveit_config:/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/moveit_resources_pr2_description:/home/kmw/trees_ws/install/moveit_resources_panda_description:/home/kmw/trees_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kmw/trees_ws/install/moveit_resources_panda_moveit_config:/home/kmw/trees_ws/install/srdfdom:/home/kmw/trees_ws/install/moveit_resources_pr2_description:/home/kmw/trees_ws/install/moveit_resources_panda_description:/home/kmw/trees_ws/install/moveit_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_py310) LD_LIBRARY_PATH=/home/kmw/trees_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kmw/trees_ws/install/srdfdom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kmw/trees_ws/build/moveit_core -- -j8 -l8
+[5.999s] [  1%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/lexical_casts.cpp.o[0m
+[6.004s] [  1%] [32mBuilding CXX object transforms/CMakeFiles/moveit_transforms.dir/src/transforms.cpp.o[0m
+[6.006s] [  1%] [32mBuilding CXX object kinematics_base/CMakeFiles/moveit_kinematics_base.dir/src/kinematics_base.cpp.o[0m
+[6.016s] [  2%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/distance_field.cpp.o[0m
+[6.023s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.023s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.027s] [  3%] [32mBuilding CXX object exceptions/CMakeFiles/moveit_exceptions.dir/src/exceptions.cpp.o[0m
+[6.029s] [  3%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[7.431s] [  3%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/message_checks.cpp.o[0m
+[8.023s] [  4%] [32m[1mLinking CXX shared library libmoveit_exceptions.so[0m
+[8.410s] [  4%] Built target moveit_exceptions
+[8.430s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[8.598s] [  5%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.685s] [  5%] Built target gtest_main
+[8.704s] [  5%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/find_internal_points.cpp.o[0m
+[10.472s] [  6%] [32mBuilding CXX object utils/CMakeFiles/moveit_utils.dir/src/rclcpp_utils.cpp.o[0m
+[11.431s] [  6%] [32m[1mLinking CXX shared library libmoveit_utils.so[0m
+[12.822s] [  7%] [32mBuilding CXX object distance_field/CMakeFiles/moveit_distance_field.dir/src/propagation_distance_field.cpp.o[0m
+[12.945s] [  7%] Built target moveit_utils
+[13.037s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[16.714s] [  8%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[16.850s] [  8%] Built target gmock_main
+[16.922s] [  8%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/moveit_smoothing_base.dir/src/smoothing_base_class.cpp.o[0m
+[16.994s] [  9%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/kmw/trees_ws/build/moveit_core/online_signal_smoothing/moveit_butterworth_parameters/include//moveit_butterworth_parameters.hpp /home/kmw/trees_ws/src/moveit2/moveit_core/online_signal_smoothing/src/butterworth_parameters.yaml `[0m
+[17.745s] [  9%] Built target moveit_butterworth_parameters
+[17.823s] [ 10%] [32mBuilding CXX object version/CMakeFiles/moveit_version.dir/version.cpp.o[0m
+[17.997s] [ 11%] [32m[1mLinking CXX executable moveit_version[0m
+[18.245s] [ 11%] Built target moveit_version
+[22.044s] [ 12%] [32m[1mLinking CXX shared library libmoveit_kinematics_base.so[0m
+[22.921s] [ 12%] Built target moveit_kinematics_base
+[22.997s] [ 12%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/fixed_joint_model.cpp.o[0m
+[23.006s] [ 13%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/aabb.cpp.o[0m
+[26.963s] [ 14%] [32m[1mLinking CXX shared library libmoveit_smoothing_base.so[0m
+[27.588s] [ 15%] [32m[1mLinking CXX static library libgtest.a[0m
+[27.645s] [ 15%] Built target moveit_smoothing_base
+[27.686s] [ 16%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/floating_joint_model.cpp.o[0m
+[27.750s] [ 16%] Built target gtest
+[27.808s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/joint_model.cpp.o[0m
+[28.188s] [ 17%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/joint_model_group.cpp.o[0m
+[29.941s] [ 18%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/link_model.cpp.o[0m
+[30.203s] [ 18%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/planar_joint_model.cpp.o[0m
+[30.217s] [ 19%] [32m[1mLinking CXX shared library libmoveit_transforms.so[0m
+[30.776s] [ 19%] Built target moveit_transforms
+[30.814s] [ 20%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/prismatic_joint_model.cpp.o[0m
+[31.420s] [ 21%] [32m[1mLinking CXX static library libgmock.a[0m
+[31.565s] [ 21%] Built target gmock
+[31.608s] [ 22%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/revolute_joint_model.cpp.o[0m
+[34.652s] [ 22%] [32mBuilding CXX object transforms/CMakeFiles/test_transforms.dir/test/test_transforms.cpp.o[0m
+[35.892s] [ 22%] [32mBuilding CXX object robot_model/CMakeFiles/moveit_robot_model.dir/src/robot_model.cpp.o[0m
+[36.549s] [ 22%] [32m[1mLinking CXX shared library libmoveit_distance_field.so[0m
+[36.972s] [ 22%] Built target moveit_distance_field
+[37.025s] [ 23%] [32mBuilding CXX object distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o[0m
+[37.045s] [ 23%] [32mBuilding CXX object distance_field/CMakeFiles/test_distance_field.dir/test/test_distance_field.cpp.o[0m
+[40.840s] [ 24%] [32m[1mLinking CXX executable test_transforms[0m
+[41.057s] [ 24%] Built target test_transforms
+[45.582s] [ 24%] [32m[1mLinking CXX executable test_voxel_grid[0m
+[45.796s] [ 24%] Built target test_voxel_grid
+[49.741s] [ 25%] [32m[1mLinking CXX shared library libmoveit_robot_model.so[0m
+[49.938s] [ 25%] Built target moveit_robot_model
+[49.960s] [ 25%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/attached_body.cpp.o[0m
+[49.960s] [ 26%] [32mBuilding CXX object utils/CMakeFiles/moveit_test_utils.dir/src/robot_model_test_utils.cpp.o[0m
+[49.960s] [ 28%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/robot_state.cpp.o[0m
+[49.961s] [ 28%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/cartesian_interpolator.cpp.o[0m
+[49.961s] [ 28%] [32mBuilding CXX object robot_state/CMakeFiles/moveit_robot_state.dir/src/conversions.cpp.o[0m
+[49.966s] [ 29%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/moveit_butterworth_filter.dir/src/butterworth_filter.cpp.o[0m
+[50.785s] [ 30%] [32m[1mLinking CXX executable test_distance_field[0m
+[51.278s] [ 30%] Built target test_distance_field
+[61.222s] [ 30%] [32m[1mLinking CXX shared library libmoveit_butterworth_filter.so[0m
+[61.469s] [ 30%] Built target moveit_butterworth_filter
+[61.495s] [ 30%] [32mBuilding CXX object online_signal_smoothing/CMakeFiles/test_butterworth_filter.dir/test/test_butterworth_filter.cpp.o[0m
+[64.565s] [ 30%] [32m[1mLinking CXX shared library libmoveit_test_utils.so[0m
+[64.833s] [ 30%] Built target moveit_test_utils
+[64.855s] [ 31%] [32mBuilding CXX object robot_model/CMakeFiles/test_robot_model.dir/test/test.cpp.o[0m
+[69.783s] [ 32%] [32m[1mLinking CXX executable test_butterworth_filter[0m
+[69.977s] [ 32%] Built target test_butterworth_filter
+[71.536s] [ 32%] [32m[1mLinking CXX executable test_robot_model[0m
+[71.808s] [ 32%] Built target test_robot_model
+[78.603s] [ 33%] [32m[1mLinking CXX shared library libmoveit_robot_state.so[0m
+[78.790s] [ 33%] Built target moveit_robot_state
+[78.820s] [ 33%] [32mBuilding CXX object robot_trajectory/CMakeFiles/moveit_robot_trajectory.dir/src/robot_trajectory.cpp.o[0m
+[78.822s] [ 34%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state.dir/test/robot_state_test.cpp.o[0m
+[78.824s] [ 34%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state_benchmark.dir/test/robot_state_benchmark.cpp.o[0m
+[78.825s] [ 34%] [32mBuilding CXX object robot_state/CMakeFiles/test_aabb.dir/test/test_aabb.cpp.o[0m
+[78.825s] [ 35%] [32mBuilding CXX object dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/src/dynamics_solver.cpp.o[0m
+[78.826s] [ 36%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/allvalid/collision_env_allvalid.cpp.o[0m
+[78.828s] [ 36%] [32mBuilding CXX object robot_state/CMakeFiles/test_robot_state_complex.dir/test/test_kinematic_complex.cpp.o[0m
+[78.828s] [ 36%] [32mBuilding CXX object kinematics_metrics/CMakeFiles/moveit_kinematics_metrics.dir/src/kinematics_metrics.cpp.o[0m
+[91.054s] [ 36%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_common.cpp.o[0m
+[93.856s] [ 37%] [32m[1mLinking CXX shared library libmoveit_dynamics_solver.so[0m
+[94.393s] [ 37%] Built target moveit_dynamics_solver
+[94.489s] [ 37%] [32mBuilding CXX object robot_state/CMakeFiles/test_cartesian_interpolator.dir/test/test_cartesian_interpolator.cpp.o[0m
+[96.036s] [ 38%] [32m[1mLinking CXX executable test_robot_state_benchmark[0m
+[96.816s] [ 38%] Built target test_robot_state_benchmark
+[96.835s] [ 39%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_matrix.cpp.o[0m
+[99.316s] [ 40%] [32m[1mLinking CXX executable test_aabb[0m
+[100.055s] [ 40%] Built target test_aabb
+[100.079s] [ 40%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_octomap_filter.cpp.o[0m
+[101.356s] [ 41%] [32m[1mLinking CXX shared library libmoveit_robot_trajectory.so[0m
+[101.382s] [ 42%] [32m[1mLinking CXX executable test_robot_state_complex[0m
+[102.056s] [ 42%] Built target moveit_robot_trajectory
+[102.108s] [ 43%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_time_parameterization.cpp.o[0m
+[102.459s] [ 43%] Built target test_robot_state_complex
+[102.480s] [ 44%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_tools.cpp.o[0m
+[103.109s] [ 44%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/iterative_spline_parameterization.cpp.o[0m
+[106.080s] [ 45%] [32m[1mLinking CXX executable test_robot_state[0m
+[106.947s] [ 45%] Built target test_robot_state
+[106.970s] [ 46%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/ruckig_traj_smoothing.cpp.o[0m
+[110.972s] [ 47%] [32m[1mLinking CXX executable test_cartesian_interpolator[0m
+[111.587s] [ 48%] [32mBuilding CXX object planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_interface.cpp.o[0m
+[111.736s] [ 48%] Built target test_cartesian_interpolator
+[111.752s] [ 48%] [32mBuilding CXX object planning_interface/CMakeFiles/moveit_planning_interface.dir/src/planning_response.cpp.o[0m
+[114.787s] [ 49%] [32mBuilding CXX object robot_trajectory/CMakeFiles/test_robot_trajectory.dir/test/test_robot_trajectory.cpp.o[0m
+[119.097s] [ 50%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/world.cpp.o[0m
+[120.543s] [ 51%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/trajectory_tools.cpp.o[0m
+[122.053s] [ 51%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/world_diff.cpp.o[0m
+[122.230s] [ 52%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_env.cpp.o[0m
+[127.128s] [ 53%] [32m[1mLinking CXX shared library libmoveit_kinematics_metrics.so[0m
+[127.216s] [ 53%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_plugin_cache.cpp.o[0m
+[127.253s] [ 53%] [32mBuilding CXX object trajectory_processing/CMakeFiles/moveit_trajectory_processing.dir/src/time_optimal_trajectory_generation.cpp.o[0m
+[127.668s] [ 53%] Built target moveit_kinematics_metrics
+[132.668s] [ 54%] [32m[1mLinking CXX shared library libmoveit_planning_interface.so[0m
+[132.984s] [ 54%] Built target moveit_planning_interface
+[134.165s] [ 54%] [32m[1mLinking CXX executable test_robot_trajectory[0m
+[134.518s] [ 54%] Built target test_robot_trajectory
+[138.236s] [ 55%] [32m[1mLinking CXX shared library libmoveit_trajectory_processing.so[0m
+[138.439s] [ 55%] Built target moveit_trajectory_processing
+[138.465s] [ 56%] [32mBuilding CXX object trajectory_processing/CMakeFiles/test_time_parameterization.dir/test/test_time_parameterization.cpp.o[0m
+[138.465s] [ 57%] [32mBuilding CXX object trajectory_processing/CMakeFiles/test_ruckig_traj_smoothing.dir/test/test_ruckig_traj_smoothing.cpp.o[0m
+[138.465s] [ 57%] [32mBuilding CXX object trajectory_processing/CMakeFiles/test_time_optimal_trajectory_generation.dir/test/test_time_optimal_trajectory_generation.cpp.o[0m
+[143.930s] [ 58%] [32m[1mLinking CXX shared library libmoveit_collision_detection.so[0m
+[144.240s] [ 58%] Built target moveit_collision_detection
+[144.280s] [ 61%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_utils.cpp.o[0m
+[144.281s] [ 61%] [32mBuilding CXX object collision_detection/CMakeFiles/test_world.dir/test/test_world.cpp.o[0m
+[144.282s] [ 61%] [32mBuilding CXX object collision_detection/CMakeFiles/test_world_diff.dir/test/test_world_diff.cpp.o[0m
+[144.282s] [ 61%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_common.cpp.o[0m
+[144.283s] [ 61%] [32mBuilding CXX object collision_detection/CMakeFiles/test_all_valid.dir/test/test_all_valid.cpp.o[0m
+[153.995s] [ 61%] [32m[1mLinking CXX executable test_ruckig_traj_smoothing[0m
+[154.111s] [ 62%] [32m[1mLinking CXX executable test_time_parameterization[0m
+[154.926s] [ 62%] Built target test_ruckig_traj_smoothing
+[154.951s] [ 63%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/moveit_collision_detection_fcl.dir/src/collision_env_fcl.cpp.o[0m
+[155.122s] [ 63%] Built target test_time_parameterization
+[155.145s] [ 63%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_discrete_bvh_manager.cpp.o[0m
+[158.500s] [ 64%] [32m[1mLinking CXX executable test_world_diff[0m
+[158.883s] [ 65%] [32m[1mLinking CXX executable test_time_optimal_trajectory_generation[0m
+[159.174s] [ 65%] Built target test_world_diff
+[159.198s] [ 66%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_cast_bvh_manager.cpp.o[0m
+[159.706s] [ 66%] Built target test_time_optimal_trajectory_generation
+[159.725s] [ 66%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/collision_env_bullet.cpp.o[0m
+[162.005s] [ 66%] [32m[1mLinking CXX executable test_world[0m
+[162.612s] [ 66%] Built target test_world
+[162.630s] [ 67%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/bullet_bvh_manager.cpp.o[0m
+[162.682s] [ 68%] [32m[1mLinking CXX executable test_all_valid[0m
+[163.269s] [ 68%] Built target test_all_valid
+[163.291s] [ 69%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/contact_checker_common.cpp.o[0m
+[164.551s] [ 69%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/moveit_collision_detection_bullet.dir/src/bullet_integration/ros_bullet_utils.cpp.o[0m
+[172.601s] [ 70%] [32m[1mLinking CXX shared library libmoveit_collision_detection_fcl.so[0m
+[173.027s] [ 70%] Built target moveit_collision_detection_fcl
+[173.066s] [ 71%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_detection_panda.dir/test/test_fcl_collision_detection_panda.cpp.o[0m
+[173.066s] [ 72%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/utils.cpp.o[0m
+[173.068s] [ 72%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o[0m
+[173.069s] [ 73%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_detection.dir/test/test_fcl_collision_detection_pr2.cpp.o[0m
+[173.073s] [ 74%] [32mBuilding CXX object collision_detection_fcl/CMakeFiles/test_fcl_collision_env.dir/test/test_fcl_env.cpp.o[0m
+[175.526s] [ 75%] [32m[1mLinking CXX shared library libmoveit_collision_detection_bullet.so[0m
+[176.085s] [ 75%] Built target moveit_collision_detection_bullet
+[176.128s] [ 76%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_continuous_collision_checking.dir/test/test_bullet_continuous_collision_checking.cpp.o[0m
+[176.131s] [ 77%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_collision_detection_panda.dir/test/test_bullet_collision_detection_panda.cpp.o[0m
+[176.132s] [ 78%] [32mBuilding CXX object collision_detection_bullet/CMakeFiles/test_bullet_collision_detection.dir/test/test_bullet_collision_detection_pr2.cpp.o[0m

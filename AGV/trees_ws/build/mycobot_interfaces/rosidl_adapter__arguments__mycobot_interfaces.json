@@ -1,0 +1,6 @@
+{
+  "package_name": "mycobot_interfaces",
+  "non_idl_tuples": [
+    "/home/kmw/trees_ws/src/mycobot320_moveit2-main/mycobot_interfaces:srv/DetectionRQ.srv"
+  ]
+}
