@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.002689] (qr_cam) JobQueued: {'identifier': 'qr_cam', 'dependencies': OrderedDict()}
+[0.003427] (turtle_con) JobQueued: {'identifier': 'turtle_con', 'dependencies': OrderedDict()}
+[0.005241] (qr_cam) JobStarted: {'identifier': 'qr_cam'}
+[0.097767] (-) TimerEvent: {}
+[0.113065] (turtle_con) JobStarted: {'identifier': 'turtle_con'}
+[0.198270] (-) TimerEvent: {}
+[0.300460] (-) TimerEvent: {}
+[0.403906] (-) TimerEvent: {}
+[0.507608] (-) TimerEvent: {}
+[0.610351] (-) TimerEvent: {}
+[0.712671] (-) TimerEvent: {}
+[0.815319] (-) TimerEvent: {}
+[0.917987] (-) TimerEvent: {}
+[1.020702] (-) TimerEvent: {}
+[1.123404] (-) TimerEvent: {}
+[1.226052] (-) TimerEvent: {}
+[1.328576] (-) TimerEvent: {}
+[1.431185] (-) TimerEvent: {}
+[1.534218] (-) TimerEvent: {}
+[1.639298] (-) TimerEvent: {}
+[1.742801] (-) TimerEvent: {}
+[1.844036] (-) TimerEvent: {}
+[1.960488] (-) TimerEvent: {}
+[2.061771] (-) TimerEvent: {}
+[2.163277] (-) TimerEvent: {}
+[2.264659] (-) TimerEvent: {}
+[2.367759] (-) TimerEvent: {}
+[2.476107] (-) TimerEvent: {}
+[2.579528] (-) TimerEvent: {}
+[2.682232] (-) TimerEvent: {}
+[2.784977] (-) TimerEvent: {}
+[2.887820] (-) TimerEvent: {}
+[2.990453] (-) TimerEvent: {}
+[3.092897] (-) TimerEvent: {}
+[3.195463] (-) TimerEvent: {}
+[3.298040] (-) TimerEvent: {}
+[3.400725] (-) TimerEvent: {}
+[3.504276] (-) TimerEvent: {}
+[3.605876] (-) TimerEvent: {}
+[3.709249] (-) TimerEvent: {}
+[3.811944] (-) TimerEvent: {}
+[3.915610] (-) TimerEvent: {}
+[4.018540] (-) TimerEvent: {}
+[4.120504] (-) TimerEvent: {}
+[4.223476] (-) TimerEvent: {}
+[4.324657] (-) TimerEvent: {}
+[4.425937] (-) TimerEvent: {}
+[4.527420] (-) TimerEvent: {}
+[4.629035] (-) TimerEvent: {}
+[4.730802] (-) TimerEvent: {}
+[4.832200] (-) TimerEvent: {}
+[4.934943] (-) TimerEvent: {}
+[5.037661] (-) TimerEvent: {}
+[5.146287] (-) TimerEvent: {}
+[5.248824] (-) TimerEvent: {}
+[5.351370] (-) TimerEvent: {}
+[5.455728] (-) TimerEvent: {}
+[5.558428] (-) TimerEvent: {}
+[5.660893] (-) TimerEvent: {}
+[5.763515] (-) TimerEvent: {}
+[5.866047] (-) TimerEvent: {}
+[5.968584] (-) TimerEvent: {}
+[6.071931] (-) TimerEvent: {}
+[6.174671] (-) TimerEvent: {}
+[6.277394] (-) TimerEvent: {}
+[6.380970] (-) TimerEvent: {}
+[6.483703] (-) TimerEvent: {}
+[6.585102] (-) TimerEvent: {}
+[6.692809] (-) TimerEvent: {}
+[6.801082] (-) TimerEvent: {}
+[6.903120] (-) TimerEvent: {}
+[7.005066] (-) TimerEvent: {}
+[7.106524] (-) TimerEvent: {}
+[7.207819] (-) TimerEvent: {}
+[7.309250] (-) TimerEvent: {}
+[7.412223] (-) TimerEvent: {}
+[7.513618] (-) TimerEvent: {}
+[7.615014] (-) TimerEvent: {}
+[7.716318] (-) TimerEvent: {}
+[7.817669] (-) TimerEvent: {}
+[7.918994] (-) TimerEvent: {}
+[8.020440] (-) TimerEvent: {}
+[8.121958] (-) TimerEvent: {}
+[8.223230] (-) TimerEvent: {}
+[8.324461] (-) TimerEvent: {}
+[8.425812] (-) TimerEvent: {}
+[8.527255] (-) TimerEvent: {}
+[8.628823] (-) TimerEvent: {}
+[8.730705] (-) TimerEvent: {}
+[8.832084] (-) TimerEvent: {}
+[8.933359] (-) TimerEvent: {}
+[9.035998] (-) TimerEvent: {}
+[9.138676] (-) TimerEvent: {}
+[9.241599] (-) TimerEvent: {}
+[9.346494] (-) TimerEvent: {}
+[9.449533] (-) TimerEvent: {}
+[9.552095] (-) TimerEvent: {}
+[9.654569] (-) TimerEvent: {}
+[9.757329] (-) TimerEvent: {}
+[9.860379] (-) TimerEvent: {}
+[9.963111] (-) TimerEvent: {}
+[10.065922] (-) TimerEvent: {}
+[10.168531] (-) TimerEvent: {}
+[10.271234] (-) TimerEvent: {}
+[10.374086] (-) TimerEvent: {}
+[10.477017] (-) TimerEvent: {}
+[10.586203] (-) TimerEvent: {}
+[10.698107] (-) TimerEvent: {}
+[10.810074] (-) TimerEvent: {}
+[10.914139] (-) TimerEvent: {}
+[11.016631] (-) TimerEvent: {}
+[11.120448] (-) TimerEvent: {}
+[11.224718] (-) TimerEvent: {}
+[11.326228] (-) TimerEvent: {}
+[11.428837] (-) TimerEvent: {}
+[11.531573] (-) TimerEvent: {}
+[11.634273] (-) TimerEvent: {}
+[11.738912] (-) TimerEvent: {}
+[11.841892] (-) TimerEvent: {}
+[11.945274] (-) TimerEvent: {}
+[12.048041] (-) TimerEvent: {}
+[12.150718] (-) TimerEvent: {}
+[12.253721] (-) TimerEvent: {}
+[12.356872] (-) TimerEvent: {}
+[12.460675] (-) TimerEvent: {}
+[12.563947] (-) TimerEvent: {}
+[12.668186] (-) TimerEvent: {}
+[12.727313] (turtle_con) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_con', 'build', '--build-base', '/home/pi/arm_ws/build/turtle_con/build', 'install', '--record', '/home/pi/arm_ws/build/turtle_con/install.log', '--install-scripts', '$base/lib/turtle_con', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/arm_ws/src/turtle_con', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.194 59930 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/arm_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/foxy/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/pi/arm_ws/install/turtle_con:/home/pi/arm_ws/install/qr_cam:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/pi/arm_ws/build/turtle_con', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.194 59930 192.168.0.198 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/arm_ws/build/turtle_con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages:/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages:/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1'}, 'shell': False}
+[12.781607] (-) TimerEvent: {}
+[12.886325] (qr_cam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/qr_cam', 'build', '--build-base', '/home/pi/arm_ws/build/qr_cam/build', 'install', '--record', '/home/pi/arm_ws/build/qr_cam/install.log', '--install-scripts', '$base/lib/qr_cam', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/arm_ws/src/qr_cam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.194 59930 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/arm_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/foxy/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/pi/arm_ws/install/turtle_con:/home/pi/arm_ws/install/qr_cam:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/pi/arm_ws/build/qr_cam', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.194 59930 192.168.0.198 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/arm_ws/build/qr_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages:/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages:/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1'}, 'shell': False}
+[12.892992] (-) TimerEvent: {}
+[12.994471] (-) TimerEvent: {}
+[13.096236] (-) TimerEvent: {}
+[13.197533] (-) TimerEvent: {}
+[13.298885] (-) TimerEvent: {}
+[13.400227] (-) TimerEvent: {}
+[13.501570] (-) TimerEvent: {}
+[13.602979] (-) TimerEvent: {}
+[13.704867] (-) TimerEvent: {}
+[13.807179] (-) TimerEvent: {}
+[13.908687] (-) TimerEvent: {}
+[14.010677] (-) TimerEvent: {}
+[14.116770] (-) TimerEvent: {}
+[14.218058] (-) TimerEvent: {}
+[14.319417] (-) TimerEvent: {}
+[14.420864] (-) TimerEvent: {}
+[14.523672] (-) TimerEvent: {}
+[14.626480] (-) TimerEvent: {}
+[14.728982] (-) TimerEvent: {}
+[14.831953] (-) TimerEvent: {}
+[14.934587] (-) TimerEvent: {}
+[15.037146] (-) TimerEvent: {}
+[15.140054] (-) TimerEvent: {}
+[15.242613] (-) TimerEvent: {}
+[15.352032] (-) TimerEvent: {}
+[15.454659] (-) TimerEvent: {}
+[15.557488] (-) TimerEvent: {}
+[15.660679] (-) TimerEvent: {}
+[15.763457] (-) TimerEvent: {}
+[15.866071] (-) TimerEvent: {}
+[15.968749] (-) TimerEvent: {}
+[16.071387] (-) TimerEvent: {}
+[16.174186] (-) TimerEvent: {}
+[16.275881] (-) TimerEvent: {}
+[16.378574] (-) TimerEvent: {}
+[16.481087] (-) TimerEvent: {}
+[16.520735] (turtle_con) StdoutLine: {'line': b'running egg_info\n'}
+[16.527693] (turtle_con) StdoutLine: {'line': b'writing ../../build/turtle_con/turtle_con.egg-info/PKG-INFO\n'}
+[16.530130] (turtle_con) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_con/turtle_con.egg-info/dependency_links.txt\n'}
+[16.532080] (turtle_con) StdoutLine: {'line': b'writing entry points to ../../build/turtle_con/turtle_con.egg-info/entry_points.txt\n'}
+[16.533577] (turtle_con) StdoutLine: {'line': b'writing requirements to ../../build/turtle_con/turtle_con.egg-info/requires.txt\n'}
+[16.535216] (turtle_con) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_con/turtle_con.egg-info/top_level.txt\n'}
+[16.581298] (-) TimerEvent: {}
+[16.683957] (-) TimerEvent: {}
+[16.741490] (qr_cam) StdoutLine: {'line': b'running egg_info\n'}
+[16.744234] (qr_cam) StdoutLine: {'line': b'writing ../../build/qr_cam/qr_cam.egg-info/PKG-INFO\n'}
+[16.747581] (qr_cam) StdoutLine: {'line': b'writing dependency_links to ../../build/qr_cam/qr_cam.egg-info/dependency_links.txt\n'}
+[16.751896] (qr_cam) StdoutLine: {'line': b'writing entry points to ../../build/qr_cam/qr_cam.egg-info/entry_points.txt\n'}
+[16.756260] (qr_cam) StdoutLine: {'line': b'writing requirements to ../../build/qr_cam/qr_cam.egg-info/requires.txt\n'}
+[16.759175] (qr_cam) StdoutLine: {'line': b'writing top-level names to ../../build/qr_cam/qr_cam.egg-info/top_level.txt\n'}
+[16.784320] (-) TimerEvent: {}
+[16.886209] (-) TimerEvent: {}
+[16.982678] (turtle_con) StdoutLine: {'line': b"reading manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'\n"}
+[16.986440] (-) TimerEvent: {}
+[16.997282] (turtle_con) StdoutLine: {'line': b"writing manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'\n"}
+[17.000414] (turtle_con) StdoutLine: {'line': b'running build\n'}
+[17.002670] (turtle_con) StdoutLine: {'line': b'running build_py\n'}
+[17.007790] (turtle_con) StdoutLine: {'line': b'copying turtle_con/with_qr.py -> /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con\n'}
+[17.012707] (turtle_con) StdoutLine: {'line': b'running install\n'}
+[17.021741] (turtle_con) StdoutLine: {'line': b'running install_lib\n'}
+[17.035639] (turtle_con) StdoutLine: {'line': b'copying /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con/with_qr.py -> /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con\n'}
+[17.046558] (turtle_con) StdoutLine: {'line': b'byte-compiling /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con/with_qr.py to with_qr.cpython-38.pyc\n'}
+[17.069973] (turtle_con) StdoutLine: {'line': b'running install_data\n'}
+[17.073670] (turtle_con) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.086744] (-) TimerEvent: {}
+[17.095673] (turtle_con) StdoutLine: {'line': b"removing '/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[17.102186] (turtle_con) StdoutLine: {'line': b'Copying ../../build/turtle_con/turtle_con.egg-info to /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con-0.0.0-py3.8.egg-info\n'}
+[17.118494] (turtle_con) StdoutLine: {'line': b'running install_scripts\n'}
+[17.187039] (-) TimerEvent: {}
+[17.289800] (-) TimerEvent: {}
+[17.303167] (turtle_con) StdoutLine: {'line': b'Installing turtle_ros2_con script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con\n'}
+[17.307298] (turtle_con) StdoutLine: {'line': b'Installing with_qr script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con\n'}
+[17.313502] (turtle_con) StdoutLine: {'line': b"writing list of installed files to '/home/pi/arm_ws/build/turtle_con/install.log'\n"}
+[17.354854] (qr_cam) StdoutLine: {'line': b"reading manifest file '../../build/qr_cam/qr_cam.egg-info/SOURCES.txt'\n"}
+[17.367708] (qr_cam) StdoutLine: {'line': b"writing manifest file '../../build/qr_cam/qr_cam.egg-info/SOURCES.txt'\n"}
+[17.369522] (qr_cam) StdoutLine: {'line': b'running build\n'}
+[17.371017] (qr_cam) StdoutLine: {'line': b'running build_py\n'}
+[17.374222] (qr_cam) StdoutLine: {'line': b'running install\n'}
+[17.384908] (qr_cam) StdoutLine: {'line': b'running install_lib\n'}
+[17.390113] (-) TimerEvent: {}
+[17.403505] (qr_cam) StdoutLine: {'line': b'running install_data\n'}
+[17.405954] (qr_cam) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.429737] (qr_cam) StdoutLine: {'line': b"removing '/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages/qr_cam-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[17.437212] (qr_cam) StdoutLine: {'line': b'Copying ../../build/qr_cam/qr_cam.egg-info to /home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages/qr_cam-0.0.0-py3.8.egg-info\n'}
+[17.490534] (-) TimerEvent: {}
+[17.500143] (qr_cam) StdoutLine: {'line': b'running install_scripts\n'}
+[17.546494] (turtle_con) CommandEnded: {'returncode': 0}
+[17.590965] (-) TimerEvent: {}
+[17.694389] (-) TimerEvent: {}
+[17.699311] (turtle_con) JobEnded: {'identifier': 'turtle_con', 'rc': 0}
+[17.722293] (qr_cam) StdoutLine: {'line': b'Installing no_cam script to /home/pi/arm_ws/install/qr_cam/lib/qr_cam\n'}
+[17.726543] (qr_cam) StdoutLine: {'line': b"writing list of installed files to '/home/pi/arm_ws/build/qr_cam/install.log'\n"}
+[17.794784] (-) TimerEvent: {}
+[17.896572] (-) TimerEvent: {}
+[17.915564] (qr_cam) CommandEnded: {'returncode': 0}
+[17.990116] (qr_cam) JobEnded: {'identifier': 'qr_cam', 'rc': 0}
+[17.999038] (-) TimerEvent: {}
+[18.000354] (-) EventReactorShutdown: {}

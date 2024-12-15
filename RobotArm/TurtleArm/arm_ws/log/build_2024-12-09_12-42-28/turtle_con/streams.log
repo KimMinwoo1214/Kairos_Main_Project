@@ -1,0 +1,37 @@
+[6.983s] Invoking command in '/home/pi/arm_ws/src/turtle_con': PYTHONPATH=/home/pi/arm_ws/build/turtle_con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_con build --build-base /home/pi/arm_ws/build/turtle_con/build install --record /home/pi/arm_ws/build/turtle_con/install.log --install-scripts $base/lib/turtle_con --single-version-externally-managed install_data
+[9.337s] running egg_info
+[9.341s] creating ../../build/turtle_con/turtle_con.egg-info
+[9.343s] writing ../../build/turtle_con/turtle_con.egg-info/PKG-INFO
+[9.345s] writing dependency_links to ../../build/turtle_con/turtle_con.egg-info/dependency_links.txt
+[9.352s] writing entry points to ../../build/turtle_con/turtle_con.egg-info/entry_points.txt
+[9.353s] writing requirements to ../../build/turtle_con/turtle_con.egg-info/requires.txt
+[9.354s] writing top-level names to ../../build/turtle_con/turtle_con.egg-info/top_level.txt
+[9.372s] writing manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+[9.715s] reading manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+[9.723s] writing manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+[9.724s] running build
+[9.726s] running build_py
+[9.727s] creating /home/pi/arm_ws/build/turtle_con/build
+[9.728s] creating /home/pi/arm_ws/build/turtle_con/build/lib
+[9.730s] creating /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con
+[9.731s] copying turtle_con/turtle_ros2_con.py -> /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con
+[9.732s] copying turtle_con/__init__.py -> /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con
+[9.733s] running install
+[9.739s] running install_lib
+[9.748s] creating /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con
+[9.749s] copying /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con/turtle_ros2_con.py -> /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con
+[9.750s] copying /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con/__init__.py -> /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con
+[9.755s] byte-compiling /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con/turtle_ros2_con.py to turtle_ros2_con.cpython-38.pyc
+[9.771s] byte-compiling /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con/__init__.py to __init__.cpython-38.pyc
+[9.773s] running install_data
+[9.775s] creating /home/pi/arm_ws/install/turtle_con/share/ament_index
+[9.776s] creating /home/pi/arm_ws/install/turtle_con/share/ament_index/resource_index
+[9.777s] creating /home/pi/arm_ws/install/turtle_con/share/ament_index/resource_index/packages
+[9.778s] copying resource/turtle_con -> /home/pi/arm_ws/install/turtle_con/share/ament_index/resource_index/packages
+[9.779s] copying package.xml -> /home/pi/arm_ws/install/turtle_con/share/turtle_con
+[9.780s] running install_egg_info
+[9.794s] Copying ../../build/turtle_con/turtle_con.egg-info to /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con-0.0.0-py3.8.egg-info
+[9.805s] running install_scripts
+[9.958s] Installing turtle_ros2_con script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+[9.961s] writing list of installed files to '/home/pi/arm_ws/build/turtle_con/install.log'
+[10.140s] Invoked command in '/home/pi/arm_ws/src/turtle_con' returned '0': PYTHONPATH=/home/pi/arm_ws/build/turtle_con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_con build --build-base /home/pi/arm_ws/build/turtle_con/build install --record /home/pi/arm_ws/build/turtle_con/install.log --install-scripts $base/lib/turtle_con --single-version-externally-managed install_data

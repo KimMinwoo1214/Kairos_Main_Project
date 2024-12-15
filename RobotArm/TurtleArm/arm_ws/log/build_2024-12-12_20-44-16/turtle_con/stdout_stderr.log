@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/turtle_con/turtle_con.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_con/turtle_con.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_con/turtle_con.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_con/turtle_con.egg-info/requires.txt
+writing top-level names to ../../build/turtle_con/turtle_con.egg-info/top_level.txt
+reading manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_con/move_qr.py -> /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con
+running install
+running install_lib
+copying /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con/move_qr.py -> /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con
+byte-compiling /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con/move_qr.py to move_qr.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/turtle_con/turtle_con.egg-info to /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con-0.0.0-py3.8.egg-info
+running install_scripts
+Installing move_qr script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+Installing qr_log script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+Installing turtle_ros2_con script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+Installing with_qr script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+writing list of installed files to '/home/pi/arm_ws/build/turtle_con/install.log'

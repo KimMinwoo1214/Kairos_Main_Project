@@ -1,0 +1,5 @@
+  File "/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con/with_qr.py", line 148
+    speeds = list(for i in speeds i //2)
+                  ^
+SyntaxError: invalid syntax
+
