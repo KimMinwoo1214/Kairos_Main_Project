@@ -1,0 +1,6 @@
+[console_scripts]
+move_qr = turtle_con.move_qr:main
+qr_log = turtle_con.qr_log:main
+turtle_ros2_con = turtle_con.turtle_ros2_con:main
+with_qr = turtle_con.with_qr:main
+

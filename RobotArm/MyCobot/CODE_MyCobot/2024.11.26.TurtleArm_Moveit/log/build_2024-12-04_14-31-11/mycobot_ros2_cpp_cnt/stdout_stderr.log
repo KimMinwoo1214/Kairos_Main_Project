@@ -1,0 +1,23 @@
+[ 50%] Built target marker_creater
+[ 75%] [32mBuilding CXX object CMakeFiles/grip_test.dir/src/grip_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable grip_test[0m
+[100%] Built target grip_test
+-- Install configuration: ""
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/lib/mycobot_ros2_cpp_cnt/marker_creater
+-- Installing: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/lib/mycobot_ros2_cpp_cnt/grip_test
+-- Set runtime path of "/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/lib/mycobot_ros2_cpp_cnt/grip_test" to ""
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/ament_index/resource_index/package_run_dependencies/mycobot_ros2_cpp_cnt
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/ament_index/resource_index/parent_prefix_path/mycobot_ros2_cpp_cnt
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/environment/ament_prefix_path.sh
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/environment/path.sh
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/environment/path.dsv
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/local_setup.bash
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/local_setup.sh
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/local_setup.zsh
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/local_setup.dsv
+-- Installing: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/package.dsv
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/ament_index/resource_index/packages/mycobot_ros2_cpp_cnt
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/cmake/mycobot_ros2_cpp_cntConfig.cmake
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/cmake/mycobot_ros2_cpp_cntConfig-version.cmake
+-- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/package.xml

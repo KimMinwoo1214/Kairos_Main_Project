@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/psy/2024.11.26.TurtleArm_Moveit/build/hello_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psy/2024.11.26.TurtleArm_Moveit/build/hello_moveit -- -j20 -l20
+[0.084s] [ 20%] Built target marker_test
+[0.101s] [ 40%] Built target hello_moveit
+[0.101s] [ 60%] Built target control_with_keyboard
+[0.101s] [ 80%] Built target get_end_pose
+[0.101s] [100%] Built target control_teleop
+[0.111s] Invoked command in '/home/psy/2024.11.26.TurtleArm_Moveit/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/psy/2024.11.26.TurtleArm_Moveit/build/hello_moveit -- -j20 -l20
+[0.138s] Invoking command in '/home/psy/2024.11.26.TurtleArm_Moveit/build/hello_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psy/2024.11.26.TurtleArm_Moveit/build/hello_moveit
+[0.143s] -- Install configuration: ""
+[0.144s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/hello_moveit
+[0.145s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/get_end_pose
+[0.145s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/control_with_keyboard
+[0.146s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/marker_test
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/lib/hello_moveit/control_teleop
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/environment/path.sh
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/local_setup.bash
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/local_setup.sh
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[0.147s] -- Installing: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/package.dsv
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[0.147s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/hello_moveit/share/hello_moveit/package.xml
+[0.149s] Invoked command in '/home/psy/2024.11.26.TurtleArm_Moveit/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/psy/2024.11.26.TurtleArm_Moveit/build/hello_moveit

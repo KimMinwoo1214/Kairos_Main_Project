@@ -1,0 +1,17 @@
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/lib/mycobot_ros2_cpp_cnt/marker_creater
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/lib/mycobot_ros2_cpp_cnt/grip_test
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/ament_index/resource_index/package_run_dependencies/mycobot_ros2_cpp_cnt
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/ament_index/resource_index/parent_prefix_path/mycobot_ros2_cpp_cnt
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/environment/ament_prefix_path.sh
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/environment/ament_prefix_path.dsv
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/environment/path.sh
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/environment/path.dsv
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/local_setup.bash
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/local_setup.sh
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/local_setup.zsh
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/local_setup.dsv
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/package.dsv
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/ament_index/resource_index/packages/mycobot_ros2_cpp_cnt
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/cmake/mycobot_ros2_cpp_cntConfig.cmake
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/cmake/mycobot_ros2_cpp_cntConfig-version.cmake
+/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_cpp_cnt/share/mycobot_ros2_cpp_cnt/package.xml

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/qr_cam/qr_cam.egg-info/PKG-INFO
+../../build/qr_cam/qr_cam.egg-info/SOURCES.txt
+../../build/qr_cam/qr_cam.egg-info/dependency_links.txt
+../../build/qr_cam/qr_cam.egg-info/entry_points.txt
+../../build/qr_cam/qr_cam.egg-info/requires.txt
+../../build/qr_cam/qr_cam.egg-info/top_level.txt
+../../build/qr_cam/qr_cam.egg-info/zip-safe
+qr_cam/__init__.py
+qr_cam/no_cam.py
+resource/qr_cam
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

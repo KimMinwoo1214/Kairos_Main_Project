@@ -1,0 +1,256 @@
+[2.141s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.142s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac030280>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac030280>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffabf19160>)
+[4.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.009s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.011s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/arm_ws'
+[4.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.013s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extensions ['ignore', 'ignore_ament_install']
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extension 'ignore'
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extension 'ignore_ament_install'
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extensions ['colcon_pkg']
+[4.133s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extension 'colcon_pkg'
+[4.133s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extensions ['colcon_meta']
+[4.134s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extension 'colcon_meta'
+[4.134s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extensions ['ros']
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extension 'ros'
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extensions ['cmake', 'python']
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extension 'cmake'
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extension 'python'
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extensions ['python_setup_py']
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python) by extension 'python_setup_py'
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extensions ['ignore', 'ignore_ament_install']
+[4.139s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extension 'ignore'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extension 'ignore_ament_install'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extensions ['colcon_pkg']
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extension 'colcon_pkg'
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extensions ['colcon_meta']
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extension 'colcon_meta'
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extensions ['ros']
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extension 'ros'
+[4.143s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extensions ['cmake', 'python']
+[4.143s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extension 'cmake'
+[4.144s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extension 'python'
+[4.144s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extensions ['python_setup_py']
+[4.145s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scscl) by extension 'python_setup_py'
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extensions ['ignore', 'ignore_ament_install']
+[4.147s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extension 'ignore'
+[4.147s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extension 'ignore_ament_install'
+[4.148s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extensions ['colcon_pkg']
+[4.148s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extension 'colcon_pkg'
+[4.148s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extensions ['colcon_meta']
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extension 'colcon_meta'
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extensions ['ros']
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extension 'ros'
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extensions ['cmake', 'python']
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extension 'cmake'
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extension 'python'
+[4.152s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extensions ['python_setup_py']
+[4.152s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/scservo_sdk) by extension 'python_setup_py'
+[4.153s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extensions ['ignore', 'ignore_ament_install']
+[4.154s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extension 'ignore'
+[4.155s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extension 'ignore_ament_install'
+[4.155s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extensions ['colcon_pkg']
+[4.155s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extension 'colcon_pkg'
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extensions ['colcon_meta']
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extension 'colcon_meta'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extensions ['ros']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extension 'ros'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extensions ['cmake', 'python']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extension 'cmake'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extension 'python'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extensions ['python_setup_py']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts) by extension 'python_setup_py'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/build) by extensions ['ignore', 'ignore_ament_install']
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/build) by extension 'ignore'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/build) ignored
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/install) by extensions ['ignore', 'ignore_ament_install']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/install) by extension 'ignore'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/install) ignored
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/log) by extensions ['ignore', 'ignore_ament_install']
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/log) by extension 'ignore'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/log) ignored
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extensions ['ignore', 'ignore_ament_install']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extension 'ignore'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extension 'ignore_ament_install'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extensions ['colcon_pkg']
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extension 'colcon_pkg'
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extensions ['colcon_meta']
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extension 'colcon_meta'
+[4.172s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extensions ['ros']
+[4.172s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extension 'ros'
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extensions ['cmake', 'python']
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extension 'cmake'
+[4.174s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extension 'python'
+[4.174s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extensions ['python_setup_py']
+[4.175s] Level 1:colcon.colcon_core.package_identification:_identify(FTServo_Python/sms_sts/src) by extension 'python_setup_py'
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.182s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.184s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.188s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_cam) by extensions ['ignore', 'ignore_ament_install']
+[4.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_cam) by extension 'ignore'
+[4.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_cam) by extension 'ignore_ament_install'
+[4.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_cam) by extensions ['colcon_pkg']
+[4.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_cam) by extension 'colcon_pkg'
+[4.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_cam) by extensions ['colcon_meta']
+[4.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_cam) by extension 'colcon_meta'
+[4.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_cam) by extensions ['ros']
+[4.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/qr_cam) by extension 'ros'
+[4.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qr_cam' with type 'ros.ament_python' and name 'qr_cam'
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_con) by extensions ['ignore', 'ignore_ament_install']
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_con) by extension 'ignore'
+[4.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_con) by extension 'ignore_ament_install'
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_con) by extensions ['colcon_pkg']
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_con) by extension 'colcon_pkg'
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_con) by extensions ['colcon_meta']
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_con) by extension 'colcon_meta'
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_con) by extensions ['ros']
+[4.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_con) by extension 'ros'
+[4.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_con' with type 'ros.ament_python' and name 'turtle_con'
+[4.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.397s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/pi/arm_ws/install
+[4.421s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 299 installed packages in /opt/ros/foxy
+[4.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.506s] Level 5:colcon.colcon_core.verb:set package 'qr_cam' build argument 'cmake_args' from command line to 'None'
+[5.506s] Level 5:colcon.colcon_core.verb:set package 'qr_cam' build argument 'cmake_target' from command line to 'None'
+[5.507s] Level 5:colcon.colcon_core.verb:set package 'qr_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.507s] Level 5:colcon.colcon_core.verb:set package 'qr_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[5.507s] Level 5:colcon.colcon_core.verb:set package 'qr_cam' build argument 'cmake_clean_first' from command line to 'False'
+[5.508s] Level 5:colcon.colcon_core.verb:set package 'qr_cam' build argument 'cmake_force_configure' from command line to 'False'
+[5.508s] Level 5:colcon.colcon_core.verb:set package 'qr_cam' build argument 'ament_cmake_args' from command line to 'None'
+[5.508s] Level 5:colcon.colcon_core.verb:set package 'qr_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[5.508s] Level 5:colcon.colcon_core.verb:set package 'qr_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.509s] DEBUG:colcon.colcon_core.verb:Building package 'qr_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/arm_ws/build/qr_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/arm_ws/install/qr_cam', 'merge_install': False, 'path': '/home/pi/arm_ws/src/qr_cam', 'symlink_install': False, 'test_result_base': None}
+[5.513s] Level 5:colcon.colcon_core.verb:set package 'turtle_con' build argument 'cmake_args' from command line to 'None'
+[5.513s] Level 5:colcon.colcon_core.verb:set package 'turtle_con' build argument 'cmake_target' from command line to 'None'
+[5.514s] Level 5:colcon.colcon_core.verb:set package 'turtle_con' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.514s] Level 5:colcon.colcon_core.verb:set package 'turtle_con' build argument 'cmake_clean_cache' from command line to 'False'
+[5.514s] Level 5:colcon.colcon_core.verb:set package 'turtle_con' build argument 'cmake_clean_first' from command line to 'False'
+[5.515s] Level 5:colcon.colcon_core.verb:set package 'turtle_con' build argument 'cmake_force_configure' from command line to 'False'
+[5.515s] Level 5:colcon.colcon_core.verb:set package 'turtle_con' build argument 'ament_cmake_args' from command line to 'None'
+[5.515s] Level 5:colcon.colcon_core.verb:set package 'turtle_con' build argument 'catkin_cmake_args' from command line to 'None'
+[5.515s] Level 5:colcon.colcon_core.verb:set package 'turtle_con' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.516s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_con' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/arm_ws/build/turtle_con', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/arm_ws/install/turtle_con', 'merge_install': False, 'path': '/home/pi/arm_ws/src/turtle_con', 'symlink_install': False, 'test_result_base': None}
+[5.517s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.525s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.528s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/arm_ws/src/qr_cam' with build type 'ament_python'
+[5.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_cam', 'ament_prefix_path')
+[5.548s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/arm_ws/install/qr_cam/share/qr_cam/hook/ament_prefix_path.ps1'
+[5.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/arm_ws/install/qr_cam/share/qr_cam/hook/ament_prefix_path.dsv'
+[5.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/arm_ws/install/qr_cam/share/qr_cam/hook/ament_prefix_path.sh'
+[5.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.624s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pi/arm_ws/src/turtle_con' with build type 'ament_python'
+[5.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_con', 'ament_prefix_path')
+[5.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/arm_ws/install/turtle_con/share/turtle_con/hook/ament_prefix_path.ps1'
+[5.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/arm_ws/install/turtle_con/share/turtle_con/hook/ament_prefix_path.dsv'
+[5.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/arm_ws/install/turtle_con/share/turtle_con/hook/ament_prefix_path.sh'
+[5.648s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.251s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/arm_ws/src/qr_cam'
+[8.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.859s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pi/arm_ws/src/turtle_con'
+[10.862s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/arm_ws/src/qr_cam': PYTHONPATH=/home/pi/arm_ws/build/qr_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/qr_cam build --build-base /home/pi/arm_ws/build/qr_cam/build install --record /home/pi/arm_ws/build/qr_cam/install.log --install-scripts $base/lib/qr_cam --single-version-externally-managed install_data
+[15.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/arm_ws/src/turtle_con': PYTHONPATH=/home/pi/arm_ws/build/turtle_con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_con build --build-base /home/pi/arm_ws/build/turtle_con/build install --record /home/pi/arm_ws/build/turtle_con/install.log --install-scripts $base/lib/turtle_con --single-version-externally-managed install_data
+[18.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/arm_ws/src/turtle_con' returned '0': PYTHONPATH=/home/pi/arm_ws/build/turtle_con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_con build --build-base /home/pi/arm_ws/build/turtle_con/build install --record /home/pi/arm_ws/build/turtle_con/install.log --install-scripts $base/lib/turtle_con --single-version-externally-managed install_data
+[18.875s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/turtle_con' for CMake module files
+[18.881s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/turtle_con' for CMake config files
+[18.890s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/turtle_con/lib'
+[18.891s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/turtle_con/bin'
+[18.892s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/turtle_con/lib/pkgconfig/turtle_con.pc'
+[18.894s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages'
+[18.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_con', 'pythonpath')
+[18.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/arm_ws/install/turtle_con/share/turtle_con/hook/pythonpath.ps1'
+[18.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/arm_ws/install/turtle_con/share/turtle_con/hook/pythonpath.dsv'
+[18.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/arm_ws/install/turtle_con/share/turtle_con/hook/pythonpath.sh'
+[18.911s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/turtle_con/bin'
+[18.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_con)
+[18.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/arm_ws/install/turtle_con/share/turtle_con/package.ps1'
+[18.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/arm_ws/install/turtle_con/share/turtle_con/package.dsv'
+[18.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/arm_ws/install/turtle_con/share/turtle_con/package.sh'
+[18.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/arm_ws/install/turtle_con/share/turtle_con/package.bash'
+[18.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/arm_ws/install/turtle_con/share/turtle_con/package.zsh'
+[18.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/arm_ws/install/turtle_con/share/colcon-core/packages/turtle_con)
+[18.964s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/qr_cam' for CMake module files
+[18.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/arm_ws/src/qr_cam' returned '0': PYTHONPATH=/home/pi/arm_ws/build/qr_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/qr_cam build --build-base /home/pi/arm_ws/build/qr_cam/build install --record /home/pi/arm_ws/build/qr_cam/install.log --install-scripts $base/lib/qr_cam --single-version-externally-managed install_data
+[18.973s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/qr_cam' for CMake config files
+[18.980s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/qr_cam/lib'
+[18.981s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/qr_cam/bin'
+[18.981s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/qr_cam/lib/pkgconfig/qr_cam.pc'
+[18.983s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages'
+[18.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_cam', 'pythonpath')
+[18.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/arm_ws/install/qr_cam/share/qr_cam/hook/pythonpath.ps1'
+[18.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/arm_ws/install/qr_cam/share/qr_cam/hook/pythonpath.dsv'
+[18.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/arm_ws/install/qr_cam/share/qr_cam/hook/pythonpath.sh'
+[18.999s] Level 1:colcon.colcon_core.environment:checking '/home/pi/arm_ws/install/qr_cam/bin'
+[19.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qr_cam)
+[19.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/arm_ws/install/qr_cam/share/qr_cam/package.ps1'
+[19.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/arm_ws/install/qr_cam/share/qr_cam/package.dsv'
+[19.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/arm_ws/install/qr_cam/share/qr_cam/package.sh'
+[19.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/arm_ws/install/qr_cam/share/qr_cam/package.bash'
+[19.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/arm_ws/install/qr_cam/share/qr_cam/package.zsh'
+[19.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/arm_ws/install/qr_cam/share/colcon-core/packages/qr_cam)
+[19.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.033s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.034s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.035s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.085s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.086s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.087s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.119s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.122s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/arm_ws/install/local_setup.ps1'
+[19.132s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/arm_ws/install/_local_setup_util_ps1.py'
+[19.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/arm_ws/install/setup.ps1'
+[19.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/arm_ws/install/local_setup.sh'
+[19.165s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/arm_ws/install/_local_setup_util_sh.py'
+[19.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/arm_ws/install/setup.sh'
+[19.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/arm_ws/install/local_setup.bash'
+[19.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/arm_ws/install/setup.bash'
+[19.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/arm_ws/install/local_setup.zsh'
+[19.203s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/arm_ws/install/setup.zsh'

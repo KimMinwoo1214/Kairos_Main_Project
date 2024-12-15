@@ -1,0 +1,27 @@
+[8.812s] Invoking command in '/home/pi/arm_ws/src/turtle_con': PYTHONPATH=/home/pi/arm_ws/build/turtle_con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_con build --build-base /home/pi/arm_ws/build/turtle_con/build install --record /home/pi/arm_ws/build/turtle_con/install.log --install-scripts $base/lib/turtle_con --single-version-externally-managed install_data
+[11.950s] running egg_info
+[11.960s] writing ../../build/turtle_con/turtle_con.egg-info/PKG-INFO
+[11.966s] writing dependency_links to ../../build/turtle_con/turtle_con.egg-info/dependency_links.txt
+[11.968s] writing entry points to ../../build/turtle_con/turtle_con.egg-info/entry_points.txt
+[11.969s] writing requirements to ../../build/turtle_con/turtle_con.egg-info/requires.txt
+[11.972s] writing top-level names to ../../build/turtle_con/turtle_con.egg-info/top_level.txt
+[12.355s] reading manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+[12.370s] writing manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+[12.371s] running build
+[12.373s] running build_py
+[12.375s] copying turtle_con/move_qr.py -> /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con
+[12.378s] running install
+[12.386s] running install_lib
+[12.401s] copying /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con/move_qr.py -> /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con
+[12.404s] byte-compiling /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con/move_qr.py to move_qr.cpython-38.pyc
+[12.430s] running install_data
+[12.431s] running install_egg_info
+[12.449s] removing '/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con-0.0.0-py3.8.egg-info' (and everything under it)
+[12.455s] Copying ../../build/turtle_con/turtle_con.egg-info to /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con-0.0.0-py3.8.egg-info
+[12.470s] running install_scripts
+[12.679s] Installing move_qr script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+[12.683s] Installing qr_log script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+[12.686s] Installing turtle_ros2_con script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+[12.690s] Installing with_qr script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+[12.696s] writing list of installed files to '/home/pi/arm_ws/build/turtle_con/install.log'
+[12.886s] Invoked command in '/home/pi/arm_ws/src/turtle_con' returned '0': PYTHONPATH=/home/pi/arm_ws/build/turtle_con/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_con build --build-base /home/pi/arm_ws/build/turtle_con/build install --record /home/pi/arm_ws/build/turtle_con/install.log --install-scripts $base/lib/turtle_con --single-version-externally-managed install_data

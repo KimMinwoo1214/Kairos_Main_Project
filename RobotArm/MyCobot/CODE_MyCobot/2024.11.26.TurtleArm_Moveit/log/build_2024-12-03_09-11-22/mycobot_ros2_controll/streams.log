@@ -1,0 +1,24 @@
+[0.396s] Invoking command in '/home/psy/2024.11.26.TurtleArm_Moveit/src/mycobot320_moveit2/mycobot_ros2_controll': AMENT_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_with_gripper:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_with_gripper:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces LD_LIBRARY_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_ros2_controll build --build-base /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build install --record /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/install.log --single-version-externally-managed install_data
+[0.513s] running egg_info
+[0.513s] writing ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/PKG-INFO
+[0.518s] writing dependency_links to ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/dependency_links.txt
+[0.518s] writing entry points to ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/entry_points.txt
+[0.518s] writing requirements to ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/requires.txt
+[0.518s] writing top-level names to ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/top_level.txt
+[0.519s] reading manifest file '../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/SOURCES.txt'
+[0.520s] writing manifest file '../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info/SOURCES.txt'
+[0.520s] running build
+[0.520s] running build_py
+[0.520s] running install
+[0.521s] running install_lib
+[0.522s] running install_data
+[0.522s] running install_egg_info
+[0.523s] removing '/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll-0.0.0-py3.10.egg-info' (and everything under it)
+[0.523s] Copying ../../../build/mycobot_ros2_controll/mycobot_ros2_controll.egg-info to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages/mycobot_ros2_controll-0.0.0-py3.10.egg-info
+[0.524s] running install_scripts
+[0.535s] Installing cam_pub script to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/mycobot_ros2_controll
+[0.535s] Installing detect_cube_hsv script to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/mycobot_ros2_controll
+[0.535s] Installing detect_cube_server script to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/mycobot_ros2_controll
+[0.535s] Installing rviz_controll script to /home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/mycobot_ros2_controll
+[0.535s] writing list of installed files to '/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/install.log'
+[0.546s] Invoked command in '/home/psy/2024.11.26.TurtleArm_Moveit/src/mycobot320_moveit2/mycobot_ros2_controll' returned '0': AMENT_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_with_gripper:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_with_gripper:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces LD_LIBRARY_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_ros2_controll/lib/python3.10/site-packages:/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_ros2_controll build --build-base /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/build install --record /home/psy/2024.11.26.TurtleArm_Moveit/build/mycobot_ros2_controll/install.log --single-version-externally-managed install_data

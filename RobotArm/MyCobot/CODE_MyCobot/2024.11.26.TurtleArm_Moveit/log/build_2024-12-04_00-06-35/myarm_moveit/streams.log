@@ -1,0 +1,41 @@
+[0.005s] Invoking command in '/home/psy/2024.11.26.TurtleArm_Moveit/build/myarm_moveit': AMENT_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_moveit:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_moveit:/opt/ros/humble /usr/bin/cmake --build /home/psy/2024.11.26.TurtleArm_Moveit/build/myarm_moveit -- -j20 -l20
+[0.030s] Invoked command in '/home/psy/2024.11.26.TurtleArm_Moveit/build/myarm_moveit' returned '0': AMENT_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_moveit:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_moveit:/opt/ros/humble /usr/bin/cmake --build /home/psy/2024.11.26.TurtleArm_Moveit/build/myarm_moveit -- -j20 -l20
+[0.043s] Invoking command in '/home/psy/2024.11.26.TurtleArm_Moveit/build/myarm_moveit': AMENT_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_moveit:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_moveit:/opt/ros/humble /usr/bin/cmake --install /home/psy/2024.11.26.TurtleArm_Moveit/build/myarm_moveit
+[0.046s] -- Install configuration: ""
+[0.048s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/ament_index/resource_index/package_run_dependencies/myarm_moveit
+[0.048s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/ament_index/resource_index/parent_prefix_path/myarm_moveit
+[0.049s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/environment/ament_prefix_path.sh
+[0.049s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/environment/ament_prefix_path.dsv
+[0.049s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/environment/path.sh
+[0.049s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/environment/path.dsv
+[0.049s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/local_setup.bash
+[0.049s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/local_setup.sh
+[0.049s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/local_setup.zsh
+[0.049s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/local_setup.dsv
+[0.049s] -- Installing: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/package.dsv
+[0.050s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/ament_index/resource_index/packages/myarm_moveit
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/cmake/myarm_moveitConfig.cmake
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/cmake/myarm_moveitConfig-version.cmake
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/package.xml
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/launch
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/launch/static_virtual_joint_tfs.launch.py
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/launch/warehouse_db.launch.py
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/launch/setup_assistant.launch.py
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/launch/demo.launch.py
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/launch/spawn_controllers.launch.py
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/launch/rsp.launch.py
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/launch/moveit_rviz.launch.py
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/launch/move_group.launch.py
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/initial_positions.yaml
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/robot.ros2_control.xacro
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/moveit_controllers.yaml
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/joint_limits.yaml
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/ros2_controllers.yaml
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/moveit.rviz
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/robot.urdf.xacro
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/robot.srdf
+[0.051s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/pilz_cartesian_limits.yaml
+[0.052s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/config/kinematics.yaml
+[0.052s] -- Up-to-date: /home/psy/2024.11.26.TurtleArm_Moveit/install/myarm_moveit/share/myarm_moveit/.setup_assistant
+[0.053s] Invoked command in '/home/psy/2024.11.26.TurtleArm_Moveit/build/myarm_moveit' returned '0': AMENT_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_moveit:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/psy/2024.11.26.TurtleArm_Moveit/install/mycobot_moveit:/opt/ros/humble /usr/bin/cmake --install /home/psy/2024.11.26.TurtleArm_Moveit/build/myarm_moveit

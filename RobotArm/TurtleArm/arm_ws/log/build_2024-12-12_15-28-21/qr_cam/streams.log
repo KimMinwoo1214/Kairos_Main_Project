@@ -1,0 +1,21 @@
+[13.830s] Invoking command in '/home/pi/arm_ws/src/qr_cam': PYTHONPATH=/home/pi/arm_ws/build/qr_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/qr_cam build --build-base /home/pi/arm_ws/build/qr_cam/build install --record /home/pi/arm_ws/build/qr_cam/install.log --install-scripts $base/lib/qr_cam --single-version-externally-managed install_data
+[17.725s] running egg_info
+[17.730s] writing ../../build/qr_cam/qr_cam.egg-info/PKG-INFO
+[17.732s] writing dependency_links to ../../build/qr_cam/qr_cam.egg-info/dependency_links.txt
+[17.735s] writing entry points to ../../build/qr_cam/qr_cam.egg-info/entry_points.txt
+[17.737s] writing requirements to ../../build/qr_cam/qr_cam.egg-info/requires.txt
+[17.739s] writing top-level names to ../../build/qr_cam/qr_cam.egg-info/top_level.txt
+[18.187s] reading manifest file '../../build/qr_cam/qr_cam.egg-info/SOURCES.txt'
+[18.197s] writing manifest file '../../build/qr_cam/qr_cam.egg-info/SOURCES.txt'
+[18.200s] running build
+[18.201s] running build_py
+[18.204s] running install
+[18.214s] running install_lib
+[18.229s] running install_data
+[18.231s] running install_egg_info
+[18.253s] removing '/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages/qr_cam-0.0.0-py3.8.egg-info' (and everything under it)
+[18.257s] Copying ../../build/qr_cam/qr_cam.egg-info to /home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages/qr_cam-0.0.0-py3.8.egg-info
+[18.271s] running install_scripts
+[18.496s] Installing no_cam script to /home/pi/arm_ws/install/qr_cam/lib/qr_cam
+[18.506s] writing list of installed files to '/home/pi/arm_ws/build/qr_cam/install.log'
+[18.881s] Invoked command in '/home/pi/arm_ws/src/qr_cam' returned '0': PYTHONPATH=/home/pi/arm_ws/build/qr_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/arm_ws/install/qr_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/qr_cam build --build-base /home/pi/arm_ws/build/qr_cam/build install --record /home/pi/arm_ws/build/qr_cam/install.log --install-scripts $base/lib/qr_cam --single-version-externally-managed install_data

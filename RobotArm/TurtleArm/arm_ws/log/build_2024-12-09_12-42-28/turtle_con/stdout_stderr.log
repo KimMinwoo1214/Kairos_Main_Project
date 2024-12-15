@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/turtle_con/turtle_con.egg-info
+writing ../../build/turtle_con/turtle_con.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_con/turtle_con.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_con/turtle_con.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_con/turtle_con.egg-info/requires.txt
+writing top-level names to ../../build/turtle_con/turtle_con.egg-info/top_level.txt
+writing manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_con/turtle_con.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/arm_ws/build/turtle_con/build
+creating /home/pi/arm_ws/build/turtle_con/build/lib
+creating /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con
+copying turtle_con/turtle_ros2_con.py -> /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con
+copying turtle_con/__init__.py -> /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con
+running install
+running install_lib
+creating /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con
+copying /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con/turtle_ros2_con.py -> /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con
+copying /home/pi/arm_ws/build/turtle_con/build/lib/turtle_con/__init__.py -> /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con
+byte-compiling /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con/turtle_ros2_con.py to turtle_ros2_con.cpython-38.pyc
+byte-compiling /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/pi/arm_ws/install/turtle_con/share/ament_index
+creating /home/pi/arm_ws/install/turtle_con/share/ament_index/resource_index
+creating /home/pi/arm_ws/install/turtle_con/share/ament_index/resource_index/packages
+copying resource/turtle_con -> /home/pi/arm_ws/install/turtle_con/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/arm_ws/install/turtle_con/share/turtle_con
+running install_egg_info
+Copying ../../build/turtle_con/turtle_con.egg-info to /home/pi/arm_ws/install/turtle_con/lib/python3.8/site-packages/turtle_con-0.0.0-py3.8.egg-info
+running install_scripts
+Installing turtle_ros2_con script to /home/pi/arm_ws/install/turtle_con/lib/turtle_con
+writing list of installed files to '/home/pi/arm_ws/build/turtle_con/install.log'
