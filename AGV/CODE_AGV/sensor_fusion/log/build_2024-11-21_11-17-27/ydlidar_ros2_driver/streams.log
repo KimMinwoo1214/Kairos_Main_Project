@@ -1,0 +1,90 @@
+[2.997s] Invoking command in '/home/pi/sensor_fusion/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy /usr/bin/cmake /home/pi/sensor_fusion/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/pi/sensor_fusion/install/ydlidar_ros2_driver
+[3.630s] -- The C compiler identification is GNU 9.4.0
+[4.449s] -- The CXX compiler identification is GNU 9.4.0
+[4.501s] -- Check for working C compiler: /usr/bin/cc
+[4.903s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.911s] -- Detecting C compiler ABI info
+[5.315s] -- Detecting C compiler ABI info - done
+[5.370s] -- Detecting C compile features
+[5.376s] -- Detecting C compile features - done
+[5.393s] -- Check for working CXX compiler: /usr/bin/c++
+[6.004s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.017s] -- Detecting CXX compiler ABI info
+[6.617s] -- Detecting CXX compiler ABI info - done
+[6.670s] -- Detecting CXX compile features
+[6.673s] -- Detecting CXX compile features - done
+[6.737s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.964s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.966s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.790s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[9.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.280s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.006s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.267s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.914s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.260s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.276s] -- Looking for pthread.h
+[11.629s] -- Looking for pthread.h - found
+[11.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.935s] -- Looking for pthread_create in pthreads
+[12.187s] -- Looking for pthread_create in pthreads - not found
+[12.188s] -- Looking for pthread_create in pthread
+[12.483s] -- Looking for pthread_create in pthread - found
+[12.487s] -- Found Threads: TRUE  
+[13.213s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[13.682s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[13.962s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[14.070s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[14.551s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.706s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.708s] -- Configured cppcheck include dirs: /home/pi/sensor_fusion/src/ydlidar_ros2_driver/src
+[14.708s] -- Configured cppcheck exclude dirs and/or files: 
+[14.811s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.811s] -- Configured cpplint exclude dirs and/or files: 
+[14.827s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.856s] -- Added test 'lint_cmake' to check CMake code style
+[14.871s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[14.975s] -- Added test 'uncrustify' to check C / C++ code style
+[14.975s] -- Configured uncrustify additional arguments: 
+[14.991s] -- Added test 'xmllint' to check XML markup files
+[15.017s] -- Configuring done
+[15.089s] -- Generating done
+[15.096s] -- Build files have been written to: /home/pi/sensor_fusion/build/ydlidar_ros2_driver
+[15.130s] Invoked command in '/home/pi/sensor_fusion/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy /usr/bin/cmake /home/pi/sensor_fusion/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/pi/sensor_fusion/install/ydlidar_ros2_driver
+[15.143s] Invoking command in '/home/pi/sensor_fusion/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy /usr/bin/cmake --build /home/pi/sensor_fusion/build/ydlidar_ros2_driver -- -j4 -l4
+[15.313s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_node[0m
+[15.313s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_client[0m
+[15.314s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_filter[0m
+[15.738s] [ 16%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[15.769s] [ 33%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_filter.dir/src/ydlidar_ros2_driver_filter.cpp.o[0m
+[15.770s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[23.180s] [01m[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[23.182s] [01m[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:167:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[23.183s]   167 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[23.184s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[23.184s] [01m[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:168:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[23.186s]   168 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[23.186s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[23.187s] [01m[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[23.188s]   169 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[23.189s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[23.205s] [01m[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[23.206s] [01m[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:177:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[23.207s]   177 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[23.207s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[23.208s] [01m[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[23.209s]   178 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[23.210s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[23.211s] [01m[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[23.212s]   179 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[23.213s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[340.536s] make[2]: *** [CMakeFiles/ydlidar_ros2_driver_filter.dir/build.make:63: CMakeFiles/ydlidar_ros2_driver_filter.dir/src/ydlidar_ros2_driver_filter.cpp.o] Interrupt
+[340.539s] make[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:63: CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] Interrupt
+[340.540s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/ydlidar_ros2_driver_filter.dir/all] Interrupt
+[340.540s] make[2]: *** [CMakeFiles/ydlidar_ros2_driver_client.dir/build.make:63: CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o] Interrupt
+[340.541s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ydlidar_ros2_driver_node.dir/all] Interrupt
+[340.542s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/ydlidar_ros2_driver_client.dir/all] Interrupt
+[340.543s] make: *** [Makefile:141: all] Interrupt
+[340.567s] Invoked command in '/home/pi/sensor_fusion/build/ydlidar_ros2_driver' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy /usr/bin/cmake --build /home/pi/sensor_fusion/build/ydlidar_ros2_driver -- -j4 -l4

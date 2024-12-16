@@ -1,0 +1,19 @@
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/qr_detect.py
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/webcam_sub.py
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/webcam_pub.py
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/__init__.py
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/__pycache__/qr_detect.cpython-38.pyc
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/__pycache__/webcam_sub.cpython-38.pyc
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/__pycache__/webcam_pub.cpython-38.pyc
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/__pycache__/__init__.cpython-38.pyc
+/home/pi/sensor_fusion/install/ros2_cv_webcam/share/ament_index/resource_index/packages/ros2_cv_webcam
+/home/pi/sensor_fusion/install/ros2_cv_webcam/share/ros2_cv_webcam/package.xml
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info/zip-safe
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info/PKG-INFO
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info/dependency_links.txt
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info/requires.txt
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info/SOURCES.txt
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info/top_level.txt
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info/entry_points.txt
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam/img_publisher
+/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam/img_subscriber = ros2_cv_webcam.webcam_sub:mainqr_detect

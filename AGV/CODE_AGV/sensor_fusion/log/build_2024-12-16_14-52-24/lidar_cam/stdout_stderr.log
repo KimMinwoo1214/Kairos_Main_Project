@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/lidar_cam/lidar_cam.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_cam/lidar_cam.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_cam/lidar_cam.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_cam/lidar_cam.egg-info/requires.txt
+writing top-level names to ../../build/lidar_cam/lidar_cam.egg-info/top_level.txt
+reading manifest file '../../build/lidar_cam/lidar_cam.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_cam/lidar_cam.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/lidar_cam/lidar_cam.egg-info to /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam-0.0.0-py3.8.egg-info
+running install_scripts
+Installing fusion script to /home/pi/sensor_fusion/install/lidar_cam/lib/lidar_cam
+Installing lidar_cam script to /home/pi/sensor_fusion/install/lidar_cam/lib/lidar_cam
+Installing scan_data script to /home/pi/sensor_fusion/install/lidar_cam/lib/lidar_cam
+writing list of installed files to '/home/pi/sensor_fusion/build/lidar_cam/install.log'

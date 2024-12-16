@@ -1,0 +1,51 @@
+[0.051s] Invoking command in '/home/pi/sensor_fusion/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/opt/ros/foxy /usr/bin/cmake --build /home/pi/sensor_fusion/build/ydlidar_ros2_driver -- -j4 -l4
+[0.238s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_filter[0m
+[0.350s] [ 33%] Built target ydlidar_ros2_driver_client
+[0.358s] [ 66%] Built target ydlidar_ros2_driver_node
+[0.393s] [ 83%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_filter.dir/src/ydlidar_ros2_driver_filter.cpp.o[0m
+[19.499s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_filter[0m
+[20.724s] [100%] Built target ydlidar_ros2_driver_filter
+[20.765s] Invoked command in '/home/pi/sensor_fusion/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/opt/ros/foxy /usr/bin/cmake --build /home/pi/sensor_fusion/build/ydlidar_ros2_driver -- -j4 -l4
+[20.960s] Invoking command in '/home/pi/sensor_fusion/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/opt/ros/foxy /usr/bin/cmake --install /home/pi/sensor_fusion/build/ydlidar_ros2_driver
+[20.993s] -- Install configuration: ""
+[20.994s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[20.996s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[20.998s] -- Installing: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_filter
+[21.011s] -- Set runtime path of "/home/pi/sensor_fusion/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_filter" to ""
+[21.012s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+[21.012s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[21.013s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[21.013s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[21.014s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+[21.014s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[21.014s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[21.015s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml.save
+[21.015s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[21.015s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[21.016s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[21.016s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[21.017s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[21.017s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[21.017s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[21.018s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[21.018s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[21.019s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+[21.019s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[21.019s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+[21.020s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[21.020s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[21.021s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[21.021s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[21.021s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[21.022s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[21.022s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[21.022s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[21.023s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[21.023s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[21.024s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[21.024s] -- Installing: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[21.025s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[21.025s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[21.026s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[21.027s] -- Up-to-date: /home/pi/sensor_fusion/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[21.029s] Invoked command in '/home/pi/sensor_fusion/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/opt/ros/foxy /usr/bin/cmake --install /home/pi/sensor_fusion/build/ydlidar_ros2_driver

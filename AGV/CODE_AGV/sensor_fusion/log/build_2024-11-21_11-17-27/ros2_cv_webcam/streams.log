@@ -1,0 +1,44 @@
+[6.540s] Invoking command in '/home/pi/sensor_fusion/src/ros2_cv_webcam': PYTHONPATH=/home/pi/sensor_fusion/build/ros2_cv_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_webcam build --build-base /home/pi/sensor_fusion/build/ros2_cv_webcam/build install --record /home/pi/sensor_fusion/build/ros2_cv_webcam/install.log --install-scripts $base/lib/ros2_cv_webcam --single-version-externally-managed install_data
+[8.051s] running egg_info
+[8.053s] creating ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info
+[8.054s] writing ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/PKG-INFO
+[8.058s] writing dependency_links to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/dependency_links.txt
+[8.064s] writing entry points to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/entry_points.txt
+[8.065s] writing requirements to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/requires.txt
+[8.065s] writing top-level names to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/top_level.txt
+[8.077s] writing manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'
+[8.274s] reading manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'
+[8.282s] writing manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'
+[8.284s] running build
+[8.285s] running build_py
+[8.287s] creating /home/pi/sensor_fusion/build/ros2_cv_webcam/build
+[8.288s] creating /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib
+[8.289s] creating /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam
+[8.290s] copying ros2_cv_webcam/qr_detect.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam
+[8.294s] copying ros2_cv_webcam/webcam_sub.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam
+[8.299s] copying ros2_cv_webcam/webcam_pub.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam
+[8.305s] copying ros2_cv_webcam/__init__.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam
+[8.311s] running install
+[8.323s] running install_lib
+[8.337s] creating /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam
+[8.341s] copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/qr_detect.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam
+[8.345s] copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/webcam_sub.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam
+[8.349s] copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/webcam_pub.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam
+[8.353s] copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/__init__.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam
+[8.368s] byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/qr_detect.py to qr_detect.cpython-38.pyc
+[8.371s] byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/webcam_sub.py to webcam_sub.cpython-38.pyc
+[8.375s] byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/webcam_pub.py to webcam_pub.cpython-38.pyc
+[8.378s] byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/__init__.py to __init__.cpython-38.pyc
+[8.385s] running install_data
+[8.387s] creating /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ament_index
+[8.389s] creating /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ament_index/resource_index
+[8.390s] creating /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ament_index/resource_index/packages
+[8.391s] copying resource/ros2_cv_webcam -> /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ament_index/resource_index/packages
+[8.392s] copying package.xml -> /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ros2_cv_webcam
+[8.393s] running install_egg_info
+[8.393s] Copying ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info
+[8.399s] running install_scripts
+[8.504s] Installing img_publisher script to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam
+[8.504s] Installing img_subscriber = ros2_cv_webcam.webcam_sub:mainqr_detect script to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam
+[8.507s] writing list of installed files to '/home/pi/sensor_fusion/build/ros2_cv_webcam/install.log'
+[8.609s] Invoked command in '/home/pi/sensor_fusion/src/ros2_cv_webcam' returned '0': PYTHONPATH=/home/pi/sensor_fusion/build/ros2_cv_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_webcam build --build-base /home/pi/sensor_fusion/build/ros2_cv_webcam/build install --record /home/pi/sensor_fusion/build/ros2_cv_webcam/install.log --install-scripts $base/lib/ros2_cv_webcam --single-version-externally-managed install_data

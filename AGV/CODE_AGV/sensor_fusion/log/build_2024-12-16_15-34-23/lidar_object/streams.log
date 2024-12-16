@@ -1,0 +1,21 @@
+[6.353s] Invoking command in '/home/pi/sensor_fusion/src/lidar_object': PYTHONPATH=/home/pi/sensor_fusion/build/lidar_object/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_object build --build-base /home/pi/sensor_fusion/build/lidar_object/build install --record /home/pi/sensor_fusion/build/lidar_object/install.log --install-scripts $base/lib/lidar_object --single-version-externally-managed install_data
+[8.114s] running egg_info
+[8.125s] writing ../../build/lidar_object/lidar_object.egg-info/PKG-INFO
+[8.133s] writing dependency_links to ../../build/lidar_object/lidar_object.egg-info/dependency_links.txt
+[8.135s] writing entry points to ../../build/lidar_object/lidar_object.egg-info/entry_points.txt
+[8.137s] writing requirements to ../../build/lidar_object/lidar_object.egg-info/requires.txt
+[8.142s] writing top-level names to ../../build/lidar_object/lidar_object.egg-info/top_level.txt
+[8.464s] reading manifest file '../../build/lidar_object/lidar_object.egg-info/SOURCES.txt'
+[8.470s] writing manifest file '../../build/lidar_object/lidar_object.egg-info/SOURCES.txt'
+[8.471s] running build
+[8.473s] running build_py
+[8.489s] running install
+[8.493s] running install_lib
+[8.514s] running install_data
+[8.519s] running install_egg_info
+[8.538s] removing '/home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object-0.0.0-py3.8.egg-info' (and everything under it)
+[8.550s] Copying ../../build/lidar_object/lidar_object.egg-info to /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object-0.0.0-py3.8.egg-info
+[8.565s] running install_scripts
+[8.766s] Installing detection script to /home/pi/sensor_fusion/install/lidar_object/lib/lidar_object
+[8.768s] writing list of installed files to '/home/pi/sensor_fusion/build/lidar_object/install.log'
+[8.911s] Invoked command in '/home/pi/sensor_fusion/src/lidar_object' returned '0': PYTHONPATH=/home/pi/sensor_fusion/build/lidar_object/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_object build --build-base /home/pi/sensor_fusion/build/lidar_object/build install --record /home/pi/sensor_fusion/build/lidar_object/install.log --install-scripts $base/lib/lidar_object --single-version-externally-managed install_data

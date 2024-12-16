@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/lidar_object/lidar_object.egg-info
+writing ../../build/lidar_object/lidar_object.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_object/lidar_object.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_object/lidar_object.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_object/lidar_object.egg-info/requires.txt
+writing top-level names to ../../build/lidar_object/lidar_object.egg-info/top_level.txt
+writing manifest file '../../build/lidar_object/lidar_object.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_object/lidar_object.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_object/lidar_object.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/sensor_fusion/build/lidar_object/build
+creating /home/pi/sensor_fusion/build/lidar_object/build/lib
+creating /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object
+copying lidar_object/detection_lidar.py -> /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object
+copying lidar_object/__init__.py -> /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object
+running install
+running install_lib
+creating /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object
+copying /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object/detection_lidar.py -> /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object
+copying /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object/__init__.py -> /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object
+byte-compiling /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object/detection_lidar.py to detection_lidar.cpython-38.pyc
+byte-compiling /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/pi/sensor_fusion/install/lidar_object/share/ament_index
+creating /home/pi/sensor_fusion/install/lidar_object/share/ament_index/resource_index
+creating /home/pi/sensor_fusion/install/lidar_object/share/ament_index/resource_index/packages
+copying resource/lidar_object -> /home/pi/sensor_fusion/install/lidar_object/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/sensor_fusion/install/lidar_object/share/lidar_object
+running install_egg_info
+Copying ../../build/lidar_object/lidar_object.egg-info to /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object-0.0.0-py3.8.egg-info
+running install_scripts
+Installing detection script to /home/pi/sensor_fusion/install/lidar_object/lib/lidar_object
+writing list of installed files to '/home/pi/sensor_fusion/build/lidar_object/install.log'

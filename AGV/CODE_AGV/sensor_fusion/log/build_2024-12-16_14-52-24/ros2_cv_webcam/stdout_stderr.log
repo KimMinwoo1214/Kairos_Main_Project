@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/requires.txt
+writing top-level names to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/top_level.txt
+reading manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_cv_webcam/webcam_pub.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam
+running install
+running install_lib
+copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/webcam_pub.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam
+byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/webcam_pub.py to webcam_pub.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info
+running install_scripts
+Installing img_publisher script to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam
+Installing img_subscriber = ros2_cv_webcam.webcam_sub:mainqr_detect script to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam
+writing list of installed files to '/home/pi/sensor_fusion/build/ros2_cv_webcam/install.log'

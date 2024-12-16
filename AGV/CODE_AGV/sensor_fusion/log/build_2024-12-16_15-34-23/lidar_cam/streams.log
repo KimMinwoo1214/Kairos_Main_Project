@@ -1,0 +1,23 @@
+[6.658s] Invoking command in '/home/pi/sensor_fusion/src/lidar_cam': PYTHONPATH=/home/pi/sensor_fusion/build/lidar_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_cam build --build-base /home/pi/sensor_fusion/build/lidar_cam/build install --record /home/pi/sensor_fusion/build/lidar_cam/install.log --install-scripts $base/lib/lidar_cam --single-version-externally-managed install_data
+[8.370s] running egg_info
+[8.374s] writing ../../build/lidar_cam/lidar_cam.egg-info/PKG-INFO
+[8.385s] writing dependency_links to ../../build/lidar_cam/lidar_cam.egg-info/dependency_links.txt
+[8.391s] writing entry points to ../../build/lidar_cam/lidar_cam.egg-info/entry_points.txt
+[8.395s] writing requirements to ../../build/lidar_cam/lidar_cam.egg-info/requires.txt
+[8.401s] writing top-level names to ../../build/lidar_cam/lidar_cam.egg-info/top_level.txt
+[8.751s] reading manifest file '../../build/lidar_cam/lidar_cam.egg-info/SOURCES.txt'
+[8.766s] writing manifest file '../../build/lidar_cam/lidar_cam.egg-info/SOURCES.txt'
+[8.769s] running build
+[8.772s] running build_py
+[8.783s] running install
+[8.788s] running install_lib
+[8.802s] running install_data
+[8.805s] running install_egg_info
+[8.813s] removing '/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam-0.0.0-py3.8.egg-info' (and everything under it)
+[8.816s] Copying ../../build/lidar_cam/lidar_cam.egg-info to /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam-0.0.0-py3.8.egg-info
+[8.833s] running install_scripts
+[8.968s] Installing fusion script to /home/pi/sensor_fusion/install/lidar_cam/lib/lidar_cam
+[8.971s] Installing lidar_cam script to /home/pi/sensor_fusion/install/lidar_cam/lib/lidar_cam
+[8.973s] Installing scan_data script to /home/pi/sensor_fusion/install/lidar_cam/lib/lidar_cam
+[8.974s] writing list of installed files to '/home/pi/sensor_fusion/build/lidar_cam/install.log'
+[9.088s] Invoked command in '/home/pi/sensor_fusion/src/lidar_cam' returned '0': PYTHONPATH=/home/pi/sensor_fusion/build/lidar_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_cam build --build-base /home/pi/sensor_fusion/build/lidar_cam/build install --record /home/pi/sensor_fusion/build/lidar_cam/install.log --install-scripts $base/lib/lidar_cam --single-version-externally-managed install_data

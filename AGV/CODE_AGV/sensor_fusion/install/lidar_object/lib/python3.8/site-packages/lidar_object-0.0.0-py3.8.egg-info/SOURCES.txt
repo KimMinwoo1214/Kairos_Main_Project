@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/lidar_object/lidar_object.egg-info/PKG-INFO
+../../build/lidar_object/lidar_object.egg-info/SOURCES.txt
+../../build/lidar_object/lidar_object.egg-info/dependency_links.txt
+../../build/lidar_object/lidar_object.egg-info/entry_points.txt
+../../build/lidar_object/lidar_object.egg-info/requires.txt
+../../build/lidar_object/lidar_object.egg-info/top_level.txt
+../../build/lidar_object/lidar_object.egg-info/zip-safe
+lidar_object/__init__.py
+lidar_object/detection_lidar.py
+resource/lidar_object
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
