@@ -1,0 +1,892 @@
+[0.000000] (-) TimerEvent: {}
+[0.001083] (lidar_cam) JobQueued: {'identifier': 'lidar_cam', 'dependencies': OrderedDict()}
+[0.001366] (lidar_object) JobQueued: {'identifier': 'lidar_object', 'dependencies': OrderedDict()}
+[0.002134] (ros2_cv_webcam) JobQueued: {'identifier': 'ros2_cv_webcam', 'dependencies': OrderedDict()}
+[0.002690] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.003167] (lidar_cam) JobStarted: {'identifier': 'lidar_cam'}
+[0.040840] (lidar_object) JobStarted: {'identifier': 'lidar_object'}
+[0.073569] (ros2_cv_webcam) JobStarted: {'identifier': 'ros2_cv_webcam'}
+[0.101094] (-) TimerEvent: {}
+[0.106222] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.201274] (-) TimerEvent: {}
+[0.302333] (-) TimerEvent: {}
+[0.403072] (-) TimerEvent: {}
+[0.503813] (-) TimerEvent: {}
+[0.604554] (-) TimerEvent: {}
+[0.705194] (-) TimerEvent: {}
+[0.805843] (-) TimerEvent: {}
+[0.906645] (-) TimerEvent: {}
+[1.007346] (-) TimerEvent: {}
+[1.108062] (-) TimerEvent: {}
+[1.209012] (-) TimerEvent: {}
+[1.309957] (-) TimerEvent: {}
+[1.410711] (-) TimerEvent: {}
+[1.511686] (-) TimerEvent: {}
+[1.612740] (-) TimerEvent: {}
+[1.713447] (-) TimerEvent: {}
+[1.814117] (-) TimerEvent: {}
+[1.914946] (-) TimerEvent: {}
+[2.016193] (-) TimerEvent: {}
+[2.117468] (-) TimerEvent: {}
+[2.218466] (-) TimerEvent: {}
+[2.319201] (-) TimerEvent: {}
+[2.419946] (-) TimerEvent: {}
+[2.520681] (-) TimerEvent: {}
+[2.621496] (-) TimerEvent: {}
+[2.722182] (-) TimerEvent: {}
+[2.822923] (-) TimerEvent: {}
+[2.923714] (-) TimerEvent: {}
+[3.024649] (-) TimerEvent: {}
+[3.098667] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[3.100092] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/sensor_fusion/src/ydlidar_ros2_driver', '-DCMAKE_INSTALL_PREFIX=/home/pi/sensor_fusion/install/ydlidar_ros2_driver'], 'cwd': '/home/pi/sensor_fusion/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.168 48128 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/sensor_fusion/src'), ('SSH_TTY', '/dev/pts/4'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/sensor_fusion/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/foxy/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '15'), ('AMENT_PREFIX_PATH', '/home/pi/sensor_fusion/install/ydlidar_ros2_driver:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/pi/sensor_fusion/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.168 48128 192.168.0.137 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/leg_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/sensor_fusion/install/ydlidar_ros2_driver:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy')]), 'shell': False}
+[3.126799] (-) TimerEvent: {}
+[3.231441] (-) TimerEvent: {}
+[3.332643] (-) TimerEvent: {}
+[3.433563] (-) TimerEvent: {}
+[3.535198] (-) TimerEvent: {}
+[3.636835] (-) TimerEvent: {}
+[3.736629] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.737488] (-) TimerEvent: {}
+[3.838166] (-) TimerEvent: {}
+[3.939102] (-) TimerEvent: {}
+[4.041127] (-) TimerEvent: {}
+[4.142720] (-) TimerEvent: {}
+[4.244363] (-) TimerEvent: {}
+[4.346155] (-) TimerEvent: {}
+[4.447298] (-) TimerEvent: {}
+[4.548258] (-) TimerEvent: {}
+[4.555022] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.607451] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.648510] (-) TimerEvent: {}
+[4.749586] (-) TimerEvent: {}
+[4.850624] (-) TimerEvent: {}
+[4.951738] (-) TimerEvent: {}
+[5.009253] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.017385] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.051904] (-) TimerEvent: {}
+[5.153678] (-) TimerEvent: {}
+[5.254659] (-) TimerEvent: {}
+[5.356581] (-) TimerEvent: {}
+[5.421761] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.456932] (-) TimerEvent: {}
+[5.476216] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.482268] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.499779] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.557322] (-) TimerEvent: {}
+[5.659005] (-) TimerEvent: {}
+[5.759975] (-) TimerEvent: {}
+[5.861108] (-) TimerEvent: {}
+[5.962894] (-) TimerEvent: {}
+[6.065306] (-) TimerEvent: {}
+[6.108630] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.122858] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.165738] (-) TimerEvent: {}
+[6.243232] (lidar_cam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_cam', 'build', '--build-base', '/home/pi/sensor_fusion/build/lidar_cam/build', 'install', '--record', '/home/pi/sensor_fusion/build/lidar_cam/install.log', '--install-scripts', '$base/lib/lidar_cam', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/sensor_fusion/src/lidar_cam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.168 48128 22', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/sensor_fusion/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/sensor_fusion/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/foxy/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:12.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/pi/sensor_fusion/install/ydlidar_ros2_driver:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'PWD': '/home/pi/sensor_fusion/build/lidar_cam', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.168 48128 192.168.0.137 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/sensor_fusion/build/lidar_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/leg_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/sensor_fusion/install/ydlidar_ros2_driver'}, 'shell': False}
+[6.266807] (-) TimerEvent: {}
+[6.285387] (lidar_object) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_object', 'build', '--build-base', '/home/pi/sensor_fusion/build/lidar_object/build', 'install', '--record', '/home/pi/sensor_fusion/build/lidar_object/install.log', '--install-scripts', '$base/lib/lidar_object', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/sensor_fusion/src/lidar_object', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.168 48128 22', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/sensor_fusion/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/sensor_fusion/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/foxy/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:12.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/pi/sensor_fusion/install/ydlidar_ros2_driver:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'PWD': '/home/pi/sensor_fusion/build/lidar_object', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.168 48128 192.168.0.137 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/sensor_fusion/build/lidar_object/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/leg_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/sensor_fusion/install/ydlidar_ros2_driver'}, 'shell': False}
+[6.366925] (-) TimerEvent: {}
+[6.468510] (-) TimerEvent: {}
+[6.574964] (-) TimerEvent: {}
+[6.610379] (ros2_cv_webcam) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_cv_webcam', 'build', '--build-base', '/home/pi/sensor_fusion/build/ros2_cv_webcam/build', 'install', '--record', '/home/pi/sensor_fusion/build/ros2_cv_webcam/install.log', '--install-scripts', '$base/lib/ros2_cv_webcam', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/sensor_fusion/src/ros2_cv_webcam', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.168 48128 22', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/sensor_fusion/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/sensor_fusion/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/foxy/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:12.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '15', 'AMENT_PREFIX_PATH': '/home/pi/sensor_fusion/install/ydlidar_ros2_driver:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'PWD': '/home/pi/sensor_fusion/build/ros2_cv_webcam', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.168 48128 192.168.0.137 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/sensor_fusion/build/ros2_cv_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/leg_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/sensor_fusion/install/ydlidar_ros2_driver'}, 'shell': False}
+[6.675274] (-) TimerEvent: {}
+[6.722799] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.775600] (-) TimerEvent: {}
+[6.776869] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.779607] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.843330] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.875841] (-) TimerEvent: {}
+[6.976761] (-) TimerEvent: {}
+[7.070193] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.072580] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.076959] (-) TimerEvent: {}
+[7.178683] (-) TimerEvent: {}
+[7.280549] (-) TimerEvent: {}
+[7.382041] (-) TimerEvent: {}
+[7.484107] (-) TimerEvent: {}
+[7.585935] (-) TimerEvent: {}
+[7.687476] (-) TimerEvent: {}
+[7.790084] (-) TimerEvent: {}
+[7.876166] (lidar_cam) StdoutLine: {'line': b'running egg_info\n'}
+[7.879317] (lidar_cam) StdoutLine: {'line': b'creating ../../build/lidar_cam/lidar_cam.egg-info\n'}
+[7.880630] (lidar_cam) StdoutLine: {'line': b'writing ../../build/lidar_cam/lidar_cam.egg-info/PKG-INFO\n'}
+[7.882640] (lidar_cam) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_cam/lidar_cam.egg-info/dependency_links.txt\n'}
+[7.884020] (lidar_cam) StdoutLine: {'line': b'writing entry points to ../../build/lidar_cam/lidar_cam.egg-info/entry_points.txt\n'}
+[7.885294] (lidar_cam) StdoutLine: {'line': b'writing requirements to ../../build/lidar_cam/lidar_cam.egg-info/requires.txt\n'}
+[7.886233] (lidar_cam) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_cam/lidar_cam.egg-info/top_level.txt\n'}
+[7.890307] (-) TimerEvent: {}
+[7.895208] (lidar_cam) StdoutLine: {'line': b"writing manifest file '../../build/lidar_cam/lidar_cam.egg-info/SOURCES.txt'\n"}
+[7.902422] (lidar_object) StdoutLine: {'line': b'running egg_info\n'}
+[7.905239] (lidar_object) StdoutLine: {'line': b'creating ../../build/lidar_object/lidar_object.egg-info\n'}
+[7.906370] (lidar_object) StdoutLine: {'line': b'writing ../../build/lidar_object/lidar_object.egg-info/PKG-INFO\n'}
+[7.907672] (lidar_object) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_object/lidar_object.egg-info/dependency_links.txt\n'}
+[7.908822] (lidar_object) StdoutLine: {'line': b'writing entry points to ../../build/lidar_object/lidar_object.egg-info/entry_points.txt\n'}
+[7.910284] (lidar_object) StdoutLine: {'line': b'writing requirements to ../../build/lidar_object/lidar_object.egg-info/requires.txt\n'}
+[7.911523] (lidar_object) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_object/lidar_object.egg-info/top_level.txt\n'}
+[7.918747] (lidar_object) StdoutLine: {'line': b"writing manifest file '../../build/lidar_object/lidar_object.egg-info/SOURCES.txt'\n"}
+[7.990498] (-) TimerEvent: {}
+[8.062470] (lidar_cam) StdoutLine: {'line': b"reading manifest file '../../build/lidar_cam/lidar_cam.egg-info/SOURCES.txt'\n"}
+[8.066948] (lidar_cam) StdoutLine: {'line': b"writing manifest file '../../build/lidar_cam/lidar_cam.egg-info/SOURCES.txt'\n"}
+[8.067967] (lidar_cam) StdoutLine: {'line': b'running build\n'}
+[8.069021] (lidar_cam) StdoutLine: {'line': b'running build_py\n'}
+[8.069802] (lidar_cam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/build/lidar_cam/build\n'}
+[8.070586] (lidar_cam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/build/lidar_cam/build/lib\n'}
+[8.071336] (lidar_cam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/build/lidar_cam/build/lib/lidar_cam\n'}
+[8.072195] (lidar_cam) StdoutLine: {'line': b'copying lidar_cam/receive_scan.py -> /home/pi/sensor_fusion/build/lidar_cam/build/lib/lidar_cam\n'}
+[8.074370] (lidar_cam) StdoutLine: {'line': b'copying lidar_cam/__init__.py -> /home/pi/sensor_fusion/build/lidar_cam/build/lib/lidar_cam\n'}
+[8.076303] (lidar_cam) StdoutLine: {'line': b'copying lidar_cam/fusion_cam_lidar.py -> /home/pi/sensor_fusion/build/lidar_cam/build/lib/lidar_cam\n'}
+[8.079228] (lidar_cam) StdoutLine: {'line': b'copying lidar_cam/lidar_cam_fusion.py -> /home/pi/sensor_fusion/build/lidar_cam/build/lib/lidar_cam\n'}
+[8.081705] (lidar_cam) StdoutLine: {'line': b'running install\n'}
+[8.083406] (lidar_object) StdoutLine: {'line': b"reading manifest file '../../build/lidar_object/lidar_object.egg-info/SOURCES.txt'\n"}
+[8.087350] (lidar_object) StdoutLine: {'line': b"writing manifest file '../../build/lidar_object/lidar_object.egg-info/SOURCES.txt'\n"}
+[8.088258] (lidar_object) StdoutLine: {'line': b'running build\n'}
+[8.089478] (lidar_object) StdoutLine: {'line': b'running build_py\n'}
+[8.090699] (-) TimerEvent: {}
+[8.091359] (lidar_cam) StdoutLine: {'line': b'running install_lib\n'}
+[8.092028] (lidar_object) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/build/lidar_object/build\n'}
+[8.093040] (lidar_object) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/build/lidar_object/build/lib\n'}
+[8.093731] (lidar_object) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object\n'}
+[8.097251] (lidar_object) StdoutLine: {'line': b'copying lidar_object/detection_lidar.py -> /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object\n'}
+[8.097917] (lidar_object) StdoutLine: {'line': b'copying lidar_object/__init__.py -> /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object\n'}
+[8.098975] (lidar_object) StdoutLine: {'line': b'running install\n'}
+[8.101059] (lidar_cam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam\n'}
+[8.101801] (lidar_cam) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/lidar_cam/build/lib/lidar_cam/receive_scan.py -> /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam\n'}
+[8.102480] (lidar_object) StdoutLine: {'line': b'running install_lib\n'}
+[8.103084] (lidar_cam) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/lidar_cam/build/lib/lidar_cam/__init__.py -> /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam\n'}
+[8.109221] (lidar_cam) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/lidar_cam/build/lib/lidar_cam/fusion_cam_lidar.py -> /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam\n'}
+[8.110130] (lidar_cam) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/lidar_cam/build/lib/lidar_cam/lidar_cam_fusion.py -> /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam\n'}
+[8.110829] (lidar_object) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object\n'}
+[8.111845] (lidar_object) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object/detection_lidar.py -> /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object\n'}
+[8.112571] (lidar_cam) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam/receive_scan.py to receive_scan.cpython-38.pyc\n'}
+[8.117407] (lidar_object) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/lidar_object/build/lib/lidar_object/__init__.py -> /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object\n'}
+[8.118235] (lidar_object) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object/detection_lidar.py to detection_lidar.cpython-38.pyc\n'}
+[8.119327] (lidar_cam) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam/__init__.py to __init__.cpython-38.pyc\n'}
+[8.119900] (ros2_cv_webcam) StdoutLine: {'line': b'running egg_info\n'}
+[8.125675] (lidar_cam) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam/fusion_cam_lidar.py to fusion_cam_lidar.cpython-38.pyc\n'}
+[8.126440] (ros2_cv_webcam) StdoutLine: {'line': b'creating ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info\n'}
+[8.127076] (lidar_cam) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam/lidar_cam_fusion.py to lidar_cam_fusion.cpython-38.pyc\n'}
+[8.127732] (ros2_cv_webcam) StdoutLine: {'line': b'writing ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/PKG-INFO\n'}
+[8.129037] (lidar_object) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object/__init__.py to __init__.cpython-38.pyc\n'}
+[8.130106] (ros2_cv_webcam) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/dependency_links.txt\n'}
+[8.132683] (lidar_cam) StdoutLine: {'line': b'running install_data\n'}
+[8.136518] (lidar_object) StdoutLine: {'line': b'running install_data\n'}
+[8.137225] (lidar_cam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/lidar_cam/share/ament_index\n'}
+[8.137734] (lidar_object) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/lidar_object/share/ament_index\n'}
+[8.138248] (ros2_cv_webcam) StdoutLine: {'line': b'writing entry points to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/entry_points.txt\n'}
+[8.138689] (lidar_cam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/lidar_cam/share/ament_index/resource_index\n'}
+[8.139086] (ros2_cv_webcam) StdoutLine: {'line': b'writing requirements to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/requires.txt\n'}
+[8.139528] (ros2_cv_webcam) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/top_level.txt\n'}
+[8.144232] (lidar_object) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/lidar_object/share/ament_index/resource_index\n'}
+[8.145215] (lidar_cam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/lidar_cam/share/ament_index/resource_index/packages\n'}
+[8.145794] (lidar_cam) StdoutLine: {'line': b'copying resource/lidar_cam -> /home/pi/sensor_fusion/install/lidar_cam/share/ament_index/resource_index/packages\n'}
+[8.146481] (lidar_cam) StdoutLine: {'line': b'copying package.xml -> /home/pi/sensor_fusion/install/lidar_cam/share/lidar_cam\n'}
+[8.147265] (lidar_cam) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.148353] (lidar_object) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/lidar_object/share/ament_index/resource_index/packages\n'}
+[8.149278] (lidar_object) StdoutLine: {'line': b'copying resource/lidar_object -> /home/pi/sensor_fusion/install/lidar_object/share/ament_index/resource_index/packages\n'}
+[8.149925] (lidar_object) StdoutLine: {'line': b'copying package.xml -> /home/pi/sensor_fusion/install/lidar_object/share/lidar_object\n'}
+[8.150530] (lidar_object) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.151102] (ros2_cv_webcam) StdoutLine: {'line': b"writing manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'\n"}
+[8.151603] (lidar_object) StdoutLine: {'line': b'Copying ../../build/lidar_object/lidar_object.egg-info to /home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages/lidar_object-0.0.0-py3.8.egg-info\n'}
+[8.152222] (lidar_cam) StdoutLine: {'line': b'Copying ../../build/lidar_cam/lidar_cam.egg-info to /home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages/lidar_cam-0.0.0-py3.8.egg-info\n'}
+[8.153002] (lidar_cam) StdoutLine: {'line': b'running install_scripts\n'}
+[8.153555] (lidar_object) StdoutLine: {'line': b'running install_scripts\n'}
+[8.191025] (-) TimerEvent: {}
+[8.241422] (lidar_cam) StdoutLine: {'line': b'Installing fusion script to /home/pi/sensor_fusion/install/lidar_cam/lib/lidar_cam\n'}
+[8.242643] (lidar_cam) StdoutLine: {'line': b'Installing lidar_cam script to /home/pi/sensor_fusion/install/lidar_cam/lib/lidar_cam\n'}
+[8.243699] (lidar_cam) StdoutLine: {'line': b'Installing scan_data script to /home/pi/sensor_fusion/install/lidar_cam/lib/lidar_cam\n'}
+[8.246040] (lidar_cam) StdoutLine: {'line': b"writing list of installed files to '/home/pi/sensor_fusion/build/lidar_cam/install.log'\n"}
+[8.258652] (lidar_object) StdoutLine: {'line': b'Installing detection script to /home/pi/sensor_fusion/install/lidar_object/lib/lidar_object\n'}
+[8.263586] (lidar_object) StdoutLine: {'line': b"writing list of installed files to '/home/pi/sensor_fusion/build/lidar_object/install.log'\n"}
+[8.291330] (-) TimerEvent: {}
+[8.347642] (ros2_cv_webcam) StdoutLine: {'line': b"reading manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'\n"}
+[8.355940] (ros2_cv_webcam) StdoutLine: {'line': b"writing manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'\n"}
+[8.357438] (ros2_cv_webcam) StdoutLine: {'line': b'running build\n'}
+[8.358832] (ros2_cv_webcam) StdoutLine: {'line': b'running build_py\n'}
+[8.359929] (ros2_cv_webcam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/build/ros2_cv_webcam/build\n'}
+[8.361390] (ros2_cv_webcam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib\n'}
+[8.362552] (ros2_cv_webcam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam\n'}
+[8.363964] (ros2_cv_webcam) StdoutLine: {'line': b'copying ros2_cv_webcam/qr_detect.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam\n'}
+[8.367653] (ros2_cv_webcam) StdoutLine: {'line': b'copying ros2_cv_webcam/webcam_sub.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam\n'}
+[8.371898] (ros2_cv_webcam) StdoutLine: {'line': b'copying ros2_cv_webcam/webcam_pub.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam\n'}
+[8.378274] (ros2_cv_webcam) StdoutLine: {'line': b'copying ros2_cv_webcam/__init__.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam\n'}
+[8.384164] (ros2_cv_webcam) StdoutLine: {'line': b'running install\n'}
+[8.391787] (-) TimerEvent: {}
+[8.396666] (ros2_cv_webcam) StdoutLine: {'line': b'running install_lib\n'}
+[8.409951] (ros2_cv_webcam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam\n'}
+[8.414236] (ros2_cv_webcam) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/qr_detect.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam\n'}
+[8.418648] (ros2_cv_webcam) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/webcam_sub.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam\n'}
+[8.422997] (ros2_cv_webcam) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/webcam_pub.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam\n'}
+[8.426887] (ros2_cv_webcam) StdoutLine: {'line': b'copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/__init__.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam\n'}
+[8.437888] (lidar_cam) CommandEnded: {'returncode': 0}
+[8.441430] (ros2_cv_webcam) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/qr_detect.py to qr_detect.cpython-38.pyc\n'}
+[8.444632] (ros2_cv_webcam) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/webcam_sub.py to webcam_sub.cpython-38.pyc\n'}
+[8.448464] (ros2_cv_webcam) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/webcam_pub.py to webcam_pub.cpython-38.pyc\n'}
+[8.451228] (ros2_cv_webcam) StdoutLine: {'line': b'byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/__init__.py to __init__.cpython-38.pyc\n'}
+[8.458913] (ros2_cv_webcam) StdoutLine: {'line': b'running install_data\n'}
+[8.460021] (ros2_cv_webcam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ament_index\n'}
+[8.461687] (ros2_cv_webcam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ament_index/resource_index\n'}
+[8.463345] (ros2_cv_webcam) StdoutLine: {'line': b'creating /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ament_index/resource_index/packages\n'}
+[8.464186] (ros2_cv_webcam) StdoutLine: {'line': b'copying resource/ros2_cv_webcam -> /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ament_index/resource_index/packages\n'}
+[8.465163] (ros2_cv_webcam) StdoutLine: {'line': b'copying package.xml -> /home/pi/sensor_fusion/install/ros2_cv_webcam/share/ros2_cv_webcam\n'}
+[8.466391] (ros2_cv_webcam) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.467348] (ros2_cv_webcam) StdoutLine: {'line': b'Copying ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info\n'}
+[8.472408] (ros2_cv_webcam) StdoutLine: {'line': b'running install_scripts\n'}
+[8.492083] (-) TimerEvent: {}
+[8.521462] (lidar_cam) JobEnded: {'identifier': 'lidar_cam', 'rc': 0}
+[8.530136] (lidar_object) CommandEnded: {'returncode': 0}
+[8.576663] (ros2_cv_webcam) StdoutLine: {'line': b'Installing img_publisher script to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam\n'}
+[8.578241] (ros2_cv_webcam) StdoutLine: {'line': b'Installing img_subscriber = ros2_cv_webcam.webcam_sub:mainqr_detect script to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam\n'}
+[8.579624] (ros2_cv_webcam) StdoutLine: {'line': b"writing list of installed files to '/home/pi/sensor_fusion/build/ros2_cv_webcam/install.log'\n"}
+[8.590671] (lidar_object) JobEnded: {'identifier': 'lidar_object', 'rc': 0}
+[8.594662] (-) TimerEvent: {}
+[8.681965] (ros2_cv_webcam) CommandEnded: {'returncode': 0}
+[8.694944] (-) TimerEvent: {}
+[8.711090] (ros2_cv_webcam) JobEnded: {'identifier': 'ros2_cv_webcam', 'rc': 0}
+[8.795127] (-) TimerEvent: {}
+[8.895780] (-) TimerEvent: {}
+[8.896919] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[8.995946] (-) TimerEvent: {}
+[9.096631] (-) TimerEvent: {}
+[9.197374] (-) TimerEvent: {}
+[9.298039] (-) TimerEvent: {}
+[9.310194] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.386355] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[9.398204] (-) TimerEvent: {}
+[9.498916] (-) TimerEvent: {}
+[9.599605] (-) TimerEvent: {}
+[9.700505] (-) TimerEvent: {}
+[9.801400] (-) TimerEvent: {}
+[9.902178] (-) TimerEvent: {}
+[10.002939] (-) TimerEvent: {}
+[10.103761] (-) TimerEvent: {}
+[10.112840] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[10.203955] (-) TimerEvent: {}
+[10.304715] (-) TimerEvent: {}
+[10.373322] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[10.404878] (-) TimerEvent: {}
+[10.505829] (-) TimerEvent: {}
+[10.608235] (-) TimerEvent: {}
+[10.708967] (-) TimerEvent: {}
+[10.809709] (-) TimerEvent: {}
+[10.910425] (-) TimerEvent: {}
+[11.011174] (-) TimerEvent: {}
+[11.020191] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.111350] (-) TimerEvent: {}
+[11.212080] (-) TimerEvent: {}
+[11.312776] (-) TimerEvent: {}
+[11.366276] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[11.375103] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.382088] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.412946] (-) TimerEvent: {}
+[11.513681] (-) TimerEvent: {}
+[11.614606] (-) TimerEvent: {}
+[11.715501] (-) TimerEvent: {}
+[11.735607] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.736644] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.815692] (-) TimerEvent: {}
+[11.916468] (-) TimerEvent: {}
+[12.017285] (-) TimerEvent: {}
+[12.040415] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[12.041157] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[12.117468] (-) TimerEvent: {}
+[12.218241] (-) TimerEvent: {}
+[12.293612] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[12.294379] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[12.318471] (-) TimerEvent: {}
+[12.419440] (-) TimerEvent: {}
+[12.520821] (-) TimerEvent: {}
+[12.590010] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[12.593774] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.621004] (-) TimerEvent: {}
+[12.721693] (-) TimerEvent: {}
+[12.822404] (-) TimerEvent: {}
+[12.923226] (-) TimerEvent: {}
+[13.023981] (-) TimerEvent: {}
+[13.124677] (-) TimerEvent: {}
+[13.225377] (-) TimerEvent: {}
+[13.319144] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[13.325533] (-) TimerEvent: {}
+[13.426240] (-) TimerEvent: {}
+[13.526944] (-) TimerEvent: {}
+[13.627645] (-) TimerEvent: {}
+[13.728397] (-) TimerEvent: {}
+[13.788283] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[13.828519] (-) TimerEvent: {}
+[13.929231] (-) TimerEvent: {}
+[14.029909] (-) TimerEvent: {}
+[14.068856] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[14.130087] (-) TimerEvent: {}
+[14.176052] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[14.230258] (-) TimerEvent: {}
+[14.330922] (-) TimerEvent: {}
+[14.431610] (-) TimerEvent: {}
+[14.532326] (-) TimerEvent: {}
+[14.633032] (-) TimerEvent: {}
+[14.658004] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.733192] (-) TimerEvent: {}
+[14.812336] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.814126] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pi/sensor_fusion/src/ydlidar_ros2_driver/src\n'}
+[14.814607] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.833338] (-) TimerEvent: {}
+[14.917594] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.918154] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.933308] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.933819] (-) TimerEvent: {}
+[14.962363] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.977937] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[15.033988] (-) TimerEvent: {}
+[15.081145] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.081737] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.097427] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.123375] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.134153] (-) TimerEvent: {}
+[15.196009] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[15.202484] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/sensor_fusion/build/ydlidar_ros2_driver\n'}
+[15.234271] (-) TimerEvent: {}
+[15.235999] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[15.238195] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[15.241335] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/sensor_fusion/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/pi/sensor_fusion/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.0.168 48128 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/sensor_fusion/src'), ('SSH_TTY', '/dev/pts/4'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/sensor_fusion/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/opt/ros/foxy/bin:/home/pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '15'), ('AMENT_PREFIX_PATH', '/home/pi/sensor_fusion/install/ydlidar_ros2_driver:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/pi/sensor_fusion/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.168 48128 192.168.0.137 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_object/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/lidar_cam/lib/python3.8/site-packages:/home/pi/sensor_fusion/install/leg_detection/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/sensor_fusion/install/ydlidar_ros2_driver:/home/pi/sensor_fusion/install/ros2_cv_webcam:/home/pi/sensor_fusion/install/lidar_object:/home/pi/sensor_fusion/install/lidar_cam:/home/pi/sensor_fusion/install/leg_detection:/opt/ros/foxy')]), 'shell': False}
+[15.334537] (-) TimerEvent: {}
+[15.419281] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[15.420023] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_client\x1b[0m\n'}
+[15.420358] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_filter\x1b[0m\n'}
+[15.434708] (-) TimerEvent: {}
+[15.536038] (-) TimerEvent: {}
+[15.637018] (-) TimerEvent: {}
+[15.738256] (-) TimerEvent: {}
+[15.839650] (-) TimerEvent: {}
+[15.844177] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[15.874759] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_filter.dir/src/ydlidar_ros2_driver_filter.cpp.o\x1b[0m\n'}
+[15.875950] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[15.939862] (-) TimerEvent: {}
+[16.041545] (-) TimerEvent: {}
+[16.142373] (-) TimerEvent: {}
+[16.243990] (-) TimerEvent: {}
+[16.345062] (-) TimerEvent: {}
+[16.445944] (-) TimerEvent: {}
+[16.547019] (-) TimerEvent: {}
+[16.661402] (-) TimerEvent: {}
+[16.762488] (-) TimerEvent: {}
+[16.863539] (-) TimerEvent: {}
+[16.964632] (-) TimerEvent: {}
+[17.067085] (-) TimerEvent: {}
+[17.169065] (-) TimerEvent: {}
+[17.271433] (-) TimerEvent: {}
+[17.373214] (-) TimerEvent: {}
+[17.475280] (-) TimerEvent: {}
+[17.577572] (-) TimerEvent: {}
+[17.679528] (-) TimerEvent: {}
+[17.781895] (-) TimerEvent: {}
+[17.884092] (-) TimerEvent: {}
+[17.986664] (-) TimerEvent: {}
+[18.088564] (-) TimerEvent: {}
+[18.190700] (-) TimerEvent: {}
+[18.292781] (-) TimerEvent: {}
+[18.394597] (-) TimerEvent: {}
+[18.496741] (-) TimerEvent: {}
+[18.598973] (-) TimerEvent: {}
+[18.701578] (-) TimerEvent: {}
+[18.803995] (-) TimerEvent: {}
+[18.906508] (-) TimerEvent: {}
+[19.011110] (-) TimerEvent: {}
+[19.113126] (-) TimerEvent: {}
+[19.215134] (-) TimerEvent: {}
+[19.316932] (-) TimerEvent: {}
+[19.420496] (-) TimerEvent: {}
+[19.522253] (-) TimerEvent: {}
+[19.624298] (-) TimerEvent: {}
+[19.726409] (-) TimerEvent: {}
+[19.828291] (-) TimerEvent: {}
+[19.930688] (-) TimerEvent: {}
+[20.032601] (-) TimerEvent: {}
+[20.134455] (-) TimerEvent: {}
+[20.236364] (-) TimerEvent: {}
+[20.338211] (-) TimerEvent: {}
+[20.440078] (-) TimerEvent: {}
+[20.542271] (-) TimerEvent: {}
+[20.644081] (-) TimerEvent: {}
+[20.745927] (-) TimerEvent: {}
+[20.848136] (-) TimerEvent: {}
+[20.950061] (-) TimerEvent: {}
+[21.056643] (-) TimerEvent: {}
+[21.158786] (-) TimerEvent: {}
+[21.260681] (-) TimerEvent: {}
+[21.362572] (-) TimerEvent: {}
+[21.464678] (-) TimerEvent: {}
+[21.566846] (-) TimerEvent: {}
+[21.669552] (-) TimerEvent: {}
+[21.771597] (-) TimerEvent: {}
+[21.873634] (-) TimerEvent: {}
+[21.975967] (-) TimerEvent: {}
+[22.078214] (-) TimerEvent: {}
+[22.184604] (-) TimerEvent: {}
+[22.288696] (-) TimerEvent: {}
+[22.390674] (-) TimerEvent: {}
+[22.492812] (-) TimerEvent: {}
+[22.594730] (-) TimerEvent: {}
+[22.696719] (-) TimerEvent: {}
+[22.797666] (-) TimerEvent: {}
+[22.899524] (-) TimerEvent: {}
+[23.000528] (-) TimerEvent: {}
+[23.102597] (-) TimerEvent: {}
+[23.204614] (-) TimerEvent: {}
+[23.285183] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[23.288175] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:167:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[23.289208] (ydlidar_ros2_driver) StderrLine: {'line': b'  167 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[23.290046] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.290829] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:168:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[23.291786] (ydlidar_ros2_driver) StderrLine: {'line': b'  168 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[23.292793] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[23.293648] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[23.294449] (ydlidar_ros2_driver) StderrLine: {'line': b'  169 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[23.295208] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[23.304836] (-) TimerEvent: {}
+[23.311063] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[23.312057] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:177:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[23.312999] (ydlidar_ros2_driver) StderrLine: {'line': b'  177 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[23.313807] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.314698] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[23.315568] (ydlidar_ros2_driver) StderrLine: {'line': b'  178 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[23.316438] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[23.317317] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/sensor_fusion/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[23.318654] (ydlidar_ros2_driver) StderrLine: {'line': b'  179 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[23.319421] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[23.405077] (-) TimerEvent: {}
+[23.506171] (-) TimerEvent: {}
+[23.607315] (-) TimerEvent: {}
+[23.720607] (-) TimerEvent: {}
+[23.821697] (-) TimerEvent: {}
+[23.922735] (-) TimerEvent: {}
+[24.024694] (-) TimerEvent: {}
+[24.126049] (-) TimerEvent: {}
+[24.227099] (-) TimerEvent: {}
+[24.328106] (-) TimerEvent: {}
+[24.430056] (-) TimerEvent: {}
+[24.531916] (-) TimerEvent: {}
+[24.633977] (-) TimerEvent: {}
+[24.737385] (-) TimerEvent: {}
+[24.839249] (-) TimerEvent: {}
+[24.941136] (-) TimerEvent: {}
+[25.043111] (-) TimerEvent: {}
+[25.162432] (-) TimerEvent: {}
+[25.264755] (-) TimerEvent: {}
+[25.366385] (-) TimerEvent: {}
+[25.467478] (-) TimerEvent: {}
+[25.568592] (-) TimerEvent: {}
+[25.669636] (-) TimerEvent: {}
+[25.772179] (-) TimerEvent: {}
+[25.874738] (-) TimerEvent: {}
+[25.977215] (-) TimerEvent: {}
+[26.083002] (-) TimerEvent: {}
+[26.185005] (-) TimerEvent: {}
+[26.287082] (-) TimerEvent: {}
+[26.388996] (-) TimerEvent: {}
+[26.491071] (-) TimerEvent: {}
+[26.593041] (-) TimerEvent: {}
+[26.695070] (-) TimerEvent: {}
+[26.796107] (-) TimerEvent: {}
+[26.897092] (-) TimerEvent: {}
+[26.998130] (-) TimerEvent: {}
+[27.104505] (-) TimerEvent: {}
+[27.205506] (-) TimerEvent: {}
+[27.306873] (-) TimerEvent: {}
+[27.407903] (-) TimerEvent: {}
+[27.508929] (-) TimerEvent: {}
+[27.609991] (-) TimerEvent: {}
+[27.710978] (-) TimerEvent: {}
+[27.812221] (-) TimerEvent: {}
+[27.913277] (-) TimerEvent: {}
+[28.014503] (-) TimerEvent: {}
+[28.115496] (-) TimerEvent: {}
+[28.216570] (-) TimerEvent: {}
+[28.317460] (-) TimerEvent: {}
+[28.419195] (-) TimerEvent: {}
+[28.520125] (-) TimerEvent: {}
+[28.621110] (-) TimerEvent: {}
+[28.722045] (-) TimerEvent: {}
+[28.824184] (-) TimerEvent: {}
+[28.925198] (-) TimerEvent: {}
+[29.026181] (-) TimerEvent: {}
+[29.127141] (-) TimerEvent: {}
+[29.228211] (-) TimerEvent: {}
+[29.331140] (-) TimerEvent: {}
+[29.433358] (-) TimerEvent: {}
+[29.537085] (-) TimerEvent: {}
+[29.639274] (-) TimerEvent: {}
+[29.741191] (-) TimerEvent: {}
+[29.842874] (-) TimerEvent: {}
+[29.943777] (-) TimerEvent: {}
+[30.044753] (-) TimerEvent: {}
+[30.145821] (-) TimerEvent: {}
+[30.246932] (-) TimerEvent: {}
+[30.347918] (-) TimerEvent: {}
+[30.449033] (-) TimerEvent: {}
+[30.549961] (-) TimerEvent: {}
+[30.651072] (-) TimerEvent: {}
+[30.752765] (-) TimerEvent: {}
+[30.853784] (-) TimerEvent: {}
+[30.954721] (-) TimerEvent: {}
+[31.056340] (-) TimerEvent: {}
+[31.159484] (-) TimerEvent: {}
+[31.261691] (-) TimerEvent: {}
+[31.364132] (-) TimerEvent: {}
+[31.465329] (-) TimerEvent: {}
+[31.566496] (-) TimerEvent: {}
+[31.678010] (-) TimerEvent: {}
+[31.779379] (-) TimerEvent: {}
+[31.880308] (-) TimerEvent: {}
+[31.982192] (-) TimerEvent: {}
+[32.083752] (-) TimerEvent: {}
+[32.184913] (-) TimerEvent: {}
+[32.286111] (-) TimerEvent: {}
+[32.388353] (-) TimerEvent: {}
+[32.491493] (-) TimerEvent: {}
+[32.593837] (-) TimerEvent: {}
+[32.698789] (-) TimerEvent: {}
+[32.800000] (-) TimerEvent: {}
+[32.901566] (-) TimerEvent: {}
+[33.002798] (-) TimerEvent: {}
+[33.105139] (-) TimerEvent: {}
+[33.206226] (-) TimerEvent: {}
+[33.307685] (-) TimerEvent: {}
+[33.408647] (-) TimerEvent: {}
+[33.509685] (-) TimerEvent: {}
+[33.611757] (-) TimerEvent: {}
+[34.023788] (-) TimerEvent: {}
+[34.233610] (-) TimerEvent: {}
+[34.334553] (-) TimerEvent: {}
+[34.616082] (-) TimerEvent: {}
+[37.741582] (-) TimerEvent: {}
+[37.954963] (-) TimerEvent: {}
+[38.056317] (-) TimerEvent: {}
+[38.157875] (-) TimerEvent: {}
+[38.399125] (-) TimerEvent: {}
+[39.155658] (-) TimerEvent: {}
+[39.256757] (-) TimerEvent: {}
+[39.357655] (-) TimerEvent: {}
+[39.714694] (-) TimerEvent: {}
+[40.394224] (-) TimerEvent: {}
+[40.574466] (-) TimerEvent: {}
+[40.675493] (-) TimerEvent: {}
+[41.339182] (-) TimerEvent: {}
+[41.558630] (-) TimerEvent: {}
+[41.659593] (-) TimerEvent: {}
+[41.760659] (-) TimerEvent: {}
+[41.861703] (-) TimerEvent: {}
+[42.198919] (-) TimerEvent: {}
+[42.406480] (-) TimerEvent: {}
+[42.507347] (-) TimerEvent: {}
+[42.608469] (-) TimerEvent: {}
+[43.025892] (-) TimerEvent: {}
+[43.174793] (-) TimerEvent: {}
+[43.275933] (-) TimerEvent: {}
+[43.376972] (-) TimerEvent: {}
+[43.477860] (-) TimerEvent: {}
+[43.776124] (-) TimerEvent: {}
+[43.932482] (-) TimerEvent: {}
+[44.033442] (-) TimerEvent: {}
+[44.134317] (-) TimerEvent: {}
+[44.235244] (-) TimerEvent: {}
+[44.504522] (-) TimerEvent: {}
+[44.674476] (-) TimerEvent: {}
+[44.775412] (-) TimerEvent: {}
+[44.876448] (-) TimerEvent: {}
+[44.978210] (-) TimerEvent: {}
+[45.275907] (-) TimerEvent: {}
+[45.412522] (-) TimerEvent: {}
+[45.513912] (-) TimerEvent: {}
+[45.614797] (-) TimerEvent: {}
+[45.715645] (-) TimerEvent: {}
+[45.816768] (-) TimerEvent: {}
+[46.004749] (-) TimerEvent: {}
+[46.176359] (-) TimerEvent: {}
+[46.277818] (-) TimerEvent: {}
+[46.378659] (-) TimerEvent: {}
+[46.479478] (-) TimerEvent: {}
+[46.828601] (-) TimerEvent: {}
+[47.060896] (-) TimerEvent: {}
+[47.161864] (-) TimerEvent: {}
+[47.448208] (-) TimerEvent: {}
+[47.671730] (-) TimerEvent: {}
+[47.773359] (-) TimerEvent: {}
+[48.082516] (-) TimerEvent: {}
+[48.224602] (-) TimerEvent: {}
+[48.325507] (-) TimerEvent: {}
+[48.426646] (-) TimerEvent: {}
+[48.749350] (-) TimerEvent: {}
+[49.003249] (-) TimerEvent: {}
+[49.104758] (-) TimerEvent: {}
+[49.205819] (-) TimerEvent: {}
+[49.509348] (-) TimerEvent: {}
+[49.707862] (-) TimerEvent: {}
+[49.808913] (-) TimerEvent: {}
+[50.182957] (-) TimerEvent: {}
+[50.396022] (-) TimerEvent: {}
+[50.496896] (-) TimerEvent: {}
+[50.597858] (-) TimerEvent: {}
+[50.698902] (-) TimerEvent: {}
+[50.926808] (-) TimerEvent: {}
+[51.450762] (-) TimerEvent: {}
+[51.811837] (-) TimerEvent: {}
+[52.615753] (-) TimerEvent: {}
+[53.570928] (-) TimerEvent: {}
+[54.177052] (-) TimerEvent: {}
+[54.278266] (-) TimerEvent: {}
+[54.379337] (-) TimerEvent: {}
+[54.480588] (-) TimerEvent: {}
+[54.582047] (-) TimerEvent: {}
+[54.683125] (-) TimerEvent: {}
+[54.941881] (-) TimerEvent: {}
+[55.131886] (-) TimerEvent: {}
+[55.463670] (-) TimerEvent: {}
+[55.665923] (-) TimerEvent: {}
+[55.766824] (-) TimerEvent: {}
+[55.867837] (-) TimerEvent: {}
+[55.968987] (-) TimerEvent: {}
+[56.317771] (-) TimerEvent: {}
+[56.748716] (-) TimerEvent: {}
+[57.312125] (-) TimerEvent: {}
+[57.413249] (-) TimerEvent: {}
+[57.514372] (-) TimerEvent: {}
+[57.653545] (-) TimerEvent: {}
+[58.578848] (-) TimerEvent: {}
+[59.334140] (-) TimerEvent: {}
+[61.396441] (-) TimerEvent: {}
+[61.512850] (-) TimerEvent: {}
+[61.613686] (-) TimerEvent: {}
+[64.307350] (-) TimerEvent: {}
+[64.467566] (-) TimerEvent: {}
+[64.750431] (-) TimerEvent: {}
+[64.888481] (-) TimerEvent: {}
+[64.989590] (-) TimerEvent: {}
+[65.338147] (-) TimerEvent: {}
+[65.940659] (-) TimerEvent: {}
+[66.244797] (-) TimerEvent: {}
+[66.346278] (-) TimerEvent: {}
+[66.566514] (-) TimerEvent: {}
+[67.080743] (-) TimerEvent: {}
+[67.360771] (-) TimerEvent: {}
+[67.742512] (-) TimerEvent: {}
+[68.443995] (-) TimerEvent: {}
+[68.622418] (-) TimerEvent: {}
+[68.961109] (-) TimerEvent: {}
+[69.401505] (-) TimerEvent: {}
+[69.694818] (-) TimerEvent: {}
+[70.161478] (-) TimerEvent: {}
+[70.396104] (-) TimerEvent: {}
+[71.302795] (-) TimerEvent: {}
+[71.750894] (-) TimerEvent: {}
+[71.890823] (-) TimerEvent: {}
+[72.000607] (-) TimerEvent: {}
+[72.101981] (-) TimerEvent: {}
+[72.203084] (-) TimerEvent: {}
+[72.303995] (-) TimerEvent: {}
+[72.596579] (-) TimerEvent: {}
+[73.000085] (-) TimerEvent: {}
+[73.490172] (-) TimerEvent: {}
+[73.698181] (-) TimerEvent: {}
+[74.072858] (-) TimerEvent: {}
+[74.374295] (-) TimerEvent: {}
+[74.941521] (-) TimerEvent: {}
+[75.296429] (-) TimerEvent: {}
+[75.568125] (-) TimerEvent: {}
+[76.378781] (-) TimerEvent: {}
+[76.734533] (-) TimerEvent: {}
+[77.631115] (-) TimerEvent: {}
+[78.334208] (-) TimerEvent: {}
+[79.229654] (-) TimerEvent: {}
+[79.637182] (-) TimerEvent: {}
+[80.211670] (-) TimerEvent: {}
+[80.312690] (-) TimerEvent: {}
+[80.413762] (-) TimerEvent: {}
+[80.514919] (-) TimerEvent: {}
+[80.756716] (-) TimerEvent: {}
+[81.163391] (-) TimerEvent: {}
+[81.367395] (-) TimerEvent: {}
+[81.586596] (-) TimerEvent: {}
+[82.038656] (-) TimerEvent: {}
+[82.398107] (-) TimerEvent: {}
+[82.660114] (-) TimerEvent: {}
+[83.051572] (-) TimerEvent: {}
+[83.647093] (-) TimerEvent: {}
+[83.748087] (-) TimerEvent: {}
+[83.849232] (-) TimerEvent: {}
+[84.018674] (-) TimerEvent: {}
+[84.543988] (-) TimerEvent: {}
+[84.841190] (-) TimerEvent: {}
+[85.012004] (-) TimerEvent: {}
+[85.363455] (-) TimerEvent: {}
+[85.577015] (-) TimerEvent: {}
+[85.937089] (-) TimerEvent: {}
+[86.147655] (-) TimerEvent: {}
+[86.401733] (-) TimerEvent: {}
+[86.647403] (-) TimerEvent: {}
+[87.058632] (-) TimerEvent: {}
+[87.333375] (-) TimerEvent: {}
+[87.518985] (-) TimerEvent: {}
+[87.814744] (-) TimerEvent: {}
+[88.040169] (-) TimerEvent: {}
+[88.176547] (-) TimerEvent: {}
+[88.399475] (-) TimerEvent: {}
+[88.596100] (-) TimerEvent: {}
+[89.038940] (-) TimerEvent: {}
+[89.252177] (-) TimerEvent: {}
+[89.353177] (-) TimerEvent: {}
+[89.454128] (-) TimerEvent: {}
+[89.555226] (-) TimerEvent: {}
+[89.656111] (-) TimerEvent: {}
+[89.757278] (-) TimerEvent: {}
+[89.988184] (-) TimerEvent: {}
+[90.327368] (-) TimerEvent: {}
+[90.543106] (-) TimerEvent: {}
+[90.897397] (-) TimerEvent: {}
+[91.819515] (-) TimerEvent: {}
+[93.358206] (-) TimerEvent: {}
+[94.750530] (-) TimerEvent: {}
+[96.400488] (-) TimerEvent: {}
+[96.814944] (-) TimerEvent: {}
+[97.829919] (-) TimerEvent: {}
+[98.339819] (-) TimerEvent: {}
+[98.765090] (-) TimerEvent: {}
+[101.064469] (-) TimerEvent: {}
+[103.402467] (-) TimerEvent: {}
+[104.130853] (-) TimerEvent: {}
+[105.305812] (-) TimerEvent: {}
+[105.955131] (-) TimerEvent: {}
+[107.012572] (-) TimerEvent: {}
+[108.867117] (-) TimerEvent: {}
+[109.471178] (-) TimerEvent: {}
+[109.572168] (-) TimerEvent: {}
+[109.673322] (-) TimerEvent: {}
+[110.300898] (-) TimerEvent: {}
+[110.727730] (-) TimerEvent: {}
+[111.683977] (-) TimerEvent: {}
+[112.370167] (-) TimerEvent: {}
+[114.011124] (-) TimerEvent: {}
+[114.315989] (-) TimerEvent: {}
+[114.417017] (-) TimerEvent: {}
+[114.600008] (-) TimerEvent: {}
+[115.300256] (-) TimerEvent: {}
+[115.537623] (-) TimerEvent: {}
+[115.638815] (-) TimerEvent: {}
+[115.775704] (-) TimerEvent: {}
+[115.927277] (-) TimerEvent: {}
+[116.028422] (-) TimerEvent: {}
+[116.347597] (-) TimerEvent: {}
+[116.763636] (-) TimerEvent: {}
+[116.990548] (-) TimerEvent: {}
+[117.285270] (-) TimerEvent: {}
+[118.030756] (-) TimerEvent: {}
+[118.239855] (-) TimerEvent: {}
+[118.340856] (-) TimerEvent: {}
+[118.442096] (-) TimerEvent: {}
+[118.542975] (-) TimerEvent: {}
+[118.859467] (-) TimerEvent: {}
+[119.571336] (-) TimerEvent: {}
+[120.031261] (-) TimerEvent: {}
+[121.104715] (-) TimerEvent: {}
+[121.292863] (-) TimerEvent: {}
+[121.974992] (-) TimerEvent: {}
+[122.597943] (-) TimerEvent: {}
+[123.025879] (-) TimerEvent: {}
+[124.002523] (-) TimerEvent: {}
+[124.689706] (-) TimerEvent: {}
+[124.790736] (-) TimerEvent: {}
+[125.492813] (-) TimerEvent: {}
+[126.704440] (-) TimerEvent: {}
+[126.924042] (-) TimerEvent: {}
+[127.067327] (-) TimerEvent: {}
+[127.237775] (-) TimerEvent: {}
+[127.338879] (-) TimerEvent: {}
+[127.815271] (-) TimerEvent: {}
+[128.089493] (-) TimerEvent: {}
+[128.190499] (-) TimerEvent: {}
+[128.291538] (-) TimerEvent: {}
+[128.392833] (-) TimerEvent: {}
+[128.494240] (-) TimerEvent: {}
+[128.595785] (-) TimerEvent: {}
+[128.717210] (-) TimerEvent: {}
+[128.818146] (-) TimerEvent: {}
+[128.919328] (-) TimerEvent: {}
+[129.020471] (-) TimerEvent: {}
+[129.144308] (-) TimerEvent: {}
+[129.605358] (-) TimerEvent: {}
+[129.706916] (-) TimerEvent: {}
+[129.807820] (-) TimerEvent: {}
+[129.941193] (-) TimerEvent: {}
+[130.072127] (-) TimerEvent: {}
+[130.173857] (-) TimerEvent: {}
+[130.275677] (-) TimerEvent: {}
+[130.377554] (-) TimerEvent: {}
+[130.858747] (-) TimerEvent: {}
+[135.961903] (-) TimerEvent: {}
+[152.295212] (-) TimerEvent: {}
+[152.413387] (-) TimerEvent: {}
+[152.514283] (-) TimerEvent: {}
+[152.615481] (-) TimerEvent: {}
+[152.716812] (-) TimerEvent: {}
+[152.818486] (-) TimerEvent: {}
+[152.919628] (-) TimerEvent: {}
+[153.020849] (-) TimerEvent: {}
+[153.540460] (-) TimerEvent: {}
+[155.315690] (-) TimerEvent: {}
+[167.402478] (-) TimerEvent: {}
+[167.803912] (-) TimerEvent: {}
+[200.340228] (-) TimerEvent: {}
+[200.515763] (-) TimerEvent: {}
+[200.617278] (-) TimerEvent: {}
+[200.728672] (-) TimerEvent: {}
+[200.830190] (-) TimerEvent: {}
+[200.931289] (-) TimerEvent: {}
+[201.032293] (-) TimerEvent: {}
+[201.677711] (-) TimerEvent: {}
+[206.839639] (-) TimerEvent: {}
+[239.422273] (-) TimerEvent: {}
+[239.604725] (-) TimerEvent: {}
+[239.705740] (-) TimerEvent: {}
+[240.133805] (-) TimerEvent: {}
+[244.846925] (-) TimerEvent: {}
+[258.697853] (-) TimerEvent: {}
+[265.830086] (-) TimerEvent: {}
+[266.028692] (-) TimerEvent: {}
+[266.439157] (-) TimerEvent: {}
+[267.030147] (-) TimerEvent: {}
+[291.541222] (-) TimerEvent: {}
+[307.330602] (-) TimerEvent: {}
+[307.800145] (-) TimerEvent: {}
+[308.103580] (-) TimerEvent: {}
+[310.992498] (-) TimerEvent: {}
+[311.336778] (-) TimerEvent: {}
+[311.437749] (-) TimerEvent: {}
+[312.221860] (-) TimerEvent: {}
+[330.574936] (-) TimerEvent: {}
+[333.434627] (-) TimerEvent: {}
+[333.876039] (-) TimerEvent: {}
+[334.557313] (-) TimerEvent: {}
+[340.558856] (-) TimerEvent: {}
+[340.605238] (ydlidar_ros2_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_ros2_driver_filter.dir/build.make:63: CMakeFiles/ydlidar_ros2_driver_filter.dir/src/ydlidar_ros2_driver_filter.cpp.o] Interrupt\n'}
+[340.643370] (ydlidar_ros2_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:63: CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] Interrupt\n'}
+[340.645831] (ydlidar_ros2_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/ydlidar_ros2_driver_filter.dir/all] Interrupt\n'}
+[340.646779] (ydlidar_ros2_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ydlidar_ros2_driver_client.dir/build.make:63: CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o] Interrupt\n'}
+[340.647442] (ydlidar_ros2_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ydlidar_ros2_driver_node.dir/all] Interrupt\n'}
+[340.648489] (ydlidar_ros2_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/ydlidar_ros2_driver_client.dir/all] Interrupt\n'}
+[340.649330] (ydlidar_ros2_driver) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[340.649967] (ydlidar_ros2_driver) CommandEnded: {'returncode': -2}
+[340.677972] (-) TimerEvent: {}
+[340.779415] (-) TimerEvent: {}
+[340.880351] (-) TimerEvent: {}
+[340.981232] (-) TimerEvent: {}
+[341.082158] (-) TimerEvent: {}
+[341.183873] (-) TimerEvent: {}
+[341.284647] (-) TimerEvent: {}
+[341.385483] (-) TimerEvent: {}
+[341.486655] (-) TimerEvent: {}
+[341.587554] (-) TimerEvent: {}
+[341.688280] (-) TimerEvent: {}
+[341.789397] (-) TimerEvent: {}
+[341.890221] (-) TimerEvent: {}
+[341.991446] (-) TimerEvent: {}
+[342.092487] (-) TimerEvent: {}
+[342.193413] (-) TimerEvent: {}
+[342.283477] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 'SIGINT'}
+[342.293622] (-) TimerEvent: {}
+[342.296949] (-) EventReactorShutdown: {}

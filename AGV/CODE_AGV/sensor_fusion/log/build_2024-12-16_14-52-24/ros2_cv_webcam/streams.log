@@ -1,0 +1,25 @@
+[6.676s] Invoking command in '/home/pi/sensor_fusion/src/ros2_cv_webcam': PYTHONPATH=/home/pi/sensor_fusion/build/ros2_cv_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_webcam build --build-base /home/pi/sensor_fusion/build/ros2_cv_webcam/build install --record /home/pi/sensor_fusion/build/ros2_cv_webcam/install.log --install-scripts $base/lib/ros2_cv_webcam --single-version-externally-managed install_data
+[7.900s] running egg_info
+[7.903s] writing ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/PKG-INFO
+[7.906s] writing dependency_links to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/dependency_links.txt
+[7.910s] writing entry points to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/entry_points.txt
+[7.911s] writing requirements to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/requires.txt
+[7.912s] writing top-level names to ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/top_level.txt
+[8.072s] reading manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'
+[8.077s] writing manifest file '../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info/SOURCES.txt'
+[8.078s] running build
+[8.079s] running build_py
+[8.081s] copying ros2_cv_webcam/webcam_pub.py -> /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam
+[8.083s] running install
+[8.086s] running install_lib
+[8.092s] copying /home/pi/sensor_fusion/build/ros2_cv_webcam/build/lib/ros2_cv_webcam/webcam_pub.py -> /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam
+[8.097s] byte-compiling /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam/webcam_pub.py to webcam_pub.cpython-38.pyc
+[8.103s] running install_data
+[8.104s] running install_egg_info
+[8.111s] removing '/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info' (and everything under it)
+[8.114s] Copying ../../build/ros2_cv_webcam/ros2_cv_webcam.egg-info to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages/ros2_cv_webcam-0.0.0-py3.8.egg-info
+[8.131s] running install_scripts
+[8.212s] Installing img_publisher script to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam
+[8.214s] Installing img_subscriber = ros2_cv_webcam.webcam_sub:mainqr_detect script to /home/pi/sensor_fusion/install/ros2_cv_webcam/lib/ros2_cv_webcam
+[8.219s] writing list of installed files to '/home/pi/sensor_fusion/build/ros2_cv_webcam/install.log'
+[8.414s] Invoked command in '/home/pi/sensor_fusion/src/ros2_cv_webcam' returned '0': PYTHONPATH=/home/pi/sensor_fusion/build/ros2_cv_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/sensor_fusion/install/ros2_cv_webcam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_cv_webcam build --build-base /home/pi/sensor_fusion/build/ros2_cv_webcam/build install --record /home/pi/sensor_fusion/build/ros2_cv_webcam/install.log --install-scripts $base/lib/ros2_cv_webcam --single-version-externally-managed install_data

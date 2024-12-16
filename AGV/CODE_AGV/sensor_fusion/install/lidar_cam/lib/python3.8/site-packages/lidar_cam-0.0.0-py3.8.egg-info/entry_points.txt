@@ -1,0 +1,5 @@
+[console_scripts]
+fusion = lidar_cam.lidar_cam_fusion:main
+lidar_cam = lidar_cam.fusion_cam_lidar:main
+scan_data = lidar_cam.receive_scan:main
+

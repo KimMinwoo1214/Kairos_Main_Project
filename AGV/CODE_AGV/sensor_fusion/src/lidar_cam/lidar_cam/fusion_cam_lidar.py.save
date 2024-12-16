@@ -1,0 +1,83 @@
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import Image, LaserScan
+from cv_bridge import CvBridge
+import numpy as np
+import cv2
+
+class LidarCameraFusion(Node):
+    def __init__(self):
+        super().__init__('lidar_camera_fusion')
+        self.camera_sub = self.create_subscription(Image, '/ self.camera_callback, 10)
+        self.lidar_sub = self.create_subscription(LaserScan, '/scan', self.lidar_callback, 10)
+        self.bridge = CvBridge()
+        self.lidar_points = []
+
+        # Camera intrinsics
+        self.camera_matrix = np.array([[638.71849854, 0, 346.51236862],
+                                       [0, 635.92738363, 237.44836475],
+                                       [0, 0, 1]])
+        self.dist_coeffs = np.array([0.25570537, -1.18457981, -0.00670271, 0.01808242, 1.49729085])
+
+        # Extrinsics (Rotation and Translation)
+        self.rotation_matrix = np.array([[0.97112164, 0.22961169, 0.06481685],
+                                         [-0.09437752, 0.12018762, 0.98825494],
+                                         [0.2191247, -0.96583301, 0.13838698]])
+        self.translation_vector = np.array([[-0.78598859], [0.05344574], [-0.01245647]])
+
+    def lidar_callback(self, msg):
+        self.lidar_points = []
+        angle = msg.angle_min
+        for r in msg.ranges:
+            if msg.range_min < r < msg.range_max:
+                # Convert polar coordinates to Cartesian (x, y)
+                x = r * np.cos(angle)
+                y = r * np.sin(angle)
+                # Assume LiDAR is at z = 0
+                self.lidar_points.append([x, y, 0.0])
+            angle += msg.angle_increment
+
+    def camera_callback(self, msg):
+        # Convert ROS Image message to OpenCV image
+        try:
+            cv_image = self.bridge.imgmsg_to_cv2(msg)  # Use default encoding
+        except Exception as e:
+            self.get_logger().error(f"Failed to convert image: {e}")
+            return
+
+        if not self.lidar_points:
+            cv2.imshow('LiDAR-Camera Fusion', cv_image)
+            cv2.waitKey(10)
+            return
+
+        # Convert LiDAR points to camera frame
+        lidar_points = np.array(self.lidar_points).T  # Shape (3, N)
+        cam_points = self.rotation_matrix @ lidar_points + self.translation_vector
+
+        # Project points onto image plane
+        img_points, _ = cv2.projectPoints(cam_points.T, np.zeros((3, 1)), np.zeros((3, 1)),
+                                          self.camera_matrix, self.dist_coeffs)
+
+        # Draw points on the image
+        for point in img_points:
+            x, y = int(point[0][0]), int(point[0][1])
+            if 0 <= x < cv_image.shape[1] and 0 <= y < cv_image.shape[0]:
+                cv2.circle(cv_image, (x, y), 3, (0, 0, 255), -1)
+
+        # Display the image
+        cv2.imshow('LiDAR-Camera Fusion', cv_image)
+        cv2.waitKey(10)
+
+def main():
+    rclpy.init()  # ROS 통신 시작
+    node = LidarCameraFusion()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    node.destroy_node()
+    rclpy.shutdown()
+    cv2.destroyAllWindows()
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,4 @@
+[console_scripts]
+img_publisher = ros2_cv_webcam.webcam_pub:main
+img_subscriber = ros2_cv_webcam.webcam_sub:mainqr_detect = ros2_cv_webcam.qr_detect:main
+

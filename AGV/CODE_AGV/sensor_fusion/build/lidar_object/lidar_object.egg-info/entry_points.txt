@@ -1,0 +1,3 @@
+[console_scripts]
+detection = lidar_object.detection_lidar:main
+
