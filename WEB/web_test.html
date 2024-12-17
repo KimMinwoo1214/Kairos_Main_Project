@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서 관리 시스템</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #searchInput {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f9f9f9;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        li:nth-child(even) {
+            background: #f1f1f1;
+        }
+        button {
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056a6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>도서 관리 시스템</h1>
+    </header>
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="책 제목 검색..." onkeyup="searchBooks()" />
+        <ul id="bookList"></ul>
+    </div>
+
+    <script>
+        const books = [
+            { id: 1, title: "로봇 공학 입문" },
+            { id: 2, title: "인공지능 기초" },
+            { id: 3, title: "파이썬 프로그래밍" },
+            { id: 4, title: "머신러닝의 이해" },
+            { id: 5, title: "데이터 분석 실습" },
+            { id: 6, title: "알고리즘 문제 해결" },
+            { id: 7, title: "네트워크 보안" },
+            { id: 8, title: "웹 개발 입문" },
+            { id: 9, title: "JavaScript 마스터" },
+            { id: 10, title: "HTML과 CSS 디자인" },
+            { id: 11, title: "클라우드 컴퓨팅" },
+            { id: 12, title: "데이터베이스 기초" },
+            { id: 13, title: "운영체제의 이해" },
+            { id: 14, title: "리눅스 활용법" },
+            { id: 15, title: "React.js 실전" },
+            { id: 16, title: "Node.js 활용하기" },
+            { id: 17, title: "C++로 배우는 프로그래밍" },
+            { id: 18, title: "컴퓨터 비전 입문" },
+            { id: 19, title: "딥러닝 제대로 배우기" },
+            { id: 20, title: "AI와 인간의 미래" }
+        ];
+
+        // 책 목록 표시
+        const bookList = document.getElementById('bookList');
+        function displayBooks(filteredBooks) {
+            bookList.innerHTML = '';
+            filteredBooks.forEach(book => {
+                const li = document.createElement('li');
+                li.innerHTML = `${book.title} <button onclick="rentBook(${book.id})">대여</button>`;
+                bookList.appendChild(li);
+            });
+        }
+        displayBooks(books);
+
+        // 검색 기능
+        function searchBooks() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const filteredBooks = books.filter(book => book.title.toLowerCase().includes(query));
+            displayBooks(filteredBooks);
+        }
+
+        // 대여 요청
+        async function rentBook(bookId) {
+            const response = await fetch('http://127.0.0.1:5000/rent', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ bookId })
+            });
+
+            const result = await response.json();
+            alert(result.message);
+        }
+    </script>
+</body>
+</html>

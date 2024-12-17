@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서 목록</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // 대여/반납 버튼 클릭 시
+            $(".rent-button, .return-button").click(function() {
+                var book_id = $(this).data("id");  // 책 ID 가져오기
+                var button = $(this);
+    
+                $.ajax({
+                    url: '/rent_book/' + book_id,  // 서버로 책 ID 보내기
+                    method: 'POST',
+                    success: function(response) {
+                        if (response.success) {
+                            // 서버 응답에 따라 버튼 텍스트 및 클래스 변경
+                            if (response.rent === 1) {
+                                button.text("반납").removeClass("rent-button").addClass("return-button");
+                            } else {
+                                button.text("대여").removeClass("return-button").addClass("rent-button");
+                            }
+                        } else {
+                            alert("처리 중 오류가 발생했습니다.");
+                        }
+                    },
+                    error: function() {
+                        alert("서버 오류가 발생했습니다.");
+                    }
+                });
+            });
+
+            // 검색 폼 제출 시
+            $("#search-form").submit(function(event) {
+                event.preventDefault();  // 기본 폼 제출 동작을 막음
+                var searchQuery = $("#search-input").val();  // 검색어 가져오기
+
+                $.ajax({
+                    url: '/',  // 메인 페이지로 GET 요청
+                    method: 'GET',
+                    data: { search: searchQuery },  // 검색어를 쿼리 파라미터로 전송
+                    success: function(response) {
+                        // 새로 받은 책 목록으로 HTML 업데이트
+                        $("tbody").html(response.books_html);
+                    },
+                    error: function() {
+                        alert("검색 중 오류가 발생했습니다.");
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>도서 목록</h1>
+
+        <!-- 검색 폼 -->
+        <form id="search-form">
+            <input type="text" id="search-input" name="search" placeholder="책 제목 검색" value="{{ request.args.get('search') }}">
+            <button type="submit">검색</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>도서 ID</th>
+                    <th>도서 제목</th>
+                    <th>대여 상태</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for book in books %}
+                <tr>
+                    <td>{{ book[0] }}</td> <!-- 도서 ID -->
+                    <td>{{ book[1] }}</td> <!-- 도서 제목 -->
+                    <td>
+                        {% if book[2] == 0 %}
+                            <button class="rent-button" data-id="{{ book[0] }}">대여</button>
+                        {% else %}
+                            <button class="return-button" data-id="{{ book[0] }}">반납</button>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
